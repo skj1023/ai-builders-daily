@@ -10,8 +10,8 @@
     },
     "source": "follow-builders public central feed",
     "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
-    "headline": "今天的信息流集中在 观察、产品、工程、组织、Agent：12 位 builder、1 篇官方博客、1 期播客进入观察。",
-    "editorNote": "这是一份每日 Builder Briefing：优先收集真正在做产品、模型、基础设施和研究的人，而不是泛化资讯搬运。",
+    "headline": "今天的信息流聚焦产品表达、工程组织、Agent 与 AI 安全：12 位 builder、23 条推文、1 篇博客、1 期播客进入观察。",
+    "editorNote": "今日重点不是单纯的新功能，而是 builder 如何把产品、工程和组织方式重新组合：从 Codex 用量问题的响应，到 Claude 团队的角色演化，再到用个人网站展示真实交付。",
     "stats": {
       "builders": 12,
       "tweets": 23,
@@ -43,69 +43,74 @@
     "toplines": [
       {
         "title": "Boris Cherny 的高热度观点",
-        "source": "Boris Cherny on X",
+        "source": "Boris Cherny · X 动态",
         "url": "https://x.com/bcherny/status/2071379474277613732",
         "sourceDate": "2026-06-28",
         "sourceDisplayDate": "6月28日 · 周日",
-        "summary": "As engineering, product, design, DS, etc…",
+        "summary": "Boris Cherny 观察到工程、产品、设计和数据科学正在融合成新角色，并以 Claude Code 团队为例总结未来团队中的几类原型。",
         "tags": [
           "产品",
           "工程",
           "组织"
         ],
-        "score": 15893
+        "score": 15893,
+        "chineseTitle": "Boris Cherny 的高热度观点"
       },
       {
         "title": "Guillermo Rauch 的高热度观点",
-        "source": "Guillermo Rauch on X",
+        "source": "Guillermo Rauch · X 动态",
         "url": "https://x.com/rauchg/status/2071284129275285580",
         "sourceDate": "2026-06-28",
         "sourceDisplayDate": "6月28日 · 周日",
-        "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+        "summary": "Guillermo Rauch 认为，与其维护 LinkedIn，不如在自己的网站上清楚展示并链接到自己真正交付过的作品。",
         "tags": [
           "产品"
         ],
-        "score": 7599
+        "score": 7599,
+        "chineseTitle": "Guillermo Rauch 的高热度观点"
       },
       {
         "title": "Thibault Sottiaux 的高热度观点",
-        "source": "Thibault Sottiaux on X",
+        "source": "Thibault Sottiaux · X 动态",
         "url": "https://x.com/thsottiaux/status/2071381664853319742",
         "sourceDate": "2026-06-28",
         "sourceDisplayDate": "6月28日 · 周日",
-        "summary": "As we are still investigating, I have reset everyone's Codex usage limits…",
+        "summary": "Thibault Sottiaux 表示 Codex 团队仍在调查用量异常，并已为所有用户重置 Codex 使用额度。",
         "tags": [
           "产品",
           "工程"
         ],
-        "score": 6021
+        "score": 6021,
+        "chineseTitle": "Thibault Sottiaux 的高热度观点"
       },
       {
         "title": "Thibault Sottiaux 的高热度观点",
-        "source": "Thibault Sottiaux on X",
+        "source": "Thibault Sottiaux · X 动态",
         "url": "https://x.com/thsottiaux/status/2071357473659707441",
         "sourceDate": "2026-06-28",
         "sourceDisplayDate": "6月28日 · 周日",
-        "summary": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users…",
+        "summary": "Thibault Sottiaux 说 Codex 团队周日进入战情室排查日志，严肃处理部分用户可能出现的用量消耗异常。",
         "tags": [
           "产品",
           "工程",
           "组织"
         ],
-        "score": 4324
+        "score": 4324,
+        "chineseTitle": "Thibault Sottiaux 的高热度观点"
       },
       {
         "title": "Aaron Levie 的高热度观点",
-        "source": "Aaron Levie on X",
+        "source": "Aaron Levie · X 动态",
         "url": "https://x.com/levie/status/2071253118252356001",
         "sourceDate": "2026-06-28",
         "sourceDisplayDate": "6月28日 · 周日",
-        "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone…",
+        "summary": "Aaron Levie 认为开源且强大的网络安全模型即将出现，这会推动替代技术栈兴起，并影响美国技术栈的经济价值与控制力。",
         "tags": [
           "产品",
           "研究"
         ],
-        "score": 976
+        "score": 976,
+        "chineseTitle": "Aaron Levie 的高热度观点"
       }
     ],
     "builders": [
@@ -113,7 +118,7 @@
         "name": "Swyx",
         "handle": "swyx",
         "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
-        "summary": "we registered 1000 people today. this is what it looked like at hour 3…",
+        "summary": "Swyx 分享活动报名突破 1000 人，并提到 AI UX / Design Engineer 相关议程的策展进展。",
         "tags": [
           "工程"
         ],
@@ -125,7 +130,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "we registered 1000 people today. this is what it looked like at hour 3. tmr and tuesday going to be absolutely batshit",
-            "summary": "we registered 1000 people today. this is what it looked like at hour 3…",
+            "summary": "Swyx 说当天活动报名达到 1000 人，并预告接下来两天会非常忙碌。",
             "engagement": 29,
             "tags": [
               "观察"
@@ -138,7 +143,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate. very fortunate to befriend Geoff who has lent a hand to the past 2 years of AI UX meetups, and now is the opener for the Design Engineers at AIE! see you wednesday",
-            "summary": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate…",
+            "summary": "Swyx 表示自己不是 design engineer，因此这条议程较难策展；他感谢 Geoff 过去两年协助 AI UX meetup，并将为 AIE 的 Design Engineers 场次开场。",
             "engagement": 26,
             "tags": [
               "工程"
@@ -151,7 +156,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "if youre a speaker make your own",
-            "summary": "if youre a speaker make your own",
+            "summary": "Swyx 提醒演讲嘉宾可以自己制作相关内容或页面。",
             "engagement": 6,
             "tags": [
               "观察"
@@ -163,7 +168,7 @@
         "name": "Boris Cherny",
         "handle": "bcherny",
         "bio": "Claude Code @anthropicai",
-        "summary": "As engineering, product, design, DS, etc…",
+        "summary": "Boris Cherny 讨论工程、产品、设计与数据科学融合后的新型团队角色，并以 Claude Code 团队为例展开。",
         "tags": [
           "产品",
           "工程",
@@ -177,7 +182,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "As engineering, product, design, DS, etc. melt into a new kind of role, I was reflecting on what roles might look like in the future. For example, when I look at the Claude Code team I see what I think is five archetypes: 1. Prototyper: comes up with brand new ideas; churns out many ideas, most of which don't ship 2.…",
-            "summary": "As engineering, product, design, DS, etc…",
+            "summary": "Boris Cherny 认为工程、产品、设计、数据科学等角色正在融合，并以 Claude Code 团队为例提出未来团队的几种角色原型。",
             "engagement": 15893,
             "tags": [
               "产品",
@@ -191,7 +196,7 @@
         "name": "Thibault Sottiaux",
         "handle": "thsottiaux",
         "bio": "Codex & ChatGPT @OpenAI",
-        "summary": "As we are still investigating, I have reset everyone's Codex usage limits…",
+        "summary": "Thibault Sottiaux 重点回应 Codex 用量异常：团队正在排查并为用户重置使用额度。",
         "tags": [
           "产品",
           "工程",
@@ -205,7 +210,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule. Funnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it…",
-            "summary": "As we are still investigating, I have reset everyone's Codex usage limits…",
+            "summary": "Thibault Sottiaux 表示 Codex 用量问题仍在调查中，因此已为所有用户重置使用额度。",
             "engagement": 6021,
             "tags": [
               "产品",
@@ -219,7 +224,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
-            "summary": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users…",
+            "summary": "Thibault Sottiaux 说 Codex 团队周日进入战情室排查日志，直到查清部分用户用量异常的原因才会停止。",
             "engagement": 4324,
             "tags": [
               "产品",
@@ -234,7 +239,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
-            "summary": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the inves…",
+            "summary": "Thibault Sottiaux 安抚近期刚用过重置额度的用户：调查结束后还会提供更多手动重置。",
             "engagement": 908,
             "tags": [
               "观察"
@@ -246,7 +251,7 @@
         "name": "Peter Yang",
         "handle": "petergyang",
         "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
-        "summary": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me…",
+        "summary": "Peter Yang 关注 Anthropic PM 如何用 agents 更接近产品本身，同时吐槽自己仍不理解 Agentforce。",
         "tags": [
           "产品",
           "Agent",
@@ -260,7 +265,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me. It helps me manage state more easily. Rather than poking a bunch of engineers on what they’re doing, I can just track the PRs directly and…",
-            "summary": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me…",
+            "summary": "Peter Yang 转述 Anthropic PM 的做法：通过 agents 访问代码库和 PR，能更直接理解 Claude Managed Agents 的产品状态。",
             "engagement": 107,
             "tags": [
               "产品",
@@ -275,7 +280,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "I’ll be honest with you all I still don’t know what Agentforce is",
-            "summary": "I’ll be honest with you all I still don’t know what Agentforce is",
+            "summary": "Peter Yang 坦言自己仍然不知道 Agentforce 到底是什么。",
             "engagement": 66,
             "tags": [
               "产品",
@@ -289,7 +294,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "Taste 😅",
-            "summary": "Taste 😅",
+            "summary": "Peter Yang 用一句“品味”概括他对相关讨论的判断。",
             "engagement": 11,
             "tags": [
               "观察"
@@ -301,7 +306,7 @@
         "name": "Thariq",
         "handle": "trq212",
         "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
-        "summary": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right…",
+        "summary": "Thariq 讨论 coding agents 是否会改变维护或迁移 legacy codebase 的工程成本。",
         "tags": [
           "Agent",
           "工程"
@@ -314,7 +319,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right? anyone at Riot able to confirm?",
-            "summary": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right…",
+            "summary": "Thariq 猜测 coding agents 可能正在改变处理或迁移 legacy codebase 的工程成本，并询问 Riot 内部人士是否能确认。",
             "engagement": 711,
             "tags": [
               "Agent",
@@ -328,7 +333,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "not true!",
-            "summary": "not true!",
+            "summary": "Thariq 简短回应称某个说法并不正确。",
             "engagement": 31,
             "tags": [
               "观察"
@@ -340,7 +345,7 @@
         "name": "Guillermo Rauch",
         "handle": "rauchg",
         "bio": "@vercel CEO",
-        "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped You need a Link, not a LinkedIn 😂",
+        "summary": "Guillermo Rauch 强调 builder 应该用个人网站展示真实交付，而不是只依赖 LinkedIn。",
         "tags": [
           "产品"
         ],
@@ -352,7 +357,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
-            "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+            "summary": "Guillermo Rauch 认为你不需要 LinkedIn，更需要一个展示并链接到自己作品的个人网站页面。",
             "engagement": 7599,
             "tags": [
               "产品"
@@ -365,7 +370,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "You need a Link, not a LinkedIn 😂",
-            "summary": "You need a Link, not a LinkedIn 😂",
+            "summary": "Guillermo Rauch 用双关强调：你需要的是 Link，而不是 LinkedIn。",
             "engagement": 574,
             "tags": [
               "观察"
@@ -377,7 +382,7 @@
         "name": "Aaron Levie",
         "handle": "levie",
         "bio": "ceo @box - your business lives in content. unleash it with AI",
-        "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone…",
+        "summary": "Aaron Levie 关注开放网络安全模型和替代技术栈可能带来的产业与地缘影响。",
         "tags": [
           "产品",
           "研究"
@@ -390,7 +395,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone. As a byproduct of this, alternative tech stacks will emerge that also drive more economic value and control away from the US’s tech stack. This is what should be considered when thinking…",
-            "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone…",
+            "summary": "Aaron Levie 认为强大的开放网络安全模型很快会出现，并可能催生替代技术栈，削弱美国技术栈的控制力。",
             "engagement": 976,
             "tags": [
               "产品",
@@ -403,7 +408,7 @@
         "name": "Garry Tan",
         "handle": "garrytan",
         "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
-        "summary": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\" —Leonard Cohen",
+        "summary": "Garry Tan 引用 Leonard Cohen，提醒不完美中的裂缝也是光照进来的地方。",
         "tags": [
           "观察"
         ],
@@ -415,7 +420,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\" —Leonard Cohen",
-            "summary": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\" —Leonard Cohen",
+            "summary": "Garry Tan 引用 Leonard Cohen：别执着于完美供给，万物皆有裂缝，光正是从那里进来。",
             "engagement": 385,
             "tags": [
               "观察"
@@ -427,7 +432,7 @@
         "name": "Zara Zhang",
         "handle": "zarazhangrui",
         "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
-        "summary": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it… This is my favorite part about building: telling the world about it and then refining it base…",
+        "summary": "Zara Zhang 强调产品建设之后还要投入更多时间解释、演示、销售和教学，并分享 skill 使用与构建教程。",
         "tags": [
           "产品"
         ],
@@ -439,7 +444,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it… This is my favorite part about building: telling the world about it and then refining it based on contact with reality",
-            "summary": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it… This is my favorite part about building: telling the…",
+            "summary": "Zara Zhang 认为每花 1 小时做产品，就应该花 2 小时解释、演示、销售和教学，并在现实反馈中继续打磨。",
             "engagement": 718,
             "tags": [
               "产品"
@@ -452,7 +457,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "Watch this video in which I walk through - How to install & use the skill (beginner-friendly) - How I built the skill - How you can build your own skill",
-            "summary": "Watch this video in which I walk through - How to install & use the skill (beginner-friendly) - How I built the skill - How you can build your own skill",
+            "summary": "Zara Zhang 分享视频，讲解如何安装和使用 skill、她如何构建这个 skill，以及别人如何构建自己的 skill。",
             "engagement": 13,
             "tags": [
               "观察"
@@ -464,7 +469,7 @@
         "name": "Nikunj Kothari",
         "handle": "nikunj",
         "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
-        "summary": "just put the taxes in the bag bro 📍Summit Loop Trail, San Bruno Sundays are for recreating memes with your toddler 👻 Every time I meet an exceptionally smart founder, I play it cool but internally..",
+        "summary": "Nikunj Kothari 的动态偏生活化，记录周末徒步、亲子 meme，以及见到聪明 founder 时的内心反应。",
         "tags": [
           "组织"
         ],
@@ -476,7 +481,7 @@
             "sourceDate": "2026-06-29",
             "sourceDisplayDate": "6月29日 · 周一",
             "text": "just put the taxes in the bag bro 📍Summit Loop Trail, San Bruno",
-            "summary": "just put the taxes in the bag bro 📍Summit Loop Trail, San Bruno",
+            "summary": "Nikunj Kothari 在 San Bruno 的 Summit Loop Trail 发了一条轻松的 meme 式动态。",
             "engagement": 84,
             "tags": [
               "观察"
@@ -489,7 +494,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "Sundays are for recreating memes with your toddler 👻",
-            "summary": "Sundays are for recreating memes with your toddler 👻",
+            "summary": "Nikunj Kothari 说周日适合和 toddler 一起复刻 meme。",
             "engagement": 51,
             "tags": [
               "观察"
@@ -502,7 +507,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "Every time I meet an exceptionally smart founder, I play it cool but internally..",
-            "summary": "Every time I meet an exceptionally smart founder, I play it cool but internally..",
+            "summary": "Nikunj Kothari 说每次见到特别聪明的 founder，表面很淡定，内心其实很有反应。",
             "engagement": 37,
             "tags": [
               "组织"
@@ -514,7 +519,7 @@
         "name": "Peter Steinberger",
         "handle": "steipete",
         "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
-        "summary": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why…",
+        "summary": "Peter Steinberger 吐槽多次注册 ATT 被拒，询问旧金山地区更合适的无限手机和数据套餐。",
         "tags": [
           "观察"
         ],
@@ -526,7 +531,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why. What’s the next best unlimited phone/data plan for the SF area? Or do I know anyone who can work around corp bs?",
-            "summary": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why…",
+            "summary": "Peter Steinberger 说自己四次注册 ATT 都被拒且没有原因，并询问旧金山地区更好的无限手机和数据套餐。",
             "engagement": 875,
             "tags": [
               "观察"
@@ -538,7 +543,7 @@
         "name": "Dan Shipper",
         "handle": "danshipper",
         "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
-        "summary": "self recommending",
+        "summary": "Dan Shipper 用一句 self recommending 点出推荐系统或内容自我推荐的现象。",
         "tags": [
           "观察"
         ],
@@ -550,7 +555,7 @@
             "sourceDate": "2026-06-28",
             "sourceDisplayDate": "6月28日 · 周日",
             "text": "self recommending",
-            "summary": "self recommending",
+            "summary": "Dan Shipper 简短提到“自我推荐”这一现象。",
             "engagement": 58,
             "tags": [
               "观察"
@@ -568,12 +573,13 @@
         "publishedAt": null,
         "sourceDate": "2026-06-29",
         "sourceDisplayDate": "6月29日 · 周一",
-        "summary": "Twelve months ago, we'd have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service…",
+        "summary": "Anthropic Engineering 介绍他们如何在不同产品中限制 Claude 的权限与影响范围，让 Claude 能接触内部系统但不会危及服务安全。",
         "tags": [
           "产品",
           "Agent",
           "工程"
-        ]
+        ],
+        "chineseTitle": "Claude 跨产品安全防护方案"
       }
     ],
     "podcasts": [
@@ -584,12 +590,13 @@
         "publishedAt": "2026-06-18T11:30:00.000Z",
         "sourceDate": "2026-06-18",
         "sourceDisplayDate": "6月18日 · 周四",
-        "summary": "Speaker 1 | 00:00 - 00:36 It's pretty clear that we have an amazing system that can take in money and output software…",
+        "summary": "The MAD Podcast 这一期与 Stephen Balaban 讨论 2026 年 AI compute 的真实状态、GPU 供需迷思，以及软件、资本和算力基础设施之间的关系。",
         "tags": [
           "产品",
           "工程",
           "组织"
-        ]
+        ],
+        "chineseTitle": "GPU 迷思：2026 年 AI 算力真实状况 | Stephen Balaban"
       }
     ]
   }

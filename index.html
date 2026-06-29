@@ -29,17 +29,17 @@ main{padding:34px 0 72px}.section{display:none}.section.active{display:block;ani
       <div class="date" id="heroDate">加载中…</div>
       <div class="small" id="heroGenerated">等待数据</div>
       <div class="meta-list">
-        <div class="metric"><b id="mBuilders">–</b><span>Builders</span></div>
-        <div class="metric"><b id="mTweets">–</b><span>Tweets</span></div>
-        <div class="metric"><b id="mBlogs">–</b><span>Blogs</span></div>
-        <div class="metric"><b id="mPodcasts">–</b><span>Podcasts</span></div>
+        <div class="metric"><b id="mBuilders">–</b><span>造物者</span></div>
+                <div class="metric"><b id="mTweets">–</b><span>动态</span></div>
+                <div class="metric"><b id="mBlogs">–</b><span>博客</span></div>
+                <div class="metric"><b id="mPodcasts">–</b><span>播客</span></div>
       </div>
     </aside>
   </div>
 </header>
 <nav class="nav"><div class="wrap" role="tablist">
   <button class="active" data-tab="today">今日</button>
-  <button data-tab="builders">Builders</button>
+  <button data-tab="builders">造物者</button>
   <button data-tab="sources">博客 / 播客</button>
   <button data-tab="archive">日期归档</button>
   <button data-tab="about">机制</button>
@@ -81,12 +81,12 @@ function tagsHTML(tags){return (tags||[]).map(t=>`<span class="tag">${esc(t.name
 function fmtTime(iso){if(!iso)return '未知时间'; try{return new Date(iso).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});}catch(e){return iso}}
 async function load(){try{let r=await fetch('data/digests.json?ts='+Date.now()); DIGESTS=await r.json(); if(!Array.isArray(DIGESTS)||!DIGESTS.length)throw new Error('empty'); SELECTED=DIGESTS[0].date; render(DIGESTS[0]); renderArchive();}catch(e){$('headline').textContent='暂无数据。请先运行 scripts/update_daily.py 生成 data/digests.json。'; console.error(e);}}
 function render(d){$('heroDate').textContent=d.displayDate||d.date; $('heroGenerated').textContent='更新于 '+fmtTime(d.generatedAt); $('mBuilders').textContent=d.stats?.builders??0; $('mTweets').textContent=d.stats?.tweets??0; $('mBlogs').textContent=d.stats?.blogs??0; $('mPodcasts').textContent=d.stats?.podcasts??0; $('headline').textContent=d.headline||''; $('editorNote').textContent=d.editorNote||''; $('topTags').innerHTML=tagsHTML(d.stats?.topTags||[]);
-$('toplines').innerHTML=(d.toplines||[]).map(x=>`<article class="topline"><div class="small">${esc(x.sourceDisplayDate||x.sourceDate||d.displayDate||d.date)}</div><div class="tags">${tagsHTML(x.tags)}</div><h3>${esc(x.title)}</h3><p>${esc(x.summary)}</p><div class="source"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source)} ↗</a></div></article>`).join('')||'<div class="empty">暂无 Topline</div>';
-$('buildersGrid').innerHTML=(d.builders||[]).map(b=>`<article class="card"><div class="small">${esc(b.handle)} on X</div><h3>${esc(b.name)}</h3><p>${esc(b.summary)}</p><div class="tags">${tagsHTML(b.tags)}</div>${(b.tweets||[]).map(t=>`<div class="tweet"><div class="small">${esc(t.sourceDisplayDate||t.sourceDate||d.displayDate||d.date)}</div><p>${esc(t.summary)}</p><a href="${esc(t.url)}" target="_blank" rel="noopener">原文链接 ↗</a></div>`).join('')}</article>`).join('')||'<div class="empty">暂无 builder 动态</div>';
-let blogs=(d.blogs||[]).map(p=>`<div class="source-row"><div><div class="small">${esc(p.name)} · ${esc(p.sourceDisplayDate||p.sourceDate||d.displayDate||d.date)}</div><strong>${esc(p.title)}</strong><div class="tags">${tagsHTML(p.tags)}</div></div><p>${esc(p.summary)}<br><a href="${esc(p.url)}" target="_blank" rel="noopener">阅读原文 ↗</a></p></div>`).join('');
-let pods=(d.podcasts||[]).map(p=>`<div class="source-row"><div><div class="small">${esc(p.name)} · ${esc(p.sourceDisplayDate||p.sourceDate||d.displayDate||d.date)}</div><strong>${esc(p.title)}</strong><div class="tags">${tagsHTML(p.tags)}</div></div><p>${esc(p.summary)}<br><a href="${esc(p.url)}" target="_blank" rel="noopener">播放 / 查看 ↗</a></p></div>`).join('');
+$('toplines').innerHTML=(d.toplines||[]).map(x=>`<article class="topline"><div class="small">${esc(x.sourceDisplayDate||x.sourceDate||d.displayDate||d.date)}</div><div class="tags">${tagsHTML(x.tags)}</div><h3>${esc(x.chineseTitle||x.title)}</h3><p>${esc(x.summary)}</p><div class="source"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source)} ↗</a></div></article>`).join('')||'<div class="empty">暂无 Topline</div>';
+$('buildersGrid').innerHTML=(d.builders||[]).map(b=>`<article class="card"><div class="small">${esc(b.handle)} · 来自 X</div><h3>${esc(b.name)}</h3><p>${esc(b.summary)}</p><div class="tags">${tagsHTML(b.tags)}</div>${(b.tweets||[]).map(t=>`<div class="tweet"><div class="small">${esc(t.sourceDisplayDate||t.sourceDate||d.displayDate||d.date)}</div><p>${esc(t.summary)}</p><a href="${esc(t.url)}" target="_blank" rel="noopener">原文链接 ↗</a></div>`).join('')}</article>`).join('')||'<div class="empty">暂无 builder 动态</div>';
+let blogs=(d.blogs||[]).map(p=>`<div class="source-row"><div><div class="small">${esc(p.name)} · ${esc(p.sourceDisplayDate||p.sourceDate||d.displayDate||d.date)}</div><strong>${esc(p.chineseTitle||p.title)}</strong><div class="tags">${tagsHTML(p.tags)}</div></div><p>${esc(p.summary)}<br><a href="${esc(p.url)}" target="_blank" rel="noopener">阅读原文 ↗</a></p></div>`).join('');
+let pods=(d.podcasts||[]).map(p=>`<div class="source-row"><div><div class="small">${esc(p.name)} · ${esc(p.sourceDisplayDate||p.sourceDate||d.displayDate||d.date)}</div><strong>${esc(p.chineseTitle||p.title)}</strong><div class="tags">${tagsHTML(p.tags)}</div></div><p>${esc(p.summary)}<br><a href="${esc(p.url)}" target="_blank" rel="noopener">播放 / 查看 ↗</a></p></div>`).join('');
 $('sourcePanel').innerHTML=`<h3>官方博客</h3>${blogs||'<p class="empty">暂无博客</p>'}<h3>播客</h3>${pods||'<p class="empty">暂无播客</p>'}`;}
-function renderArchive(){let strip=$('dateStrip'); strip.innerHTML=DIGESTS.map(d=>`<button class="date-pill ${d.date===SELECTED?'active':''}" data-date="${esc(d.date)}">${esc(d.displayDate||d.date)}</button>`).join(''); strip.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{SELECTED=b.dataset.date; renderArchive();})); let days=SELECTED?DIGESTS.filter(d=>d.date===SELECTED):DIGESTS; $('archiveList').innerHTML=days.map(d=>`<article class="panel"><div class="small">${esc(d.date)}</div><h2>${esc(d.displayDate||d.date)}</h2><p class="headline">${esc(d.headline)}</p><div class="tags">${tagsHTML(d.stats?.topTags||[])}</div><p class="note">Builders ${d.stats?.builders||0} · Tweets ${d.stats?.tweets||0} · Blogs ${d.stats?.blogs||0} · Podcasts ${d.stats?.podcasts||0}</p></article>`).join('');}
+function renderArchive(){let strip=$('dateStrip'); strip.innerHTML=DIGESTS.map(d=>`<button class="date-pill ${d.date===SELECTED?'active':''}" data-date="${esc(d.date)}">${esc(d.displayDate||d.date)}</button>`).join(''); strip.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{SELECTED=b.dataset.date; renderArchive();})); let days=SELECTED?DIGESTS.filter(d=>d.date===SELECTED):DIGESTS; $('archiveList').innerHTML=days.map(d=>`<article class="panel"><div class="small">${esc(d.date)}</div><h2>${esc(d.displayDate||d.date)}</h2><p class="headline">${esc(d.headline)}</p><div class="tags">${tagsHTML(d.stats?.topTags||[])}</div><p class="note">造物者 ${d.stats?.builders||0} · 动态 ${d.stats?.tweets||0} · 博客 ${d.stats?.blogs||0} · 播客 ${d.stats?.podcasts||0}</p></article>`).join('');}
 document.querySelectorAll('.nav button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); document.querySelectorAll('.section').forEach(s=>s.classList.remove('active')); $('tab-'+btn.dataset.tab).classList.add('active'); window.scrollTo({top:0,behavior:'smooth'});}));
 load();
 </script>

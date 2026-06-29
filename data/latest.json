@@ -42,7 +42,7 @@
   "toplines": [
     {
       "title": "Boris Cherny 的高热度观点",
-      "source": "Boris Cherny on X",
+      "source": "Boris Cherny · X 动态",
       "url": "https://x.com/bcherny/status/2071379474277613732",
       "sourceDate": "2026-06-28",
       "sourceDisplayDate": "6月28日 · 周日",
@@ -52,11 +52,12 @@
         "工程",
         "组织"
       ],
-      "score": 15893
+      "score": 15893,
+      "chineseTitle": "Boris Cherny 的高热度观点"
     },
     {
       "title": "Guillermo Rauch 的高热度观点",
-      "source": "Guillermo Rauch on X",
+      "source": "Guillermo Rauch · X 动态",
       "url": "https://x.com/rauchg/status/2071284129275285580",
       "sourceDate": "2026-06-28",
       "sourceDisplayDate": "6月28日 · 周日",
@@ -64,11 +65,12 @@
       "tags": [
         "产品"
       ],
-      "score": 7599
+      "score": 7599,
+      "chineseTitle": "Guillermo Rauch 的高热度观点"
     },
     {
       "title": "Thibault Sottiaux 的高热度观点",
-      "source": "Thibault Sottiaux on X",
+      "source": "Thibault Sottiaux · X 动态",
       "url": "https://x.com/thsottiaux/status/2071381664853319742",
       "sourceDate": "2026-06-28",
       "sourceDisplayDate": "6月28日 · 周日",
@@ -77,11 +79,12 @@
         "产品",
         "工程"
       ],
-      "score": 6021
+      "score": 6021,
+      "chineseTitle": "Thibault Sottiaux 的高热度观点"
     },
     {
       "title": "Thibault Sottiaux 的高热度观点",
-      "source": "Thibault Sottiaux on X",
+      "source": "Thibault Sottiaux · X 动态",
       "url": "https://x.com/thsottiaux/status/2071357473659707441",
       "sourceDate": "2026-06-28",
       "sourceDisplayDate": "6月28日 · 周日",
@@ -91,11 +94,12 @@
         "工程",
         "组织"
       ],
-      "score": 4324
+      "score": 4324,
+      "chineseTitle": "Thibault Sottiaux 的高热度观点"
     },
     {
       "title": "Aaron Levie 的高热度观点",
-      "source": "Aaron Levie on X",
+      "source": "Aaron Levie · X 动态",
       "url": "https://x.com/levie/status/2071253118252356001",
       "sourceDate": "2026-06-28",
       "sourceDisplayDate": "6月28日 · 周日",
@@ -104,7 +108,8 @@
         "产品",
         "研究"
       ],
-      "score": 976
+      "score": 976,
+      "chineseTitle": "Aaron Levie 的高热度观点"
     }
   ],
   "builders": [
@@ -572,7 +577,8 @@
         "产品",
         "Agent",
         "工程"
-      ]
+      ],
+      "chineseTitle": "Claude 跨产品安全防护方案"
     }
   ],
   "podcasts": [
@@ -588,7 +594,8 @@
         "产品",
         "工程",
         "组织"
-      ]
+      ],
+      "chineseTitle": "GPU 迷思：2026 年 AI 算力真实状况 | Stephen Balaban"
     }
   ]
 }

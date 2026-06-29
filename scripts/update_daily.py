@@ -155,6 +155,7 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
             "sourceDate": source_date(t.get("createdAt"), date_key),
             "sourceDisplayDate": zh_source_date(t.get("createdAt"), date_key),
             "summary": topic,
+            "chineseTitle": topic,
             "tags": tags_for(t.get("text", "")),
             "score": score,
         })
@@ -171,6 +172,7 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
             "sourceDate": source_date(post.get("publishedAt"), date_key),
             "sourceDisplayDate": zh_source_date(post.get("publishedAt"), date_key),
             "summary": first_sentence(content, 260),
+            "chineseTitle": post.get("title") or "Untitled",
             "tags": tags_for((post.get("title") or "") + " " + content),
         })
 
@@ -185,6 +187,7 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
             "sourceDate": source_date(ep.get("publishedAt"), date_key),
             "sourceDisplayDate": zh_source_date(ep.get("publishedAt"), date_key),
             "summary": first_sentence(transcript, 260),
+            "chineseTitle": ep.get("title") or "Untitled",
             "tags": tags_for((ep.get("title") or "") + " " + transcript[:1200]),
         })
 
