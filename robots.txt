@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skj1023.github.io/ai-builders-daily/sitemap.xml

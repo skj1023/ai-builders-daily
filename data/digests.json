@@ -1,0 +1,540 @@
+[
+  {
+    "date": "2026-06-29",
+    "displayDate": "6月29日 · 周一",
+    "generatedAt": "2026-06-29T10:47:58.833624+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-06-29T08:08:26.128Z",
+      "blogs": "2026-06-29T08:08:31.756Z",
+      "podcasts": "2026-06-29T08:08:30.546Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、产品、工程、组织、Agent：12 位 builder、1 篇官方博客、1 期播客进入观察。",
+    "editorNote": "这是一份每日 Builder Briefing：优先收集真正在做产品、模型、基础设施和研究的人，而不是泛化资讯搬运。",
+    "stats": {
+      "builders": 12,
+      "tweets": 23,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 12
+        },
+        {
+          "name": "产品",
+          "count": 8
+        },
+        {
+          "name": "工程",
+          "count": 6
+        },
+        {
+          "name": "组织",
+          "count": 3
+        },
+        {
+          "name": "Agent",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "Boris Cherny 的高热度观点",
+        "source": "Boris Cherny on X",
+        "url": "https://x.com/bcherny/status/2071379474277613732",
+        "summary": "As engineering, product, design, DS, etc…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "score": 15893
+      },
+      {
+        "title": "Guillermo Rauch 的高热度观点",
+        "source": "Guillermo Rauch on X",
+        "url": "https://x.com/rauchg/status/2071284129275285580",
+        "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+        "tags": [
+          "产品"
+        ],
+        "score": 7599
+      },
+      {
+        "title": "Thibault Sottiaux 的高热度观点",
+        "source": "Thibault Sottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2071381664853319742",
+        "summary": "As we are still investigating, I have reset everyone's Codex usage limits…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 6021
+      },
+      {
+        "title": "Thibault Sottiaux 的高热度观点",
+        "source": "Thibault Sottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2071357473659707441",
+        "summary": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "score": 4324
+      },
+      {
+        "title": "Aaron Levie 的高热度观点",
+        "source": "Aaron Levie on X",
+        "url": "https://x.com/levie/status/2071253118252356001",
+        "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "score": 976
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+        "summary": "we registered 1000 people today. this is what it looked like at hour 3…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2071480924810969331",
+            "url": "https://x.com/swyx/status/2071480924810969331",
+            "createdAt": "2026-06-29T06:28:33.000Z",
+            "text": "we registered 1000 people today. this is what it looked like at hour 3. tmr and tuesday going to be absolutely batshit",
+            "summary": "we registered 1000 people today. this is what it looked like at hour 3…",
+            "engagement": 29,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2071478390172049555",
+            "url": "https://x.com/swyx/status/2071478390172049555",
+            "createdAt": "2026-06-29T06:18:29.000Z",
+            "text": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate. very fortunate to befriend Geoff who has lent a hand to the past 2 years of AI UX meetups, and now is the opener for the Design Engineers at AIE! see you wednesday",
+            "summary": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate…",
+            "engagement": 26,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2071478551950614586",
+            "url": "https://x.com/swyx/status/2071478551950614586",
+            "createdAt": "2026-06-29T06:19:07.000Z",
+            "text": "if youre a speaker make your own",
+            "summary": "if youre a speaker make your own",
+            "engagement": 6,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "summary": "As engineering, product, design, DS, etc…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2071379474277613732",
+            "url": "https://x.com/bcherny/status/2071379474277613732",
+            "createdAt": "2026-06-28T23:45:25.000Z",
+            "text": "As engineering, product, design, DS, etc. melt into a new kind of role, I was reflecting on what roles might look like in the future. For example, when I look at the Claude Code team I see what I think is five archetypes: 1. Prototyper: comes up with brand new ideas; churns out many ideas, most of which don't ship 2.…",
+            "summary": "As engineering, product, design, DS, etc…",
+            "engagement": 15893,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "As we are still investigating, I have reset everyone's Codex usage limits…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2071381664853319742",
+            "url": "https://x.com/thsottiaux/status/2071381664853319742",
+            "createdAt": "2026-06-28T23:54:07.000Z",
+            "text": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule. Funnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it…",
+            "summary": "As we are still investigating, I have reset everyone's Codex usage limits…",
+            "engagement": 6021,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2071357473659707441",
+            "url": "https://x.com/thsottiaux/status/2071357473659707441",
+            "createdAt": "2026-06-28T22:18:00.000Z",
+            "text": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
+            "summary": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users…",
+            "engagement": 4324,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2071383430634344902",
+            "url": "https://x.com/thsottiaux/status/2071383430634344902",
+            "createdAt": "2026-06-29T00:01:08.000Z",
+            "text": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
+            "summary": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the inves…",
+            "engagement": 908,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2071292628302434361",
+            "url": "https://x.com/petergyang/status/2071292628302434361",
+            "createdAt": "2026-06-28T18:00:20.000Z",
+            "text": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me. It helps me manage state more easily. Rather than poking a bunch of engineers on what they’re doing, I can just track the PRs directly and…",
+            "summary": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents: “Access to our codebase has been the biggest unlock for me…",
+            "engagement": 107,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2071353107242774863",
+            "url": "https://x.com/petergyang/status/2071353107242774863",
+            "createdAt": "2026-06-28T22:00:39.000Z",
+            "text": "I’ll be honest with you all I still don’t know what Agentforce is",
+            "summary": "I’ll be honest with you all I still don’t know what Agentforce is",
+            "engagement": 66,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          },
+          {
+            "id": "2071288846046884051",
+            "url": "https://x.com/petergyang/status/2071288846046884051",
+            "createdAt": "2026-06-28T17:45:18.000Z",
+            "text": "Taste 😅",
+            "summary": "Taste 😅",
+            "engagement": 11,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+        "summary": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2071419473433854221",
+            "url": "https://x.com/trq212/status/2071419473433854221",
+            "createdAt": "2026-06-29T02:24:22.000Z",
+            "text": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right? anyone at Riot able to confirm?",
+            "summary": "this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right…",
+            "engagement": 711,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2071474384456573329",
+            "url": "https://x.com/trq212/status/2071474384456573329",
+            "createdAt": "2026-06-29T06:02:34.000Z",
+            "text": "not true!",
+            "summary": "not true!",
+            "engagement": 31,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped You need a Link, not a LinkedIn 😂",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2071284129275285580",
+            "url": "https://x.com/rauchg/status/2071284129275285580",
+            "createdAt": "2026-06-28T17:26:33.000Z",
+            "text": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+            "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+            "engagement": 7599,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2071287181650653372",
+            "url": "https://x.com/rauchg/status/2071287181650653372",
+            "createdAt": "2026-06-28T17:38:41.000Z",
+            "text": "You need a Link, not a LinkedIn 😂",
+            "summary": "You need a Link, not a LinkedIn 😂",
+            "engagement": 574,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2071253118252356001",
+            "url": "https://x.com/levie/status/2071253118252356001",
+            "createdAt": "2026-06-28T15:23:20.000Z",
+            "text": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone. As a byproduct of this, alternative tech stacks will emerge that also drive more economic value and control away from the US’s tech stack. This is what should be considered when thinking…",
+            "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone…",
+            "engagement": 976,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\" —Leonard Cohen",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2071434797176516691",
+            "url": "https://x.com/garrytan/status/2071434797176516691",
+            "createdAt": "2026-06-29T03:25:15.000Z",
+            "text": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\" —Leonard Cohen",
+            "summary": "\"Forget your perfect offering / There is a crack in everything / That's how the light gets in.\" —Leonard Cohen",
+            "engagement": 385,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it… This is my favorite part about building: telling the world about it and then refining it base…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2071319754128978030",
+            "url": "https://x.com/zarazhangrui/status/2071319754128978030",
+            "createdAt": "2026-06-28T19:48:07.000Z",
+            "text": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it… This is my favorite part about building: telling the world about it and then refining it based on contact with reality",
+            "summary": "For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it… This is my favorite part about building: telling the…",
+            "engagement": 718,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2071335200802648420",
+            "url": "https://x.com/zarazhangrui/status/2071335200802648420",
+            "createdAt": "2026-06-28T20:49:30.000Z",
+            "text": "Watch this video in which I walk through - How to install & use the skill (beginner-friendly) - How I built the skill - How you can build your own skill",
+            "summary": "Watch this video in which I walk through - How to install & use the skill (beginner-friendly) - How I built the skill - How you can build your own skill",
+            "engagement": 13,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "just put the taxes in the bag bro 📍Summit Loop Trail, San Bruno Sundays are for recreating memes with your toddler 👻 Every time I meet an exceptionally smart founder, I play it cool but internally..",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2071408480456691868",
+            "url": "https://x.com/nikunj/status/2071408480456691868",
+            "createdAt": "2026-06-29T01:40:41.000Z",
+            "text": "just put the taxes in the bag bro 📍Summit Loop Trail, San Bruno",
+            "summary": "just put the taxes in the bag bro 📍Summit Loop Trail, San Bruno",
+            "engagement": 84,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2071270787517132892",
+            "url": "https://x.com/nikunj/status/2071270787517132892",
+            "createdAt": "2026-06-28T16:33:32.000Z",
+            "text": "Sundays are for recreating memes with your toddler 👻",
+            "summary": "Sundays are for recreating memes with your toddler 👻",
+            "engagement": 51,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2071237834162549001",
+            "url": "https://x.com/nikunj/status/2071237834162549001",
+            "createdAt": "2026-06-28T14:22:36.000Z",
+            "text": "Every time I meet an exceptionally smart founder, I play it cool but internally..",
+            "summary": "Every time I meet an exceptionally smart founder, I play it cool but internally..",
+            "engagement": 37,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2071382416703500510",
+            "url": "https://x.com/steipete/status/2071382416703500510",
+            "createdAt": "2026-06-28T23:57:07.000Z",
+            "text": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why. What’s the next best unlimited phone/data plan for the SF area? Or do I know anyone who can work around corp bs?",
+            "summary": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why…",
+            "engagement": 875,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "self recommending",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2071304948390752557",
+            "url": "https://x.com/danshipper/status/2071304948390752557",
+            "createdAt": "2026-06-28T18:49:17.000Z",
+            "text": "self recommending",
+            "summary": "self recommending",
+            "engagement": 58,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "author": "",
+        "publishedAt": null,
+        "summary": "Twelve months ago, we'd have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "The GPU Myth: State of AI Compute 2026 | Stephen Balaban",
+        "url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
+        "publishedAt": "2026-06-18T11:30:00.000Z",
+        "summary": "Speaker 1 | 00:00 - 00:36 It's pretty clear that we have an amazing system that can take in money and output software…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ]
+      }
+    ],
+    "errors": [
+      "Podcast: Transcript error for \"Red-Teaming after Mythos — Zico Kolter &amp; Matt Fredrikson, Gray Swan\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}",
+      "Podcast: Transcript error for \"The Professor of Outputmaxxing — Anjney Midha, AMP\": HTTP 404: {\"status\":\"error\",\"message\":\"Episode not found\"}"
+    ]
+  }
+]
