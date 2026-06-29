@@ -89,6 +89,20 @@ def display_date(date_key: str) -> str:
     return f"{d.month}月{d.day}日 · 周{weekday}"
 
 
+def source_date(value: Any, fallback: str) -> str:
+    if not value:
+        return fallback
+    return str(value)[:10]
+
+
+def zh_source_date(value: Any, fallback: str) -> str:
+    key = source_date(value, fallback)
+    try:
+        return display_date(key)
+    except Exception:
+        return key
+
+
 def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcasts: dict[str, Any], date_key: str) -> dict[str, Any]:
     builders_raw = feed_x.get("x") or []
     blogs_raw = feed_blogs.get("blogs") or []
@@ -113,6 +127,8 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
                 "id": t.get("id"),
                 "url": t.get("url"),
                 "createdAt": t.get("createdAt"),
+                "sourceDate": source_date(t.get("createdAt"), date_key),
+                "sourceDisplayDate": zh_source_date(t.get("createdAt"), date_key),
                 "text": clean_text(t.get("text", ""), 320),
                 "summary": first_sentence(t.get("text", ""), 180),
                 "engagement": engagement(t),
@@ -136,6 +152,8 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
             "title": f"{b.get('name')} 的高热度观点",
             "source": f"{b.get('name')} on X",
             "url": t.get("url"),
+            "sourceDate": source_date(t.get("createdAt"), date_key),
+            "sourceDisplayDate": zh_source_date(t.get("createdAt"), date_key),
             "summary": topic,
             "tags": tags_for(t.get("text", "")),
             "score": score,
@@ -150,6 +168,8 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
             "url": post.get("url"),
             "author": post.get("author") or "",
             "publishedAt": post.get("publishedAt"),
+            "sourceDate": source_date(post.get("publishedAt"), date_key),
+            "sourceDisplayDate": zh_source_date(post.get("publishedAt"), date_key),
             "summary": first_sentence(content, 260),
             "tags": tags_for((post.get("title") or "") + " " + content),
         })
@@ -162,6 +182,8 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
             "title": html.unescape(ep.get("title") or "Untitled"),
             "url": ep.get("url"),
             "publishedAt": ep.get("publishedAt"),
+            "sourceDate": source_date(ep.get("publishedAt"), date_key),
+            "sourceDisplayDate": zh_source_date(ep.get("publishedAt"), date_key),
             "summary": first_sentence(transcript, 260),
             "tags": tags_for((ep.get("title") or "") + " " + transcript[:1200]),
         })
@@ -195,7 +217,6 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
         "builders": builders,
         "blogs": blogs,
         "podcasts": podcasts,
-        "errors": (feed_x.get("errors") or []) + (feed_blogs.get("errors") or []) + (feed_podcasts.get("errors") or []),
     }
 
 
