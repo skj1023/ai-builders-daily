@@ -10,8 +10,8 @@
     },
     "source": "follow-builders public central feed",
     "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
-    "headline": "今天的信息流集中在产品表达、工程组织、Agent与AI安全：12位AI Builders、1篇深度文章、1期播客摘录。",
-    "editorNote": "每日汇总一线AI Builders的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "headline": "今天的信息流集中在 AI 工具产品化、团队角色重组、agent 安全边界和 AI compute 成本结构：已筛选出 7 条高信号内容。",
+    "editorNote": "本页只保留有事实增量、观点密度或长期判断价值的 AI Builders 内容；低信号日常、吐槽和无上下文转发会被过滤。",
     "stats": {
       "builders": 12,
       "tweets": 23,
@@ -597,6 +597,171 @@
           "组织"
         ],
         "chineseTitle": "GPU 迷思：2026 年 AI 算力真实状况 | Stephen Balaban"
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最有价值的信号不是某个单点发布，而是 AI 工具进入产品化深水区后，能力、信任、组织方式和基础设施成本正在同时变成竞争变量。Codex 用量异常的公开处理说明：当 AI coding agent 进入高频付费使用，用户关心的不只是“模型能不能写代码”，还包括 usage accounting 是否透明、日志是否可解释、额度异常是否能被快速补偿。",
+        "第二个信号是 AI 产品团队的角色边界正在被重新组合。Boris Cherny 对 Claude Code 团队的观察，以及 Swyx 对 AI UX / Design Engineer 议题的策展，都指向同一件事：围绕 agent 产品，传统的工程、产品、设计和数据科学分工开始融合，未来更稀缺的是能同时理解系统行为、用户场景和模型约束的复合型人才。",
+        "第三个信号来自更长周期的基础设施判断。Anthropic 关于 Claude 跨产品隔离的文章，强调 agent 权限、安全边界和产品集成之间的张力；Stephen Balaban 在播客里讨论 AI compute，则把“GPU 是否稀缺”推进到资本效率、算力利用率和软件产出的匹配问题。这些内容比单纯追热点更适合做长期判断。",
+        "今天保留的内容都需要满足一个标准：它必须提供事实增量、观点框架或可迁移的产品/工程启发。纯吐槽、日常生活、无上下文转发和只有一句话的轻评论已被过滤。"
+      ],
+      "filteredNote": "过滤掉了 Peter Yang 关于 Agentforce 的轻吐槽、Dan Shipper 的 self recommending、Peter Steinberger 的手机套餐问题、Nikunj 的家庭 meme 等低信号或非 AI 主题内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月28日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "Codex 用量异常暴露 AI 工具商业化后的信任问题",
+        "summary": "Thibault Sottiaux 连续回应 Codex 使用量异常，表示团队正在排查日志，并临时为所有用户重置额度。这不是一个功能更新，但它反映出 AI coding agent 进入付费高频使用后，计量透明度、日志可解释性和用户补偿机制会变成产品信任的核心。",
+        "keyPoints": [
+          "AI 工具商业化后，usage accounting 本身会成为产品能力的一部分。",
+          "公开沟通和主动重置额度，比让用户逐个申诉更能维护信任。",
+          "coding agent 的日志、额度和账单解释会成为未来产品体验的重要环节。"
+        ],
+        "whyItMatters": "它说明 AI 工具的竞争不只在模型能力，也在计费透明度、异常处理和用户信任。",
+        "tags": [
+          "产品",
+          "工程",
+          "商业化"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/thsottiaux/status/2071381664853319742"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月28日 · 周日",
+        "actor": "Boris Cherny",
+        "meta": "Claude Code · X 动态",
+        "title": "Claude Code 团队显示 AI 产品角色正在融合",
+        "summary": "Boris Cherny 观察到工程、产品、设计和数据科学正在融合，并以 Claude Code 团队为例总结未来团队可能出现的新角色。核心信息不是“组织架构变化”，而是 agent 产品需要同时理解模型行为、系统边界、用户工作流和数据反馈的人。",
+        "keyPoints": [
+          "Agent 产品很难只靠传统 PM/工程/设计分工推进。",
+          "更重要的角色可能是能跨系统、用户和模型行为做判断的人。",
+          "Claude Code 团队被用作这种复合型团队结构的样本。"
+        ],
+        "whyItMatters": "它提供了判断 AI 产品团队能力结构的视角，适合长期观察组织和人才变化。",
+        "tags": [
+          "组织",
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/bcherny/status/2071379474277613732"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "6月29日 · 周一",
+        "actor": "Anthropic Engineering",
+        "meta": "官方工程博客",
+        "title": "Claude 跨产品安全防护方案",
+        "summary": "Anthropic Engineering 介绍他们如何在不同产品中限制 Claude 的权限与影响范围。重点不只是“安全隔离”，而是如何让 Claude 能访问必要系统完成任务，同时避免一个产品里的权限或故障扩散到其他内部服务。",
+        "keyPoints": [
+          "Agent 能力越强，权限边界越需要产品化设计。",
+          "跨产品集成不能只靠模型安全，还需要系统级隔离与最小权限。",
+          "这类工程机制会决定 AI agent 是否能进入更关键的业务流程。"
+        ],
+        "whyItMatters": "它把 agent 产品化中最容易被忽略的“权限、安全和服务边界”讲清楚了。",
+        "tags": [
+          "Agent",
+          "安全",
+          "工程"
+        ],
+        "qualityScore": 90,
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "6月18日 · 周四",
+        "actor": "The MAD Podcast with Matt Turck",
+        "meta": "YouTube / 播客",
+        "title": "GPU 迷思：2026 年 AI 算力真实状况",
+        "summary": "Stephen Balaban 在播客中讨论 2026 年 AI compute 的供需结构。重点不是简单判断 GPU 是否短缺，而是把算力供给、资本开支、利用率和软件产出联系起来：未来 AI 公司的竞争力不只取决于拿到多少 GPU，还取决于能否把算力稳定转化为产品和收入。",
+        "keyPoints": [
+          "GPU 供给仍重要，但不是唯一瓶颈。",
+          "算力利用率、资本效率和软件产出会共同决定真实成本。",
+          "AI infra 判断需要从“有没有 GPU”升级为“算力如何转化为业务结果”。"
+        ],
+        "whyItMatters": "它提供了比“GPU 短缺”更细的 AI 基础设施判断框架。",
+        "tags": [
+          "基础设施",
+          "算力",
+          "市场"
+        ],
+        "qualityScore": 88,
+        "url": "https://www.youtube.com/watch?v=0NttU4CbyVs"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月28日 · 周日",
+        "actor": "Swyx",
+        "meta": "AI UX / Design Engineer · X 动态",
+        "title": "AI 产品正在催生 Design Engineer 这类复合角色",
+        "summary": "Swyx 提到 AI UX / Design Engineer 相关议程的策展，并说明自己不是 design engineer，因此需要借助更懂这一领域的人来组织讨论。这个信息的价值在于，它呼应了 AI 产品团队角色融合的趋势：设计不再只是界面表达，工程也不只是实现，AI UX 需要能把模型能力、交互形式和产品目标连接起来的人。",
+        "keyPoints": [
+          "AI UX 正在成为独立问题，而不只是传统 UX 的延伸。",
+          "Design Engineer 代表设计与工程边界继续变薄。",
+          "这类角色会影响 AI 产品从 demo 到可用工具的转化速度。"
+        ],
+        "whyItMatters": "它补充了 AI 产品团队角色变化的另一条线索：未来的界面和工作流设计会更工程化。",
+        "tags": [
+          "产品",
+          "设计",
+          "组织"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/swyx/status/2071478390172049555"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月28日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Builder identity · X 动态",
+        "title": "个人网站比 LinkedIn 更能证明真实交付",
+        "summary": "Guillermo Rauch 认为，与其维护 LinkedIn，不如在个人网站上清楚展示自己真正交付过的作品。这个观点不是 AI 技术本身，但对 AI Builders 有价值：在工具越来越多、作品可以快速生成的时代，能被验证的 proof of work 会比简历式身份展示更重要。",
+        "keyPoints": [
+          "个人网站可以承载更直接的作品证据。",
+          "Builder 的可信度越来越依赖真实交付，而不是身份标签。",
+          "这对独立开发者、创业者和 AI 产品人都有启发。"
+        ],
+        "whyItMatters": "它提供了 AI Builders 如何建立外部可信度的简单但实用的判断。",
+        "tags": [
+          "个人品牌",
+          "产品",
+          "创业"
+        ],
+        "qualityScore": 74,
+        "url": "https://x.com/rauchg/status/2071287181650653372"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月28日 · 周日",
+        "actor": "Thariq",
+        "meta": "Coding Agents · X 动态",
+        "title": "Coding agents 可能改变 legacy codebase 的维护成本",
+        "summary": "Thariq 提出一个值得观察的问题：coding agents 是否正在改变维护或迁移 legacy codebase 的工程成本。单条内容本身不长，但问题有价值，因为大量企业软件的真实成本并不在新项目，而在旧系统理解、迁移和维护。如果 agents 能降低这部分成本，影响会比“写新代码更快”更深。",
+        "keyPoints": [
+          "legacy codebase 是企业工程成本的大头。",
+          "coding agents 的长期价值可能在理解和迁移旧系统。",
+          "这个方向需要更多真实案例验证。"
+        ],
+        "whyItMatters": "它把 coding agent 的价值从“生成代码”推进到“降低存量系统维护成本”。",
+        "tags": [
+          "工程",
+          "Agent",
+          "企业软件"
+        ],
+        "qualityScore": 72,
+        "url": "https://x.com/trq212/status/2071419473433854221"
       }
     ]
   }
