@@ -9,8 +9,8 @@
   },
   "source": "follow-builders public central feed",
   "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
-  "headline": "今天的信息流聚焦产品表达、工程组织、Agent 与 AI 安全：12 位 builder、23 条推文、1 篇博客、1 期播客进入观察。",
-  "editorNote": "今日重点不是单纯的新功能，而是 builder 如何把产品、工程和组织方式重新组合：从 Codex 用量问题的响应，到 Claude 团队的角色演化，再到用个人网站展示真实交付。",
+  "headline": "今天的信息流集中在产品表达、工程组织、Agent与AI安全：12位AI Builders、1篇深度文章、1期播客摘录。",
+  "editorNote": "每日汇总一线AI Builders的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
   "stats": {
     "builders": 12,
     "tweets": 23,
@@ -41,7 +41,7 @@
   },
   "toplines": [
     {
-      "title": "Boris Cherny 的高热度观点",
+      "title": "来自 Boris Cherny 的观点",
       "source": "Boris Cherny · X 动态",
       "url": "https://x.com/bcherny/status/2071379474277613732",
       "sourceDate": "2026-06-28",
@@ -56,7 +56,7 @@
       "chineseTitle": "Boris Cherny 的高热度观点"
     },
     {
-      "title": "Guillermo Rauch 的高热度观点",
+      "title": "来自 Guillermo Rauch 的观点",
       "source": "Guillermo Rauch · X 动态",
       "url": "https://x.com/rauchg/status/2071284129275285580",
       "sourceDate": "2026-06-28",
@@ -69,7 +69,7 @@
       "chineseTitle": "Guillermo Rauch 的高热度观点"
     },
     {
-      "title": "Thibault Sottiaux 的高热度观点",
+      "title": "来自 Thibault Sottiaux 的观点",
       "source": "Thibault Sottiaux · X 动态",
       "url": "https://x.com/thsottiaux/status/2071381664853319742",
       "sourceDate": "2026-06-28",
@@ -83,7 +83,7 @@
       "chineseTitle": "Thibault Sottiaux 的高热度观点"
     },
     {
-      "title": "Thibault Sottiaux 的高热度观点",
+      "title": "来自 Thibault Sottiaux 的观点",
       "source": "Thibault Sottiaux · X 动态",
       "url": "https://x.com/thsottiaux/status/2071357473659707441",
       "sourceDate": "2026-06-28",
@@ -98,7 +98,7 @@
       "chineseTitle": "Thibault Sottiaux 的高热度观点"
     },
     {
-      "title": "Aaron Levie 的高热度观点",
+      "title": "来自 Aaron Levie 的观点",
       "source": "Aaron Levie · X 动态",
       "url": "https://x.com/levie/status/2071253118252356001",
       "sourceDate": "2026-06-28",

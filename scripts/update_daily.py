@@ -149,8 +149,8 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
     for score, b, t in all_tweets[:5]:
         topic = first_sentence(t.get("text", ""), 160)
         toplines.append({
-            "title": f"{b.get('name')} 的高热度观点",
-            "source": f"{b.get('name')} on X",
+            "title": f"来自 {b.get('name')} 的观点",
+            "source": f"{b.get('name')} · X 动态",
             "url": t.get("url"),
             "sourceDate": source_date(t.get("createdAt"), date_key),
             "sourceDisplayDate": zh_source_date(t.get("createdAt"), date_key),
@@ -193,8 +193,8 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
 
     total_tweets = sum(len(b.get("tweets") or []) for b in builders_raw)
     dominant_tags = sorted(tag_counts.items(), key=lambda kv: kv[1], reverse=True)[:5]
-    tag_line = "、".join(t for t, _ in dominant_tags) or "AI builders"
-    headline = f"今天的信息流集中在 {tag_line}：{len(builders)} 位 builder、{len(blogs)} 篇官方博客、{len(podcasts)} 期播客进入观察。"
+    tag_line = "、".join(t for t, _ in dominant_tags) or "AI Builders"
+    headline = f"今天的信息流集中在 {tag_line}：{len(builders)} 位 AI Builders、{len(blogs)} 篇深度文章、{len(podcasts)} 期播客摘录。"
 
     return {
         "date": date_key,
@@ -208,7 +208,7 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
         "source": "follow-builders public central feed",
         "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
         "headline": headline,
-        "editorNote": "这是一份每日 Builder Briefing：优先收集真正在做产品、模型、基础设施和研究的人，而不是泛化资讯搬运。",
+        "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
         "stats": {
             "builders": len(builders),
             "tweets": total_tweets,
