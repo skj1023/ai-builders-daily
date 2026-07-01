@@ -1,5 +1,1064 @@
 [
   {
+    "date": "2026-07-02",
+    "displayDate": "7月2日 · 周四",
+    "generatedAt": "2026-07-01T23:34:13.757063+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-01T07:49:10.368Z",
+      "blogs": "2026-07-01T07:49:46.559Z",
+      "podcasts": "2026-07-01T07:49:46.189Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、工程、组织、产品、Agent：17 位 AI Builders、0 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 17,
+      "tweets": 38,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 22
+        },
+        {
+          "name": "工程",
+          "count": 7
+        },
+        {
+          "name": "组织",
+          "count": 6
+        },
+        {
+          "name": "产品",
+          "count": 5
+        },
+        {
+          "name": "Agent",
+          "count": 4
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Claude 的观点",
+        "source": "Claude · X 动态",
+        "url": "https://x.com/claudeai/status/2072017452335087996",
+        "sourceDate": "2026-06-30",
+        "sourceDisplayDate": "6月30日 · 周二",
+        "summary": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work…",
+        "chineseTitle": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "score": 5766
+      },
+      {
+        "title": "来自 Boris Cherny 的观点",
+        "source": "Boris Cherny · X 动态",
+        "url": "https://x.com/bcherny/status/2072000214634742243",
+        "sourceDate": "2026-06-30",
+        "sourceDisplayDate": "6月30日 · 周二",
+        "summary": "You asked, we listened. Claude Desktop on Linux is here…",
+        "chineseTitle": "You asked, we listened. Claude Desktop on Linux is here…",
+        "tags": [
+          "产品"
+        ],
+        "score": 4389
+      },
+      {
+        "title": "来自 Claude 的观点",
+        "source": "Claude · X 动态",
+        "url": "https://x.com/claudeai/status/2072017455833100494",
+        "sourceDate": "2026-06-30",
+        "sourceDisplayDate": "6月30日 · 周二",
+        "summary": "Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its ag…",
+        "chineseTitle": "Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its ag…",
+        "tags": [
+          "Agent"
+        ],
+        "score": 2401
+      },
+      {
+        "title": "来自 Claude 的观点",
+        "source": "Claude · X 动态",
+        "url": "https://x.com/claudeai/status/2072017457057853480",
+        "sourceDate": "2026-06-30",
+        "sourceDisplayDate": "6月30日 · 周二",
+        "summary": "Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users…",
+        "chineseTitle": "Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users…",
+        "tags": [
+          "产品",
+          "组织",
+          "市场"
+        ],
+        "score": 2385
+      },
+      {
+        "title": "来自 Thariq 的观点",
+        "source": "Thariq · X 动态",
+        "url": "https://x.com/trq212/status/2072185565076988326",
+        "sourceDate": "2026-07-01",
+        "sourceDisplayDate": "7月1日 · 周三",
+        "summary": "Have seen some questions about the updated classifiers and wanted to clarify…",
+        "chineseTitle": "Have seen some questions about the updated classifiers and wanted to clarify…",
+        "tags": [
+          "工程"
+        ],
+        "score": 1960
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+        "summary": "very successful first poster sessions day at AIEWF, thanks to @heathercmiller and @ACM_President for the support!…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072048730581405800",
+            "url": "https://x.com/swyx/status/2072048730581405800",
+            "createdAt": "2026-06-30T20:04:48.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "very successful first poster sessions day at AIEWF, thanks to @heathercmiller and @ACM_President for the support!! tomorrow: Poaster sessions! submit your hottest tweets to @vibhuuuus for printing! spotted: left shark",
+            "summary": "very successful first poster sessions day at AIEWF, thanks to @heathercmiller and @ACM_President for the support!…",
+            "engagement": 60,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "summary": "You asked, we listened. Claude Desktop on Linux is here…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2072000214634742243",
+            "url": "https://x.com/bcherny/status/2072000214634742243",
+            "createdAt": "2026-06-30T16:52:01.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "You asked, we listened. Claude Desktop on Linux is here! Download link:",
+            "summary": "You asked, we listened. Claude Desktop on Linux is here…",
+            "engagement": 4389,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2072105851457019944",
+            "url": "https://x.com/bcherny/status/2072105851457019944",
+            "createdAt": "2026-06-30T23:51:47.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Agree",
+            "summary": "Agree",
+            "engagement": 851,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "What does this mean btw? After I hit 50% weekly usage Fable is no longer available…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072165346476511583",
+            "url": "https://x.com/petergyang/status/2072165346476511583",
+            "createdAt": "2026-07-01T03:48:12.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "What does this mean btw? After I hit 50% weekly usage Fable is no longer available?",
+            "summary": "What does this mean btw? After I hit 50% weekly usage Fable is no longer available?",
+            "engagement": 469,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072111311396438410",
+            "url": "https://x.com/petergyang/status/2072111311396438410",
+            "createdAt": "2026-07-01T00:13:29.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "Setting an alarm at midnight to get Fable to fix all my projects 😅",
+            "summary": "Setting an alarm at midnight to get Fable to fix all my projects 😅",
+            "engagement": 163,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072159132908695772",
+            "url": "https://x.com/petergyang/status/2072159132908695772",
+            "createdAt": "2026-07-01T03:23:30.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "btw I have no idea if it's coming out midnight or not",
+            "summary": "btw I have no idea if it's coming out midnight or not",
+            "engagement": 8,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "The definition of “distillation” is interesting…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2071973229070033322",
+            "url": "https://x.com/thenanyu/status/2071973229070033322",
+            "createdAt": "2026-06-30T15:04:47.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "The definition of “distillation” is interesting. Going by this logic, the entirety of Cursor’s training data was distilled from Claude in the early days",
+            "summary": "The definition of “distillation” is interesting…",
+            "engagement": 50,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          },
+          {
+            "id": "2072003481779478848",
+            "url": "https://x.com/thenanyu/status/2072003481779478848",
+            "createdAt": "2026-06-30T17:05:00.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "tru tru",
+            "summary": "tru tru",
+            "engagement": 4,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+        "summary": "The biggest challenge for trad PMs trying to adapt to AI native building is a lack of magical thinking…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2071970221477470694",
+            "url": "https://x.com/realmadhuguru/status/2071970221477470694",
+            "createdAt": "2026-06-30T14:52:50.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "The biggest challenge for trad PMs trying to adapt to AI native building is a lack of magical thinking. A decade of frameworks, “agile” and metric obsession has led to constraint-first, incremental thinking. I used to combat this on my teams by asking them to imagine we had tech from 100 yrs in the future, the…",
+            "summary": "The biggest challenge for trad PMs trying to adapt to AI native building is a lack of magical thinking…",
+            "engagement": 73,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+        "summary": "Have seen some questions about the updated classifiers and wanted to clarify…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2072185565076988326",
+            "url": "https://x.com/trq212/status/2072185565076988326",
+            "createdAt": "2026-07-01T05:08:32.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "Have seen some questions about the updated classifiers and wanted to clarify. As with the original classifiers, a small fraction of routine coding and debugging tasks will be flagged and fall back to Opus. We're excited for guys to get access back tomorrow.",
+            "summary": "Have seen some questions about the updated classifiers and wanted to clarify…",
+            "engagement": 1960,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2072202267563082180",
+            "url": "https://x.com/trq212/status/2072202267563082180",
+            "createdAt": "2026-07-01T06:14:54.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "making some last minute changes to my deck- see you tomorrow at AIE!",
+            "summary": "making some last minute changes to my deck- see you tomorrow at AIE!",
+            "engagement": 549,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072185566695977161",
+            "url": "https://x.com/trq212/status/2072185566695977161",
+            "createdAt": "2026-07-01T05:08:33.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "And as we say in our blog, we're continuing to refine these safeguards to better distinguish genuine misuse from legitimate requests and reduce false positives.",
+            "summary": "And as we say in our blog, we're continuing to refine these safeguards to better distinguish genuine misuse from legitimate requests and reduce false positives.",
+            "engagement": 232,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2071992110132117740",
+            "url": "https://x.com/amasad/status/2071992110132117740",
+            "createdAt": "2026-06-30T16:19:49.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference.",
+            "summary": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs…",
+            "engagement": 1689,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2071992670394765407",
+            "url": "https://x.com/amasad/status/2071992670394765407",
+            "createdAt": "2026-06-30T16:22:03.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "World’s first subway hackathon!",
+            "summary": "World’s first subway hackathon!",
+            "engagement": 180,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Vercel Services You can now collocate e.g.: a Python backend API, an ExpressJS server, and a React SPA in one Vercel project…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2071966055308607765",
+            "url": "https://x.com/rauchg/status/2071966055308607765",
+            "createdAt": "2026-06-30T14:36:17.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Vercel Services You can now collocate e.g.: a Python backend API, an ExpressJS server, and a React SPA in one Vercel project. tl:dr; ▪️ You can run all locally with 𝚟𝚌 𝚍𝚎𝚟 ▪️ Deploy and rollback all at once ▪️ Observe, monitor, debug together ▪️ Internal networking",
+            "summary": "Vercel Services You can now collocate e.g.: a Python backend API, an ExpressJS server, and a React SPA in one Vercel project…",
+            "engagement": 1215,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2072123264843886709",
+            "url": "https://x.com/rauchg/status/2072123264843886709",
+            "createdAt": "2026-07-01T01:00:59.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "At dinner, tech executive is relaying his company’s @vercel feedback, and then his 12-year-old son’s @vercel feedback 😁 Vercel is for everyone.",
+            "summary": "At dinner, tech executive is relaying his company’s @vercel feedback, and then his 12-year-old son’s @vercel feedback 😁 Vercel is for everyone.",
+            "engagement": 587,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2072044844965400589",
+            "url": "https://x.com/rauchg/status/2072044844965400589",
+            "createdAt": "2026-06-30T19:49:22.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "So great to get to work with @tobi and the wonderful @shopify team. Excited to push the agentic web forward.",
+            "summary": "So great to get to work with @tobi and the wonderful @shopify team…",
+            "engagement": 314,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "More data is showing the opposite of what many people expected with AI adoption and jobs…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2071992799109824562",
+            "url": "https://x.com/levie/status/2071992799109824562",
+            "createdAt": "2026-06-30T16:22:33.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "More data is showing the opposite of what many people expected with AI adoption and jobs. Ramp found that the more AI adoption a company has the more their headcount grows. At Box, we recently did a survey of 1,600+ mid and large sized companies, and the findings were similar. 58% of respondents expected headcount to…",
+            "summary": "More data is showing the opposite of what many people expected with AI adoption and jobs…",
+            "engagement": 421,
+            "tags": [
+              "工程",
+              "组织",
+              "市场"
+            ]
+          },
+          {
+            "id": "2072046374045249671",
+            "url": "https://x.com/levie/status/2072046374045249671",
+            "createdAt": "2026-06-30T19:55:26.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end. Sonnet 5 holds frontier-class quality on complex multi-step work and pulls ahead of Sonnet 4.6 in several core enterprise domains like Energy…",
+            "summary": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end…",
+            "engagement": 177,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2072172275017879829",
+            "url": "https://x.com/levie/status/2072172275017879829",
+            "createdAt": "2026-07-01T04:15:44.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "Things seem to be ending up in a better spot with Fable, and presumably GPT-5.6 next. What we have now is the initial precedent for what frontier model releases (or at least those that have significant coding and cyber capabilities) could look like going forward. This would presumably apply to bio and other categories…",
+            "summary": "Things seem to be ending up in a better spot with Fable, and presumably GPT-5.6 next…",
+            "engagement": 82,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Gbrain is mostly useful at 10,000+ markdown files in your personal brain or company brain We want a California that works.",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2071910876496757145",
+            "url": "https://x.com/garrytan/status/2071910876496757145",
+            "createdAt": "2026-06-30T10:57:01.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Gbrain is mostly useful at 10,000+ markdown files in your personal brain or company brain",
+            "summary": "Gbrain is mostly useful at 10,000+ markdown files in your personal brain or company brain",
+            "engagement": 941,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2072100337478160856",
+            "url": "https://x.com/garrytan/status/2072100337478160856",
+            "createdAt": "2026-06-30T23:29:52.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "We want a California that works.",
+            "summary": "We want a California that works.",
+            "engagement": 229,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "LE DICTATEUR #fraswe",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072088791393669144",
+            "url": "https://x.com/mattturck/status/2072088791393669144",
+            "createdAt": "2026-06-30T22:44:00.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "LE DICTATEUR #fraswe",
+            "summary": "LE DICTATEUR #fraswe",
+            "engagement": 98,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "How can someone be THIS early \"Taste isn’t valuable because it’s impossible to copy…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072145334428680365",
+            "url": "https://x.com/zarazhangrui/status/2072145334428680365",
+            "createdAt": "2026-07-01T02:28:40.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "How can someone be THIS early",
+            "summary": "How can someone be THIS early",
+            "engagement": 141,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072197929138602079",
+            "url": "https://x.com/zarazhangrui/status/2072197929138602079",
+            "createdAt": "2026-07-01T05:57:40.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "\"Taste isn’t valuable because it’s impossible to copy. Taste is valuable exactly because it defines what everyone else chooses to copy.\"",
+            "summary": "\"Taste isn’t valuable because it’s impossible to copy…",
+            "engagement": 84,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072120868042641686",
+            "url": "https://x.com/zarazhangrui/status/2072120868042641686",
+            "createdAt": "2026-07-01T00:51:27.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "",
+            "summary": "",
+            "engagement": 6,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Every developer in SF right now running back to their desks post AIEWF after they heard Fable 5 is coming back.…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072106393256218883",
+            "url": "https://x.com/nikunj/status/2072106393256218883",
+            "createdAt": "2026-06-30T23:53:56.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Every developer in SF right now running back to their desks post AIEWF after they heard Fable 5 is coming back..",
+            "summary": "Every developer in SF right now running back to their desks post AIEWF after they heard Fable 5 is coming back..",
+            "engagement": 6,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072111272859246943",
+            "url": "https://x.com/nikunj/status/2072111272859246943",
+            "createdAt": "2026-07-01T00:13:20.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "Ok a day early. This is coming tomorrow!",
+            "summary": "Ok a day early. This is coming tomorrow!",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Price per token != cost per task Apparently we didn't talk enough about w̶o̶r̶k̶f̶l̶o̶w̶s̶ loops yet…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072144627474579925",
+            "url": "https://x.com/steipete/status/2072144627474579925",
+            "createdAt": "2026-07-01T02:25:52.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "Price per token != cost per task",
+            "summary": "Price per token != cost per task",
+            "engagement": 1228,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072143124496097302",
+            "url": "https://x.com/steipete/status/2072143124496097302",
+            "createdAt": "2026-07-01T02:19:54.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "Apparently we didn't talk enough about w̶o̶r̶k̶f̶l̶o̶w̶s̶ loops yet! See ya there!",
+            "summary": "Apparently we didn't talk enough about w̶o̶r̶k̶f̶l̶o̶w̶s̶ loops yet…",
+            "engagement": 281,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072183656739983397",
+            "url": "https://x.com/steipete/status/2072183656739983397",
+            "createdAt": "2026-07-01T05:00:57.000Z",
+            "sourceDate": "2026-07-01",
+            "sourceDisplayDate": "7月1日 · 周三",
+            "text": "🙃",
+            "summary": "🙃",
+            "engagement": 156,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "LETS FUCKIN GO if this happens im livestreaming and ripping tokens from my vacation in cabo tonight me, on a vacation in mexico, hearing that fable might be coming back tonight",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2072106715286225313",
+            "url": "https://x.com/danshipper/status/2072106715286225313",
+            "createdAt": "2026-06-30T23:55:13.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "LETS FUCKIN GO",
+            "summary": "LETS FUCKIN GO",
+            "engagement": 189,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072094163378622823",
+            "url": "https://x.com/danshipper/status/2072094163378622823",
+            "createdAt": "2026-06-30T23:05:20.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "if this happens im livestreaming and ripping tokens from my vacation in cabo tonight",
+            "summary": "if this happens im livestreaming and ripping tokens from my vacation in cabo tonight",
+            "engagement": 172,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2072099953254584462",
+            "url": "https://x.com/danshipper/status/2072099953254584462",
+            "createdAt": "2026-06-30T23:28:21.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "me, on a vacation in mexico, hearing that fable might be coming back tonight",
+            "summary": "me, on a vacation in mexico, hearing that fable might be coming back tonight",
+            "engagement": 45,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart |…",
+        "summary": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2071983952894837062",
+            "url": "https://x.com/adityaag/status/2071983952894837062",
+            "createdAt": "2026-06-30T15:47:24.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+            "summary": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+            "engagement": 404,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+        "summary": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2072017452335087996",
+            "url": "https://x.com/claudeai/status/2072017452335087996",
+            "createdAt": "2026-06-30T18:00:31.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work. Its performance is close to Opus 4.8, at lower prices.",
+            "summary": "Sonnet 5 is a substantial improvement over Sonnet 4.6 on reasoning, tool use, coding, and knowledge work…",
+            "engagement": 5766,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2072017455833100494",
+            "url": "https://x.com/claudeai/status/2072017455833100494",
+            "createdAt": "2026-06-30T18:00:32.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its agentic work at an attractive price point.",
+            "summary": "Early access partners found Sonnet 5 finishes complex tasks where previous Sonnets stopped short, checks its own output without being asked, and does all its agentic work at an att…",
+            "engagement": 2401,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2072017457057853480",
+            "url": "https://x.com/claudeai/status/2072017457057853480",
+            "createdAt": "2026-06-30T18:00:32.000Z",
+            "sourceDate": "2026-06-30",
+            "sourceDisplayDate": "6月30日 · 周二",
+            "text": "Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users. It's live across all Claude apps and the Claude Platform today, with introductory pricing through August 31:",
+            "summary": "Sonnet 5 is now the default on Free and Pro, and available to Max, Team, and Enterprise users…",
+            "engagement": 2385,
+            "tags": [
+              "产品",
+              "组织",
+              "市场"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "Training Data",
+        "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+        "url": "https://www.youtube.com/watch?v=f6D_aiy8qyU",
+        "publishedAt": "2026-06-30T09:00:00.000Z",
+        "sourceDate": "2026-06-30",
+        "sourceDisplayDate": "6月30日 · 周二",
+        "summary": "Speaker 1 | 00:00 - 00:24 I think it's really fun inside of Semi Analysis because we have 90 people, and a big chunk of them are technologist engineers across the whole supply chain, and then a big chunk is people who are formerly at hedge funds…",
+        "chineseTitle": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+        "tags": [
+          "工程",
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今日最重磅的消息是 Anthropic 正式发布了 Claude Sonnet 5。官方称其在推理、工具使用、编码和知识工作方面相比 Sonnet 4.6 有实质性提升，性能接近 Opus 4.8 但价格更低。早期合作方（如 Box）反馈 Sonnet 5 能完成此前 Sonnet 系列无法收尾的复杂任务、会自动检查自身输出，且 Agent 能力在真实企业场景中表现突出。已作为 Free/Pro 的默认模型上线，并推出到 8 月底的优惠定价。",
+        "与此同时，OpenAI 的 Fable（推测为 GPT-5.6）的发布-安全审查-回撤-回归事件成为社区另一焦点。Peter Yang、Dan Shipper、Nikunj Kothari 等多位 Builder 在深夜表达期待，Aaron Levie 则给出了冷静的判断：Fable 的遭遇为未来 Frontier Model 发布开创了一个先例——具备显著编码和网络能力的新模型，将面临更严格的安全评估流程。这很可能成为后续模型（包括 GPT-5.6 和未来更新）的常态化流程。",
+        "工程侧有三条值得关注的信号。Guillermo Rauch 发布了 Vercel Services，允许在单个 Vercel 项目中同时部署 Python 后端、ExpressJS 服务器和 React SPA，统一本地开发、部署回滚和可观测性——这延续了 Vercel 将前后端边界模糊化的战略。Amjad Masad 分享了 Etched（针对 LLM 推理从零设计的芯片），指出 AI 昂贵的核心原因之一是大多数工作负载跑在预 LLM 时代的通用硬件上。Thariq 则澄清了 Claude Code 更新后的分类器机制：少量常规编码任务会被标记并回退到 Opus，团队正在持续降低误报。",
+        "组织方法论层面，Madhu Guru（前 Google Gemini/Veo PM）指出传统 PM 转型 AI-native 时最大的障碍是缺乏「魔法思维」——十年框架化、敏捷化和指标导向的培养让 PM 习惯于约束优先的渐进式思考。Aaron Levie 则用 Box 和 Ramp 的数据给出了一个反直觉结论：AI 采用率越高的公司，人员规模增长越快。58% 的受访中大型企业预计 AI 会带来人员增加而非减少。",
+        "最后，Aditya Agarwal（Dropbox 前 CTO）的一句观察值得反复品：驱动美国创新的主力模型，竟是中国的开源模型。这一格局在过去一年加速形成，对 AI Builders 的模型选择、成本结构和供应链思考都有深远影响。"
+      ],
+      "filteredNote": "过滤掉了 Swyx（AIEWF 会议动态）、Peter Yang（Fable 兴奋）、Dan Shipper（同上）、Matt Turck（非 AI 内容）、Zara Zhang（无实质 AI 内容）、Garry Tan（非 AI 内容）等低信号 / 日常内容。共保留 10 条高信号条目。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Claude / Anthropic",
+        "meta": "Anthropic · X 动态",
+        "title": "Claude Sonnet 5 发布：性能逼近 Opus 4.8，价格更低",
+        "summary": "Anthropic 正式发布 Sonnet 5，在推理、工具使用、编码和知识工作方面全面超越 Sonnet 4.6，接近 Opus 4.8 水平。早期合作方（含 Box）报告它能完成此前版本无法收尾的复杂任务，且会自动检查输出质量。已作为 Free/Pro 默认模型上线，提供到 8 月底的优惠定价。",
+        "keyPoints": [
+          "性能接近 Opus 4.8，但定价更低",
+          "Agent 场景下能独立完成复杂多步任务",
+          "已作为 Free/Pro 默认模型，Max/Team/Enterprise 也可使用",
+          "Box 的企业 Agent 评测中在能源、金融等领域超越 Sonnet 4.6"
+        ],
+        "whyItMatters": "Sonnet 系列首次在实用性上逼近 Opus 级别，且定价更低，将显著影响 AI Builders 的产品选型和成本结构。",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/claudeai/status/2072017452335087996"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Aaron Levie",
+        "meta": "Box CEO · X 动态",
+        "title": "AI 采用越多，公司招人越多：反直觉的数据信号",
+        "summary": "Aaron Levie 引用 Ramp 的数据和 Box 对 1600+ 中大型企业的调研指出：AI 采用率越高的公司，人员规模增长反而越快。58% 受访企业预计 AI 将带来人员增加而非减少。这一发现与「AI 消灭工作」的主流叙事直接矛盾。",
+        "keyPoints": [
+          "Ramp 发现高 AI 采用率公司的人员增长更高",
+          "Box 调研 1600+ 中大型企业，58% 预期 AI 增加人员",
+          "AI 更多是扩展能力而非替代岗位"
+        ],
+        "whyItMatters": "为 AI Builders 提供了面向企业客户时的核心叙事依据——AI 的价值主张不应建立在「省人」上。",
+        "tags": [
+          "组织",
+          "市场",
+          "产品"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/levie/status/2071992799109824562"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel CEO · X 动态",
+        "title": "Vercel Services：一个项目里同时跑 Python 后端 + Express 服务器 + React SPA",
+        "summary": "Rauch 发布 Vercel Services，允许在单个 Vercel 项目中协同部署多种运行时（Python API、ExpressJS、React SPA），统一本地开发（`vc dev`）、一键部署回滚、集中可观测性和内部网络。",
+        "keyPoints": [
+          "支持多运行时（Python、Node.js、React）同项目部署",
+          "统一本地开发和部署回滚体验",
+          "内部网络免去公网通信开销",
+          "进一步模糊前后端工程边界"
+        ],
+        "whyItMatters": "对于使用 Vercel 的 AI Builders 团队，这大幅降低了全栈 AI 应用（Python 推理层 + Node 中间层 + React 前端）的部署复杂度。",
+        "tags": [
+          "工程",
+          "产品",
+          "组织"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/rauchg/status/2071966055308607765"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月1日 · 周三",
+        "actor": "Aaron Levie",
+        "meta": "Box CEO · X 动态",
+        "title": "Fable 事件为前沿模型安全评估开创先例",
+        "summary": "Levie 认为 Fable（疑似 GPT-5.6）的发布-回撤-回归过程已为未来所有具备显著编码和网络能力的 Frontier Model 设立了安全审查先例。后续的生物安全等领域可能也会面临类似流程。",
+        "keyPoints": [
+          "Fable 安全评估流程可能成为行业标准",
+          "类似审查未来可能扩展到生物等敏感领域",
+          "模型发布节奏将受安全审查周期影响"
+        ],
+        "whyItMatters": "AI Builders 需要理解：前沿模型的发布将不再是简单的「发版」，而是一个包含安全审查、回撤和分阶段放开的复杂流程。",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/levie/status/2072172275017879829"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Amjad Masad",
+        "meta": "Replit CEO · X 动态",
+        "title": "AI 昂贵是因为硬件是预 LLM 时代的通用设计",
+        "summary": "Masad 指出当前 AI 推理成本高企的根本原因之一是大多数工作负载跑在预 LLM 时代的通用硬件上。Etched 是第一个从零设计、针对现代推理任务的系统。",
+        "keyPoints": [
+          "通用硬件（GPU）并非为 LLM 推理优化",
+          "专用芯片（如 Etched）有潜力大幅降低推理成本",
+          "硬件-软件协同设计是 AI 规模化的关键路径"
+        ],
+        "whyItMatters": "推理成本仍然是 AI 产品规模化的最大瓶颈之一。专用硬件的发展会直接影响 Builders 的产品经济模型。",
+        "tags": [
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/amasad/status/2071992110132117740"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Madhu Guru",
+        "meta": "前 Google Gemini/Veo PM · X 动态",
+        "title": "传统 PM 转型 AI-native 的最大障碍：缺乏魔法思维",
+        "summary": "Madhu Guru 指出十年框架化、敏捷化和指标导向的训练，让传统 PM 习惯约束优先的渐进式思考。他曾在团队中使用「假设你拥有一百年后的技术」的方法来对抗这种思维定式。",
+        "keyPoints": [
+          "框架和经验在 AI 时代可能成为认知枷锁",
+          "「魔法思维」是 AI-native PM 的核心能力",
+          "从约束优先转向可能性优先的思考方式"
+        ],
+        "whyItMatters": "对正在组建 AI 团队的 Builders 来说，团队成员的思维模式可能比技术能力更关键——传统 PM 需要主动「反驯化」。",
+        "tags": [
+          "组织",
+          "产品"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/realmadhuguru/status/2071970221477470694"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Aditya Agarwal",
+        "meta": "South Park Commons GP · X 动态",
+        "title": "推动美国创新的主力模型，来自中国的开源社区",
+        "summary": "Dropbox 前 CTO Aditya Agarwal 指出一个反常但已成现实的现象：驱动美国科技创新的基础模型，正在变成中国的开源模型。这一趋势在过去一年快速加速。",
+        "keyPoints": [
+          "中国开源模型（如 DeepSeek、Qwen）在美国创新生态中占据核心位置",
+          "开源模型 vs 闭源模型的竞争格局正在重塑",
+          "对模型供应链和地缘风险的长期影响"
+        ],
+        "whyItMatters": "AI Builders 在做模型选型和基础设施决策时，需要把开源模型的全球供应链格局纳入长期考量。",
+        "tags": [
+          "研究",
+          "市场",
+          "组织"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/adityaag/status/2071983952894837062"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月1日 · 周三",
+        "actor": "Thariq",
+        "meta": "Claude Code @ Anthropic · X 动态",
+        "title": "Claude Code 更新分类器机制：少量常规编码会被标记并回退到 Opus",
+        "summary": "Thariq 澄清了 Claude Code 更新后的分类器工作方式：一小部分常规编码和调试任务会被标记并回退到 Opus 处理。团队正在持续优化分类器，更好地区分真实滥用和合法请求，降低误报率。",
+        "keyPoints": [
+          "分类器会标记少量常规编码任务并回退到 Opus",
+          "团队在持续降低误报率",
+          "这是安全与用户体验之间的经典权衡"
+        ],
+        "whyItMatters": "Claude Code 的安全分类器机制反映了 AI 编程工具在产品化过程中面临的核心矛盾——安全防护 vs 开发效率。",
+        "tags": [
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 76,
+        "url": "https://x.com/trq212/status/2072185565076988326"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月1日 · 周三",
+        "actor": "Peter Steinberger",
+        "meta": "独立开发者 · X 动态",
+        "title": "Price per token ≠ Cost per task：模型选型的关键思维转变",
+        "summary": "Steinberger 指出 AI Builder 社区过度关注 token 单价，而真正重要的是完成一个任务的「总成本」。这涉及到模型选型、循环次数、错误重试率等多个维度。",
+        "keyPoints": [
+          "低 token 单价可能因高重试率导致总成本更高",
+          "更强的模型即使单价更高，任务总成本可能更低",
+          "工程团队应建立「任务级」成本监控而非 token 级"
+        ],
+        "whyItMatters": "在模型选择日趋多样化的当下，以「任务完成成本」而非「token 单价」做决策，能帮助 AI Builders 做出更理性的架构选择。",
+        "tags": [
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 75,
+        "url": "https://x.com/steipete/status/2072144627474579925"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "6月30日 · 周二",
+        "actor": "Boris Cherny",
+        "meta": "Claude Code @ Anthropic · X 动态",
+        "title": "Claude Desktop 正式支持 Linux",
+        "summary": "Boris Cherny 宣布 Claude Desktop 推出 Linux 版本，提供下载链接。此前 Linux 用户仅能通过 API 或浏览器使用 Claude。",
+        "keyPoints": [
+          "Claude Desktop 现支持 Linux 原生桌面环境",
+          "社区长期呼吁的功能终于落地",
+          "对 Linux 为主的 AI 工程团队意义重大"
+        ],
+        "whyItMatters": "Linux 在 AI 工程社区中的普及率极高，原生桌面客户端的缺失一直是 Claude 用户的最大痛点之一。这一补全将直接影响开发者采用决策。",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 74,
+        "url": "https://x.com/bcherny/status/2072000214634742243"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "displayDate": "7月1日 · 周三",
     "generatedAt": "2026-07-01T00:35:57.228254+00:00",
