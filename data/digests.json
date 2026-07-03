@@ -1,5 +1,596 @@
 [
   {
+    "date": "2026-07-04",
+    "displayDate": "7月4日 · 周六",
+    "generatedAt": "2026-07-03T23:34:23.343479+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-03T07:25:51.136Z",
+      "blogs": "2026-07-03T07:26:31.440Z",
+      "podcasts": "2026-07-03T07:26:27.130Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "Claude Tag 组织级落地数据曝光、GPT-5.6 Sol Ultra 预热、Fable 生态进入实操期",
+    "editorNote": "今日信号密集：Anthropic 内部 Claude Tag 处理 65% 产品 PR，Cat Wu 公开了 rollout 剧本；NVIDIA 实验室为什么免费送模型终于在播客里说清楚了；Aaron Levie 对 Enterprise Agent 落地的判断值得每个 builder 认真读一遍。",
+    "stats": {
+      "builders": 18,
+      "tweets": 36,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "产品",
+          "count": 9
+        },
+        {
+          "name": "工程",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "组织",
+          "count": 3
+        },
+        {
+          "name": "研究",
+          "count": 1
+        }
+      ]
+    },
+    "dailyInsight": {
+      "paragraphs": [
+        "今天是 Fable 从订阅计划中移除（7 月 7 日）前的最后一个周末，信息流被 Anthropic 和 Fable/Claude Tag 相关话题主导。Cat Wu 罕见公开了 Claude Tag 在 Anthropic 内部的具体落地数据：覆盖 eng/product/data/sales/marketing 全部门，内部版本处理 65% 的产品 PR。这可能是目前最实在的 AI coding tool 在全公司范围 scale 的案例研究——不是 POC，不是 pilot，是出货数据。",
+        "Thibault Sottiaux（OpenAI Codex/ChatGPT 团队）的一则短推 \"Can't wait to see what people will do with GPT-5.6 Sol Ultra\" 在技术社区引发热议。\"Sol Ultra\" 后缀暗示这可能是比目前 ChatGPT 所用模型更极致的推理版本，OpenAI 在 5.6 系列上还有一层天花板没打开。同一天 Peter Yang 发布了 Fable 实操指南——用便宜模型做 context prep、用 Fable 做规划但用其他模型执行——说明即使是最前沿的 agent 产品，实用工作流仍然需要分层解耦。",
+        "Vercel CEO Guillermo Rauch 把 AI Gateway 重新定义为 Token Delivery Network (Token CDN)，核心论点：当模型和 agent 层快速演变（如 Fable 突然退役），生产架构需要像 CDN 一样的动态路由和流量调度能力，而不是硬编码依赖。Box CEO Aaron Levie 则给出了 Enterprise Agent 的冷静判断：现有企业工作流不是为 Agent 设计的，部署 AI beyond chatbot 需要真实的业务流程对齐工程——不是 API call 能解决的。",
+        "Matt Turck 与 NVIDIA VP of AI Research Bryan Catanzaro 的播客对话完整呈现了 NVIDIA 开源模型策略的底层逻辑：作为芯片公司，免费送模型是为了拓展 CUDA 生态的护城河，而不是为了和 OpenAI/Anthropic 比模型性能。这个访谈也透露了打造前沿 AI lab 需要什么样的工程文化和资源配置——对于思考要不要建自己的 AI lab 的团队是个很好的参考。",
+        "Zara Zhang 分享了一个真实案例：刚毕业的大学生说他们在校时把 lecture deck 喂给 AI、让 AI 来教课，发现 AI 教得比教授更好。这表面上是教育 anecdote，实质是知识分发方式正在发生结构性变化——当 AI 可以替代讲授环节，大学的价值定位需要被重新审视。"
+      ],
+      "filteredNote": "过滤掉了 Sam Altman 世界杯观赛、Swyx AIE 活动 logistic、Garry Tan \"It's time to build\" 空喊、Aditya Agarwal 个人生活、Rauch 法国斗牛犬/纯工程技巧、Nikunj Kothari 泛泛人生感悟、Peter Steinberger Apple Watch 客服对话等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月3日 · 周五",
+        "actor": "Cat Wu",
+        "meta": "Anthropic · X 动态",
+        "title": "Claude Tag 组织级落地：65% 产品 PR 来自 AI，全部门覆盖",
+        "summary": "Cat Wu 详细披露了 Claude Tag 在 Anthropic 内部的真实落地效果：从 eng 扩展到 product/data/sales/marketing，内部版本处理了 65% 的产品 PR。同时公开了 CEO/CTO 级的 rollout 剧本、从第一天就内置安全设计的理念，以及对未来工作方式的判断。",
+        "keyPoints": [
+          "Claude Tag 覆盖组织内所有部门，不止工程",
+          "内部版本处理 65% 的产品 PR",
+          "公开了从 CEO/CTO 层面推广 AI 工具的具体 playbook",
+          "安全架构从第一天设计，不是事后补丁"
+        ],
+        "whyItMatters": "这是目前最透明、最量化的企业内部 AI coding tool 大规模落地案例。65% PR 数据是一个里程碑级的参考基准。",
+        "tags": [
+          "Agent",
+          "产品",
+          "组织"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/_catwu/status/2072731500928508331"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月2日 · 周四",
+        "actor": "Boris Cherny",
+        "meta": "Anthropic Claude Code · X 动态",
+        "title": "Claude Code Artifacts 上线，将扩展到 Pro/Max 用户",
+        "summary": "Boris Cherny 表示 Claude Code 的 Artifacts 功能是革命性的，并确认该功能即将扩展到 Pro 和 Max 订阅层级。Artifacts 让 Claude Code 不只是生成代码，还可以创建可可视化、可交互的输出产物。",
+        "keyPoints": [
+          "Artifacts 在 Claude Code 中已内部使用并改变工作方式",
+          "即将从当前用户扩展到 Pro/Max 层级",
+          "Artifacts 将 Claude Code 从纯代码工具升级为多模态产出工具"
+        ],
+        "whyItMatters": "Artifacts 是 Claude Code 区别于其他 AI coding tool 的关键差异点，扩展用户层级意味着 Anthropic 认为它已经 ready for prime time。",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 75,
+        "url": "https://x.com/bcherny/status/2072777472970563995"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月2日 · 周四",
+        "actor": "Claude",
+        "meta": "Anthropic · X 动态",
+        "title": "从 Claude Code 到 Claude Tag：Anthropic 内部的工程文化变革实录",
+        "summary": "Claude 官方账号发布了 Boris Cherny 和 Cat Wu 的对谈，详细讲述了 Claude Code 如何演变为 Claude Tag，以及这一工具如何从工程团队蔓延到 Anthropic 整个组织。同时宣布 Claude Fable 5 已在 Claude Tag 中可用。",
+        "keyPoints": [
+          "Claude Code 到 Claude Tag 的演化路径清晰呈现",
+          "从工程团队到全组织 spread 的具体过程",
+          "Fable 5 已集成到 Claude Tag 中"
+        ],
+        "whyItMatters": "这条对谈是理解 AI coding tool 如何改变一家 AI 公司内部协作方式的原始史料。",
+        "tags": [
+          "产品",
+          "工程",
+          "Agent"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/claudeai/status/2072725610061803522"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月2日 · 周四",
+        "actor": "Thibault Sottiaux",
+        "meta": "OpenAI Codex · X 动态",
+        "title": "GPT-5.6 Sol Ultra 预热：OpenAI 还有一张牌没打",
+        "summary": "Thibault Sottiaux（OpenAI Codex/ChatGPT 团队成员）暗示 GPT-5.6 Sol Ultra 即将到来，并建议开发者提前准备最难的 prompt。Sol Ultra 命名暗示这可能是一个比当前 ChatGPT 所用模型更强力的推理版本，可能面向更复杂的推理和 coding 场景。",
+        "keyPoints": [
+          "\"Stash your hardest prompts somewhere\" 是直接的产品信号",
+          "Sol Ultra 暗示这是 GPT-5.6 系列的极致推理版本",
+          "为开发者提前做好上线准备提供了明确窗口"
+        ],
+        "whyItMatters": "来自 OpenAI 核心团队的直接产品预热，对依赖 OpenAI API 的 builder 是重要的 roadmap 信号。",
+        "tags": [
+          "产品"
+        ],
+        "qualityScore": 72,
+        "url": "https://x.com/thsottiaux/status/2072607914217320644"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月3日 · 周五",
+        "actor": "Peter Yang",
+        "meta": "AI Builder · X 动态",
+        "title": "Fable 实操指南：分层解耦才是 Agent 工作流的正确姿势",
+        "summary": "Peter Yang 在 Fable 即将从订阅中移除（7月7日）前发布了实操策略：用便宜模型做 context preparation，用 Fable 做规划但用另一个模型执行，以及使用低 effort 模式并监控 Fable 的行为。配套教程覆盖了 5 个值得用 Fable 的 use case。",
+        "keyPoints": [
+          "分层策略：便宜模型做 context prep，Fable 做规划，另一模型做执行",
+          "低 effort 模式加人工 babysit 是目前最佳实践",
+          "5 个具体的 Fable use case 教程"
+        ],
+        "whyItMatters": "Fable 是当前最有野心的 AI agent 产品之一，学会如何在使用受限前最大化价值对所有 builder 都有实际意义。",
+        "tags": [
+          "产品",
+          "Agent"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/petergyang/status/2072842766053499353"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月3日 · 周五",
+        "actor": "Aaron Levie",
+        "meta": "Box CEO · X 动态",
+        "title": "Enterprise Agent 落地的真实挑战：工作流不是为 AI 设计的",
+        "summary": "Box CEO Aaron Levie 给出了一个冷静但重要的判断：企业级 AI 部署远超 chatbot 层面，需要真正将 AI 系统对齐到底层业务流程中。大多数现有企业工作流不是为 AI agent 设计的，要让 agent 无缝接入需要大量的业务流程再造工作。",
+        "keyPoints": [
+          "企业工作流在设计时没有考虑 AI agent 的介入",
+          "AI 系统需要与底层业务流程对齐才能产生期望结果",
+          "部署 AI beyond chatbot 是真实的工程挑战，不是 API call 能解决的"
+        ],
+        "whyItMatters": "Levie 同时是 CEO 和深度技术实践者，他的判断比纯分析师更有说服力。对所有想做 Enterprise Agent 的 startup 是必须认真面对的现实。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/levie/status/2072875685811716182"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月2日 · 周四",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel CEO · X 动态",
+        "title": "AI Gateway 约等于 Token CDN：应对模型层快速演变的架构框架",
+        "summary": "Guillermo Rauch 将 AI Gateway 重新定义为 Token Delivery Network（Token CDN）。核心观点：当模型和 agent 层快速变化（如 Fable 突然退役），生产架构需要 CDN 式的动态路由、流量调度和降级能力，而不是硬编码依赖单一模型。",
+        "keyPoints": [
+          "AI Gateway 本质上是模型层的 CDN（Token Delivery Network）",
+          "动态路由和降级能力在模型快速迭代时代成为必须",
+          "Fable 退役事件暴露了硬编码模型依赖的风险"
+        ],
+        "whyItMatters": "这个框架化解释把 AI Gateway 从简单的 proxy 提升到架构基础设施层面，对构建生产级 AI 系统的团队有直接参考价值。",
+        "tags": [
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/rauchg/status/2072741369848746315"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月3日 · 周五",
+        "actor": "Zara Zhang",
+        "meta": "Builder · X 动态",
+        "title": "AI 正在替代大学讲课环节：一个正在发生的结构性变化",
+        "summary": "Zara Zhang 分享了一位刚毕业大学生的真实行为模式：学生在校期间把 lecture deck 喂给 AI 让 AI 教自己，结果发现 AI 教得比教授更好。这不是孤例，而是一种正在扩散的知识获取方式转变。",
+        "keyPoints": [
+          "学生主动用 AI 替代 lecture 已经成为可复现的模式",
+          "AI 教学效果被认为优于真人教授（针对 lecture 场景）",
+          "对大学的传统价值定位（知识传递者）构成了实质性挑战"
+        ],
+        "whyItMatters": "这是 AI 在教育领域真实落地的信号，不是 policy 层面的讨论，而是用户已经在用脚投票。",
+        "tags": [
+          "产品",
+          "观察"
+        ],
+        "qualityScore": 74,
+        "url": "https://x.com/zarazhangrui/status/2072729444943577601"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月2日 · 周四",
+        "actor": "Matt Turck x Bryan Catanzaro",
+        "meta": "MAD Podcast / FirstMark Capital",
+        "title": "NVIDIA 为什么免费送模型：芯片公司 AI Lab 策略的底层逻辑",
+        "summary": "Matt Turck 与 NVIDIA VP of AI Research Bryan Catanzaro 深度对话。NVIDIA 作为芯片公司，投入数百人做 AI 研究却把模型免费开源，底层逻辑是：免费模型扩大 CUDA 生态护城河，模型本身不是产品而是芯片的应用层钩子。对话还覆盖了 Nemotron 模型路线图、打造前沿 AI lab 需要的工程文化、以及 frontier AI 的未来判断。",
+        "keyPoints": [
+          "NVIDIA 免费开源模型的核心动机是扩大 CUDA 生态壁垒，而非与 OpenAI/Anthropic 竞争",
+          "Nemotron 模型与 NVIDIA 硬件形成正向飞轮",
+          "Bryan Catanzaro 分享了打造世界级 AI lab 的工程文化与资源配置原则",
+          "Frontier AI 的未来取决于系统级创新而非单纯扩大参数规模"
+        ],
+        "whyItMatters": "这篇对谈解释了 AI 基础设施层最大的谜题之一——NVIDIA 的模型策略。对任何思考 AI 公司战略、开源策略和生态建设的 builder 都是必读。",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/mattturck/status/2072723410975629364"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月2日 · 周四",
+        "actor": "Claude",
+        "meta": "Anthropic · X 动态",
+        "title": "Built with Claude: Life Sciences 全球黑客松，100k 奖金池",
+        "summary": "Claude 宣布与 Gladstone Institute 联合举办 Built with Claude: Life Sciences 全球线上黑客松。活动 7 月 7-13 日举行，奖金池 100k 积分，使用 Claude Science 和 Claude Code 进行研究与构建。",
+        "keyPoints": [
+          "全球线上赛制，7 月 7-13 日",
+          "与顶尖生物医学研究机构 Gladstone Institute 联合举办",
+          "使用 Claude Science 和 Claude Code 作为工具栈",
+          "100k 积分奖金池"
+        ],
+        "whyItMatters": "这是 Anthropic 在生命科学领域的重要生态拓展信号，对关注 AI + Biology 交叉领域的 builder 是直接的机会入口。",
+        "tags": [
+          "产品"
+        ],
+        "qualityScore": 70,
+        "url": "https://x.com/claudeai/status/2072681853971001849"
+      }
+    ],
+    "toplines": [
+      {
+        "title": "Claude Tag 组织级落地：65% 产品 PR 来自 AI",
+        "source": "Cat Wu . X 动态",
+        "url": "https://x.com/_catwu/status/2072731500928508331",
+        "sourceDate": "2026-07-02",
+        "sourceDisplayDate": "7月2日 . 周四",
+        "summary": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs.",
+        "chineseTitle": "Claude Tag 组织级落地数据公开：65% 产品 PR 来自 AI",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "score": 594
+      },
+      {
+        "title": "GPT-5.6 Sol Ultra 预热信号",
+        "source": "Thibault Sottiaux . X 动态",
+        "url": "https://x.com/thsottiaux/status/2072607914217320644",
+        "sourceDate": "2026-07-02",
+        "sourceDisplayDate": "7月2日 . 周四",
+        "summary": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
+        "chineseTitle": "OpenAI 核心成员暗示 GPT-5.6 Sol Ultra 即将到来",
+        "tags": [
+          "产品"
+        ],
+        "score": 12299
+      },
+      {
+        "title": "Enterprise Agent 落地的真实挑战",
+        "source": "Aaron Levie . X 动态",
+        "url": "https://x.com/levie/status/2072875685811716182",
+        "sourceDate": "2026-07-03",
+        "sourceDisplayDate": "7月3日 . 周五",
+        "summary": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes.",
+        "chineseTitle": "Box CEO Aaron Levie：企业工作流不是为 Agent 设计的",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "score": 215
+      },
+      {
+        "title": "AI Gateway = Token CDN",
+        "source": "Guillermo Rauch . X 动态",
+        "url": "https://x.com/rauchg/status/2072741369848746315",
+        "sourceDate": "2026-07-02",
+        "sourceDisplayDate": "7月2日 . 周四",
+        "summary": "We've been explaining AI Gateway as a Token Delivery Network. Like a CDN for AI models.",
+        "chineseTitle": "Vercel CEO 把 AI Gateway 重新定义为 Token CDN",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 310
+      },
+      {
+        "title": "NVIDIA 为什么免费送模型",
+        "source": "Matt Turck . X 动态",
+        "url": "https://x.com/mattturck/status/2072723410975629364",
+        "sourceDate": "2026-07-02",
+        "sourceDisplayDate": "7月2日 . 周四",
+        "summary": "Inside Nemotron and NVIDIA's AI lab: why does NVIDIA put hundreds of researchers on building AI models and give them away for free?",
+        "chineseTitle": "NVIDIA AI Lab 内部对话：免费模型的真实动机",
+        "tags": [
+          "工程",
+          "组织"
+        ],
+        "score": 243
+      }
+    ],
+    "builders": [
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "summary": "Claude Tag 组织级落地数据：65% 产品 PR，全部门覆盖",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2072731500928508331",
+            "url": "https://x.com/_catwu/status/2072731500928508331",
+            "createdAt": "2026-07-02T17:17:53.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs. We cover the CEO/CTO playbook for rolling it out, why security was designed in from day one, and what this means for the future of work.",
+            "summary": "Claude Tag is unlocking productivity across our entire org...",
+            "engagement": 594,
+            "tags": [
+              "产品",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "summary": "Artifacts in Claude Code: life changing, expanding to Pro and Max",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2072777472970563995",
+            "url": "https://x.com/bcherny/status/2072777472970563995",
+            "createdAt": "2026-07-02T20:20:34.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "Artifacts in Claude Code have been life changing. Excited to expand to Pro and Max!",
+            "summary": "Artifacts in Claude Code have been life changing...",
+            "engagement": 2115,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "GPT-5.6 Sol Ultra incoming - stash your hardest prompts",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2072607914217320644",
+            "url": "https://x.com/thsottiaux/status/2072607914217320644",
+            "createdAt": "2026-07-02T09:06:48.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
+            "summary": "Can't wait to see what people will do with GPT-5.6 Sol Ultra...",
+            "engagement": 12299,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Enterprise AI deployment requires real workflow alignment work",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2072875685811716182",
+            "url": "https://x.com/levie/status/2072875685811716182",
+            "createdAt": "2026-07-03T02:50:50.000Z",
+            "sourceDate": "2026-07-03",
+            "sourceDisplayDate": "7月3日 . 周五",
+            "text": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes they're involved in and drive the desired outcomes. Most workflows weren't designed for AI agents to just drop into.",
+            "summary": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work...",
+            "engagement": 215,
+            "tags": [
+              "Agent",
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "AI Gateway as a Token Delivery Network - like CDN for AI models",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2072741369848746315",
+            "url": "https://x.com/rauchg/status/2072741369848746315",
+            "createdAt": "2026-07-02T17:57:06.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "We've been explaining AI Gateway as a Token Delivery Network. Like a CDN for AI models. One great feature of CDNs is the ability to dynamically re-route or deny traffic without redeployment. When Fable was suddenly retired, we worried about production workloads depending on it.",
+            "summary": "We've been explaining AI Gateway as a Token Delivery Network...",
+            "engagement": 310,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews | AI builder",
+        "summary": "Getting the most out of Fable: prep with cheap models, plan with Fable, execute with another",
+        "tags": [
+          "产品",
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2072842766053499353",
+            "url": "https://x.com/petergyang/status/2072842766053499353",
+            "createdAt": "2026-07-03T00:40:01.000Z",
+            "sourceDate": "2026-07-03",
+            "sourceDisplayDate": "7月3日 . 周五",
+            "text": "How I'm getting the most out of Fable before July 7: 1. Prep context with cheaper models 2. Plan with Fable, execute with another model 3. Use lower effort, like Medium, and babysit what Fable is doing",
+            "summary": "How I'm getting the most out of Fable before July 7...",
+            "engagement": 67,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions.",
+        "summary": "Students are replacing lectures with AI and finding AI teaches better",
+        "tags": [
+          "观察",
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2072729444943577601",
+            "url": "https://x.com/zarazhangrui/status/2072729444943577601",
+            "createdAt": "2026-07-02T17:09:43.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "A recent college grad told me that when they were in school, they would feed the lecture decks to an AI and ask it to teach the material (instead of attending the actual lecture) They often found that the AI taught better than the professors",
+            "summary": "A recent college grad told me...",
+            "engagement": 313,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at FirstMark Capital. Host: MAD Podcast.",
+        "summary": "Inside Nemotron and NVIDIA's AI lab: why give models away for free?",
+        "tags": [
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2072723410975629364",
+            "url": "https://x.com/mattturck/status/2072723410975629364",
+            "createdAt": "2026-07-02T16:45:45.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "Inside Nemotron and NVIDIA's AI lab: my conversation with Bryan Catanzaro. @nvidia is a chip company. So why does it put hundreds of researchers on building AI models - and then give them away for free? We go deep into the Nemotron models, what it takes to build a top AI lab, and the future of frontier AI.",
+            "summary": "Inside Nemotron and NVIDIA's AI lab...",
+            "engagement": 243,
+            "tags": [
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "AI built by @anthropicai",
+        "summary": "Built with Claude: Life Sciences hackathon; Claude Tag conversation with Boris Cherny and Cat Wu",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2072725610061803522",
+            "url": "https://x.com/claudeai/status/2072725610061803522",
+            "createdAt": "2026-07-02T16:54:29.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "A conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag, and how it spread from engineering to the rest of Anthropic.",
+            "summary": "A conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag...",
+            "engagement": 3359,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2072681853971001849",
+            "url": "https://x.com/claudeai/status/2072681853971001849",
+            "createdAt": "2026-07-02T14:00:37.000Z",
+            "sourceDate": "2026-07-02",
+            "sourceDisplayDate": "7月2日 . 周四",
+            "text": "Announcing Built with Claude: Life Sciences, a global virtual hackathon. Join us and @GladstoneInst for a week of researching and building with Claude Science and Claude Code.",
+            "summary": "Announcing Built with Claude: Life Sciences...",
+            "engagement": 6167,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": []
+  },
+  {
     "date": "2026-07-03",
     "displayDate": "7月3日 · 周五",
     "generatedAt": "2026-07-02T23:30:27.529283+00:00",
