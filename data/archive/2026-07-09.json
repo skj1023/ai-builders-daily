@@ -1,0 +1,764 @@
+{
+  "date": "2026-07-09",
+  "displayDate": "7月9日 · 周四",
+  "generatedAt": "2026-07-08T23:30:35.260517+00:00",
+  "sourceGeneratedAt": {
+    "x": "2026-07-08T07:08:54.259Z",
+    "blogs": "2026-07-08T07:09:30.141Z",
+    "podcasts": "2026-07-08T07:09:29.173Z"
+  },
+  "source": "follow-builders public central feed",
+  "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+  "headline": "今天的信息流集中在 观察、产品、工程、Agent、研究：16 位 AI Builders、1 篇深度文章、1 期播客摘录。",
+  "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+  "stats": {
+    "builders": 16,
+    "tweets": 32,
+    "blogs": 1,
+    "podcasts": 1,
+    "topTags": [
+      {
+        "name": "观察",
+        "count": 14
+      },
+      {
+        "name": "产品",
+        "count": 12
+      },
+      {
+        "name": "工程",
+        "count": 6
+      },
+      {
+        "name": "Agent",
+        "count": 6
+      },
+      {
+        "name": "研究",
+        "count": 5
+      }
+    ]
+  },
+  "toplines": [
+    {
+      "title": "来自 Claude 的观点",
+      "source": "Claude · X 动态",
+      "url": "https://x.com/claudeai/status/2074548242386178258",
+      "sourceDate": "2026-07-07",
+      "sourceDisplayDate": "7月7日 · 周二",
+      "summary": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "chineseTitle": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "tags": [
+        "产品"
+      ],
+      "score": 103885
+    },
+    {
+      "title": "来自 Sam Altman 的观点",
+      "source": "Sam Altman · X 动态",
+      "url": "https://x.com/sama/status/2074709023807664454",
+      "sourceDate": "2026-07-08",
+      "sourceDisplayDate": "7月8日 · 周三",
+      "summary": "GPT-5.6 sol launches thursday! happy building",
+      "chineseTitle": "GPT-5.6 sol launches thursday! happy building",
+      "tags": [
+        "产品"
+      ],
+      "score": 16064
+    },
+    {
+      "title": "来自 Thibault Sottiaux 的观点",
+      "source": "Thibault Sottiaux · X 动态",
+      "url": "https://x.com/thsottiaux/status/2074705681920520526",
+      "sourceDate": "2026-07-08",
+      "sourceDisplayDate": "7月8日 · 周三",
+      "summary": "Prepare your sunglasses. Sol is coming. 😎",
+      "chineseTitle": "Prepare your sunglasses. Sol is coming. 😎",
+      "tags": [
+        "观察"
+      ],
+      "score": 5208
+    },
+    {
+      "title": "来自 Peter Steinberger 的观点",
+      "source": "Peter Steinberger · X 动态",
+      "url": "https://x.com/steipete/status/2074638582418231495",
+      "sourceDate": "2026-07-07",
+      "sourceDisplayDate": "7月7日 · 周二",
+      "summary": "If you run this workflow, ask Fable to make codex the workhorse.",
+      "chineseTitle": "If you run this workflow, ask Fable to make codex the workhorse.",
+      "tags": [
+        "产品",
+        "Agent",
+        "工程"
+      ],
+      "score": 3990
+    },
+    {
+      "title": "来自 Claude 的观点",
+      "source": "Claude · X 动态",
+      "url": "https://x.com/claudeai/status/2074548243971604641",
+      "sourceDate": "2026-07-07",
+      "sourceDisplayDate": "7月7日 · 周二",
+      "summary": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5…",
+      "chineseTitle": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5…",
+      "tags": [
+        "产品",
+        "研究"
+      ],
+      "score": 3308
+    }
+  ],
+  "builders": [
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+      "summary": "it_happening.gif",
+      "tags": [
+        "观察"
+      ],
+      "tweets": [
+        {
+          "id": "2074683022503490012",
+          "url": "https://x.com/swyx/status/2074683022503490012",
+          "createdAt": "2026-07-08T02:32:32.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "it_happening.gif",
+          "summary": "it_happening.gif",
+          "engagement": 349,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "summary": "Prepare your sunglasses. Sol is coming. 😎",
+      "tags": [
+        "观察"
+      ],
+      "tweets": [
+        {
+          "id": "2074705681920520526",
+          "url": "https://x.com/thsottiaux/status/2074705681920520526",
+          "createdAt": "2026-07-08T04:02:35.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "Prepare your sunglasses. Sol is coming. 😎",
+          "summary": "Prepare your sunglasses. Sol is coming. 😎",
+          "engagement": 5208,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+      "summary": "Dumb question: I’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use…",
+      "tags": [
+        "产品",
+        "工程",
+        "研究"
+      ],
+      "tweets": [
+        {
+          "id": "2074616982197174515",
+          "url": "https://x.com/petergyang/status/2074616982197174515",
+          "createdAt": "2026-07-07T22:10:07.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "Dumb question: I’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use. But should I run these jobs in the cloud instead with these apps OAuth’d to my Claude or ChatGPT account? How should I think about what jobs should stay local…",
+          "summary": "Dumb question: I’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use…",
+          "engagement": 124,
+          "tags": [
+            "产品",
+            "工程"
+          ]
+        },
+        {
+          "id": "2074733842230108672",
+          "url": "https://x.com/petergyang/status/2074733842230108672",
+          "createdAt": "2026-07-08T05:54:29.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "So what is the qualification criteria for folks to get early access to this model?",
+          "summary": "So what is the qualification criteria for folks to get early access to this model?",
+          "engagement": 68,
+          "tags": [
+            "研究"
+          ]
+        },
+        {
+          "id": "2074705840284815678",
+          "url": "https://x.com/petergyang/status/2074705840284815678",
+          "createdAt": "2026-07-08T04:03:13.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process. Who's the best person to talk to?",
+          "summary": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs…",
+          "engagement": 53,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "bio": "head of product @linear",
+      "summary": "starting a family tbh",
+      "tags": [
+        "观察"
+      ],
+      "tweets": [
+        {
+          "id": "2074484075314733323",
+          "url": "https://x.com/thenanyu/status/2074484075314733323",
+          "createdAt": "2026-07-07T13:22:00.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "starting a family tbh",
+          "summary": "starting a family tbh",
+          "engagement": 10,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "summary": "having worked with Brendan and mercor, can confirm they are excellent…",
+      "tags": [
+        "产品",
+        "研究"
+      ],
+      "tweets": [
+        {
+          "id": "2074658481760821390",
+          "url": "https://x.com/realmadhuguru/status/2074658481760821390",
+          "createdAt": "2026-07-08T00:55:01.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "having worked with Brendan and mercor, can confirm they are excellent. also having worked in ai models for enterprise, can confirm the opportunity around data and evals for enterprise is massssive.",
+          "summary": "having worked with Brendan and mercor, can confirm they are excellent…",
+          "engagement": 68,
+          "tags": [
+            "研究"
+          ]
+        },
+        {
+          "id": "2074576440268661107",
+          "url": "https://x.com/realmadhuguru/status/2074576440268661107",
+          "createdAt": "2026-07-07T19:29:01.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "guys, stop fixing typos and audio transcription errors in your prompts to ai. they cracked the IMO. they know what ‘teh’ is.",
+          "summary": "guys, stop fixing typos and audio transcription errors in your prompts to ai…",
+          "engagement": 49,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074734468854899191",
+          "url": "https://x.com/realmadhuguru/status/2074734468854899191",
+          "createdAt": "2026-07-08T05:56:58.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. in practice, the model lifecycle looks something like model strategy -> evals -> pre/post training/rl aligned to evals -> GTM. like any product strategy, you need strong opinions up front but it…",
+          "summary": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models…",
+          "engagement": 11,
+          "tags": [
+            "产品",
+            "研究"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+      "summary": "This is a good clip that shows a few layouts…",
+      "tags": [
+        "产品"
+      ],
+      "tweets": [
+        {
+          "id": "2074622734118924561",
+          "url": "https://x.com/trq212/status/2074622734118924561",
+          "createdAt": "2026-07-07T22:32:59.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "This is a good clip that shows a few layouts. I'm pretty happy with this, maybe the slide layout could be a bit different and I'm curious how it will alternate between camera cuts. That's all for now, will get Claude to do a full render & report back later.",
+          "summary": "This is a good clip that shows a few layouts…",
+          "engagement": 38,
+          "tags": [
+            "产品"
+          ]
+        },
+        {
+          "id": "2074619715826381168",
+          "url": "https://x.com/trq212/status/2074619715826381168",
+          "createdAt": "2026-07-07T22:20:59.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "I really like how it takes some of the slides which are static (each one of these is its own slide in the original deck) and turns them into animations.",
+          "summary": "I really like how it takes some of the slides which are static (each one of these is its own slide in the original deck) and turns them into animations.",
+          "engagement": 33,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074619539145568562",
+          "url": "https://x.com/trq212/status/2074619539145568562",
+          "createdAt": "2026-07-07T22:20:17.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "Claude decided to make Youtube short clips. Again the transcription is really chaotic (and the video quality is purposefully low for quick rendering).",
+          "summary": "Claude decided to make Youtube short clips…",
+          "engagement": 22,
+          "tags": [
+            "产品"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "bio": "@vercel CEO",
+      "summary": "Heavenly victory 🇦🇷 Welcome @bekacru to Vercel…",
+      "tags": [
+        "Agent",
+        "工程",
+        "研究"
+      ],
+      "tweets": [
+        {
+          "id": "2074555608578281920",
+          "url": "https://x.com/rauchg/status/2074555608578281920",
+          "createdAt": "2026-07-07T18:06:15.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "Heavenly victory 🇦🇷",
+          "summary": "Heavenly victory 🇦🇷",
+          "engagement": 1666,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074523653488947338",
+          "url": "https://x.com/rauchg/status/2074523653488947338",
+          "createdAt": "2026-07-07T15:59:16.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "Welcome @bekacru to Vercel. It's a privilege to join forces with Bereket and Better Auth to further our Open SDK vision. Developers deserve better auth, to serve humans and agents, built in the open and with taste. That's what Bereket has accomplished. Congrats! 🇪🇹🇺🇸",
+          "summary": "Welcome @bekacru to Vercel. It's a privilege to join forces with Bereket and Better Auth to further our Open SDK vision…",
+          "engagement": 1143,
+          "tags": [
+            "Agent"
+          ]
+        },
+        {
+          "id": "2074630835878453601",
+          "url": "https://x.com/rauchg/status/2074630835878453601",
+          "createdAt": "2026-07-07T23:05:10.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "The filesystem is beautiful. Want your agent to have GitHub powers? Define 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and export 𝚌𝚛𝚎𝚊𝚝𝚎𝙶𝚒𝚝𝚑𝚞𝚋𝚃𝚘𝚘𝚕𝚜(). Eve exists to shape an open ecosystem of pluggable models, skills, channels, and tools like this ↓",
+          "summary": "The filesystem is beautiful. Want your agent to have GitHub powers…",
+          "engagement": 298,
+          "tags": [
+            "Agent",
+            "工程",
+            "研究"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "summary": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents…",
+      "tags": [
+        "产品",
+        "Agent",
+        "工程"
+      ],
+      "tweets": [
+        {
+          "id": "2074719479377109312",
+          "url": "https://x.com/levie/status/2074719479377109312",
+          "createdAt": "2026-07-08T04:57:24.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out: * Lots of conversation that you have to solve an operating model challenge to get the full benefits of AI. Most companies have orgs that have always operated in siloes; but…",
+          "summary": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents…",
+          "engagement": 529,
+          "tags": [
+            "产品",
+            "Agent",
+            "工程"
+          ]
+        },
+        {
+          "id": "2074528241990394178",
+          "url": "https://x.com/levie/status/2074528241990394178",
+          "createdAt": "2026-07-07T16:17:30.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "A small percentage of useful data is on the open web available to all models for training or for agents to operate with. Most of it lives inside of organizations and often is in legacy systems, in people’s heads, or is fragmented across the enterprise. It’s the marketing plans, product roadmaps, development practices,…",
+          "summary": "A small percentage of useful data is on the open web available to all models for training or for agents to operate with…",
+          "engagement": 199,
+          "tags": [
+            "产品",
+            "Agent",
+            "工程"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+      "summary": "Common sense Democrats take note Time to organize against radical leftism and asset seizure inside the party Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history Dirty s…",
+      "tags": [
+        "观察"
+      ],
+      "tweets": [
+        {
+          "id": "2074599259803160773",
+          "url": "https://x.com/garrytan/status/2074599259803160773",
+          "createdAt": "2026-07-07T20:59:42.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "Common sense Democrats take note Time to organize against radical leftism and asset seizure inside the party",
+          "summary": "Common sense Democrats take note Time to organize against radical leftism and asset seizure inside the party",
+          "engagement": 673,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074744830492868764",
+          "url": "https://x.com/garrytan/status/2074744830492868764",
+          "createdAt": "2026-07-08T06:38:09.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history",
+          "summary": "Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history",
+          "engagement": 53,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074750229044502663",
+          "url": "https://x.com/garrytan/status/2074750229044502663",
+          "createdAt": "2026-07-08T06:59:36.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "Dirty smear politics is alive and well in SF, and it's high time we made sure the playbook backfires from here A few dishonest groups invent a smear and the local legacy media rubber stamps it out of abdication of duty to the people We demand consequences for the lies now",
+          "summary": "Dirty smear politics is alive and well in SF, and it's high time we made sure the playbook backfires from here A few dishonest groups invent a smear and the local legacy media rubb…",
+          "engagement": 6,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "summary": "VC greeting his top AI portfolio company vs that SaaS investment from 8 years ago that’s running out of cash",
+      "tags": [
+        "组织"
+      ],
+      "tweets": [
+        {
+          "id": "2074441949772169216",
+          "url": "https://x.com/mattturck/status/2074441949772169216",
+          "createdAt": "2026-07-07T10:34:36.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "VC greeting his top AI portfolio company vs that SaaS investment from 8 years ago that’s running out of cash",
+          "summary": "VC greeting his top AI portfolio company vs that SaaS investment from 8 years ago that’s running out of cash",
+          "engagement": 141,
+          "tags": [
+            "组织"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+      "summary": "How to learn in the age of AI",
+      "tags": [
+        "观察"
+      ],
+      "tweets": [
+        {
+          "id": "2074661564964307153",
+          "url": "https://x.com/zarazhangrui/status/2074661564964307153",
+          "createdAt": "2026-07-08T01:07:17.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "How to learn in the age of AI",
+          "summary": "How to learn in the age of AI",
+          "engagement": 380,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+      "summary": "I have been screaming this for the past year, but kind reminder to everyone: GMV is NOT ARR…",
+      "tags": [
+        "产品",
+        "工程"
+      ],
+      "tweets": [
+        {
+          "id": "2074597133286851064",
+          "url": "https://x.com/nikunj/status/2074597133286851064",
+          "createdAt": "2026-07-07T20:51:15.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "I have been screaming this for the past year, but kind reminder to everyone: GMV is NOT ARR. Let's get our definitions right for once and for all.. or at least be honest what it is🤦‍♂️",
+          "summary": "I have been screaming this for the past year, but kind reminder to everyone: GMV is NOT ARR…",
+          "engagement": 88,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074530614745960792",
+          "url": "https://x.com/nikunj/status/2074530614745960792",
+          "createdAt": "2026-07-07T16:26:56.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "My favorite practical Fable use case (so far) has been generating /insights on Claude Code, feeding it in, and asking.. \"In a Fable era, how should I be using Claude Code to maximize its utility?\" You can then ask it to implement it for you. See part of the output below 👇",
+          "summary": "My favorite practical Fable use case (so far) has been generating /insights on Claude Code, feeding it in, and asking.…",
+          "engagement": 57,
+          "tags": [
+            "产品",
+            "工程"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+      "summary": "If you run this workflow, ask Fable to make codex the workhorse…",
+      "tags": [
+        "产品",
+        "Agent",
+        "工程"
+      ],
+      "tweets": [
+        {
+          "id": "2074638582418231495",
+          "url": "https://x.com/steipete/status/2074638582418231495",
+          "createdAt": "2026-07-07T23:35:57.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "If you run this workflow, ask Fable to make codex the workhorse.",
+          "summary": "If you run this workflow, ask Fable to make codex the workhorse.",
+          "engagement": 3990,
+          "tags": [
+            "产品",
+            "Agent",
+            "工程"
+          ]
+        },
+        {
+          "id": "2074739318103629979",
+          "url": "https://x.com/steipete/status/2074739318103629979",
+          "createdAt": "2026-07-08T06:16:14.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our “partner.” \"",
+          "summary": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit…",
+          "engagement": 277,
+          "tags": [
+            "观察"
+          ]
+        },
+        {
+          "id": "2074624388301987947",
+          "url": "https://x.com/steipete/status/2074624388301987947",
+          "createdAt": "2026-07-07T22:39:33.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "Bonus: Comes with a skill to show a big alert when agents need your help for additional context, instead of (e.g.) just a no-context 1Password dialog.",
+          "summary": "Bonus: Comes with a skill to show a big alert when agents need your help for additional context, instead of (e.g.) just a no-context 1Password dialog.",
+          "engagement": 41,
+          "tags": [
+            "Agent"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart |…",
+      "summary": "More important to wear the colors proudly the day after a loss…",
+      "tags": [
+        "观察"
+      ],
+      "tweets": [
+        {
+          "id": "2074512219434602995",
+          "url": "https://x.com/adityaag/status/2074512219434602995",
+          "createdAt": "2026-07-07T15:13:50.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "More important to wear the colors proudly the day after a loss. Proud of USMNT. We were outclasses yesterday Down but not out. We will be back.",
+          "summary": "More important to wear the colors proudly the day after a loss…",
+          "engagement": 34,
+          "tags": [
+            "观察"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "bio": "AI is cool i guess",
+      "summary": "GPT-5.6 sol launches thursday! happy building",
+      "tags": [
+        "产品"
+      ],
+      "tweets": [
+        {
+          "id": "2074709023807664454",
+          "url": "https://x.com/sama/status/2074709023807664454",
+          "createdAt": "2026-07-08T04:15:52.000Z",
+          "sourceDate": "2026-07-08",
+          "sourceDisplayDate": "7月8日 · 周三",
+          "text": "GPT-5.6 sol launches thursday! happy building",
+          "summary": "GPT-5.6 sol launches thursday! happy building",
+          "engagement": 16064,
+          "tags": [
+            "产品"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+      "summary": "We're extending access to Claude Fable 5 on all paid plans through July 12…",
+      "tags": [
+        "产品",
+        "研究"
+      ],
+      "tweets": [
+        {
+          "id": "2074548242386178258",
+          "url": "https://x.com/claudeai/status/2074548242386178258",
+          "createdAt": "2026-07-07T17:36:58.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+          "summary": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+          "engagement": 103885,
+          "tags": [
+            "产品"
+          ]
+        },
+        {
+          "id": "2074548243971604641",
+          "url": "https://x.com/claudeai/status/2074548243971604641",
+          "createdAt": "2026-07-07T17:36:59.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5. After that, you can keep using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits. Read more:",
+          "summary": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5…",
+          "engagement": 3308,
+          "tags": [
+            "产品",
+            "研究"
+          ]
+        },
+        {
+          "id": "2074525821755101458",
+          "url": "https://x.com/claudeai/status/2074525821755101458",
+          "createdAt": "2026-07-07T16:07:53.000Z",
+          "sourceDate": "2026-07-07",
+          "sourceDisplayDate": "7月7日 · 周二",
+          "text": "We're extending doubled Cowork usage limits through August 5, so you can delegate bigger work to Claude. Read more:",
+          "summary": "We're extending doubled Cowork usage limits through August 5, so you can delegate bigger work to Claude…",
+          "engagement": 668,
+          "tags": [
+            "产品"
+          ]
+        }
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "author": "",
+      "publishedAt": null,
+      "sourceDate": "2026-07-09",
+      "sourceDisplayDate": "7月9日 · 周四",
+      "summary": "Twelve months ago, we'd have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service…",
+      "chineseTitle": "How we contain Claude across products",
+      "tags": [
+        "产品",
+        "Agent",
+        "工程"
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Training Data",
+      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "url": "https://www.youtube.com/watch?v=6bGxm8gX41o",
+      "publishedAt": "2026-07-07T09:00:00.000Z",
+      "sourceDate": "2026-07-07",
+      "sourceDisplayDate": "7月7日 · 周二",
+      "summary": "Speaker 1 | 00:00 - 00:21 I remember being in Rwanda early days and going out and meeting with some of the doctors and lab techs that we were serving and asking for them, like, you know, how's it going…",
+      "chineseTitle": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "tags": [
+        "产品",
+        "Agent",
+        "工程"
+      ]
+    }
+  ]
+}
