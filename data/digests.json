@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-07-12",
+    "displayDate": "7月12日 · 周日",
+    "generatedAt": "2026-07-11T23:30:25.918741+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-11T07:00:56.864Z",
+      "blogs": "2026-07-11T07:01:36.893Z",
+      "podcasts": "2026-07-11T07:01:32.541Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 AI Builders：0 位 AI Builders、0 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 0,
+      "tweets": 0,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": ["Agent"]
+    },
+    "toplines": [],
+    "builders": [],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "publishedAt": "2026-07-09T11:30:01.000Z",
+        "sourceDate": "2026-07-09",
+        "sourceDisplayDate": "7月9日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials…",
+        "chineseTitle": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+        "tags": [
+          "Agent"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天的信息流异常安静。没有新的 X 动态、没有深度文章、没有 AI Builders 的公开分享。唯一的内容来自 The MAD Podcast 对 Stripe AI 负责人的访谈，讨论 AI Agents 如何进行交易、支付和商业化。",
+        "这期播客的核心议题切中当前 AI 基础设施的关键缺口：当 Agent 能够自主执行任务时，它们需要自己的支付身份、信用评估和交易权限。Stripe 作为支付基础设施的领导者，正在思考如何为 Agent 经济构建金融层。这不是假设性问题，而是已经在发生的架构迁移。",
+        "从播客片段可以看到，安全与欺诈防控是 Agent 支付的首要挑战。传统的身份验证和风控模型假设人类用户，但 Agent 的行为模式、授权链路和责任归属完全不同。Stripe 需要在不牺牲安全性的前提下，让 Agent 能够独立完成购买、销售和支付流程。",
+        "今天的低信号量本身也是一个信号：周末的信息流往往反映真实优先级。大多数 AI Builders 在周末选择不发声，或者他们的深度思考还在酝酿中。相比之下，这期关于 Agent 经济的播客显得更有分量——它讨论的不是今天的工具，而是明年此时我们会视为常识的基础设施。"
+      ],
+      "filteredNote": "过滤掉了空白的信息流。今日无 X 动态、无博客、无其他播客，仅保留 1 期关于 Agent 支付基础设施的深度访谈。"
+    },
+    "highSignalItems": [
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月9日 · 周四",
+        "actor": "Stripe AI Chief",
+        "meta": "The MAD Podcast with Matt Turck · Agent 经济",
+        "title": "Agent 经济的支付基础设施：当 AI 开始自主交易",
+        "summary": "Stripe 的 AI 负责人在这期播客中讨论了一个被低估的问题：当 AI Agent 能够自主执行任务时，它们需要自己的支付能力。这不只是技术集成，而是整个金融基础设施的重新设计。Agent 需要身份、信用、授权机制，以及全新的欺诈防控模型。Stripe 正在构建的，是 Agent 经济的金融层。",
+        "keyPoints": [
+          "Agent 支付的核心挑战不是技术集成，而是身份与授权：Agent 需要独立的支付身份和信用评估",
+          "欺诈防控模型需要重构：传统风控假设人类用户，Agent 的行为模式和责任归属完全不同",
+          "Agent 经济的基础设施正在形成：支付、信用、合规将成为 Agent 部署的标准组件"
+        ],
+        "whyItMatters": "这是 AI 基础设施的下一个战场。当 Agent 能够自主交易时，支付和金融服务将成为 Agent 平台的核心竞争力，而不是附加功能。理解这个趋势对构建 Agent 产品的人至关重要。",
+        "tags": ["Agent", "Infrastructure", "Payments"],
+        "qualityScore": 85,
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "displayDate": "7月10日 · 周五",
     "generatedAt": "2026-07-09T23:59:53.458497+00:00",
