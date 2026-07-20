@@ -1,5 +1,923 @@
 [
   {
+    "date": "2026-07-21",
+    "displayDate": "7月21日 · 周二",
+    "generatedAt": "2026-07-20T23:30:13.179475+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-20T07:22:43.172Z",
+      "blogs": "2026-07-20T07:22:47.706Z",
+      "podcasts": "2026-07-20T07:22:47.138Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今日高信号集中在 Agent 工作流 UX、AI 编程成本曲线、网络安全评测、开放模型访问与可丢弃软件。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工程、公司建设有长期判断价值的高信号内容。",
+    "stats": {
+      "builders": 15,
+      "tweets": 29,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 16
+        },
+        {
+          "name": "工程",
+          "count": 9
+        },
+        {
+          "name": "产品",
+          "count": 5
+        },
+        {
+          "name": "研究",
+          "count": 4
+        },
+        {
+          "name": "组织",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2079058139207573541",
+        "sourceDate": "2026-07-20",
+        "sourceDisplayDate": "7月20日 · 周一",
+        "summary": "I was so inspired reading all the DMs on how folks here use ChatGPT Work…",
+        "chineseTitle": "I was so inspired reading all the DMs on how folks here use ChatGPT Work…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "score": 2707
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2078896698869375396",
+        "sourceDate": "2026-07-19",
+        "sourceDisplayDate": "7月19日 · 周日",
+        "summary": "gm 🇦🇷",
+        "chineseTitle": "gm 🇦🇷",
+        "tags": [
+          "观察"
+        ],
+        "score": 2595
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2078975602028106050",
+        "sourceDate": "2026-07-19",
+        "sourceDisplayDate": "7月19日 · 周日",
+        "summary": "Thankful to 🇦🇷 Argentina for once again giving it all…",
+        "chineseTitle": "Thankful to 🇦🇷 Argentina for once again giving it all…",
+        "tags": [
+          "观察"
+        ],
+        "score": 1540
+      },
+      {
+        "title": "来自 Amjad Masad 的观点",
+        "source": "Amjad Masad · X 动态",
+        "url": "https://x.com/amasad/status/2078964311985422463",
+        "sourceDate": "2026-07-19",
+        "sourceDisplayDate": "7月19日 · 周日",
+        "summary": "Let’s go España!",
+        "chineseTitle": "Let’s go España!",
+        "tags": [
+          "观察"
+        ],
+        "score": 1291
+      },
+      {
+        "title": "来自 Thariq 的观点",
+        "source": "Thariq · X 动态",
+        "url": "https://x.com/trq212/status/2078901672441790818",
+        "sourceDate": "2026-07-19",
+        "sourceDisplayDate": "7月19日 · 周日",
+        "summary": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts",
+        "chineseTitle": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts",
+        "tags": [
+          "工程"
+        ],
+        "score": 1236
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+        "summary": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079061713048199625",
+            "url": "https://x.com/swyx/status/2079061713048199625",
+            "createdAt": "2026-07-20T04:31:54.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool.",
+            "summary": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool.",
+            "engagement": 102,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2078912371901481110",
+            "url": "https://x.com/swyx/status/2078912371901481110",
+            "createdAt": "2026-07-19T18:38:28.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "here goes",
+            "summary": "here goes",
+            "engagement": 11,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "I was so inspired reading all the DMs on how folks here use ChatGPT Work…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079058139207573541",
+            "url": "https://x.com/thsottiaux/status/2079058139207573541",
+            "createdAt": "2026-07-20T04:17:42.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile. What’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
+            "summary": "I was so inspired reading all the DMs on how folks here use ChatGPT Work…",
+            "engagement": 2707,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "2. I don't think the people using ChatGPT Work (e.g., non technical) know what \"run this chat in the cloud\" means…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079007381695172797",
+            "url": "https://x.com/petergyang/status/2079007381695172797",
+            "createdAt": "2026-07-20T00:56:00.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "2. I don't think the people using ChatGPT Work (e.g., non technical) know what \"run this chat in the cloud\" means. On Codex it tells me to send to Codex Web and then I click the link and it just tells me to download the app again? Copy matters.",
+            "summary": "2. I don't think the people using ChatGPT Work (e.g., non technical) know what \"run this chat in the cloud\" means…",
+            "engagement": 17,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2079053505969676404",
+            "url": "https://x.com/petergyang/status/2079053505969676404",
+            "createdAt": "2026-07-20T03:59:17.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense. The customer support is truly bad. Have to work my Google connections elsewhere...",
+            "summary": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense…",
+            "engagement": 13,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079053957532655890",
+            "url": "https://x.com/petergyang/status/2079053957532655890",
+            "createdAt": "2026-07-20T04:01:05.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "On the plus side Codex is helping me fight this battle 🥲",
+            "summary": "On the plus side Codex is helping me fight this battle 🥲",
+            "engagement": 6,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training…",
+        "summary": "Argentinian goalkeeper sure is earning his salary.",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2078952214664798283",
+            "url": "https://x.com/AmandaAskell/status/2078952214664798283",
+            "createdAt": "2026-07-19T21:16:47.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Argentinian goalkeeper sure is earning his salary.",
+            "summary": "Argentinian goalkeeper sure is earning his salary.",
+            "engagement": 312,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "summary": "I love using Claude Cowork to manage my calendar…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2079011428380602526",
+            "url": "https://x.com/_catwu/status/2079011428380602526",
+            "createdAt": "2026-07-20T01:12:05.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "I love using Claude Cowork to manage my calendar. Here's my prompt for it: Manage my calendar for the week. Requirements: 1. <20 hours of meetings 2. Dedupe conflicting meetings. Look at past weeks to see what kinds of meetings I decline. Dinners don't count against the 20 hours. Build a skill that you refine. Ask me…",
+            "summary": "I love using Claude Cowork to manage my calendar…",
+            "engagement": 416,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+        "summary": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts if you've run into this, please restart Claude Code, fix should be propogating",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2078901672441790818",
+            "url": "https://x.com/trq212/status/2078901672441790818",
+            "createdAt": "2026-07-19T17:55:57.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts",
+            "summary": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts",
+            "engagement": 1236,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2079103743535280508",
+            "url": "https://x.com/trq212/status/2079103743535280508",
+            "createdAt": "2026-07-20T07:18:54.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "if you've run into this, please restart Claude Code, fix should be propogating",
+            "summary": "if you've run into this, please restart Claude Code, fix should be propogating",
+            "engagement": 57,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Let’s go España! Consumers spend money on food, rent, and entertainment, phone & internet, and shopping…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2078964311985422463",
+            "url": "https://x.com/amasad/status/2078964311985422463",
+            "createdAt": "2026-07-19T22:04:51.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Let’s go España!",
+            "summary": "Let’s go España!",
+            "engagement": 1291,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079086360703680583",
+            "url": "https://x.com/amasad/status/2079086360703680583",
+            "createdAt": "2026-07-20T06:09:50.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Consumers spend money on food, rent, and entertainment, phone & internet, and shopping. Software is typically bought by their companies. Which is why outside of Netflix, Spotify, etc it’s hard to think of *huge* consumer subscription businesses.",
+            "summary": "Consumers spend money on food, rent, and entertainment, phone & internet, and shopping…",
+            "engagement": 118,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "gm 🇦🇷 Thankful to 🇦🇷 Argentina for once again giving it all…",
+        "tags": [
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2078896698869375396",
+            "url": "https://x.com/rauchg/status/2078896698869375396",
+            "createdAt": "2026-07-19T17:36:11.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "gm 🇦🇷",
+            "summary": "gm 🇦🇷",
+            "engagement": 2595,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2078975602028106050",
+            "url": "https://x.com/rauchg/status/2078975602028106050",
+            "createdAt": "2026-07-19T22:49:43.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Thankful to 🇦🇷 Argentina for once again giving it all. Grit, passion, talent, faith. To Messi for proving he’s the best ever. And to America 🇺🇸 for hosting such a wonderful event. Enhorabuena tíos 🇪🇸!",
+            "summary": "Thankful to 🇦🇷 Argentina for once again giving it all…",
+            "engagement": 1540,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2078912929714356698",
+            "url": "https://x.com/rauchg/status/2078912929714356698",
+            "createdAt": "2026-07-19T18:40:41.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Incidentally, I’m very bullish on cybersecurity as one of the best benchmarks for superintelligence. The “IQ test” of software engineering. The best engineers I’ve worked with in my career have usually had a deep background or interest in security. It’s actually easy for a model to “one-shot an XYZ clone” and impress…",
+            "summary": "Incidentally, I’m very bullish on cybersecurity as one of the best benchmarks for superintelligence…",
+            "engagement": 116,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Good post if you’re trying to understand AI diffusion…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2078864191683969212",
+            "url": "https://x.com/levie/status/2078864191683969212",
+            "createdAt": "2026-07-19T15:27:01.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Good post if you’re trying to understand AI diffusion. Progress driven by AI will ultimately be rate limited by its interaction with the real world. The reason coding, for instance, has been adopted so quickly is you can write a near infinite amount of code, test it, and run it -and it can add value- without anyone in…",
+            "summary": "Good post if you’re trying to understand AI diffusion…",
+            "engagement": 414,
+            "tags": [
+              "Agent",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2078968158006939716",
+            "url": "https://x.com/levie/status/2078968158006939716",
+            "createdAt": "2026-07-19T22:20:08.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposite happens. When you make AI cheaper, it will get consumed more. Because now you can afford to use for a wider of tasks than you did before. You start to write more code. You review more code for…",
+            "summary": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it…",
+            "engagement": 335,
+            "tags": [
+              "Agent",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2078992778449850769",
+            "url": "https://x.com/levie/status/2078992778449850769",
+            "createdAt": "2026-07-19T23:57:58.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities. If you play this out, even if America could fully ban access to open source models, other ecosystems wouldn't…",
+            "summary": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to fro…",
+            "engagement": 324,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Markdown files are universal and will survive millennia Unsurprisingly they are a fantastic data format when the intelligence stack is in flux at this extreme pace GSkills anyone?",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2078803803659452624",
+            "url": "https://x.com/garrytan/status/2078803803659452624",
+            "createdAt": "2026-07-19T11:27:03.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Markdown files are universal and will survive millennia Unsurprisingly they are a fantastic data format when the intelligence stack is in flux at this extreme pace",
+            "summary": "Markdown files are universal and will survive millennia Unsurprisingly they are a fantastic data format when the intelligence stack is in flux at this extreme pace",
+            "engagement": 912,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2078803084785111120",
+            "url": "https://x.com/garrytan/status/2078803084785111120",
+            "createdAt": "2026-07-19T11:24:12.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "GSkills anyone?",
+            "summary": "GSkills anyone?",
+            "engagement": 772,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "🟥 what a moron through and through All the aggravation, attitude, fouls, taunting, vulgarity, fans throwing bottles at fans from the opposing team, to produce ZERO shot on goal during the final…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2078951464815174060",
+            "url": "https://x.com/mattturck/status/2078951464815174060",
+            "createdAt": "2026-07-19T21:13:48.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "🟥 what a moron through and through",
+            "summary": "🟥 what a moron through and through",
+            "engagement": 351,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2078964431225036896",
+            "url": "https://x.com/mattturck/status/2078964431225036896",
+            "createdAt": "2026-07-19T22:05:20.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "All the aggravation, attitude, fouls, taunting, vulgarity, fans throwing bottles at fans from the opposing team, to produce ZERO shot on goal during the final.",
+            "summary": "All the aggravation, attitude, fouls, taunting, vulgarity, fans throwing bottles at fans from the opposing team, to produce ZERO shot on goal during the final.",
+            "engagement": 306,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2078966428208664631",
+            "url": "https://x.com/mattturck/status/2078966428208664631",
+            "createdAt": "2026-07-19T22:13:16.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "“Thank you for that bath”",
+            "summary": "“Thank you for that bath”",
+            "engagement": 85,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "Whenever someone asks me \"I'm just getting started with posting content on social media; what should I talk about?\" My answer is: What are the top 3 questions that you get asked most frequently by friends/acquaintances/c…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2078830510177128481",
+            "url": "https://x.com/zarazhangrui/status/2078830510177128481",
+            "createdAt": "2026-07-19T13:13:11.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Whenever someone asks me \"I'm just getting started with posting content on social media; what should I talk about?\" My answer is: What are the top 3 questions that you get asked most frequently by friends/acquaintances/colleagues? Turn those answers into videos/posts. Just say it like how you said it to them in real…",
+            "summary": "Whenever someone asks me \"I'm just getting started with posting content on social media; what should I talk about?\" My answer is: What are the top 3 questions that you get asked mo…",
+            "engagement": 236,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2078835308905578660",
+            "url": "https://x.com/zarazhangrui/status/2078835308905578660",
+            "createdAt": "2026-07-19T13:32:15.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "We need to get used to the idea that code/software can now be disposable Some examples (all are discarded after usage): 1. Creating design playgrounds/modals for yourself to fine-tune the look and feel of a design 2. Creating HTML pages to help you understand the code 3. Spinning up a throwaway dashboard to inspect…",
+            "summary": "We need to get used to the idea that code/software can now be disposable Some examples (all are discarded after usage): 1…",
+            "engagement": 213,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Really frustrating that a talented team like Argentina is resorting to such dirty tactics.…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2078963708504465814",
+            "url": "https://x.com/nikunj/status/2078963708504465814",
+            "createdAt": "2026-07-19T22:02:28.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Really frustrating that a talented team like Argentina is resorting to such dirty tactics.. Like each player is so SO good. Why all the antics? Constantly complaining and looking for a foul while playing haramball the entire game. On a WC final too (sigh) Vamos Spain 🇪🇸",
+            "summary": "Really frustrating that a talented team like Argentina is resorting to such dirty tactics.…",
+            "engagement": 76,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2078845194934296745",
+            "url": "https://x.com/nikunj/status/2078845194934296745",
+            "createdAt": "2026-07-19T14:11:32.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Renoir paintings you can send to your better half saying “could be us”.. 1. you want to ask someone out 2. you’re ready to get married 3. you’re ready to have a kid",
+            "summary": "Renoir paintings you can send to your better half saying “could be us”.…",
+            "engagement": 18,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "IYKYK",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2078904784753729962",
+            "url": "https://x.com/steipete/status/2078904784753729962",
+            "createdAt": "2026-07-19T18:08:19.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "IYKYK",
+            "summary": "IYKYK",
+            "engagement": 180,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "Yes it just passed some barrier Have been able to automatically do ~70% of the copy edits we would ordinarily do by hand internally @every for the last week First time that’s happened and I’ve been trying it for years",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2078920115140358585",
+            "url": "https://x.com/danshipper/status/2078920115140358585",
+            "createdAt": "2026-07-19T19:09:14.000Z",
+            "sourceDate": "2026-07-19",
+            "sourceDisplayDate": "7月19日 · 周日",
+            "text": "Yes it just passed some barrier Have been able to automatically do ~70% of the copy edits we would ordinarily do by hand internally @every for the last week First time that’s happened and I’ve been trying it for years",
+            "summary": "Yes it just passed some barrier Have been able to automatically do ~70% of the copy edits we would ordinarily do by hand internally @every for the last week First time that’s happe…",
+            "engagement": 117,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "publishedAt": "2026-07-09T11:30:01.000Z",
+        "sourceDate": "2026-07-09",
+        "sourceDisplayDate": "7月9日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials…",
+        "chineseTitle": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+        "tags": [
+          "Agent"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最清晰的产品信号来自“AI 作为工作流操作者”这条线。Cat Wu 用 Claude Cowork 管理日历，并把规则写成可迭代 skill：会议总量上限、冲突去重、参考历史拒会模式、晚餐不计入会议时长。Peter Yang 则指出 ChatGPT Work / Codex 的文案和跳转对非技术用户不够清楚。两者合在一起看，Agent 产品不是只要能力强就够了，它需要把规则、权限、状态和下一步动作解释成普通用户能理解的界面语言。",
+        "工程侧的主线是“AI 让软件生产的边际成本继续下沉，但消耗反而会上升”。Aaron Levie 提醒：当 AI 成本下降，企业通常不会少花钱，而是把 AI 用到更多任务上，例如写更多代码、审更多代码、覆盖更多工作流。Zara Zhang 的 disposable software 观察与此呼应：临时设计 playground、理解代码用的 HTML 页面、一次性 dashboard 都会变成合理产物。AI Builders 要重新计算软件的生命周期：很多代码不再追求长期维护，而是追求低成本、即时反馈和任务完成。",
+        "模型评测仍在向更硬的任务迁移。Guillermo Rauch 把 cybersecurity 称为衡量 superintelligence 的优质 benchmark，是软件工程的“IQ test”：简单 clone 产品可以制造演示效果，但安全任务需要深层系统理解、攻击面推理和长期工程经验。对 Builder 来说，这提醒我们不要被单次 demo 迷惑，真正的模型能力要在高约束、高风险、可验证的任务里测出来。",
+        "开放模型和访问策略的讨论继续指向一个战略判断：限制 frontier capability 未必让生态更安全，反而可能降低竞争力。Aaron Levie 认为，在强开源替代品只落后前沿模型一点点的环境里，过度 gatekeeping 会让使用者转向其他生态；即使某个国家能限制开放模型，其他生态也会继续推进。这意味着产品团队需要为多模型、多供应商和模型路由做长期准备，而不是把架构绑死在单一入口。",
+        "内容和数据格式也出现了低调但重要的 builder 信号。Garry Tan 强调 Markdown 在 intelligence stack 快速变化时仍是稳定、通用、可长期保存的数据格式；Dan Shipper 则给出一个具体事实：Every 内部过去一周已经能自动完成约 70% 以往人工 copy edits，这是他多年尝试以来第一次越过这个门槛。一个偏基础材料，一个偏生产率突破，共同说明：AI 时代的优势可能来自把工作材料整理成模型友好的形态，并持续把可重复判断沉淀为流程。"
+      ],
+      "filteredNote": "过滤掉了世界杯/体育评论、日常生活、键盘与艺术梗、IYKYK/纯感叹、一句话自我表达、低上下文客服吐槽、无实质分析的转发式短评，以及摘要不足以支撑独立判断的内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月20日 · 周一",
+        "actor": "Cat Wu",
+        "meta": "Anthropic · X 动态",
+        "title": "日历管理是 Agent skill 的一个高密度样板",
+        "summary": "Cat Wu 分享了自己用 Claude Cowork 管理日历的 prompt：限制每周会议少于 20 小时、去重冲突会议、参考过去几周的拒会模式，并把晚餐排除在会议时长之外。关键不在“让 AI 看日历”本身，而在把个人偏好、历史行为和硬约束写成一个可持续 refined skill。这是 Agent 产品从单次指令走向长期协作的典型形态。",
+        "keyPoints": [
+          "日历任务天然包含偏好、冲突、历史模式和软硬约束，适合验证 Agent 的上下文能力。",
+          "“Build a skill that you refine”说明用户希望系统沉淀规则，而不是每次重新 prompt。",
+          "个人生产力 Agent 的价值会来自可解释的决策边界和持续学习的工作流记忆。"
+        ],
+        "whyItMatters": "AI Builders 做 Agent 时，应优先寻找这类高频、规则可沉淀、结果可验收的工作流；它们比泛泛的“帮我安排一下”更接近真实产品需求。",
+        "tags": [
+          "Agent UX",
+          "Claude Cowork",
+          "工作流"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/_catwu/status/2079011428380602526"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月20日 · 周一",
+        "actor": "Peter Yang",
+        "meta": "AI 产品观察 · X 动态",
+        "title": "Agent 产品的文案不能默认用户懂“云端运行”",
+        "summary": "Peter Yang 指出，ChatGPT Work 的非技术用户未必理解“run this chat in the cloud”意味着什么；他在 Codex 中看到“send to Codex Web”的提示后点击链接，却又被告知下载 app。这个反馈暴露了 Agent 产品的常见断点：能力已经跨端、跨执行环境，但用户对状态转移、执行位置和下一步动作没有清晰心智模型。",
+        "keyPoints": [
+          "“云端运行”是工程视角的说法，不一定能被非技术用户理解。",
+          "Codex Web 与 app 之间的跳转如果不闭环，会让用户怀疑任务是否真的被接管。",
+          "Agent UX 需要把执行环境、任务状态和用户动作翻译成明确 copy。"
+        ],
+        "whyItMatters": "随着 AI 产品从聊天走向异步执行，copy 和状态设计会直接决定用户是否敢把任务交给系统，而不只是界面细节。",
+        "tags": [
+          "产品文案",
+          "Codex",
+          "ChatGPT Work"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/petergyang/status/2079007381695172797"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "Cybersecurity 可能是比 clone demo 更硬的模型智力测试",
+        "summary": "Guillermo Rauch 认为 cybersecurity 是衡量 superintelligence 的最佳 benchmark 之一，堪称软件工程的“IQ test”。他指出，模型一把生成某个产品 clone 很容易制造惊艳效果，但真正优秀的软件工程师往往有深厚的安全背景或安全兴趣。安全任务要求模型理解系统边界、漏洞链路、攻击面和风险，这比表层生成更能测出能力深度。",
+        "keyPoints": [
+          "Cybersecurity 任务要求深层系统理解，不只是代码生成速度。",
+          "“一键 clone”容易演示，但不一定能证明模型具备强工程推理。",
+          "安全能力评测能暴露模型在复杂约束、风险判断和异常路径上的真实水平。"
+        ],
+        "whyItMatters": "AI Builders 评估模型或 coding agent 时，应加入高约束、可验证、失败成本明确的任务；安全场景可能是区分 demo 能力和生产能力的关键。",
+        "tags": [
+          "Cybersecurity",
+          "模型评测",
+          "软件工程"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/rauchg/status/2078912929714356698"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "AI 扩散会被现实世界交互速率限制",
+        "summary": "Aaron Levie 转述并补充了一个关于 AI diffusion 的判断：AI 带来的进步最终会被它与现实世界互动的速度限制。Coding 之所以扩散快，是因为代码可以近乎无限地产生、测试、运行，并在不依赖太多人类中介的情况下创造价值。相比之下，进入销售、医疗、制造、组织流程等场景时，反馈链条更慢，权限和协作成本更高。",
+        "keyPoints": [
+          "AI 在 coding 中扩散快，是因为生成—测试—运行反馈回路极短。",
+          "现实世界任务需要人、流程、权限、风险控制和外部系统配合，因此扩散更慢。",
+          "评估 AI 市场机会时，要看任务反馈速度和现实世界接触面，而不只看模型能力。"
+        ],
+        "whyItMatters": "这给 AI Builders 一个选赛道框架：优先寻找反馈回路短、执行可验证、能快速产生价值的场景；现实阻力越大，产品设计越要重视流程嵌入。",
+        "tags": [
+          "AI 扩散",
+          "工作流",
+          "市场判断"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/levie/status/2078864191683969212"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "AI 变便宜通常会带来更多使用，而不是更少支出",
+        "summary": "Aaron Levie 反驳“AI 成本下降会让 AI 支出下降”的直觉，认为通常会发生相反情况：当 AI 更便宜，人们会把它用于更广泛的任务。比如写更多代码、审更多代码、覆盖原来不值得自动化的环节。成本下降带来的不是预算消失，而是需求曲线向更多场景展开。",
+        "keyPoints": [
+          "单位推理成本下降会扩大可经济化的任务集合。",
+          "AI 使用量可能随价格下降而上升，类似 Jevons paradox。",
+          "产品定价和基础设施规划应关注总使用量增长，而不只是单次调用成本。"
+        ],
+        "whyItMatters": "对做 AI infra、developer tools 和企业 AI 的团队来说，降价不一定压缩市场，反而可能放大吞吐、观测、治理和成本控制需求。",
+        "tags": [
+          "AI 成本",
+          "基础设施",
+          "需求弹性"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/levie/status/2078968158006939716"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "强开源替代品会削弱 frontier gatekeeping 的安全叙事",
+        "summary": "Aaron Levie 认为，在强开源替代品只比 frontier models 落后一小步的世界里，封锁 frontier capability 可能让自己更不安全、更不具竞争力。他的推演是：即使美国能完全禁止开放模型访问，其他生态仍会继续发展替代能力。长期看，AI 访问策略需要在安全、竞争力和生态吸引力之间重新平衡。",
+        "keyPoints": [
+          "近前沿开源模型让单一阵营的 gatekeeping 更难奏效。",
+          "过度限制可能把开发者和企业推向其他模型生态。",
+          "多模型访问、能力评测和安全治理会成为产品架构的一部分。"
+        ],
+        "whyItMatters": "AI Builders 不能假设某个模型供应商或政策窗口会长期稳定；产品应设计成可替换、可路由、可评测的多模型系统。",
+        "tags": [
+          "开放模型",
+          "模型访问",
+          "AI 战略"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/levie/status/2078992778449850769"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Garry Tan",
+        "meta": "YC · X 动态",
+        "title": "Markdown 是 intelligence stack 变化期的稳态数据格式",
+        "summary": "Garry Tan 认为 Markdown 文件足够通用，甚至可以“存活千年”，因此在 intelligence stack 快速变化时是很好的数据格式。这个判断看似朴素，但对 AI Builders 很实际：模型、框架和 agent runtime 会不断变化，越接近纯文本、结构清晰、可 diff、可版本化的资料越容易迁移和复用。",
+        "keyPoints": [
+          "Markdown 同时具备可读性、可版本化和模型友好性。",
+          "在 AI 工具栈快速变化时，稳定的数据材料比短期平台绑定更重要。",
+          "Skills、知识库、提示模板和项目文档都适合沉淀为轻量文本资产。"
+        ],
+        "whyItMatters": "Builder 的长期资产不是某个工具里的临时对话，而是能被不同模型和工作流持续读取、修改、迁移的结构化知识。",
+        "tags": [
+          "Markdown",
+          "知识管理",
+          "AI 数据格式"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/garrytan/status/2078803803659452624"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Zara Zhang",
+        "meta": "Builder · X 动态",
+        "title": "Disposable software 会改变我们对代码资产的默认假设",
+        "summary": "Zara Zhang 提醒大家习惯“代码/软件可以是一次性的”：为了调设计细节临时创建 playground 或 modal、生成 HTML 页面理解代码、拉一个 dashboard 检查数据，这些产物用完就丢。AI 降低了生成软件的边际成本后，代码不再总是长期资产，也可以是思考、调试和决策过程中的临时工具。",
+        "keyPoints": [
+          "AI 让一次性软件的成本低到足以成为日常工作方法。",
+          "临时 UI、解释页面和检查 dashboard 可以加速理解与决策。",
+          "工程流程需要区分生产代码、探索代码和一次性认知工具。"
+        ],
+        "whyItMatters": "这会影响开发工具、代码审查、项目组织和团队文化：不是所有代码都值得维护，但更多任务值得被软件化。",
+        "tags": [
+          "Disposable Software",
+          "AI 编程",
+          "工程方法"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/zarazhangrui/status/2078835308905578660"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月19日 · 周日",
+        "actor": "Dan Shipper",
+        "meta": "Every · X 动态",
+        "title": "AI copy editing 正在越过内部生产可用性的门槛",
+        "summary": "Dan Shipper 表示，Every 内部过去一周已经能自动完成约 70% 以往需要人工处理的 copy edits，这是他多年尝试以来第一次发生。这个信号的价值在于它不是泛泛说“AI 会写作”，而是给出了一个具体内部工作流的自动化比例。编辑类任务正在从辅助生成走向可度量的流程替代。",
+        "keyPoints": [
+          "自动化覆盖率达到约 70%，说明模型在特定编辑流程中跨过可用阈值。",
+          "长期尝试后第一次成功，暗示能力、提示、流程或工具链共同成熟。",
+          "内容团队可以把 copy edits 拆成 eval、规则和人工验收环节来逐步自动化。"
+        ],
+        "whyItMatters": "AI Builders 可以借鉴这种“先量化内部流程自动化比例”的方法，而不是只凭主观体感判断 AI 是否有效。",
+        "tags": [
+          "内容生产",
+          "自动化",
+          "内部工具"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/danshipper/status/2078920115140358585"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月9日 · 周四",
+        "actor": "The MAD Podcast with Matt Turck",
+        "meta": "Stripe AI · Podcast",
+        "title": "Agent 时代的支付、交易与欺诈边界会被重新设计",
+        "summary": "这一期围绕 Stripe AI Chief 讨论 AI Agents 将如何购买、销售和支付。核心 thesis 是：当 agent 代表用户或企业发起交易时，支付系统不只是结算层，还要承担身份、授权、风险控制和欺诈检测的新职责。摘录中提到欺诈者在 AI 场景下未必需要直接偷钱或凭证，说明攻击面会从账户盗取转向操控 agent 行为和交易意图。",
+        "keyPoints": [
+          "Agent commerce 会让“谁授权、为谁购买、预算多少、可撤销吗”成为支付基础设施问题。",
+          "欺诈风险会从传统凭证盗取扩展到 prompt、身份、权限和交易链路操控。",
+          "Stripe 这类支付网络可能成为 Agent 经济里的信任、风控和结算层。"
+        ],
+        "whyItMatters": "如果 AI Agents 真的参与购买和销售，Builder 需要提前设计权限、审计、限额和异常检测；支付体验不能只套用人类点击购买的旧模型。",
+        "tags": [
+          "Agent Commerce",
+          "支付",
+          "Fraud"
+        ],
+        "qualityScore": 82,
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "displayDate": "7月20日 · 周一",
     "generatedAt": "2026-07-19T23:30:49.818483+00:00",
