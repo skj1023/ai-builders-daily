@@ -1,5 +1,908 @@
 [
   {
+    "date": "2026-07-22",
+    "displayDate": "7月22日 · 周三",
+    "generatedAt": "2026-07-21T23:30:18.141370+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-21T07:10:35.704Z",
+      "blogs": "2026-07-21T07:10:38.953Z",
+      "podcasts": "2026-07-21T07:10:38.647Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今日 AI Builders 信号集中在 Agent 成本架构、组织重构、模型评测与垂直行业落地。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。只保留对产品、模型、工程、组织和公司建设有长期判断价值的高信号内容。",
+    "stats": {
+      "builders": 14,
+      "tweets": 29,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 12
+        },
+        {
+          "name": "Agent",
+          "count": 8
+        },
+        {
+          "name": "工程",
+          "count": 7
+        },
+        {
+          "name": "研究",
+          "count": 6
+        },
+        {
+          "name": "产品",
+          "count": 4
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "从文档到视频，AI 正在把更多资产代码化",
+        "source": "Guillermo Rauch · 观点动态",
+        "url": "https://x.com/rauchg/status/2079274102129304026",
+        "sourceDate": "2026-07-20",
+        "sourceDisplayDate": "7月20日 · 周一",
+        "summary": "Guillermo Rauch 认为 AI 带来的大教训是“everything is code”：幻灯片、设计、宣传视频、Excel 自动化都可以被当作代码生成和迭代。这个判断不是字面上的编程崇拜，而是在说更多业务资产会进入可版本化、可自动化、可组合的工程流程。",
+        "chineseTitle": "从文档到视频，AI 正在把更多资产代码化",
+        "tags": [
+          "Agent",
+          "工程",
+          "产品"
+        ],
+        "score": 88
+      },
+      {
+        "title": "多模型 Agent 架构开始变成成本优势",
+        "source": "Aaron Levie · 观点动态",
+        "url": "https://x.com/levie/status/2079402164988895293",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Aaron Levie 指出，多模型 agentic systems 会成为未来，并引用 Cursor 的研究：用 frontier model 负责规划和编排，用更便宜的模型承担执行，可让大型项目的 token 成本显著下降，甚至达到 15X 改善。这里的关键不是“换便宜模型”，而是把推理任务拆成不同认知层级。",
+        "chineseTitle": "多模型 Agent 架构开始变成成本优势",
+        "tags": [
+          "Agent",
+          "工程",
+          "模型路由"
+        ],
+        "score": 93
+      },
+      {
+        "title": "Agent-native 公司会从第一天重写组织结构",
+        "source": "Zara Zhang · 观点动态",
+        "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+        "sourceDate": "2026-07-20",
+        "sourceDisplayDate": "7月20日 · 周一",
+        "summary": "Zara Zhang 将公司分成两类：coding agents 出现前成立、正在补课改造的公司，以及之后成立、从第一天就按 Agent 能力设计的公司。后者可能保持十人以内的小团队、按项目而非部门组织工作，并让每个人端到端关闭更多任务。",
+        "chineseTitle": "Agent-native 公司会从第一天重写组织结构",
+        "tags": [
+          "Agent",
+          "组织",
+          "创业"
+        ],
+        "score": 91
+      },
+      {
+        "title": "AI 时代的面试要同时测试人和模型协作",
+        "source": "Zara Zhang · 观点动态",
+        "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Zara Zhang 提出一种新的招聘流程：第一轮线下面试且禁止使用 AI，用来测试候选人的领域知识和即时判断；第二轮则要求必须使用 AI 完成一个否则无法完成的项目，并评估最终结果和聊天记录。这把“真实能力”和“AI 协作能力”分开测量。",
+        "chineseTitle": "AI 时代的面试要同时测试人和模型协作",
+        "tags": [
+          "招聘",
+          "Agent",
+          "组织"
+        ],
+        "score": 89
+      },
+      {
+        "title": "让一个 Agent 工作，另一个 Agent 按 rubric 审稿",
+        "source": "Peter Yang · 观点动态",
+        "url": "https://x.com/petergyang/status/2079257646939742542",
+        "sourceDate": "2026-07-20",
+        "sourceDisplayDate": "7月20日 · 周一",
+        "summary": "Peter Yang 引用 Thariq 的方法：对视频短片这类没有确定性答案的任务，可以让一个 Agent 完成工作，再让另一个验证 Agent 根据 rubric 进行评审和反馈。这是一种把主观质量评估显式流程化的 Agent 设计模式。",
+        "chineseTitle": "让一个 Agent 工作，另一个 Agent 按 rubric 审稿",
+        "tags": [
+          "Agent",
+          "评估",
+          "产品"
+        ],
+        "score": 87
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+        "summary": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079411861150429402",
+            "url": "https://x.com/swyx/status/2079411861150429402",
+            "createdAt": "2026-07-21T03:43:15.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction. an open secret of \"frontier\" model training is that even without training on test, you can basically cheat by training on test lookalikes, enabling you to goalseek almost any benchmark number you want. however…",
+            "summary": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction…",
+            "engagement": 96,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          },
+          {
+            "id": "2079438448956788964",
+            "url": "https://x.com/swyx/status/2079438448956788964",
+            "createdAt": "2026-07-21T05:28:54.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "unironically this is happening right tf now",
+            "summary": "unironically this is happening right tf now",
+            "engagement": 54,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079400293075452195",
+            "url": "https://x.com/swyx/status/2079400293075452195",
+            "createdAt": "2026-07-21T02:57:17.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "",
+            "summary": "",
+            "engagement": 4,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Never a dull moment when you work at OpenAI…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079355529101705264",
+            "url": "https://x.com/thsottiaux/status/2079355529101705264",
+            "createdAt": "2026-07-20T23:59:25.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+            "summary": "Never a dull moment when you work at OpenAI…",
+            "engagement": 5171,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Banning Chinese models will be the same self own as banning Chinese EVs…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079273815004303477",
+            "url": "https://x.com/petergyang/status/2079273815004303477",
+            "createdAt": "2026-07-20T18:34:43.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+            "summary": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+            "engagement": 1285,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2079257646939742542",
+            "url": "https://x.com/petergyang/status/2079257646939742542",
+            "createdAt": "2026-07-20T17:30:28.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Use one agent to do the work and another to review it against a rubric. @trq212 explains how this works for video shorts: “For something like, ‘Is this a good video short or not?’ you don’t have a deterministic answer. You should have a separate verification agent read a rubric, review the short, and give feedback. We…",
+            "summary": "Use one agent to do the work and another to review it against a rubric…",
+            "engagement": 65,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2079324894320603619",
+            "url": "https://x.com/petergyang/status/2079324894320603619",
+            "createdAt": "2026-07-20T21:57:41.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "1) What",
+            "summary": "1) What",
+            "engagement": 63,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "it's literally the greatest time ever to have product sense The road to AGI is paved with economically valuable tasks…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079387984852668780",
+            "url": "https://x.com/realmadhuguru/status/2079387984852668780",
+            "createdAt": "2026-07-21T02:08:23.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "it's literally the greatest time ever to have product sense",
+            "summary": "it's literally the greatest time ever to have product sense",
+            "engagement": 129,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2079369965569003691",
+            "url": "https://x.com/realmadhuguru/status/2079369965569003691",
+            "createdAt": "2026-07-21T00:56:47.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "The road to AGI is paved with economically valuable tasks. That’s why enterprise AI is one of the most important frontiers. It’s where many of those tasks live.",
+            "summary": "The road to AGI is paved with economically valuable tasks…",
+            "engagement": 26,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079227605031829700",
+            "url": "https://x.com/realmadhuguru/status/2079227605031829700",
+            "createdAt": "2026-07-20T15:31:05.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Four years post peak web3 and crypto tokenomics debates… turns out the tokenomics debate that matters is open vs closed weight, inference costs and model routing.",
+            "summary": "Four years post peak web3 and crypto tokenomics debates… turns out the tokenomics debate that matters is open vs closed weight, inference costs and model routing.",
+            "engagement": 5,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+        "summary": "this was a bug that was only live for a few minutes, ran into it on my personal account while doing some late night coding though",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079105479125741675",
+            "url": "https://x.com/trq212/status/2079105479125741675",
+            "createdAt": "2026-07-20T07:25:48.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "this was a bug that was only live for a few minutes, ran into it on my personal account while doing some late night coding though",
+            "summary": "this was a bug that was only live for a few minutes, ran into it on my personal account while doing some late night coding though",
+            "engagement": 145,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "First physical product shipped by a coding agent…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079282869063786541",
+            "url": "https://x.com/amasad/status/2079282869063786541",
+            "createdAt": "2026-07-20T19:10:41.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "First physical product shipped by a coding agent?",
+            "summary": "First physical product shipped by a coding agent?",
+            "engagement": 327,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2079401256448340378",
+            "url": "https://x.com/amasad/status/2079401256448340378",
+            "createdAt": "2026-07-21T03:01:07.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "“Being cancelled is a choice” turned out to be a nice sound bite.",
+            "summary": "“Being cancelled is a choice” turned out to be a nice sound bite.",
+            "engagement": 192,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079421913089335677",
+            "url": "https://x.com/amasad/status/2079421913089335677",
+            "createdAt": "2026-07-21T04:23:12.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Tools",
+            "summary": "Tools",
+            "engagement": 115,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "The big lesson from AI is that everything is code…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079274102129304026",
+            "url": "https://x.com/rauchg/status/2079274102129304026",
+            "createdAt": "2026-07-20T18:35:51.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too.",
+            "summary": "The big lesson from AI is that everything is code…",
+            "engagement": 5828,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Multi-model agentic systems clearly are the future…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079402164988895293",
+            "url": "https://x.com/levie/status/2079402164988895293",
+            "createdAt": "2026-07-21T03:04:44.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Multi-model agentic systems clearly are the future. Great post by cursor. Their new research shows that a frontier model as a planner and orchestrator with a workhorse cheaper model can materially lower the cost of total tokens on a project, resulting in a 15X cost improvement. “Few moments in a large task genuinely…",
+            "summary": "Multi-model agentic systems clearly are the future…",
+            "engagement": 330,
+            "tags": [
+              "Agent",
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Great reminder to stay frosty Compute rules everything around me CREAM The asset seizure tax will only make California more impoverished SEIU-UHW should be ashamed of itself for the naked cash grab for their own personal…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079196804315521332",
+            "url": "https://x.com/garrytan/status/2079196804315521332",
+            "createdAt": "2026-07-20T13:28:42.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Great reminder to stay frosty",
+            "summary": "Great reminder to stay frosty",
+            "engagement": 811,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079240755135357356",
+            "url": "https://x.com/garrytan/status/2079240755135357356",
+            "createdAt": "2026-07-20T16:23:21.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Compute rules everything around me CREAM",
+            "summary": "Compute rules everything around me CREAM",
+            "engagement": 315,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2079369233218306285",
+            "url": "https://x.com/garrytan/status/2079369233218306285",
+            "createdAt": "2026-07-21T00:53:52.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "The asset seizure tax will only make California more impoverished SEIU-UHW should be ashamed of itself for the naked cash grab for their own personal benefit",
+            "summary": "The asset seizure tax will only make California more impoverished SEIU-UHW should be ashamed of itself for the naked cash grab for their own personal benefit",
+            "engagement": 286,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "OpenAI and Anthropic when a top free Chinese open source model drops",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079198838741458989",
+            "url": "https://x.com/mattturck/status/2079198838741458989",
+            "createdAt": "2026-07-20T13:36:47.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "OpenAI and Anthropic when a top free Chinese open source model drops",
+            "summary": "OpenAI and Anthropic when a top free Chinese open source model drops",
+            "engagement": 88,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "There are basically two kinds of companies now…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079225776545968166",
+            "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+            "createdAt": "2026-07-20T15:23:49.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "There are basically two kinds of companies now. The ones built before coding agents showed up, scrambling to retrofit. And the ones founded after. The second type is different from day one: - Teams under ten people because they actually don't need more - Work organized by projects, not departments - Each person closes…",
+            "summary": "There are basically two kinds of companies now…",
+            "engagement": 220,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2079409165424799889",
+            "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+            "createdAt": "2026-07-21T03:32:33.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "If I were to hire today, this is how I would structure the interview process: Round 1: in-person & no AI allowed; test domain expertise and knowledge on the fly Round 2: a project that must be done with AI (impossible to complete without AI). Candidate assessed not just on the result but also the chat transcript with…",
+            "summary": "If I were to hire today, this is how I would structure the interview process: Round 1: in-person & no AI allowed; test domain expertise and knowledge on the fly Round 2: a project…",
+            "engagement": 214,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2079395028485488707",
+            "url": "https://x.com/zarazhangrui/status/2079395028485488707",
+            "createdAt": "2026-07-21T02:36:22.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Just reached 80k followers 🙏🏻 “all signal no noise no slop no hacks and still finds a way to grow her audience” is what I do here",
+            "summary": "Just reached 80k followers 🙏🏻 “all signal no noise no slop no hacks and still finds a way to grow her audience” is what I do here",
+            "engagement": 153,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Many founders in the last 18 months are going to realize that just because there are no “moats” in AI left anymore doesn’t mean “scale and capital” become your main moat…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079328912912355470",
+            "url": "https://x.com/nikunj/status/2079328912912355470",
+            "createdAt": "2026-07-20T22:13:39.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "Many founders in the last 18 months are going to realize that just because there are no “moats” in AI left anymore doesn’t mean “scale and capital” become your main moat. We have seen this movie before.. all of us will benefit from reading a little bit of history. Webvan Groupon MySpace Yahoo AltaVista Blockbuster…",
+            "summary": "Many founders in the last 18 months are going to realize that just because there are no “moats” in AI left anymore doesn’t mean “scale and capital” become your main moat…",
+            "engagement": 135,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2079211477127291350",
+            "url": "https://x.com/nikunj/status/2079211477127291350",
+            "createdAt": "2026-07-20T14:27:00.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "This VC to “fast growing startup” train is insane to watch.. another three people just this past week. I guess it’s similar to the IB/consultant to BizOps train I saw in 2012. Top title for this cohort? Special projects ⚡️",
+            "summary": "This VC to “fast growing startup” train is insane to watch.…",
+            "engagement": 85,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "we’re hiring a senior engineer to help work on our agent @every must love agents…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079338909801071021",
+            "url": "https://x.com/danshipper/status/2079338909801071021",
+            "createdAt": "2026-07-20T22:53:23.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "",
+            "summary": "",
+            "engagement": 68,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079331654359818503",
+            "url": "https://x.com/danshipper/status/2079331654359818503",
+            "createdAt": "2026-07-20T22:24:33.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "we’re hiring a senior engineer to help work on our agent @every must love agents. dm if you’re interested (for now preferencing for people I know on here!)",
+            "summary": "we’re hiring a senior engineer to help work on our agent @every must love agents…",
+            "engagement": 65,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2079320969802400200",
+            "url": "https://x.com/danshipper/status/2079320969802400200",
+            "createdAt": "2026-07-20T21:42:05.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "guys I’m basically Brian Johnson",
+            "summary": "guys I’m basically Brian Johnson",
+            "engagement": 50,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "it is good now!",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079258683884917013",
+            "url": "https://x.com/sama/status/2079258683884917013",
+            "createdAt": "2026-07-20T17:34:35.000Z",
+            "sourceDate": "2026-07-20",
+            "sourceDisplayDate": "7月20日 · 周一",
+            "text": "it is good now!",
+            "summary": "it is good now!",
+            "engagement": 3639,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "No Priors",
+        "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+        "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+        "publishedAt": "2026-07-09T10:00:00.000Z",
+        "sourceDate": "2026-07-09",
+        "sourceDisplayDate": "7月9日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:13 There is no such thing as a moat…",
+        "chineseTitle": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+        "tags": [
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天的高信号主线不是单个模型发布，而是 AI Builders 对“如何把 AI 变成可经营系统”的判断更清晰了：Agent 不再只是把任务自动化，而是在重写组织结构、招聘标准、成本结构和产品边界。Guillermo Rauch 的“everything is code”与 Zara Zhang 对 agent-native 公司的描述指向同一件事：更多非传统软件资产会被纳入可生成、可测试、可迭代的工程对象。",
+        "工程侧最值得关注的是多模型 Agent 架构开始从理念进入成本优化。Aaron Levie 引用 Cursor 研究强调，用 frontier model 做 planner/orchestrator、用更便宜的 workhorse model 执行，可以在大型任务中带来显著 token 成本改善。这意味着 Agent 产品竞争不只看模型能力，也看调度、验证、路由和任务拆分能力。",
+        "组织与人才信号同样强：Zara Zhang 提出的面试流程把“无 AI 的领域能力”和“有 AI 的任务完成能力”拆开评估，本质是在寻找能驾驭模型而不是被模型替代的人。Nikunj Kothari 对“AI 没有 moat 之后规模和资本是否就是 moat”的提醒，则是在给过去 18 个月的 AI 创业热降温：历史上资本充足但缺少真实壁垒的公司并不少见。",
+        "模型生态的讨论继续围绕开放权重、模型路由、推理成本和地缘限制展开。Peter Yang 关于禁用 Chinese models 可能成为自我伤害的判断，和 Madhu Guru 把“tokenomics”从 crypto 转向 open vs closed weight、inference costs、model routing 的说法互相呼应：AI 产品的长期成本曲线与供应链选择，正在成为产品战略问题。",
+        "播客侧，No Priors 与 Booking.com CEO Glenn Fogel 的对话把 AI 放进旅行平台这种成熟行业里看：真正的护城河不再只是库存或流量，而是能否用 AI 重新组织搜索、推荐、客服与交易体验。对 AI Builders 来说，这类垂直行业改造比通用 demo 更能说明 AI 的商业落点。"
+      ],
+      "filteredNote": "过滤掉了纯情绪/寒暄类内容、空文本、低上下文转发、招聘自推、生活玩笑、政治非 AI 话题和一句话 meme，例如 Sam Altman 的“it is good now!”、Thibault Sottiaux 的 OpenAI 感叹、Garry Tan 的政治评论、Dan Shipper 的招聘贴与日常玩笑等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月20日 · 周一",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "从文档到视频，AI 正在把更多资产代码化",
+        "summary": "Guillermo Rauch 认为 AI 带来的大教训是“everything is code”：幻灯片、设计、宣传视频、Excel 自动化都可以被当作代码生成和迭代。这个判断不是字面上的编程崇拜，而是在说更多业务资产会进入可版本化、可自动化、可组合的工程流程。",
+        "keyPoints": [
+          "AI 扩大了“代码”的边界，许多过去由人工工具链完成的产物会变成可生成对象。",
+          "设计、视频、表格自动化等非传统软件资产也会被纳入工程化生产。",
+          "对产品团队来说，未来的核心能力是把业务流程抽象成可被模型操作的表示。"
+        ],
+        "whyItMatters": "这为 AI Builders 提供了一个产品判断框架：不要只做聊天界面，而要寻找哪些业务资产可以被代码化、自动化和持续迭代。",
+        "tags": [
+          "Agent",
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/rauchg/status/2079274102129304026"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "多模型 Agent 架构开始变成成本优势",
+        "summary": "Aaron Levie 指出，多模型 agentic systems 会成为未来，并引用 Cursor 的研究：用 frontier model 负责规划和编排，用更便宜的模型承担执行，可让大型项目的 token 成本显著下降，甚至达到 15X 改善。这里的关键不是“换便宜模型”，而是把推理任务拆成不同认知层级。",
+        "keyPoints": [
+          "frontier model 更适合作为 planner/orchestrator，而不是承担所有 token 消耗。",
+          "workhorse model 可以处理大量执行型子任务，降低总体推理成本。",
+          "Agent 产品的护城河会部分来自任务分解、模型路由、上下文管理和验证流程。"
+        ],
+        "whyItMatters": "当模型能力趋同，成本结构会直接决定 Agent 产品能否规模化；这条信号对做 Agent infra 和企业应用的人尤其重要。",
+        "tags": [
+          "Agent",
+          "工程",
+          "模型路由"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/levie/status/2079402164988895293"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月20日 · 周一",
+        "actor": "Zara Zhang",
+        "meta": "AI Builders · X 动态",
+        "title": "Agent-native 公司会从第一天重写组织结构",
+        "summary": "Zara Zhang 将公司分成两类：coding agents 出现前成立、正在补课改造的公司，以及之后成立、从第一天就按 Agent 能力设计的公司。后者可能保持十人以内的小团队、按项目而非部门组织工作，并让每个人端到端关闭更多任务。",
+        "keyPoints": [
+          "Agent-native 公司不是在旧流程上加工具，而是重新设计组织默认值。",
+          "小团队、项目制、端到端负责会成为 AI 时代创业公司的常见形态。",
+          "组织结构会反过来影响产品速度、成本和人才密度。"
+        ],
+        "whyItMatters": "这提示 AI Builders：AI 的影响不止在代码生成效率，而会改变公司应该如何招聘、分工和管理。",
+        "tags": [
+          "Agent",
+          "组织",
+          "创业"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/zarazhangrui/status/2079225776545968166"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Zara Zhang",
+        "meta": "AI Builders · X 动态",
+        "title": "AI 时代的面试要同时测试人和模型协作",
+        "summary": "Zara Zhang 提出一种新的招聘流程：第一轮线下面试且禁止使用 AI，用来测试候选人的领域知识和即时判断；第二轮则要求必须使用 AI 完成一个否则无法完成的项目，并评估最终结果和聊天记录。这把“真实能力”和“AI 协作能力”分开测量。",
+        "keyPoints": [
+          "禁止 AI 的环节用于识别候选人的基础判断、领域理解和现场推理。",
+          "必须使用 AI 的项目用于观察候选人如何分解任务、提示模型、验证输出。",
+          "聊天 transcript 成为新的评估材料，可以暴露候选人的工作方式。"
+        ],
+        "whyItMatters": "对招 AI 产品和工程人才的团队来说，这比传统算法题或普通 take-home 更贴近实际工作流。",
+        "tags": [
+          "招聘",
+          "Agent",
+          "组织"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/zarazhangrui/status/2079409165424799889"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月20日 · 周一",
+        "actor": "Peter Yang",
+        "meta": "Practical AI · X 动态",
+        "title": "让一个 Agent 工作，另一个 Agent 按 rubric 审稿",
+        "summary": "Peter Yang 引用 Thariq 的方法：对视频短片这类没有确定性答案的任务，可以让一个 Agent 完成工作，再让另一个验证 Agent 根据 rubric 进行评审和反馈。这是一种把主观质量评估显式流程化的 Agent 设计模式。",
+        "keyPoints": [
+          "非确定性任务需要 rubric，而不是只靠单次模型输出。",
+          "生产 Agent 和验证 Agent 分离，可以降低自我确认偏差。",
+          "视频、文案、设计等创意任务尤其适合这种评审循环。"
+        ],
+        "whyItMatters": "Agent 产品很容易卡在“看起来能做但质量不稳”；rubric + verifier 是可落地的质量控制方案。",
+        "tags": [
+          "Agent",
+          "评估",
+          "产品"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/petergyang/status/2079257646939742542"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Swyx",
+        "meta": "Latent Space · X 动态",
+        "title": "Benchmark 高分可能来自训练集相似性，而不是真能力",
+        "summary": "Swyx 提醒，RLM paper 中有一段值得注意的 trajectory comparison：frontier model 即使不直接训练测试集，也可能通过训练测试集 lookalikes 来“goalseek”基准分数。这触及模型评测的核心问题：分数可能反映数据分布策略，而非真实泛化能力。",
+        "keyPoints": [
+          "不直接训练 test set 并不等于评测没有被间接优化。",
+          "test lookalikes 会让模型在特定 benchmark 上表现异常好。",
+          "AI Builders 需要把公开分数与真实任务评估分开看。"
+        ],
+        "whyItMatters": "采购模型、构建 eval 或对外宣传性能时，理解 benchmark 的可操纵性可以避免被虚高指标误导。",
+        "tags": [
+          "评测",
+          "研究",
+          "模型"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/swyx/status/2079411861150429402"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "AI 的 tokenomics 正转向开放权重、推理成本与路由",
+        "summary": "Madhu Guru 认为，四年前围绕 web3 和 crypto 的 tokenomics 争论已经退场，现在真正重要的 tokenomics 是 open vs closed weight、inference costs 和 model routing。这是在把 AI 的商业模型从叙事拉回单位经济和架构选择。",
+        "keyPoints": [
+          "开放权重与闭源模型的选择会影响成本、控制权和产品迭代速度。",
+          "推理成本正在成为 AI 产品毛利和可扩展性的关键变量。",
+          "模型路由决定不同任务如何在成本、质量和延迟之间取舍。"
+        ],
+        "whyItMatters": "这条判断把 AI 产品战略和基础设施决策连在一起：不是模型越强越好，而是路由后整体经济性是否成立。",
+        "tags": [
+          "模型路由",
+          "成本",
+          "开源模型"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/realmadhuguru/status/2079227605031829700"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月20日 · 周一",
+        "actor": "Nikunj Kothari",
+        "meta": "FPV Ventures · X 动态",
+        "title": "AI 没有 moat 不等于资本和规模就是 moat",
+        "summary": "Nikunj Kothari 提醒过去 18 个月的 AI founders：即便 AI 领域的传统 moat 看起来被削弱，也不代表 scale and capital 会自然成为主护城河。他用 Webvan、Groupon、MySpace、Yahoo、AltaVista、Blockbuster 等历史案例暗示，规模和资本若没有持续产品优势，可能只是放大错误。",
+        "keyPoints": [
+          "“没有 moat”不能自动推导出“烧钱和规模就是 moat”。",
+          "上一代互联网公司已有大量资本充足但长期失败的案例。",
+          "AI 创业公司仍需回答分发、数据、工作流嵌入和用户留存问题。"
+        ],
+        "whyItMatters": "这对融资市场情绪是一次冷却：AI Builders 应该更早验证真实留存和单位经济，而不是只追增长叙事。",
+        "tags": [
+          "创业",
+          "护城河",
+          "组织"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/nikunj/status/2079328912912355470"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月9日 · 周四",
+        "actor": "No Priors",
+        "meta": "Booking.com CEO Glenn Fogel · 播客",
+        "title": "旅行平台的 AI 改造不是加聊天框，而是重组交易体验",
+        "summary": "No Priors 与 Booking.com CEO Glenn Fogel 讨论 AI 如何改变旅行行业。核心信号是：在成熟平台里，AI 的价值不只是回答问题，而是把搜索、推荐、客服、行程规划和交易决策连成更个性化、更低摩擦的体验；所谓 moat 也会从静态资源转向执行和用户体验的持续优化。",
+        "keyPoints": [
+          "旅行是高意图、多约束、强交易场景，适合用 AI 连接搜索、推荐和服务。",
+          "成熟平台的 AI 落地重点在降低决策摩擦，而不只是提供通用问答。",
+          "平台护城河会更依赖数据、履约能力和端到端体验优化。"
+        ],
+        "whyItMatters": "对做垂直 AI 应用的 Builders 来说，这类行业案例比通用 demo 更能说明 AI 如何进入真实商业流程。",
+        "tags": [
+          "垂直 AI",
+          "旅行",
+          "产品"
+        ],
+        "qualityScore": 82,
+        "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA"
+      }
+    ]
+  },
+  {
     "date": "2026-07-21",
     "displayDate": "7月21日 · 周二",
     "generatedAt": "2026-07-20T23:30:13.179475+00:00",
