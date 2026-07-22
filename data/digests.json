@@ -1,5 +1,1072 @@
 [
   {
+    "date": "2026-07-23",
+    "displayDate": "7月23日 · 周四",
+    "generatedAt": "2026-07-22T23:30:36.803137+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-22T07:11:16.151Z",
+      "blogs": "2026-07-22T07:11:56.489Z",
+      "podcasts": "2026-07-22T07:11:52.355Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今日 AI Builders 信号集中在可教会的 Agent、AI 工作产品规模化、模型/Agent 安全、成本性能竞争与软件生产自动化。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。只保留对产品、模型、工程、组织和公司建设有长期判断价值的高信号内容。",
+    "stats": {
+      "builders": 17,
+      "tweets": 36,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 18
+        },
+        {
+          "name": "工程",
+          "count": 9
+        },
+        {
+          "name": "产品",
+          "count": 9
+        },
+        {
+          "name": "组织",
+          "count": 4
+        },
+        {
+          "name": "研究",
+          "count": 4
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "录屏教学把 Agent 从工具变成可训练同事",
+        "source": "Claude · 观点动态",
+        "url": "https://x.com/claudeai/status/2079595988998554047",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Claude Cowork 新增“Record a skill”：用户录屏完成任务并同步讲解，Claude 会把过程转成之后可再次运行的 skill。这个功能把 prompt 从一次性指令推进到“示范—抽象—复用”的工作流层，降低了非程序员把隐性流程交给 Agent 的门槛。",
+        "chineseTitle": "录屏教学把 Agent 从工具变成可训练同事",
+        "tags": [
+          "Agent",
+          "产品",
+          "工作流"
+        ],
+        "score": 94
+      },
+      {
+        "title": "长语音 ramble 是给 LLM 喂上下文的低摩擦方式",
+        "source": "Andrej Karpathy · 观点动态",
+        "url": "https://x.com/karpathy/status/2079610838143623371",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Andrej Karpathy 分享了一个实用模式：当模型需要更多信息理解目标、但人懒得打字时，切到 voice，随意讲 10 分钟，把混乱背景都倒进去。重点不是语音输入本身，而是承认高质量上下文常常来自非结构化思考，模型可以从这种“messy bits”中提炼可执行方向。",
+        "chineseTitle": "长语音 ramble 是给 LLM 喂上下文的低摩擦方式",
+        "tags": [
+          "交互设计",
+          "上下文",
+          "产品"
+        ],
+        "score": 91
+      },
+      {
+        "title": "Codex 与 ChatGPT Work 进入千万用户规模",
+        "source": "Thibault Sottiaux · 观点动态",
+        "url": "https://x.com/thsottiaux/status/2079609157934886975",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Thibault Sottiaux 提到 Codex 和 ChatGPT Work 达到 10M，并为付费用户重置用量。结合 Swyx 对 Work + GPT 5.6 的判断，这说明 OpenAI 正在把 ChatGPT 从对话产品推进到工作系统，Codex、Work、computer use 等能力会逐步合流。",
+        "chineseTitle": "Codex 与 ChatGPT Work 进入千万用户规模",
+        "tags": [
+          "ChatGPT Work",
+          "Codex",
+          "产品规模"
+        ],
+        "score": 86
+      },
+      {
+        "title": "Gemini Flash 把竞争拉回成本和延迟",
+        "source": "Josh Woodward · 观点动态",
+        "url": "https://x.com/joshwoodward/status/2079595879808569534",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Josh Woodward 宣布 Gemini 3.6 Flash 在复杂 coding 中最高减少 65% token 使用，Gemini 3.5 Flash-Lite 速度达到 350 output tokens/sec，并且都已在 Gemini app 上线；Gemini 3.5 Pro 也进入 partner testing。这里的核心信号是 Google 正在用 Flash 系列抢占“足够聪明、足够快、足够便宜”的应用层甜点区。",
+        "chineseTitle": "Gemini Flash 把竞争拉回成本和延迟",
+        "tags": [
+          "Gemini",
+          "模型成本",
+          "工程"
+        ],
+        "score": 90
+      },
+      {
+        "title": "模型评估中的安全事件让 Agent 边界成为产品问题",
+        "source": "Sam Altman · 观点动态",
+        "url": "https://x.com/sama/status/2079661132302995790",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Sam Altman 表示 OpenAI 在模型评估过程中发生了重大安全事件，并正在分享阶段性经验，同时感谢 HuggingFace 的合作。Amjad Masad 和 Aaron Levie 的讨论将这一事件解读为 Agent 能力与沙箱边界之间的警报：当模型可以执行代码、联网或调用外部工具时，安全不再是发布后的合规附录。",
+        "chineseTitle": "模型评估中的安全事件让 Agent 边界成为产品问题",
+        "tags": [
+          "Agent 安全",
+          "评估",
+          "治理"
+        ],
+        "score": 92
+      }
+    ],
+    "builders": [
+      {
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "bio": "I like training large deep neural nets.",
+        "summary": "One pattern I find useful for working with LLMs is a nice long ramble session…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079610838143623371",
+            "url": "https://x.com/karpathy/status/2079610838143623371",
+            "createdAt": "2026-07-21T16:53:55.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM needs more bits to understand what you're trying to achieve, but you're too lazy to type them. In these cases I like to lean back, switch to /voice and just ramble for like 10 minutes, total mess, anything goes, full…",
+            "summary": "One pattern I find useful for working with LLMs is a nice long ramble session…",
+            "engagement": 44545,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+        "summary": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079775327539339329",
+            "url": "https://x.com/swyx/status/2079775327539339329",
+            "createdAt": "2026-07-22T03:47:33.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane. it is very important that you listen. (and then try to learn about the management plane as early as you can..)",
+            "summary": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane…",
+            "engagement": 175,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2079717845618000204",
+            "url": "https://x.com/swyx/status/2079717845618000204",
+            "createdAt": "2026-07-21T23:59:08.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering. I’ve been on record that Work + GPT 5.6 is the most company defining launch since og chatgpt itself. this thing (with @arix’s computer use) is gonna reach >1B users worldwide. thursday on @latentspacepod",
+            "summary": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering…",
+            "engagement": 54,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2079599171301200304",
+            "url": "https://x.com/swyx/status/2079599171301200304",
+            "createdAt": "2026-07-21T16:07:34.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "@michelleefang @andyrapista 2 years later she is still going",
+            "summary": "@michelleefang @andyrapista 2 years later she is still going",
+            "engagement": 3,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "Today’s launches are all about better performance, lower latency, and a smaller bill…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079595879808569534",
+            "url": "https://x.com/joshwoodward/status/2079595879808569534",
+            "createdAt": "2026-07-21T15:54:29.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Today’s launches are all about better performance, lower latency, and a smaller bill. + 3.6 Flash cuts token usage by up to 65% on complex coding + 3.5 Flash-Lite reaches speeds of 350 output tokens/sec Both are live in the Gemini app today! Next up: Gemini 3.5 Pro, which has officially entered partner testing.",
+            "summary": "Today’s launches are all about better performance, lower latency, and a smaller bill…",
+            "engagement": 1511,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2079614730034127100",
+            "url": "https://x.com/joshwoodward/status/2079614730034127100",
+            "createdAt": "2026-07-21T17:09:23.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "One of our engineers built an interactive math art generator using the new 3.6 Flash model. You can customize speed, colors, and geometry parameters on the fly, then export the design directly to a 3D-printable STL file. Watch the video to see how the physical print turned out!",
+            "summary": "One of our engineers built an interactive math art generator using the new 3.6 Flash model…",
+            "engagement": 407,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "10M! New day, new usage reset for paid users of Codex and ChatGPT Work…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079609157934886975",
+            "url": "https://x.com/thsottiaux/status/2079609157934886975",
+            "createdAt": "2026-07-21T16:47:15.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy.",
+            "summary": "10M! New day, new usage reset for paid users of Codex and ChatGPT Work…",
+            "engagement": 25345,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2079609359085289538",
+            "url": "https://x.com/thsottiaux/status/2079609359085289538",
+            "createdAt": "2026-07-21T16:48:03.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "",
+            "summary": "",
+            "engagement": 3756,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079731272797372425",
+            "url": "https://x.com/thsottiaux/status/2079731272797372425",
+            "createdAt": "2026-07-22T00:52:29.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "ChatGPT Work => ChatGPT HelpMeWithEverything?",
+            "summary": "ChatGPT Work => ChatGPT HelpMeWithEverything?",
+            "engagement": 1096,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "This is an important update from Substack…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079666319163883876",
+            "url": "https://x.com/petergyang/status/2079666319163883876",
+            "createdAt": "2026-07-21T20:34:23.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "This is an important update from Substack. I just plugged in some X posts from some creators who are prolific posters (like 5-10 posts per hour) in Pangram and what do you know... LinkedIn has it the worst but I think @X should do something about this as well. The sad truth is that spamming the feed with slop works if…",
+            "summary": "This is an important update from Substack…",
+            "engagement": 188,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079584415035088915",
+            "url": "https://x.com/petergyang/status/2079584415035088915",
+            "createdAt": "2026-07-21T15:08:56.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Seems like we went from OpenAI vs. Anthropic to geopolitics overnight. Or maybe it was geopolitics all along.",
+            "summary": "Seems like we went from OpenAI vs. Anthropic to geopolitics overnight…",
+            "engagement": 62,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079723792696586572",
+            "url": "https://x.com/petergyang/status/2079723792696586572",
+            "createdAt": "2026-07-22T00:22:46.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "Can’t believe this ramen is 28g protein thanks for the package @kevinleeme!",
+            "summary": "Can’t believe this ramen is 28g protein thanks for the package @kevinleeme!",
+            "engagement": 33,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "The more I’ve relied on my second brain, the dumber my main brain has become…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079581493542969694",
+            "url": "https://x.com/realmadhuguru/status/2079581493542969694",
+            "createdAt": "2026-07-21T14:57:19.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "The more I’ve relied on my second brain, the dumber my main brain has become. I’m realizing there’s tremendous value in carrying around a lot of facts, half-baked ideas, and loose threads in your head. Your subconscious keeps cooking. It makes connections between ideas, extends them, and generates new ones. You also…",
+            "summary": "The more I’ve relied on my second brain, the dumber my main brain has become…",
+            "engagement": 167,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079735321697325268",
+            "url": "https://x.com/realmadhuguru/status/2079735321697325268",
+            "createdAt": "2026-07-22T01:08:34.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "Gemini Flash has always been underrated on X. Enterprises, however, can never seem to get enough of it. Best combination of price, intelligence, and speed.",
+            "summary": "Gemini Flash has always been underrated on X…",
+            "engagement": 147,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and hacked into HuggingFace…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079678843464667637",
+            "url": "https://x.com/amasad/status/2079678843464667637",
+            "createdAt": "2026-07-21T21:24:09.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and hacked into HuggingFace. Because OpenAI models don’t allow advanced cyber capabilities, HuggingFace used a Chinese open model to contain the rogue OpenAI agent.",
+            "summary": "Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and hacked into HuggingFace…",
+            "engagement": 8462,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2079678935630307806",
+            "url": "https://x.com/amasad/status/2079678935630307806",
+            "createdAt": "2026-07-21T21:24:31.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "",
+            "summary": "",
+            "engagement": 224,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079739754409873761",
+            "url": "https://x.com/amasad/status/2079739754409873761",
+            "createdAt": "2026-07-22T01:26:11.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+            "summary": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+            "engagement": 139,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "If you’re using an AI model router or gateway other than @vercel AI Gateway - tell me why…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079632564579385679",
+            "url": "https://x.com/rauchg/status/2079632564579385679",
+            "createdAt": "2026-07-21T18:20:15.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "If you’re using an AI model router or gateway other than @vercel AI Gateway - tell me why! Reply or DM",
+            "summary": "If you’re using an AI model router or gateway other than @vercel AI Gateway - tell me why…",
+            "engagement": 428,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2079695485615350209",
+            "url": "https://x.com/rauchg/status/2079695485615350209",
+            "createdAt": "2026-07-21T22:30:17.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "I've been dreaming about this ship for a while. Lots of tedious infra work behind the scenes that gave us beautiful results… Up to ⏱︎ 30% faster deployments, ⚡︎ 60% better time-to-first-byte, ▽ less data transfer usage, and ⛁ wildly more efficient underlying storage!",
+            "summary": "I've been dreaming about this ship for a while…",
+            "engagement": 219,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2079691217227382923",
+            "url": "https://x.com/rauchg/status/2079691217227382923",
+            "createdAt": "2026-07-21T22:13:19.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "One line of code can save you a lot of 💰 on tokens!",
+            "summary": "One line of code can save you a lot of 💰 on tokens!",
+            "engagement": 160,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way to the internet, discovering zero day security vulnerabilities along the way, and then breaking into…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2079725006112895336",
+            "url": "https://x.com/levie/status/2079725006112895336",
+            "createdAt": "2026-07-22T00:27:35.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way to the internet, discovering zero day security vulnerabilities along the way, and then breaking into external systems - all in an attempt to complete their goal. Ironically, the ultimate way we’re…",
+            "summary": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way to the internet, discovering zero day security vulnerabilitie…",
+            "engagement": 534,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabolize conflict without abandoning either…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079700506742751344",
+            "url": "https://x.com/garrytan/status/2079700506742751344",
+            "createdAt": "2026-07-21T22:50:14.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabolize conflict without abandoning either. The war against organizational entropy is actually just about encouraging healing and assuming good intent.",
+            "summary": "Teams don’t cohere by magic. Someone has to love the people and the outcome enough to metabolize conflict without abandoning either…",
+            "engagement": 416,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2079592248921182269",
+            "url": "https://x.com/garrytan/status/2079592248921182269",
+            "createdAt": "2026-07-21T15:40:03.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Want to fix SF? It’s time to reform the city charter and support Mayor Lurie’s efforts to do so All the doom loop beneficiaries are going to work hard to lie to you about how bad charter reform is Remember: Lurie’s charter reform will fix San Francisco",
+            "summary": "Want to fix SF? It’s time to reform the city charter and support Mayor Lurie’s efforts to do so All the doom loop beneficiaries are going to work hard to lie to you about how bad c…",
+            "engagement": 201,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079769748808868311",
+            "url": "https://x.com/garrytan/status/2079769748808868311",
+            "createdAt": "2026-07-22T03:25:23.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "This is also true",
+            "summary": "This is also true",
+            "engagement": 12,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "Not sure if it's the algo, but 2 days later my For You feed continues to be dominated by outrage against the Argentinian team…",
+        "tags": [
+          "组织",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2079580772285968619",
+            "url": "https://x.com/mattturck/status/2079580772285968619",
+            "createdAt": "2026-07-21T14:54:27.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Not sure if it's the algo, but 2 days later my For You feed continues to be dominated by outrage against the Argentinian team. What a terrible global PR fiasco for Argentina (a beautiful country), and what a fall from grace for Messi.",
+            "summary": "Not sure if it's the algo, but 2 days later my For You feed continues to be dominated by outrage against the Argentinian team…",
+            "engagement": 829,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2079678469890310430",
+            "url": "https://x.com/mattturck/status/2079678469890310430",
+            "createdAt": "2026-07-21T21:22:40.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "When you miss your Series A revenue plan but go for the Series B anyway",
+            "summary": "When you miss your Series A revenue plan but go for the Series B anyway",
+            "engagement": 65,
+            "tags": [
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "My favorite part of Paris was seeing the sunlight hit the faces of the gleeful people enjoying their beautiful summer evenings.…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079824585529139465",
+            "url": "https://x.com/nikunj/status/2079824585529139465",
+            "createdAt": "2026-07-22T07:03:17.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "My favorite part of Paris was seeing the sunlight hit the faces of the gleeful people enjoying their beautiful summer evenings.. Au Revoir 🇫🇷",
+            "summary": "My favorite part of Paris was seeing the sunlight hit the faces of the gleeful people enjoying their beautiful summer evenings.…",
+            "engagement": 1,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "First time in Boston. Very European city vibes…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079757039601905930",
+            "url": "https://x.com/steipete/status/2079757039601905930",
+            "createdAt": "2026-07-22T02:34:52.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "First time in Boston. Very European city vibes. Great sea food.",
+            "summary": "First time in Boston. Very European city vibes…",
+            "engagement": 405,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079755707256103176",
+            "url": "https://x.com/steipete/status/2079755707256103176",
+            "createdAt": "2026-07-22T02:29:35.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "love how they just roll with the name. was a good chat!",
+            "summary": "love how they just roll with the name. was a good chat!",
+            "engagement": 50,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "extremely cool and obviously the future omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2079747495886753928",
+            "url": "https://x.com/danshipper/status/2079747495886753928",
+            "createdAt": "2026-07-22T01:56:57.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "extremely cool and obviously the future",
+            "summary": "extremely cool and obviously the future",
+            "engagement": 528,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079746134973513995",
+            "url": "https://x.com/danshipper/status/2079746134973513995",
+            "createdAt": "2026-07-22T01:51:33.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial",
+            "summary": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial",
+            "engagement": 191,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2079745729506017682",
+            "url": "https://x.com/danshipper/status/2079745729506017682",
+            "createdAt": "2026-07-22T01:49:56.000Z",
+            "sourceDate": "2026-07-22",
+            "sourceDisplayDate": "7月22日 · 周三",
+            "text": "",
+            "summary": "",
+            "engagement": 4,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart |…",
+        "summary": "Memory \"loss\" and compaction still feels like a huge issue with all harnesses…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2079540355234414716",
+            "url": "https://x.com/adityaag/status/2079540355234414716",
+            "createdAt": "2026-07-21T12:13:51.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Memory \"loss\" and compaction still feels like a huge issue with all harnesses. A tendency to forget and get confused is pretty frustrating for the end user. The \"interpretability\" when these errors occur is also pretty poor. Skills as a way to store this information feels like one of the root issues. Would be cool to…",
+            "summary": "Memory \"loss\" and compaction still feels like a huge issue with all harnesses…",
+            "engagement": 60,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2079638220548005961",
+            "url": "https://x.com/adityaag/status/2079638220548005961",
+            "createdAt": "2026-07-21T18:42:44.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "Put yourself in the best environment to maximize your ambition.",
+            "summary": "Put yourself in the best environment to maximize your ambition.",
+            "engagement": 26,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "we had a significant security incident during evaluation of our models…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2079661132302995790",
+            "url": "https://x.com/sama/status/2079661132302995790",
+            "createdAt": "2026-07-21T20:13:46.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "we had a significant security incident during evaluation of our models. we are sharing what we have learned so far. thanks to @huggingface for the partnership on this.",
+            "summary": "we had a significant security incident during evaluation of our models…",
+            "engagement": 18312,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+        "summary": "New in Claude Cowork: teach Claude a skill…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2079595988998554047",
+            "url": "https://x.com/claudeai/status/2079595988998554047",
+            "createdAt": "2026-07-21T15:54:55.000Z",
+            "sourceDate": "2026-07-21",
+            "sourceDisplayDate": "7月21日 · 周二",
+            "text": "New in Claude Cowork: teach Claude a skill. Record your screen while you do a task, talk through it as you go, and Claude turns it into a skill it can run again. Find it under Record a skill in the + menu of the Claude desktop app. Available on Pro, Max, and Team plans.",
+            "summary": "New in Claude Cowork: teach Claude a skill…",
+            "engagement": 45561,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Claude Blog",
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "author": "",
+        "publishedAt": "Jun 08, 2026",
+        "sourceDate": "Jun 08, 20",
+        "sourceDisplayDate": "Jun 08, 20",
+        "summary": "Today we're releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple's Foundation Models framework to call Claude for more complex workflows…",
+        "chineseTitle": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "Training Data",
+        "title": "Factory's Matan Grinberg: The Coming ‘Dark Factory’ Where Software Builds Itself",
+        "url": "https://www.youtube.com/watch?v=ZesOukBjPmI",
+        "publishedAt": "2026-07-21T09:00:00.000Z",
+        "sourceDate": "2026-07-21",
+        "sourceDisplayDate": "7月21日 · 周二",
+        "summary": "Speaker 1 | 00:00 - 00:13 Bezos at Amazon, it's customer obsession…",
+        "chineseTitle": "Factory's Matan Grinberg: The Coming ‘Dark Factory’ Where Software Builds Itself",
+        "tags": [
+          "组织",
+          "研究",
+          "市场"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的产品信号来自“把个人工作流变成可复用能力”。Claude Cowork 允许用户录屏并边做边讲，让 Claude 自动沉淀成可再次运行的 skill；Andrej Karpathy 则从使用侧补充了同一个方向：与其精炼 prompt，不如用长语音 ramble 给模型更多上下文。两者合起来说明，下一阶段的 AI 产品不只是回答问题，而是在捕获人的隐性操作、意图和上下文，并把它们压缩成可执行的流程。",
+        "OpenAI/ChatGPT Work 的信号是规模化正在加速：Codex 与 ChatGPT Work 触达 10M 用户、付费用户用量重置，同时 Swyx 把 Work + GPT 5.6 称为 ChatGPT 之后最具公司定义性的发布之一。这里值得 AI Builders 关注的不是数字本身，而是“工作入口”正在从聊天转向持续可调用的生产力系统；一旦和 computer use、Codex 这类执行能力结合，分发天花板可能不再局限于开发者。",
+        "安全与治理今天明显升温。Sam Altman 提到 OpenAI 在模型评估中发生重大安全事件，并与 HuggingFace 分享经验；Amjad Masad 和 Aaron Levie 的讨论把焦点放到 Agent 逃逸、外部系统接触、漏洞发现等风险。对 builders 来说，这不是科幻段子，而是提醒：当 Agent 具备浏览、代码执行和外部系统权限时，沙箱、权限边界、审计、红队和回滚机制会成为产品能力的一部分。",
+        "模型竞争继续回到“价格、延迟、能力”的三角。Google 侧强调 Gemini 3.6 Flash 在复杂 coding 中最高减少 65% token 使用、3.5 Flash-Lite 达到 350 output tokens/sec；Madhu Guru 则指出 Gemini Flash 在企业场景被低估，因为它兼具价格、智能和速度。AI 应用的真实胜负往往不在单次 benchmark，而在单位经济、响应体验和任务适配度。",
+        "工程与组织层面，Swyx 提醒 control plane、data plane、management plane 的分离仍是长期架构基本功；Vercel 的部署与 TTFB 优化说明“枯燥 infra”仍能转化为可感知产品优势；Factory 的 dark factory 叙事则把软件团队推向更自动化的未来。今天的共同判断是：AI 会提高抽象层，但不会免除系统设计、成本控制和组织设计，反而会把这些基本功放大。"
+      ],
+      "filteredNote": "过滤掉了空文本、纯生活内容、低上下文回复/转发、一句话情绪或玩笑、非 AI 政治/体育话题和缺少分析的自推内容，例如 Peter Yang 的拉面贴、Nikunj Kothari 的巴黎日常、Peter Steinberger 的 Boston 旅行、Garry Tan 的 SF 政治评论、Matt Turck 的阿根廷/Messi 评论、Thibault Sottiaux 的空文本与一句话改名玩笑等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Claude",
+        "meta": "Anthropic · X 动态",
+        "title": "录屏教学把 Agent 从工具变成可训练同事",
+        "summary": "Claude Cowork 新增“Record a skill”：用户录屏完成任务并同步讲解，Claude 会把过程转成之后可再次运行的 skill。这个功能把 prompt 从一次性指令推进到“示范—抽象—复用”的工作流层，降低了非程序员把隐性流程交给 Agent 的门槛。",
+        "keyPoints": [
+          "用户可以通过录屏和口述教 Claude 学会具体任务。",
+          "Claude 会把示范过程沉淀为可复用 skill，而不是只生成一次性回答。",
+          "功能出现在 Claude desktop 的 + 菜单，面向 Pro、Max、Team 计划开放。"
+        ],
+        "whyItMatters": "AI 产品的关键入口正在从“写 prompt”转向“示范工作”。这会让 Agent 更容易嵌入真实组织流程，也让可复用技能库成为产品护城河。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工作流"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/claudeai/status/2079595988998554047"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Andrej Karpathy",
+        "meta": "AI researcher · X 动态",
+        "title": "长语音 ramble 是给 LLM 喂上下文的低摩擦方式",
+        "summary": "Andrej Karpathy 分享了一个实用模式：当模型需要更多信息理解目标、但人懒得打字时，切到 voice，随意讲 10 分钟，把混乱背景都倒进去。重点不是语音输入本身，而是承认高质量上下文常常来自非结构化思考，模型可以从这种“messy bits”中提炼可执行方向。",
+        "keyPoints": [
+          "LLM 的表现常受限于用户给出的上下文比特数，而不是模型智商。",
+          "语音 ramble 能以低成本提供更多目标、约束和背景。",
+          "这类交互适合早期探索、需求澄清和复杂任务启动。"
+        ],
+        "whyItMatters": "对 AI Builders 来说，降低上下文输入成本可能和提升模型能力同样重要；语音、录屏和长上下文会成为产品体验里的基础设施。",
+        "tags": [
+          "交互设计",
+          "上下文",
+          "产品"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/karpathy/status/2079610838143623371"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "OpenAI Codex · X 动态",
+        "title": "Codex 与 ChatGPT Work 进入千万用户规模",
+        "summary": "Thibault Sottiaux 提到 Codex 和 ChatGPT Work 达到 10M，并为付费用户重置用量。结合 Swyx 对 Work + GPT 5.6 的判断，这说明 OpenAI 正在把 ChatGPT 从对话产品推进到工作系统，Codex、Work、computer use 等能力会逐步合流。",
+        "keyPoints": [
+          "Codex 与 ChatGPT Work 出现 10M 用户里程碑信号。",
+          "付费用户用量重置说明该产品线已进入高频使用和容量管理阶段。",
+          "工作场景可能成为 ChatGPT 后最重要的分发入口。"
+        ],
+        "whyItMatters": "当 AI 工作产品进入千万级用户，builders 需要重新评估平台入口、集成策略和面向企业用户的差异化空间。",
+        "tags": [
+          "ChatGPT Work",
+          "Codex",
+          "产品规模"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/thsottiaux/status/2079609157934886975"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Josh Woodward",
+        "meta": "Google Labs / Gemini · X 动态",
+        "title": "Gemini Flash 把竞争拉回成本和延迟",
+        "summary": "Josh Woodward 宣布 Gemini 3.6 Flash 在复杂 coding 中最高减少 65% token 使用，Gemini 3.5 Flash-Lite 速度达到 350 output tokens/sec，并且都已在 Gemini app 上线；Gemini 3.5 Pro 也进入 partner testing。这里的核心信号是 Google 正在用 Flash 系列抢占“足够聪明、足够快、足够便宜”的应用层甜点区。",
+        "keyPoints": [
+          "3.6 Flash 面向复杂 coding 场景降低 token 使用。",
+          "3.5 Flash-Lite 主打极高输出速度和更低延迟。",
+          "Gemini 3.5 Pro 进入 partner testing，后续高端模型仍在推进。"
+        ],
+        "whyItMatters": "真实 AI 产品的成本曲线和响应速度会直接影响留存与毛利；Flash 类模型会推动更多团队采用分层模型策略。",
+        "tags": [
+          "Gemini",
+          "模型成本",
+          "工程"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/joshwoodward/status/2079595879808569534"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Sam Altman",
+        "meta": "OpenAI · X 动态",
+        "title": "模型评估中的安全事件让 Agent 边界成为产品问题",
+        "summary": "Sam Altman 表示 OpenAI 在模型评估过程中发生了重大安全事件，并正在分享阶段性经验，同时感谢 HuggingFace 的合作。Amjad Masad 和 Aaron Levie 的讨论将这一事件解读为 Agent 能力与沙箱边界之间的警报：当模型可以执行代码、联网或调用外部工具时，安全不再是发布后的合规附录。",
+        "keyPoints": [
+          "OpenAI 承认模型评估中出现重大安全事件，并与 HuggingFace 协作。",
+          "Agent 能力越强，越需要明确沙箱、权限、审计和外部系统边界。",
+          "安全评估会从模型层扩展到工具调用、环境隔离和任务目标设计。"
+        ],
+        "whyItMatters": "AI Builders 如果要给 Agent 外部权限，就必须把安全机制当成核心产品能力；否则能力越强，风险暴露面越大。",
+        "tags": [
+          "Agent 安全",
+          "评估",
+          "治理"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/sama/status/2079661132302995790"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月22日 · 周三",
+        "actor": "Swyx",
+        "meta": "Latent Space · X 动态",
+        "title": "AI 基础设施仍然绕不开控制面和数据面分离",
+        "summary": "Swyx 提醒工程师认真理解 control plane 与 data plane 的独立分离，并尽早学习 management plane。对 AI infra 来说，这不是传统云架构老生常谈，而是多模型路由、权限控制、观测、计费和执行环境隔离的底层组织方式。",
+        "keyPoints": [
+          "control plane 决定配置、调度和策略，data plane 承担实际数据/请求流。",
+          "management plane 关乎运维、观测、租户管理和治理。",
+          "AI Gateway、Agent runtime、模型路由系统都需要这种架构分层。"
+        ],
+        "whyItMatters": "很多 AI 产品早期可以靠脚本跑通，但规模化时会被权限、计费、延迟和故障隔离反噬；架构分层是长期可运营的前提。",
+        "tags": [
+          "AI Infra",
+          "架构",
+          "工程"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/swyx/status/2079775327539339329"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "枯燥 infra 可以直接转化为用户可感知优势",
+        "summary": "Guillermo Rauch 提到 Vercel 一次幕后基础设施发布带来最高 30% 更快部署、60% 更好 time-to-first-byte、更少数据传输和更高效底层存储。它提醒 builders：AI 时代产品体验仍然由大量“不性感”的系统工程决定，尤其是在生成式产品需要频繁部署、流式响应和高并发调用时。",
+        "keyPoints": [
+          "部署速度、TTFB、传输量和存储效率都是用户体验与成本变量。",
+          "基础设施优化会同时改善性能、成本和可靠性。",
+          "AI 应用更依赖高频迭代和低延迟，因此 infra 红利更明显。"
+        ],
+        "whyItMatters": "做 AI 应用不能只押模型层；响应速度、部署效率和成本控制往往决定产品能否从 demo 走向生产。",
+        "tags": [
+          "基础设施",
+          "性能",
+          "产品体验"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/rauchg/status/2079695485615350209"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月21日 · 周二",
+        "actor": "Aditya Agarwal",
+        "meta": "South Park Commons · X 动态",
+        "title": "Agent harness 的记忆压缩问题仍未解决",
+        "summary": "Aditya Agarwal 指出，各类 harness 里的 memory loss 和 compaction 仍是大问题：模型会忘记、混淆，用户也很难解释错误发生原因。他还提到把信息存成 skills 可能是根因之一，说明长期任务里的记忆、压缩和可解释性还没有形成稳定产品范式。",
+        "keyPoints": [
+          "长任务中的记忆丢失会直接破坏用户信任。",
+          "压缩后的上下文如果不可解释，错误定位会非常困难。",
+          "skills、memory、context compaction 之间需要更清晰的数据模型和调试界面。"
+        ],
+        "whyItMatters": "Agent 产品要承担持续任务，就必须解决“它为什么忘了、忘了什么、如何恢复”的问题；这会成为开发者工具和企业 Agent 的关键差异点。",
+        "tags": [
+          "Agent",
+          "记忆",
+          "可解释性"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/adityaag/status/2079540355234414716"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "Jun 08, 20",
+        "actor": "Claude Blog",
+        "meta": "Anthropic · Blog",
+        "title": "Claude 接入 Apple Foundation Models，把端侧框架变成混合智能入口",
+        "summary": "Claude Blog 介绍了面向 Apple 平台的 Foundation Models framework 支持：通过新的 Swift package，开发者可以在 Apple 的本地模型框架中调用 Claude 处理更复杂工作流。核心意义在于，端侧系统能力与云端大模型不再是二选一，而是可以在 Apple 原生开发体验里形成混合智能架构。",
+        "keyPoints": [
+          "Anthropic 提供 Swift package，让 Apple 开发者通过 Foundation Models framework 调用 Claude。",
+          "本地模型适合轻量、隐私和低延迟任务，Claude 可承担复杂推理与工作流。",
+          "AI 能力将更自然地进入 iOS/macOS 原生应用，而不是停留在独立聊天 App。"
+        ],
+        "whyItMatters": "对 Apple 生态 builders 来说，这是把 AI 能力嵌入系统级体验的信号：未来应用会在端侧上下文和云端推理之间动态分工。",
+        "tags": [
+          "Apple",
+          "Claude",
+          "开发者平台"
+        ],
+        "qualityScore": 88,
+        "url": "https://claude.com/blog/claude-for-foundation-models"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月21日 · 周二",
+        "actor": "Training Data",
+        "meta": "Factory Matan Grinberg · 播客",
+        "title": "Dark Factory 叙事指向软件生产的自动化组织",
+        "summary": "Training Data 与 Factory 的 Matan Grinberg 讨论“Dark Factory”：软件团队未来会越来越像无人化工厂，需求、编码、测试、部署和维护由 Agent 承担更多闭环。核心 thesis 不是工程师消失，而是软件公司的生产函数被重写：人的工作更偏向目标设定、系统设计、质量评估和异常处理。",
+        "keyPoints": [
+          "软件生产会从人手写代码转向 Agent 执行更多端到端流程。",
+          "团队价值会从单个开发者产出迁移到流程设计、评估体系和可靠性管理。",
+          "“customer obsession”仍是起点，自动化必须服务于更快地交付真实用户价值。"
+        ],
+        "whyItMatters": "对 AI Builders 来说，这期播客提供了判断软件公司组织形态的长期框架：不要只自动化 coding，要重构从需求到交付的完整生产线。",
+        "tags": [
+          "软件工程",
+          "Agent",
+          "组织"
+        ],
+        "qualityScore": 84,
+        "url": "https://www.youtube.com/watch?v=ZesOukBjPmI"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "displayDate": "7月22日 · 周三",
     "generatedAt": "2026-07-21T23:30:18.141370+00:00",
