@@ -1,5 +1,907 @@
 [
   {
+    "date": "2026-07-25",
+    "displayDate": "7月25日 · 周六",
+    "generatedAt": "2026-07-24T23:30:30.012240+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-24T07:10:08.109Z",
+      "blogs": "2026-07-24T07:10:46.068Z",
+      "podcasts": "2026-07-24T07:10:43.146Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "Voice AI 接入工具与强模型，Agent 从对话入口继续靠近真实工作流",
+    "editorNote": "今日高信号集中在语音交互、Agent 权限治理、推理速度与工程基础设施。重点不是“又多了一个聊天方式”，而是 AI 正在获得更自然的入口、更强的工具访问能力，以及更接近生产系统的部署条件。",
+    "stats": {
+      "builders": 12,
+      "tweets": 27,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "产品",
+          "count": 12
+        },
+        {
+          "name": "工程",
+          "count": 10
+        },
+        {
+          "name": "Agent",
+          "count": 9
+        },
+        {
+          "name": "组织",
+          "count": 7
+        },
+        {
+          "name": "研究",
+          "count": 5
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Claude 的观点",
+        "source": "Claude · X 动态",
+        "url": "https://x.com/claudeai/status/2080376094939603366",
+        "sourceDate": "2026-07-23",
+        "sourceDisplayDate": "7月23日 · 周四",
+        "summary": "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation…",
+        "chineseTitle": "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation…",
+        "tags": [
+          "产品",
+          "Agent",
+          "研究"
+        ],
+        "score": 11232
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2080408012515340394",
+        "sourceDate": "2026-07-23",
+        "sourceDisplayDate": "7月23日 · 周四",
+        "summary": "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard…",
+        "chineseTitle": "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard…",
+        "tags": [
+          "产品"
+        ],
+        "score": 4078
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2080537149204758689",
+        "sourceDate": "2026-07-24",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+        "chineseTitle": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+        "tags": [
+          "组织"
+        ],
+        "score": 1375
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2080543574211666029",
+        "sourceDate": "2026-07-24",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "chineseTitle": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "tags": [
+          "产品"
+        ],
+        "score": 1028
+      },
+      {
+        "title": "来自 Claude 的观点",
+        "source": "Claude · X 动态",
+        "url": "https://x.com/claudeai/status/2080376096873177300",
+        "sourceDate": "2026-07-23",
+        "sourceDisplayDate": "7月23日 · 周四",
+        "summary": "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet…",
+        "chineseTitle": "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet…",
+        "tags": [
+          "产品",
+          "Agent",
+          "研究"
+        ],
+        "score": 925
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition -…",
+        "summary": "one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thinkymachines at coding, but most people (li…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080387171723137440",
+            "url": "https://x.com/swyx/status/2080387171723137440",
+            "createdAt": "2026-07-23T20:18:48.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @thinkymachines at coding, but most people (like @eliebakouch) have been shouting out their excellent papers, but also they're among a rare few…",
+            "summary": "one thing i think people dont appreciate enough about @poolsideai is their unusual degree of openness — not only have they shipped an excellent Small model that somehow beat @think…",
+            "engagement": 154,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080500752183960017",
+            "url": "https://x.com/swyx/status/2080500752183960017",
+            "createdAt": "2026-07-24T03:50:07.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms! there's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a…",
+            "summary": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use…",
+            "engagement": 54,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2080408012515340394",
+            "url": "https://x.com/thsottiaux/status/2080408012515340394",
+            "createdAt": "2026-07-23T21:41:36.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard. Time to have fun! Available in the ChatGPT desktop app now.",
+            "summary": "Jarvis / Samantha / TARS / Etc Try it, and do your best work all while being away from that keyboard…",
+            "engagement": 4078,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2080537149204758689",
+            "url": "https://x.com/thsottiaux/status/2080537149204758689",
+            "createdAt": "2026-07-24T06:14:45.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+            "summary": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+            "engagement": 1375,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2080543574211666029",
+            "url": "https://x.com/thsottiaux/status/2080543574211666029",
+            "createdAt": "2026-07-24T06:40:17.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+            "summary": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+            "engagement": 1028,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Before and after with ChatGPT Voice The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2080505964936241226",
+            "url": "https://x.com/petergyang/status/2080505964936241226",
+            "createdAt": "2026-07-24T04:10:50.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Before and after with ChatGPT Voice",
+            "summary": "Before and after with ChatGPT Voice",
+            "engagement": 143,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2080508139091427741",
+            "url": "https://x.com/petergyang/status/2080508139091427741",
+            "createdAt": "2026-07-24T04:19:28.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥",
+            "summary": "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other…",
+            "engagement": 76,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          },
+          {
+            "id": "2080505108216111303",
+            "url": "https://x.com/petergyang/status/2080505108216111303",
+            "createdAt": "2026-07-24T04:07:26.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "More feedback: 1. It should let me know when the other threads finish working if I have a bunch of threads going 2. The Chinese pronounciation sounds bad 😅",
+            "summary": "More feedback: 1. It should let me know when the other threads finish working if I have a bunch of threads going 2…",
+            "engagement": 18,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "Chatted with a friend who leads security at a public company following the GPT Sol incident…",
+        "tags": [
+          "Agent",
+          "组织",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080315474093760714",
+            "url": "https://x.com/realmadhuguru/status/2080315474093760714",
+            "createdAt": "2026-07-23T15:33:54.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Chatted with a friend who leads security at a public company following the GPT Sol incident. some interesting takeaways.. How do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees? One employee can now spin up hundreds of agents. Those…",
+            "summary": "Chatted with a friend who leads security at a public company following the GPT Sol incident…",
+            "engagement": 32,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          },
+          {
+            "id": "2080460579966501257",
+            "url": "https://x.com/realmadhuguru/status/2080460579966501257",
+            "createdAt": "2026-07-24T01:10:30.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people.",
+            "summary": "Great builders understand the jagged frontier of AI models…",
+            "engagement": 14,
+            "tags": [
+              "组织",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Viktor was able to disrupt the agency model and make a lot of money by using Replit…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2080371567221944657",
+            "url": "https://x.com/amasad/status/2080371567221944657",
+            "createdAt": "2026-07-23T19:16:47.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Viktor was able to disrupt the agency model and make a lot of money by using Replit. Then he figured: Why not automate the entire thing, not just the coding part? The Agency: It's merely an agent loop... So he asked our team for an MCP, and we built one and he's now built his autonomous agency.",
+            "summary": "Viktor was able to disrupt the agency model and make a lot of money by using Replit…",
+            "engagement": 348,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2080512523389005894",
+            "url": "https://x.com/amasad/status/2080512523389005894",
+            "createdAt": "2026-07-24T04:36:54.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "My chess autoresearch agent got a PhD in modern LLM finetuning.",
+            "summary": "My chess autoresearch agent got a PhD in modern LLM finetuning.",
+            "engagement": 197,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2080513361301925957",
+            "url": "https://x.com/amasad/status/2080513361301925957",
+            "createdAt": "2026-07-24T04:40:14.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Autoscale deployments, which is typically the most expensive of scaled apps is down 80%!",
+            "summary": "Autoscale deployments, which is typically the most expensive of scaled apps is down 80%!",
+            "engagement": 122,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2080344136625049690",
+            "url": "https://x.com/rauchg/status/2080344136625049690",
+            "createdAt": "2026-07-23T17:27:47.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team.",
+            "summary": "🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team.",
+            "engagement": 209,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          },
+          {
+            "id": "2080454509508387251",
+            "url": "https://x.com/rauchg/status/2080454509508387251",
+            "createdAt": "2026-07-24T00:46:22.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Python code now starts 2x faster on Vercel. Automatically!",
+            "summary": "Python code now starts 2x faster on Vercel…",
+            "engagement": 163,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one)…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080471989060559336",
+            "url": "https://x.com/levie/status/2080471989060559336",
+            "createdAt": "2026-07-24T01:55:50.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. What…",
+            "summary": "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one)…",
+            "engagement": 232,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Open weight models are very very important It’s time to build housing in SF Repeal and reform CEQA, the one regulatory tool that is used and abused by NIMBYs to block housing everywhere in California",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080345524620914897",
+            "url": "https://x.com/garrytan/status/2080345524620914897",
+            "createdAt": "2026-07-23T17:33:18.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Open weight models are very very important",
+            "summary": "Open weight models are very very important",
+            "engagement": 419,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2080443154730553402",
+            "url": "https://x.com/garrytan/status/2080443154730553402",
+            "createdAt": "2026-07-24T00:01:15.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "It’s time to build housing in SF",
+            "summary": "It’s time to build housing in SF",
+            "engagement": 386,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080364752778527195",
+            "url": "https://x.com/garrytan/status/2080364752778527195",
+            "createdAt": "2026-07-23T18:49:43.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Repeal and reform CEQA, the one regulatory tool that is used and abused by NIMBYs to block housing everywhere in California",
+            "summary": "Repeal and reform CEQA, the one regulatory tool that is used and abused by NIMBYs to block housing everywhere in California",
+            "engagement": 162,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "My conversation with @andrewdfeldman, CEO of @cerebras…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080333707483725876",
+            "url": "https://x.com/mattturck/status/2080333707483725876",
+            "createdAt": "2026-07-23T16:46:21.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:00 Cold open & Intro 01:31 Why speed became the AI bottleneck 02:32 Tokens per second per user, explained 03:16 AI’s broadband moment and…",
+            "summary": "My conversation with @andrewdfeldman, CEO of @cerebras…",
+            "engagement": 67,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2080451010439352711",
+            "url": "https://x.com/mattturck/status/2080451010439352711",
+            "createdAt": "2026-07-24T00:32:28.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "VCs when a founder is raising for a profitable bootstrapped business instead of burning hundreds of millions on compute for a neo-lab",
+            "summary": "VCs when a founder is raising for a profitable bootstrapped business instead of burning hundreds of millions on compute for a neo-lab",
+            "engagement": 40,
+            "tags": [
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2080333711640285549",
+            "url": "https://x.com/mattturck/status/2080333711640285549",
+            "createdAt": "2026-07-23T16:46:22.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on YouTube:",
+            "summary": "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on…",
+            "engagement": 10,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Things in tech that have lost all signal given how liberally we use this title.…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080293627784212933",
+            "url": "https://x.com/nikunj/status/2080293627784212933",
+            "createdAt": "2026-07-23T14:07:05.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Things in tech that have lost all signal given how liberally we use this title.. > “neo”-something > full stack > fellows* > labs > partner* > forward deployed > RL (getting there slowly) * yes I know the irony since a) we run a fellowship and b) my own title is partner",
+            "summary": "Things in tech that have lost all signal given how liberally we use this title.…",
+            "engagement": 61,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "We see that as well and added code paths that use the claude cli directly - hard to fight the system.",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080318789980201224",
+            "url": "https://x.com/steipete/status/2080318789980201224",
+            "createdAt": "2026-07-23T15:47:04.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "We see that as well and added code paths that use the claude cli directly - hard to fight the system.",
+            "summary": "We see that as well and added code paths that use the claude cli directly - hard to fight the system.",
+            "engagement": 278,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+        "summary": "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation…",
+        "tags": [
+          "产品",
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080376094939603366",
+            "url": "https://x.com/claudeai/status/2080376094939603366",
+            "createdAt": "2026-07-23T19:34:47.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation. Talk through the hard problems out loud, in many more languages.",
+            "summary": "Voice mode now runs on Claude's more capable models and reaches the tools you've connected mid-conversation…",
+            "engagement": 11232,
+            "tags": [
+              "产品",
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080376096873177300",
+            "url": "https://x.com/claudeai/status/2080376096873177300",
+            "createdAt": "2026-07-23T19:34:47.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar.",
+            "summary": "Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet…",
+            "engagement": 925,
+            "tags": [
+              "产品",
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080376099268169943",
+            "url": "https://x.com/claudeai/status/2080376099268169943",
+            "createdAt": "2026-07-23T19:34:48.000Z",
+            "sourceDate": "2026-07-23",
+            "sourceDisplayDate": "7月23日 · 周四",
+            "text": "Voice mode also supports more languages, on every plan, including Spanish, French, Hindi, and Japanese. The update is rolling out today in public beta on mobile, desktop, and web. Download the mobile app and tap the sound wave to start a conversation:",
+            "summary": "Voice mode also supports more languages, on every plan, including Spanish, French, Hindi, and Japanese…",
+            "engagement": 793,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Claude Blog",
+        "title": "Claude Code now supports artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "author": "",
+        "publishedAt": "Jun 18, 2026",
+        "sourceDate": "Jun 18, 20",
+        "sourceDisplayDate": "Jun 18, 20",
+        "summary": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code's work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works…",
+        "chineseTitle": "Claude Code now supports artifacts",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "publishedAt": "2026-07-23T11:30:00.000Z",
+        "sourceDate": "2026-07-23",
+        "sourceDisplayDate": "7月23日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry…",
+        "chineseTitle": "The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+        "tags": [
+          "工程",
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最明显的信号是语音正在从“输入法替代品”变成 Agent 入口。Claude Voice 开始支持更强的 Opus / Sonnet 模型，并能在对话中访问已连接的 email、calendar 等工具；ChatGPT desktop 也在强化离键盘工作流。这意味着语音产品的竞争点不再只是识别准确率或陪聊体验，而是能否在连续上下文里调用工具、推进任务、处理真实工作。",
+        "语音 Agent 的下一步，很可能不是一个更会说话的助手，而是一组可并行协作的工作线程。Peter Yang 提到希望能同时启动多个 ChatGPT Voice threads，让它们像一支团队一样彼此讨论、分别完成任务；这暴露出产品层面的新需求：多线程状态管理、任务完成通知、跨线程协调，以及非英语语音质量。AI Builders 需要把语音看作 orchestration layer，而不是 UI 装饰。",
+        "Agent 落地越深，安全和权限问题越快从边缘议题变成主干架构。Madhu Guru 关于“无限 agents 如何适配为有限员工设计的 IAM”的观察很关键：一个员工可以拉起上百个 agent，这些 agent 需要身份、权限边界、审计轨迹和生命周期管理。Replit 的 autonomous agency 案例则从另一侧说明，同一趋势正在商业工作流里发生：代码只是第一段，真正的机会是把获客、交付、部署和运维都编进 agent loop。",
+        "基础设施侧的信号同样务实：Vercel 把 Python 冷启动提升到 2x，Replit 称 autoscale deployments 成本下降 80%，Cerebras 的访谈则把“每用户 tokens/sec”推到 AI 产品体验的核心位置。推理速度和部署成本会直接决定新产品形态是否成立；当语音、Agent 和实时协作成为前台体验，后端延迟、吞吐和单位经济就不再是隐形问题。",
+        "最后，一个值得长期跟踪的判断来自 Aaron Levie：AI 是已有判断力的倍增器，而不是判断力的替代品。今天被过滤掉的不少内容都是情绪、招聘口号、命名玩笑和非 AI 议题；留下来的共同点是它们都指向可执行的建设问题——入口、权限、成本、速度、判断力。这也是 AI Builders 真正需要的信息密度。"
+      ],
+      "filteredNote": "过滤掉了 ChatGPT Work 命名玩笑、招聘口号、SF housing/CEQA 等非 AI 话题、VC 段子、纯情绪/短句、重复产品公告和缺少自身分析的转发式内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月23日 · 周四",
+        "actor": "Claude",
+        "meta": "Anthropic · X 动态",
+        "title": "Claude Voice 进入可执行工作流：强模型、工具调用与多语言同时上线",
+        "summary": "Claude 宣布 Voice mode 现在可以运行在更强的 Claude models 上，包括 Opus 和 Sonnet，并能在对话中访问用户已连接的工具，例如 email 和 calendar。它还扩大了多语言支持，并在 mobile、desktop、web 上以 public beta 推出。这个更新的关键不是“能说话”，而是语音入口开始接入模型能力和工具执行链路。",
+        "keyPoints": [
+          "Voice conversations 支持更多 Claude chat 中可用模型，包括 Opus 和 Sonnet",
+          "语音对话中可访问已连接工具，例如 email、calendar，降低从对话到行动的摩擦",
+          "多语言能力扩大并覆盖所有计划，public beta 同时登陆 mobile、desktop、web"
+        ],
+        "whyItMatters": "语音如果只能生成回复，价值有限；一旦能调用工具，它就变成低摩擦的 Agent 控制面。对 AI Builders 来说，语音产品的核心评估维度正在从 UX 转向执行可靠性和权限设计。",
+        "tags": [
+          "Voice AI",
+          "Agent",
+          "Product"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/claudeai/status/2080376094939603366"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月23日 · 周四",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex / ChatGPT · X 动态",
+        "title": "ChatGPT desktop 把“离开键盘工作”推向主入口",
+        "summary": "Thibault Sottiaux 用 Jarvis、Samantha、TARS 等科幻助手作类比，强调 ChatGPT desktop app 已可支持用户离开键盘继续完成工作。虽然原帖很短，但它指向 OpenAI 在 desktop 场景里对语音和工作流入口的产品定位：让 AI 更像常驻协作者，而不是浏览器里的问答框。",
+        "keyPoints": [
+          "ChatGPT desktop app 正在强化 away-from-keyboard 的工作体验",
+          "产品叙事从文本聊天转向常驻桌面助手，贴近本地工作环境",
+          "与 Claude Voice 的更新形成同一天信号：语音入口正在被主流 AI 产品同时推高优先级"
+        ],
+        "whyItMatters": "桌面端是 AI 进入真实工作流的关键战场。语音和常驻上下文结合后，AI 助手更容易成为任务编排层，而不是单次问答工具。",
+        "tags": [
+          "ChatGPT",
+          "Voice AI",
+          "Desktop"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/thsottiaux/status/2080408012515340394"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Peter Yang",
+        "meta": "ChatGPT Voice · X 动态",
+        "title": "多条语音线程可能成为个人 AI 团队的雏形",
+        "summary": "Peter Yang 设想下一阶段可以同时启动多个 ChatGPT Voice threads，让它们像一个团队一样与用户和彼此对话。他还给出产品反馈：多线程完成任务时需要通知机制，中文发音质量仍需改进。这个观察把 Voice AI 的问题从单轮交互推进到多 Agent 协作和状态管理。",
+        "keyPoints": [
+          "多条 voice threads 可以让用户同时委派多个任务，接近“个人 AI 团队”体验",
+          "多线程并行后，完成通知、任务状态和跨线程协调会成为基础产品能力",
+          "中文发音等本地化质量会影响语音 AI 在非英语工作场景中的可用性"
+        ],
+        "whyItMatters": "如果语音是 Agent 的入口，多线程就是 Agent 的组织形态。AI Builders 做语音产品时，需要提前设计任务队列、状态同步和协作边界。",
+        "tags": [
+          "Voice AI",
+          "Multi-Agent",
+          "UX"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/petergyang/status/2080508139091427741"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月23日 · 周四",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "无限 Agent 时代，企业 IAM 需要重新设计",
+        "summary": "Madhu Guru 在 GPT Sol 事件后与一家上市公司安全负责人交流，提出一个尖锐问题：企业身份与访问管理原本是为有限员工设计的，但一个员工现在可以创建上百个 agents。每个 agent 都可能需要权限、凭据、审计与回收机制。Agent 安全的难点不只是 prompt injection，而是组织级身份系统是否能容纳非人类执行主体。",
+        "keyPoints": [
+          "传统 IAM 假设身份数量有限且多为人类员工，Agent 会打破这个前提",
+          "一个员工可生成大量 agents，权限继承、最小权限和生命周期管理都需要新模型",
+          "企业安全需要把 Agent 作为一等执行主体记录、限制和审计"
+        ],
+        "whyItMatters": "Agent 产品进入企业后，安全架构会直接决定能否采购和部署。对 builders 来说，身份、权限、审计不是后置合规项，而是产品核心。",
+        "tags": [
+          "Agent Security",
+          "IAM",
+          "Enterprise AI"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/realmadhuguru/status/2080315474093760714"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月23日 · 周四",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "Autonomous agency：把代理商业务改写成 agent loop",
+        "summary": "Amjad Masad 分享了一个 Replit 用户案例：Viktor 先用 Replit 打破传统 agency 交付模式，随后进一步思考为什么不把整个业务自动化，而不只是自动化 coding。Replit 团队为此构建 MCP，用户据此搭建 autonomous agency。这个案例显示 Agent 的商业价值往往不在单个代码生成任务，而在端到端业务流程重组。",
+        "keyPoints": [
+          "从自动化 coding 扩展到自动化 agency 的完整业务流程",
+          "MCP 成为连接平台能力、外部工具和业务循环的关键接口",
+          "“The Agency is merely an agent loop”体现了服务业可被流程化重构的方向"
+        ],
+        "whyItMatters": "AI Builders 如果只盯着代码生成，会低估 Agent 的利润池。更大的机会在把获客、交付、部署、反馈和运营封装成可迭代的业务循环。",
+        "tags": [
+          "Agent",
+          "MCP",
+          "Business Model"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/amasad/status/2080371567221944657"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "Autoscale 成本下降 80%，Agent 应用的单位经济继续改善",
+        "summary": "Amjad Masad 表示 Replit 的 autoscale deployments 成本下降了 80%，而这通常是规模化应用中最昂贵的一项成本。对于大量短任务、长尾请求和 Agent-driven workloads 来说，部署与伸缩成本会直接限制产品形态。成本曲线下移意味着更多实验可以从 demo 进入真实运营。",
+        "keyPoints": [
+          "Replit autoscale deployments 成本下降 80%",
+          "伸缩部署通常是 scaled apps 中成本压力最大的部分之一",
+          "Agent 应用对弹性执行环境依赖更高，基础设施成本改善会放大产品可行性"
+        ],
+        "whyItMatters": "AI 产品不是只看模型价格；部署、冷启动和伸缩成本也会决定毛利。基础设施效率提升会让更多 Agent 应用从玩具变成可持续服务。",
+        "tags": [
+          "Infrastructure",
+          "Cost",
+          "Deployment"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/amasad/status/2080513361301925957"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "Vercel Python 冷启动提速 2x，AI 后端体验继续被压缩到毫秒级",
+        "summary": "Guillermo Rauch 表示 Python code 现在在 Vercel 上启动速度提升 2x，而且自动生效。对 AI builders 来说，Python 仍是模型调用、数据处理和 agent backends 的主力语言；启动速度提升会直接改善 serverless AI 应用的交互延迟。随着语音和实时 agent 场景增多，后端冷启动越来越会被用户感知。",
+        "keyPoints": [
+          "Vercel 上 Python code 启动速度提升 2x，并自动生效",
+          "Python 是 AI 应用后端常用语言，冷启动影响交互式体验",
+          "语音、实时协作和 Agent workflows 会放大基础设施延迟问题"
+        ],
+        "whyItMatters": "AI 应用的体验瓶颈经常藏在模型之外。serverless 冷启动、函数调度和工具调用延迟会决定用户是否愿意把 AI 放进工作流。",
+        "tags": [
+          "Vercel",
+          "Python",
+          "Performance"
+        ],
+        "qualityScore": 83,
+        "url": "https://x.com/rauchg/status/2080454509508387251"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "AI 是判断力倍增器，不是判断力替代品",
+        "summary": "Aaron Levie 给出一个清晰框架：AI 最适合放大你已经懂的领域，或加速你愿意学习的新领域；如果既没有现成判断力，也不愿培养判断力，产出大概率会变成 slop，经济价值有限。这个判断对企业 AI 和个人生产力工具都重要，因为它把“会不会用 AI”的核心从 prompt 技巧拉回 domain judgment。",
+        "keyPoints": [
+          "AI 在已有专业判断或积极学习的新领域中最能产生杠杆",
+          "缺少判断力且不愿培养判断力的使用场景容易制造 slop",
+          "AI 产品应服务于增强专业工作流，而不是假设模型能替代所有上下文"
+        ],
+        "whyItMatters": "这是一条长期有效的产品原则。AI Builders 设计工具时，应围绕用户已有判断力提供放大器，而不是把无判断的自动化包装成价值。",
+        "tags": [
+          "Judgment",
+          "Product",
+          "Enterprise AI"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/levie/status/2080471989060559336"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "Jun 18, 20",
+        "actor": "Claude Blog",
+        "meta": "Claude Code · Blog",
+        "title": "Claude Code artifacts：把编码过程变成可共享、会更新的工作产物",
+        "summary": "Claude Blog 介绍 Claude Code 现在支持 artifacts，可以把 coding session 的进展捕获成实时、可共享的可视化页面，例如 PR walkthroughs、system explainers、dashboards 和 release checklists，并随着 session 工作自动更新。它把 AI coding 从“生成代码”推进到“生成协作界面”和“沉淀项目理解”。对团队而言，这类 artifact 可以降低代码审查、交接和发布管理的沟通成本。",
+        "keyPoints": [
+          "Claude Code 可将工作进展捕获为 live、shareable visual pages",
+          "典型用例包括 PR walkthroughs、system explainers、dashboards、release checklists",
+          "Artifacts 会随 session 更新，帮助团队把 AI 工作过程转化为可审阅的上下文"
+        ],
+        "whyItMatters": "AI coding 的瓶颈正在从代码生成转向团队协作和可解释性。能把工作过程结构化输出的工具，会更容易进入真实工程组织。",
+        "tags": [
+          "Claude Code",
+          "Artifacts",
+          "Developer Tools"
+        ],
+        "qualityScore": 87,
+        "url": "https://claude.com/blog/artifacts-in-claude-code"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月23日 · 周四",
+        "actor": "Andrew Feldman",
+        "meta": "The MAD Podcast with Matt Turck · Cerebras",
+        "title": "推理速度成为 AI 产品的新宽带：为什么芯片行业围绕 tokens/sec 重组",
+        "summary": "Matt Turck 与 Cerebras CEO Andrew Feldman 的访谈从 wafer 基础概念讲起，延伸到为什么 AI 芯片行业正在围绕 inference speed 重组。核心 thesis 是：当 AI 从离线生成走向实时交互、Agent 和语音体验，每用户 tokens/sec 会像宽带时代的带宽一样决定产品边界。Cerebras 的大芯片路线代表一种押注：用硬件架构直接优化推理吞吐和低延迟体验。",
+        "keyPoints": [
+          "AI 的瓶颈正在从训练资源部分转向 inference speed 和每用户 tokens/sec",
+          "实时语音、Agent 协作和交互式产品会把低延迟推理变成核心体验指标",
+          "Cerebras 通过超大 wafer-scale chip 路线试图改变推理吞吐与延迟曲线"
+        ],
+        "whyItMatters": "Builders 常把注意力放在模型能力，但真正决定产品体验的可能是推理速度。谁能以更低延迟、更高吞吐服务用户，谁就能解锁新的交互形态。",
+        "tags": [
+          "Inference",
+          "AI Chips",
+          "Infrastructure"
+        ],
+        "qualityScore": 90,
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+      }
+    ]
+  },
+  {
     "date": "2026-07-24",
     "displayDate": "7月24日 · 周五",
     "generatedAt": "2026-07-23T23:30:24.658736+00:00",
