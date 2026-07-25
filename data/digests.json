@@ -1,5 +1,1286 @@
 [
   {
+    "date": "2026-07-26",
+    "displayDate": "7月26日 · 周日",
+    "generatedAt": "2026-07-25T23:30:37.827798+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-25T07:03:44.085Z",
+      "blogs": "2026-07-25T07:04:19.980Z",
+      "podcasts": "2026-07-25T07:04:19.098Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流聚焦 Claude Opus 5、Agent 工作流、model routing、开放权重与生产级 containment：高信号内容已筛选为 10 条。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工程、公司建设有增量价值的内容；过滤低信号动态后，提供今日洞察与高信号来源卡片。",
+    "stats": {
+      "builders": 21,
+      "tweets": 48,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 25
+        },
+        {
+          "name": "产品",
+          "count": 14
+        },
+        {
+          "name": "研究",
+          "count": 12
+        },
+        {
+          "name": "工程",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "新模型时代，系统提示要变短而不是变复杂",
+        "source": "Thariq · Claude Code · X 动态",
+        "url": "https://x.com/trq212/status/2080710971228918066",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "Thariq 表示团队为最新模型移除了约 80% 的 Claude Code system prompt，并总结了编写 system prompts、skills 与 Claude.MDs 的经验。这不是单纯的 prompt 技巧，而是说明模型能力提升后，产品层需要减少硬编码控制，把上下文、工具和任务边界设计得更清晰。对构建 coding agent 的团队，这是一条直接的工程信号。",
+        "chineseTitle": "新模型时代，系统提示要变短而不是变复杂",
+        "tags": [
+          "Claude Code",
+          "Prompt Engineering",
+          "Agent"
+        ],
+        "score": 94
+      },
+      {
+        "title": "Opus 5 的关键进展是更难被 prompt injection",
+        "source": "Boris Cherny · Anthropic · X 动态",
+        "url": "https://x.com/bcherny/status/2080713091688583312",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "Boris Cherny 认为 Opus 5 在 coding、data analysis、design、biology 和 knowledge work 上表现很强，但真正让他兴奋的是它成为 Anthropic 最难被 prompt injection 的模型之一。这个观察把安全性从合规话题拉回产品可用性：当模型开始执行跨工具、跨权限任务，抗注入能力直接决定 agent 能否进入高价值工作流。",
+        "chineseTitle": "Opus 5 的关键进展是更难被 prompt injection",
+        "tags": [
+          "Model Safety",
+          "Prompt Injection",
+          "Claude"
+        ],
+        "score": 91
+      },
+      {
+        "title": "强模型上线后，旧 skills/plugins 可能先失效",
+        "source": "Dan Shipper · Every · X 动态",
+        "url": "https://x.com/danshipper/status/2080700057892815114",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "Dan Shipper 分享 Every 对 Claude Opus 5 的一周测试：它在 coding、writing、knowledge work 和内部 agent 中并非无缝升级，甚至会争辩指令、提前停工，并与既有 skills/plugins 不兼容。这个负面反馈很重要，因为它提醒团队：模型升级会改变 agent 的行为分布，已有提示、工具协议和测试集都需要重新校准。",
+        "chineseTitle": "强模型上线后，旧 skills/plugins 可能先失效",
+        "tags": [
+          "Model Evaluation",
+          "Agent Engineering",
+          "Claude"
+        ],
+        "score": 92
+      },
+      {
+        "title": "Opus 5 以同价和 Fast mode 扩大可用面",
+        "source": "Claude · Anthropic · X 动态",
+        "url": "https://x.com/claudeai/status/2080699515271528827",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "Claude 官方宣布 Opus 5 面向所有付费计划和 Claude API 开放，价格与 Opus 4.8 相同；Claude Max 默认使用，Claude Pro 中为最强模型，并提供约 2.5 倍速度的 Fast mode。定价不涨与速度模式并行，说明模型厂商在争夺的不只是 SOTA 标签，还有日常使用频次和低延迟体验。",
+        "chineseTitle": "Opus 5 以同价和 Fast mode 扩大可用面",
+        "tags": [
+          "Claude",
+          "Pricing",
+          "Latency"
+        ],
+        "score": 88
+      },
+      {
+        "title": "真实工作流适配将是未来几年的大机会",
+        "source": "Madhu Guru · Meta AI · X 动态",
+        "url": "https://x.com/realmadhuguru/status/2080707454422413487",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月24日 · 周五",
+        "summary": "Madhu Guru 认为未来几年最大的机会属于能把混乱真实工作流适配到 foundation models 的人。这要求团队理解工作如何发生、设计 evals、通过 post-training 改进模型，并建立持续反馈闭环。它把 AI 创业的焦点从“套壳模型”推向“行业工作流 + 评估 + 数据飞轮”。",
+        "chineseTitle": "真实工作流适配将是未来几年的大机会",
+        "tags": [
+          "Workflow",
+          "Evals",
+          "Post-training"
+        ],
+        "score": 93
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2080705334587605122",
+            "url": "https://x.com/swyx/status/2080705334587605122",
+            "createdAt": "2026-07-24T17:23:04.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit",
+            "summary": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit",
+            "engagement": 52,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080750437133901925",
+            "url": "https://x.com/swyx/status/2080750437133901925",
+            "createdAt": "2026-07-24T20:22:17.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations",
+            "summary": "ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations",
+            "engagement": 38,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "Gemini does more than talk. It gets things done…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2080771183944073347",
+            "url": "https://x.com/joshwoodward/status/2080771183944073347",
+            "createdAt": "2026-07-24T21:44:43.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Gemini does more than talk. It gets things done. Today’s use case: Drop in a school calendar PDF. Tell Gemini to add every \"No School\" day to your Google Calendar. Done. 📍Gemini Spark is live now for all Google AI Pro subscribers in the US, expanding globally next.",
+            "summary": "Gemini does more than talk. It gets things done…",
+            "engagement": 973,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "summary": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2080713091688583312",
+            "url": "https://x.com/bcherny/status/2080713091688583312",
+            "createdAt": "2026-07-24T17:53:53.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to…",
+            "summary": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work…",
+            "engagement": 6460,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Show me your pet How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2080756403493560652",
+            "url": "https://x.com/thsottiaux/status/2080756403493560652",
+            "createdAt": "2026-07-24T20:45:59.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Show me your pet",
+            "summary": "Show me your pet",
+            "engagement": 2565,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080876712439747052",
+            "url": "https://x.com/thsottiaux/status/2080876712439747052",
+            "createdAt": "2026-07-25T04:44:03.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone. Puts a jetpack on your ChatGPT",
+            "summary": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop…",
+            "engagement": 1623,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Lying on the bed and talking to ChatGPT Voice to do work in codex is pretty great…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080793867960643823",
+            "url": "https://x.com/petergyang/status/2080793867960643823",
+            "createdAt": "2026-07-24T23:14:52.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Lying on the bed and talking to ChatGPT Voice to do work in codex is pretty great. To do this well I think you have to remember the names of all your long running threads.",
+            "summary": "Lying on the bed and talking to ChatGPT Voice to do work in codex is pretty great…",
+            "engagement": 130,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2080669643577176573",
+            "url": "https://x.com/petergyang/status/2080669643577176573",
+            "createdAt": "2026-07-24T15:01:14.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "I tend to agree with this. Feels like pure software is really hard to monetize now for indie developers. You need software + something else (e.g., services). Would love to hear counter examples in the replies.",
+            "summary": "I tend to agree with this. Feels like pure software is really hard to monetize now for indie developers…",
+            "engagement": 122,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080699985612484986",
+            "url": "https://x.com/petergyang/status/2080699985612484986",
+            "createdAt": "2026-07-24T17:01:48.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "A beautiful day in Vancouver",
+            "summary": "A beautiful day in Vancouver",
+            "engagement": 58,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "Endorse",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2080632759073021954",
+            "url": "https://x.com/thenanyu/status/2080632759073021954",
+            "createdAt": "2026-07-24T12:34:40.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Endorse",
+            "summary": "Endorse",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "There is a massive opportunity over the next few years for people who know how to take messy real-world workflows and adapt foundation models to them…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080707454422413487",
+            "url": "https://x.com/realmadhuguru/status/2080707454422413487",
+            "createdAt": "2026-07-24T17:31:29.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "There is a massive opportunity over the next few years for people who know how to take messy real-world workflows and adapt foundation models to them. Doing that requires understanding how work gets done, designing evals, improving models through post-training, and building the feedback loops that continuously improve…",
+            "summary": "There is a massive opportunity over the next few years for people who know how to take messy real-world workflows and adapt foundation models to them…",
+            "engagement": 392,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080678006998352307",
+            "url": "https://x.com/realmadhuguru/status/2080678006998352307",
+            "createdAt": "2026-07-24T15:34:28.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Some people should be required to use AI for their writing.",
+            "summary": "Some people should be required to use AI for their writing.",
+            "engagement": 28,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "summary": "Claude Opus 5 is great at long-running autonomous work…",
+        "tags": [
+          "产品",
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2080707593115516985",
+            "url": "https://x.com/_catwu/status/2080707593115516985",
+            "createdAt": "2026-07-24T17:32:02.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :)",
+            "summary": "Claude Opus 5 is great at long-running autonomous work…",
+            "engagement": 757,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @southpkcommons, @medialab",
+        "summary": "We removed ~80% of the Claude Code system prompt for our newest models, this is what we've learned about writing system prompts, skills and Claude.MDs for them…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080710971228918066",
+            "url": "https://x.com/trq212/status/2080710971228918066",
+            "createdAt": "2026-07-24T17:45:27.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "We removed ~80% of the Claude Code system prompt for our newest models, this is what we've learned about writing system prompts, skills and Claude.MDs for them.",
+            "summary": "We removed ~80% of the Claude Code system prompt for our newest models, this is what we've learned about writing system prompts, skills and Claude.MDs for them.",
+            "engagement": 13643,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080703339306913985",
+            "url": "https://x.com/trq212/status/2080703339306913985",
+            "createdAt": "2026-07-24T17:15:08.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Opus 5 rounds out our Claude 5 family beautifully. I think it’s an incredible daily driver, pair it with Fable for planning, brainstorming or fixing the hardest bugs.",
+            "summary": "Opus 5 rounds out our Claude 5 family beautifully…",
+            "engagement": 4363,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2080711577867845645",
+            "url": "https://x.com/trq212/status/2080711577867845645",
+            "createdAt": "2026-07-24T17:47:52.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "this is also available on the Claude Blog here:",
+            "summary": "this is also available on the Claude Blog here:",
+            "engagement": 313,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Will Anthropic sign? If you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080850075358826871",
+            "url": "https://x.com/amasad/status/2080850075358826871",
+            "createdAt": "2026-07-25T02:58:12.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "Will Anthropic sign? If you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models?",
+            "summary": "Will Anthropic sign? If you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models?",
+            "engagement": 759,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080864869130416320",
+            "url": "https://x.com/amasad/status/2080864869130416320",
+            "createdAt": "2026-07-25T03:57:00.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "It was always perplexing to me that VCs passed on Etched in the early rounds. Glad they woke up… and early believers get less dilution 🙂",
+            "summary": "It was always perplexing to me that VCs passed on Etched in the early rounds…",
+            "engagement": 172,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080848381967212975",
+            "url": "https://x.com/amasad/status/2080848381967212975",
+            "createdAt": "2026-07-25T02:51:29.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "If you haven’t used Replit for a while, you’re in for a big surprise.",
+            "summary": "If you haven’t used Replit for a while, you’re in for a big surprise.",
+            "engagement": 131,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Ok let's see what you can do Figma2React…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2080706974476583337",
+            "url": "https://x.com/rauchg/status/2080706974476583337",
+            "createdAt": "2026-07-24T17:29:35.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Ok let's see what you can do",
+            "summary": "Ok let's see what you can do",
+            "engagement": 452,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080646549336678597",
+            "url": "https://x.com/rauchg/status/2080646549336678597",
+            "createdAt": "2026-07-24T13:29:28.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Figma2React. It’s good",
+            "summary": "Figma2React. It’s good",
+            "engagement": 419,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080714333793972498",
+            "url": "https://x.com/rauchg/status/2080714333793972498",
+            "createdAt": "2026-07-24T17:58:49.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Where's the ambition!",
+            "summary": "Where's the ambition!",
+            "engagement": 54,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "bio": "Research @AnthropicAI. Opinions are my own!",
+        "summary": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080731979528679617",
+            "url": "https://x.com/alexalbert__/status/2080731979528679617",
+            "createdAt": "2026-07-24T19:08:56.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make. Things are changing fast.",
+            "summary": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make…",
+            "engagement": 2699,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080703118086693121",
+            "url": "https://x.com/alexalbert__/status/2080703118086693121",
+            "createdAt": "2026-07-24T17:14:15.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Some of my favorite graphs from Opus 5 launch. We put a ton of work into making this model token efficient across domains while still raising the intelligence bar. It feels very smooth to use and I prefer it over Fable 5 for many coding tasks.",
+            "summary": "Some of my favorite graphs from Opus 5 launch…",
+            "engagement": 727,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080702002120757562",
+            "url": "https://x.com/alexalbert__/status/2080702002120757562",
+            "createdAt": "2026-07-24T17:09:49.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Welcome to the world, Opus 5.",
+            "summary": "Welcome to the world, Opus 5.",
+            "engagement": 271,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080704871934931221",
+            "url": "https://x.com/levie/status/2080704871934931221",
+            "createdAt": "2026-07-24T17:21:13.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries. We saw…",
+            "summary": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities…",
+            "engagement": 382,
+            "tags": [
+              "产品",
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080761484305654091",
+            "url": "https://x.com/levie/status/2080761484305654091",
+            "createdAt": "2026-07-24T21:06:11.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Not sure if anything in tech has ever gotten as much broad-based support and alignment as this post and message. The key now is that America should actually step up and continue to push open weights innovation. It’s good for the entire market, including the frontier labs. Open weights accelerates the diffusion of AI…",
+            "summary": "Not sure if anything in tech has ever gotten as much broad-based support and alignment as this post and message…",
+            "engagement": 373,
+            "tags": [
+              "研究",
+              "市场"
+            ]
+          },
+          {
+            "id": "2080675210991443982",
+            "url": "https://x.com/levie/status/2080675210991443982",
+            "createdAt": "2026-07-24T15:23:22.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Very happy to have Box sign this letter. We’re big believers in the power of open weights AI. Open weights models help to drive the industry forward in a variety of ways to ensure more innovation, creativity, and diffusion of AI. You get to have layers of the stack that emerge to post train models for highly specific…",
+            "summary": "Very happy to have Box sign this letter. We’re big believers in the power of open weights AI…",
+            "engagement": 308,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "YC Startup School 2026 rehearsal at Chase Center Welcome to San Francisco, future founders…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2080807733184586232",
+            "url": "https://x.com/garrytan/status/2080807733184586232",
+            "createdAt": "2026-07-25T00:09:57.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "YC Startup School 2026 rehearsal at Chase Center Welcome to San Francisco, future founders! Tomorrow and this whole weekend are going to be 🔥",
+            "summary": "YC Startup School 2026 rehearsal at Chase Center Welcome to San Francisco, future founders…",
+            "engagement": 726,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2080699367883980924",
+            "url": "https://x.com/garrytan/status/2080699367883980924",
+            "createdAt": "2026-07-24T16:59:21.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "To get macro productivity gains, managers and CEOs have to greenlight radically different staffing and workflow plans To date I don’t think they’ve done it Be prepared for this to take 10 years not 2",
+            "summary": "To get macro productivity gains, managers and CEOs have to greenlight radically different staffing and workflow plans To date I don’t think they’ve done it Be prepared for this to…",
+            "engagement": 392,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          },
+          {
+            "id": "2080849953413541982",
+            "url": "https://x.com/garrytan/status/2080849953413541982",
+            "createdAt": "2026-07-25T02:57:43.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "\"How fast a country adopted new technology over the last 200 years accounts for at least 25% of why some nations are rich and others aren’t today. The Ottomans got the printing press eventually but eventually cost them a lot.\"",
+            "summary": "\"How fast a country adopted new technology over the last 200 years accounts for at least 25% of why some nations are rich and others aren’t today…",
+            "engagement": 241,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "Big week in model routing: Stripe rumored to acquire OpenRouter for $10B Cursor Router announced on Wednesday Runway Router announced yesterday Also see routers at Databricks, Vercel, Cloudflare, Dataiku, AWS, Google (ye…",
+        "tags": [
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080645582209663049",
+            "url": "https://x.com/mattturck/status/2080645582209663049",
+            "createdAt": "2026-07-24T13:25:37.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Big week in model routing: Stripe rumored to acquire OpenRouter for $10B Cursor Router announced on Wednesday Runway Router announced yesterday Also see routers at Databricks, Vercel, Cloudflare, Dataiku, AWS, Google (yes lots of differences behind the same term)",
+            "summary": "Big week in model routing: Stripe rumored to acquire OpenRouter for $10B Cursor Router announced on Wednesday Runway Router announced yesterday Also see routers at Databricks, Verc…",
+            "engagement": 41,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080738638065729741",
+            "url": "https://x.com/mattturck/status/2080738638065729741",
+            "createdAt": "2026-07-24T19:35:24.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Under-discussed: the fundamental irony of the world's top AI researchers researching their way out of their own job, as they build recursive auto-research.",
+            "summary": "Under-discussed: the fundamental irony of the world's top AI researchers researching their way out of their own job, as they build recursive auto-research.",
+            "engagement": 30,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "The #1 thing I want from any model right now: speed Intelligence is already good enough…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080829737044439444",
+            "url": "https://x.com/zarazhangrui/status/2080829737044439444",
+            "createdAt": "2026-07-25T01:37:23.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "The #1 thing I want from any model right now: speed Intelligence is already good enough. But waiting 1-5 min per task is the worst possible window: too short for deep work, too long to just stare at the screen. So I end up scrolling X Agents are making all of us more ADHD",
+            "summary": "The #1 thing I want from any model right now: speed Intelligence is already good enough…",
+            "engagement": 174,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080621285852565973",
+            "url": "https://x.com/zarazhangrui/status/2080621285852565973",
+            "createdAt": "2026-07-24T11:49:05.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "True The main benefit of being in SF is that if you attempt to do something crazy people think it’s admirable rather than crazy",
+            "summary": "True The main benefit of being in SF is that if you attempt to do something crazy people think it’s admirable rather than crazy",
+            "engagement": 99,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080617484261249160",
+            "url": "https://x.com/zarazhangrui/status/2080617484261249160",
+            "createdAt": "2026-07-24T11:33:58.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "If you bring your agent into your chat groups and meetings, the chat history/meeting transcripts become PRDs In the past, work culture tended to favor written communicators; now verbal communicators have an equal chance cos agents don’t care",
+            "summary": "If you bring your agent into your chat groups and meetings, the chat history/meeting transcripts become PRDs In the past, work culture tended to favor written communicators; now ve…",
+            "engagement": 37,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Haters will say this is AI 🇨🇭 Also here’s what I sent in my work group chat",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2080656285540716568",
+            "url": "https://x.com/nikunj/status/2080656285540716568",
+            "createdAt": "2026-07-24T14:08:09.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Haters will say this is AI 🇨🇭",
+            "summary": "Haters will say this is AI 🇨🇭",
+            "engagement": 195,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080658090366501257",
+            "url": "https://x.com/nikunj/status/2080658090366501257",
+            "createdAt": "2026-07-24T14:15:20.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Also here’s what I sent in my work group chat",
+            "summary": "Also here’s what I sent in my work group chat",
+            "engagement": 9,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "am I a graph engineer now Hit a new record with our autoreview skill…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080779917130858598",
+            "url": "https://x.com/steipete/status/2080779917130858598",
+            "createdAt": "2026-07-24T22:19:25.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "am I a graph engineer now",
+            "summary": "am I a graph engineer now",
+            "engagement": 3092,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2080899298838098034",
+            "url": "https://x.com/steipete/status/2080899298838098034",
+            "createdAt": "2026-07-25T06:13:48.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "Hit a new record with our autoreview skill. 66 rounds on a gnarly refactor.",
+            "summary": "Hit a new record with our autoreview skill…",
+            "engagement": 166,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2080700057892815114",
+            "url": "https://x.com/danshipper/status/2080700057892815114",
+            "createdAt": "2026-07-24T17:02:05.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent. It argued with instructions, stopped before the work was finished, and generally didn’t play well with our existing skills and plugins like…",
+            "summary": "BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love…",
+            "engagement": 2756,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2080705381794288032",
+            "url": "https://x.com/danshipper/status/2080705381794288032",
+            "createdAt": "2026-07-24T17:23:15.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "as usual claire and i are on the same page",
+            "summary": "as usual claire and i are on the same page",
+            "engagement": 261,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080709090909503775",
+            "url": "https://x.com/danshipper/status/2080709090909503775",
+            "createdAt": "2026-07-24T17:37:59.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "@every full vibe check here:",
+            "summary": "@every full vibe check here:",
+            "engagement": 29,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this let us know what you think of pro-ultra-superhard",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080683363174945065",
+            "url": "https://x.com/sama/status/2080683363174945065",
+            "createdAt": "2026-07-24T15:55:45.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this",
+            "summary": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this",
+            "engagement": 15458,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2080683119959757243",
+            "url": "https://x.com/sama/status/2080683119959757243",
+            "createdAt": "2026-07-24T15:54:47.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "let us know what you think of pro-ultra-superhard",
+            "summary": "let us know what you think of pro-ultra-superhard",
+            "engagement": 3835,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+        "summary": "Opus 5 is available today on all paid plans and the Claude API, priced the same as Opus 4.8…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2080699515271528827",
+            "url": "https://x.com/claudeai/status/2080699515271528827",
+            "createdAt": "2026-07-24T16:59:56.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Opus 5 is available today on all paid plans and the Claude API, priced the same as Opus 4.8. It’s the default model on Claude Max, and the strongest on Claude Pro. It’s also offered in Fast mode, which runs around 2.5× the default speed. Read more:",
+            "summary": "Opus 5 is available today on all paid plans and the Claude API, priced the same as Opus 4.8…",
+            "engagement": 3169,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          },
+          {
+            "id": "2080699512205537648",
+            "url": "https://x.com/claudeai/status/2080699512205537648",
+            "createdAt": "2026-07-24T16:59:55.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains substantially behind Mythos 5 at developing exploits. Its safeguards are designed to allow developers to identify and fix software vulnerabilities, while blocking high-risk uses.",
+            "summary": "Opus 5 is stronger than Opus 4.8 on cybersecurity tasks…",
+            "engagement": 2610,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2080699508401328462",
+            "url": "https://x.com/claudeai/status/2080699508401328462",
+            "createdAt": "2026-07-24T16:59:54.000Z",
+            "sourceDate": "2026-07-24",
+            "sourceDisplayDate": "7月24日 · 周五",
+            "text": "According to our automated behavioral audit, Opus 5 is our most aligned model to date. Compared to our other models, it shows the lowest rates of reckless or deceptive behavior, and the strongest adherence to Claude’s Constitution.",
+            "summary": "According to our automated behavioral audit, Opus 5 is our most aligned model to date…",
+            "engagement": 2362,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Twelve months ago, we'd have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service…",
+        "chineseTitle": "How we contain Claude across products",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "No Priors",
+        "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+        "url": "https://www.youtube.com/watch?v=vNpcg_Ma-FA",
+        "publishedAt": "2026-07-23T10:00:00.000Z",
+        "sourceDate": "2026-07-23",
+        "sourceDisplayDate": "7月23日 · 周四",
+        "summary": "Speaker 1 | 00:05 - 00:34 Hi, listeners. Welcome back to No Priors…",
+        "chineseTitle": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+        "tags": [
+          "Agent",
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最高密度的信号来自 Claude Opus 5 发布后的第一轮真实反馈：Anthropic 官方强调同价、Fast mode、对齐与安全边界；Anthropic 内部成员则把重点放在 token efficiency、抗 prompt injection、长时 autonomous work 和系统提示收缩。对 AI Builders 来说，这说明前沿模型竞争正在从单纯 benchmark 转向“可长期执行、可控、低摩擦接入现有工作流”。",
+        "围绕 Opus 5 的评价并不单向。Boris Cherny 和 Alex Albert 给出偏正向的模型能力与安全信号，Dan Shipper 则从 Every 的实测指出它会与既有 skills/plugins 和指令体系产生摩擦。这个分歧很有价值：越强的模型不一定越即插即用，产品团队需要把模型升级视为一次系统集成工程，而不是简单替换 API 名称。",
+        "Agent 产品的下一阶段更像是“工作流改造”而不是“聊天增强”。Gemini Spark 把 PDF 校历转成 Google Calendar 事件，Zara Zhang 把群聊/会议记录视作 PRD 来源，Madhu Guru 强调 messy real-world workflows、evals、post-training 与反馈闭环。共同指向是：真正的 moat 不只在模型，而在对场景、评估和迭代回路的掌控。",
+        "基础设施侧的关键词是 model routing、containment 和 open weights。Matt Turck 捕捉到 Stripe/OpenRouter 传闻、Cursor Router、Runway Router 及云厂商路由器同周出现；Anthropic Engineering 讨论如何在产品中 containment Claude；Sam Altman、Aaron Levie、Amjad Masad 围绕开放权重表达立场。AI Builders 需要同时关注三件事：模型选择层是否平台化、安全边界是否工程化、开放生态是否会改变分发与议价结构。"
+      ],
+      "filteredNote": "过滤掉了宠物互动、风景日常、纯转发附和、单句玩笑、无上下文自我宣传、活动签到和非 AI 主题短评等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Thariq",
+        "meta": "Claude Code · X 动态",
+        "title": "新模型时代，系统提示要变短而不是变复杂",
+        "summary": "Thariq 表示团队为最新模型移除了约 80% 的 Claude Code system prompt，并总结了编写 system prompts、skills 与 Claude.MDs 的经验。这不是单纯的 prompt 技巧，而是说明模型能力提升后，产品层需要减少硬编码控制，把上下文、工具和任务边界设计得更清晰。对构建 coding agent 的团队，这是一条直接的工程信号。",
+        "keyPoints": [
+          "Claude Code 在新模型上大幅压缩 system prompt，暗示旧式长提示可能成为负担。",
+          "skills 与 Claude.MDs 的设计正在成为 agent 产品的工程接口，而不只是说明文档。",
+          "模型越强，产品越需要把控制逻辑从冗长提示迁移到结构化上下文和可验证工作流。"
+        ],
+        "whyItMatters": "很多 AI 产品的瓶颈已从“模型不懂”变成“产品给了太多噪声”。这条经验对所有构建 agent runtime、coding assistant 和内部 AI 工具的团队都可复用。",
+        "tags": [
+          "Claude Code",
+          "Prompt Engineering",
+          "Agent"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/trq212/status/2080710971228918066"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Boris Cherny",
+        "meta": "Anthropic · X 动态",
+        "title": "Opus 5 的关键进展是更难被 prompt injection",
+        "summary": "Boris Cherny 认为 Opus 5 在 coding、data analysis、design、biology 和 knowledge work 上表现很强，但真正让他兴奋的是它成为 Anthropic 最难被 prompt injection 的模型之一。这个观察把安全性从合规话题拉回产品可用性：当模型开始执行跨工具、跨权限任务，抗注入能力直接决定 agent 能否进入高价值工作流。",
+        "keyPoints": [
+          "Opus 5 的亮点不只是能力分数，而是 prompt injection 风险下降。",
+          "抗注入能力会影响 coding agent、企业知识库和自动化工作流的可部署范围。",
+          "安全能力开始成为模型产品的核心差异化，而非发布材料里的附录。"
+        ],
+        "whyItMatters": "AI Builders 若要把 agent 接入代码、文档、支付或内部系统，不能只看智能程度；模型的安全边界会决定产品形态和权限设计。",
+        "tags": [
+          "Model Safety",
+          "Prompt Injection",
+          "Claude"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/bcherny/status/2080713091688583312"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Dan Shipper",
+        "meta": "Every · X 动态",
+        "title": "强模型上线后，旧 skills/plugins 可能先失效",
+        "summary": "Dan Shipper 分享 Every 对 Claude Opus 5 的一周测试：它在 coding、writing、knowledge work 和内部 agent 中并非无缝升级，甚至会争辩指令、提前停工，并与既有 skills/plugins 不兼容。这个负面反馈很重要，因为它提醒团队：模型升级会改变 agent 的行为分布，已有提示、工具协议和测试集都需要重新校准。",
+        "keyPoints": [
+          "Every 的实测显示 Opus 5 对既有 agent 栈并不总是向后兼容。",
+          "模型可能更聪明，但也可能更主动、更难被旧指令约束。",
+          "上线新模型前需要回归测试 skills、plugins、工具调用和任务完成标准。"
+        ],
+        "whyItMatters": "这是一条反 hype 信号：模型能力提升不等于产品体验自动提升。成熟团队需要把模型切换纳入 release engineering。",
+        "tags": [
+          "Model Evaluation",
+          "Agent Engineering",
+          "Claude"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/danshipper/status/2080700057892815114"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Claude",
+        "meta": "Anthropic · X 动态",
+        "title": "Opus 5 以同价和 Fast mode 扩大可用面",
+        "summary": "Claude 官方宣布 Opus 5 面向所有付费计划和 Claude API 开放，价格与 Opus 4.8 相同；Claude Max 默认使用，Claude Pro 中为最强模型，并提供约 2.5 倍速度的 Fast mode。定价不涨与速度模式并行，说明模型厂商在争夺的不只是 SOTA 标签，还有日常使用频次和低延迟体验。",
+        "keyPoints": [
+          "Opus 5 进入付费产品与 API，且维持 Opus 4.8 价格。",
+          "Fast mode 约 2.5 倍速度，直接回应 agent 等待窗口过长的问题。",
+          "能力、价格、延迟会共同决定模型在 builders 工具链中的默认地位。"
+        ],
+        "whyItMatters": "对产品团队来说，模型升级是否能成为默认选择，往往取决于单位成本和交互延迟，而不是单项 benchmark。",
+        "tags": [
+          "Claude",
+          "Pricing",
+          "Latency"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/claudeai/status/2080699515271528827"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "真实工作流适配将是未来几年的大机会",
+        "summary": "Madhu Guru 认为未来几年最大的机会属于能把混乱真实工作流适配到 foundation models 的人。这要求团队理解工作如何发生、设计 evals、通过 post-training 改进模型，并建立持续反馈闭环。它把 AI 创业的焦点从“套壳模型”推向“行业工作流 + 评估 + 数据飞轮”。",
+        "keyPoints": [
+          "真实世界工作流通常混乱、隐性且跨系统，不能靠通用聊天界面解决。",
+          "evals、post-training 和反馈闭环是把模型落地到垂直场景的关键。",
+          "未来价值会集中在懂业务过程、能持续优化模型行为的团队。"
+        ],
+        "whyItMatters": "这是给 AI Builders 的战略判断：应用层 moat 可能来自工作流理解和闭环数据，而不是一次性 prompt 或 UI。",
+        "tags": [
+          "Workflow",
+          "Evals",
+          "Post-training"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/realmadhuguru/status/2080707454422413487"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月25日 · 周六",
+        "actor": "Zara Zhang",
+        "meta": "follow-builders · X 动态",
+        "title": "Agent 体验的瓶颈正在从智能转向速度",
+        "summary": "Zara Zhang 说她现在最想要的是模型速度，因为智能已经足够好；1 到 5 分钟的等待区间最尴尬，短到无法深度工作，长到无法盯屏等待。这个观察击中 agent 产品的交互核心：异步任务、进度反馈、队列管理和线程命名，都会变成用户体验的一部分。",
+        "keyPoints": [
+          "对许多任务而言，模型能力已经过线，延迟成为主要摩擦。",
+          "1-5 分钟等待窗口会破坏用户注意力，导致用户切走。",
+          "agent 产品需要设计异步工作流、状态可见性和任务恢复机制。"
+        ],
+        "whyItMatters": "Builders 往往高估模型质量、低估等待体验。真正可用的 agent 需要像任务系统，而不是慢聊天框。",
+        "tags": [
+          "Agent UX",
+          "Latency",
+          "Product Design"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/zarazhangrui/status/2080829737044439444"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月25日 · 周六",
+        "actor": "Zara Zhang",
+        "meta": "follow-builders · X 动态",
+        "title": "会议和群聊正在变成 Agent 的原始 PRD",
+        "summary": "Zara Zhang 认为，当 agent 进入群聊和会议后，聊天历史与会议转录就会自然变成 PRD。过去工作文化偏爱书面表达强的人，现在 verbal communicators 也能通过 agent 把口头讨论沉淀为结构化需求。这指向一个很实际的产品机会：把非结构化协作流转成可执行任务。",
+        "keyPoints": [
+          "群聊和会议记录可成为需求、决策和任务的原始材料。",
+          "Agent 可以降低从口头表达到书面 PRD 的转换成本。",
+          "协作产品的竞争点会转向自动提炼上下文和生成可执行计划。"
+        ],
+        "whyItMatters": "如果组织知识天然产生在聊天和会议里，AI 产品的入口就不该只在文档编辑器，也应该在沟通流本身。",
+        "tags": [
+          "Collaboration",
+          "PRD",
+          "Agent"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/zarazhangrui/status/2080617484261249160"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月24日 · 周五",
+        "actor": "Matt Turck",
+        "meta": "FirstMark · X 动态",
+        "title": "Model routing 正在快速变成基础设施层",
+        "summary": "Matt Turck 注意到 model routing 在同一周集中升温：Stripe 被传将以 100 亿美元收购 OpenRouter，Cursor Router、Runway Router 也相继出现，Databricks、Vercel、Cloudflare、Dataiku、AWS、Google 等也都有类似概念。虽然不同产品背后的“router”含义并不相同，但趋势很清楚：模型选择、成本、延迟和能力匹配正在被抽象成平台层。",
+        "keyPoints": [
+          "OpenRouter 传闻、Cursor Router 和 Runway Router 让 routing 成为本周基础设施焦点。",
+          "不同 router 可能分别解决模型选择、流量分发、成本优化或产品内编排。",
+          "当模型增多且能力差异细分，应用团队会越来越依赖自动路由层。"
+        ],
+        "whyItMatters": "AI Builders 需要决定自建路由、依赖平台，还是把 routing 作为产品能力。它会影响成本结构、用户体验和供应商锁定。",
+        "tags": [
+          "Model Routing",
+          "Infrastructure",
+          "Cost"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/mattturck/status/2080645582209663049"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "7月26日 · 周日",
+        "actor": "Anthropic Engineering",
+        "meta": "Engineering Blog",
+        "title": "把 Claude 接进产品前，先设计 containment",
+        "summary": "Anthropic Engineering 的文章讨论如何在不同产品中 containment Claude，并指出一年前他们还会拒绝让 Claude 拥有足以影响内部服务的访问权限。文章的核心信号是：随着 agent 能力提升，安全不再只是模型层问题，而是权限、隔离、审计、工具调用和产品架构共同组成的系统工程。",
+        "keyPoints": [
+          "Claude 获得更高权限后，产品必须用 containment 降低失控和误用风险。",
+          "安全边界需要跨模型、工具、内部服务和用户产品共同设计。",
+          "Agent 能力越强，越需要把权限最小化、可观测性和回滚机制工程化。"
+        ],
+        "whyItMatters": "对企业 AI 和 agent 产品，这是从 demo 走向生产的必修课：不是能不能让模型操作系统，而是如何安全地让它操作。",
+        "tags": [
+          "Containment",
+          "Security",
+          "Agent Infrastructure"
+        ],
+        "qualityScore": 95,
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月23日 · 周四",
+        "actor": "No Priors",
+        "meta": "Podcast · DoorDash",
+        "title": "自动化配送不是机器人问题，而是端到端体验问题",
+        "summary": "No Priors 与 DoorDash co-founders Andy Fang 和 Stanley Tang 讨论 autonomous delivery experience。该期的核心不只是“自动配送会不会发生”，而是平台如何把现实世界运营、消费者体验、商家履约、成本结构和自动化技术连接成一个可扩展系统。对 AI Builders 来说，这是一个典型案例：AI/自治能力要创造商业价值，必须嵌入完整服务链路。",
+        "keyPoints": [
+          "自动配送的难点横跨技术、运营密度、用户体验和经济模型。",
+          "DoorDash 这类网络型业务需要把自动化能力嵌入端到端履约，而不是孤立部署机器人。",
+          "AI 产品若触达物理世界，评估标准会从模型能力扩展到成本、可靠性和服务体验。"
+        ],
+        "whyItMatters": "这期播客为 builders 提供了一个更现实的 autonomous systems 框架：商业化关键在系统集成，而不在单点技术炫技。",
+        "tags": [
+          "Autonomous Systems",
+          "Marketplace",
+          "Operations"
+        ],
+        "qualityScore": 86,
+        "url": "https://www.youtube.com/watch?v=vNpcg_Ma-FA"
+      }
+    ]
+  },
+  {
     "date": "2026-07-25",
     "displayDate": "7月25日 · 周六",
     "generatedAt": "2026-07-24T23:30:30.012240+00:00",
