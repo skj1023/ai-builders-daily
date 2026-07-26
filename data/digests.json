@@ -1,5 +1,1002 @@
 [
   {
+    "date": "2026-07-27",
+    "displayDate": "7月27日 · 周一",
+    "generatedAt": "2026-07-26T23:30:44.019669+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-26T07:10:56.474Z",
+      "blogs": "2026-07-26T07:11:03.998Z",
+      "podcasts": "2026-07-26T07:11:01.913Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流聚焦 Software Factory、Codex/ChatGPT Work 的真实使用、开放权重共识，以及 Claude Managed Agents 的生产化边界：高信号内容已筛选为 10 条。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工程、公司建设有增量价值的内容；过滤低信号动态后，提供今日洞察与高信号来源卡片。",
+    "stats": {
+      "builders": 14,
+      "tweets": 31,
+      "blogs": 3,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 13
+        },
+        {
+          "name": "工程",
+          "count": 9
+        },
+        {
+          "name": "产品",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 6
+        },
+        {
+          "name": "研究",
+          "count": 4
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "软件工厂成为产品本身：Agent 维护能力变成核心资产",
+        "source": "Guillermo Rauch · Vercel CEO · X 动态",
+        "url": "https://x.com/rauchg/status/2081123293340520642",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Guillermo Rauch 认为，软件世界正在进入“factory is the product”的阶段：产品质量取决于你建立了怎样的 agents 来持续维护它。他还分享了用 agent CLI 与文件系统做研究的实践，把 research folder、AGENTS.md 和历史会话沉淀成可复用的工作环境。",
+        "chineseTitle": "软件工厂成为产品本身：Agent 维护能力变成核心资产",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "score": 91
+      },
+      {
+        "title": "12 个 subagents 并行 QA：AI 测试开始变成自治工程流程",
+        "source": "Peter Steinberger · OpenClaw · X 动态",
+        "url": "https://x.com/steipete/status/2081169373784633552",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Peter Steinberger 分享了用 Codex 做大规模并行 QA 的真实工作流：为下个版本准备时，让多个 subagents 拆分功能、启动不同端口的 dev gateways、压力测试、使用 worktrees 并自主创建 PR。他特别指出，新的模型在理解 intent 和发现复杂行为问题上明显进步，过去常见的 compaction 边界崩溃和“作弊”问题有所缓解。",
+        "chineseTitle": "12 个 subagents 并行 QA：AI 测试开始变成自治工程流程",
+        "tags": [
+          "Agent",
+          "QA",
+          "工程"
+        ],
+        "score": 93
+      },
+      {
+        "title": "ChatGPT Work 活跃用户超过 Codex：AI 工作入口正在泛化",
+        "source": "Thibault Sottiaux · OpenAI Codex / ChatGPT Work · X 动态",
+        "url": "https://x.com/thsottiaux/status/2081198608293187635",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Thibault Sottiaux 表示 ChatGPT Work 的活跃用户数已经正式超过 Codex，并补充其在移动端已经可用、通过语音/移动场景会产生 game changer 级体验。这个信号说明 OpenAI 的工作流产品不再只围绕 coding expert，而是在向更广泛的知识工作入口扩展。",
+        "chineseTitle": "ChatGPT Work 活跃用户超过 Codex：AI 工作入口正在泛化",
+        "tags": [
+          "产品",
+          "Agent",
+          "OpenAI"
+        ],
+        "score": 86
+      },
+      {
+        "title": "Codex 工作系统从写代码扩展到个人运营",
+        "source": "Peter Yang · OpenAI Codex · X 动态",
+        "url": "https://x.com/petergyang/status/2081029209993154980",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月25日 · 周六",
+        "summary": "Peter Yang 预告与 OpenAI DevEx engineer Jason 的访谈，核心不是单个 Codex 技巧，而是一套完整工作系统：跨 Slack/email 运行 chief of staff，把过去 sessions 转化为新的 skills 与 workflows，并构建学习网站。这显示 coding agent 的边界正在向个人运营、知识复用和流程自动化扩展。",
+        "chineseTitle": "Codex 工作系统从写代码扩展到个人运营",
+        "tags": [
+          "Codex",
+          "Workflow",
+          "Agent"
+        ],
+        "score": 82
+      },
+      {
+        "title": "SoftwareFactoryFactory：真正稀缺的是可复制的意图实现机制",
+        "source": "Nan Yu · Linear · X 动态",
+        "url": "https://x.com/thenanyu/status/2081187979024797858",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Nan Yu 用连续几条短推讨论 SoftwareFactory：如果可以建 SoftwareFactory，就可以进一步建 SoftwareFactoryFactory；而所谓 software 只是更广义“设计并实现意图”的一种形式，可外推到 public health、law 等领域。核心问题不是能不能生成 feature，而是能否稳定构造把意图转化为执行系统的机制。",
+        "chineseTitle": "SoftwareFactoryFactory：真正稀缺的是可复制的意图实现机制",
+        "tags": [
+          "Software Factory",
+          "组织",
+          "产品"
+        ],
+        "score": 78
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "lmao @ClementDelangue doing the 🇳🇴 @cormacb cormac's latest at @aidotengineer is now live!",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081142196510843374",
+            "url": "https://x.com/swyx/status/2081142196510843374",
+            "createdAt": "2026-07-25T22:19:00.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "lmao @ClementDelangue doing the 🇳🇴",
+            "summary": "lmao @ClementDelangue doing the 🇳🇴",
+            "engagement": 56,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081122841102340550",
+            "url": "https://x.com/swyx/status/2081122841102340550",
+            "createdAt": "2026-07-25T21:02:05.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "@cormacb cormac's latest at @aidotengineer is now live!",
+            "summary": "@cormacb cormac's latest at @aidotengineer is now live!",
+            "engagement": 0,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "ChatGPT Work officially has overtaken Codex in number of active users…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081198608293187635",
+            "url": "https://x.com/thsottiaux/status/2081198608293187635",
+            "createdAt": "2026-07-26T02:03:09.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
+            "summary": "ChatGPT Work officially has overtaken Codex in number of active users…",
+            "engagement": 4193,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081229262452097169",
+            "url": "https://x.com/thsottiaux/status/2081229262452097169",
+            "createdAt": "2026-07-26T04:04:58.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "Game changer when used from mobile. Available in the ChatGPT app already.",
+            "summary": "Game changer when used from mobile. Available in the ChatGPT app already.",
+            "engagement": 1094,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081254182502465981",
+            "url": "https://x.com/thsottiaux/status/2081254182502465981",
+            "createdAt": "2026-07-26T05:43:59.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
+            "summary": "It was always possible to speak to your computer…",
+            "engagement": 779,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "My friend Kun gives some of the best analysis on models there is, read it below: Jason is a DevEx engineer at OpenAI who wrote the official guidebook on how to use Codex for work…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081132101441823068",
+            "url": "https://x.com/petergyang/status/2081132101441823068",
+            "createdAt": "2026-07-25T21:38:53.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "My friend Kun gives some of the best analysis on models there is, read it below:",
+            "summary": "My friend Kun gives some of the best analysis on models there is, read it below:",
+            "engagement": 289,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2081029209993154980",
+            "url": "https://x.com/petergyang/status/2081029209993154980",
+            "createdAt": "2026-07-25T14:50:01.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "Jason is a DevEx engineer at OpenAI who wrote the official guidebook on how to use Codex for work. In tomorrow’s episode, he showed me his complete Codex work system, including how to: → Run a chief of staff across Slack and email → Turn past sessions into new skills and workflows → Build sites to learn anything, like…",
+            "summary": "Jason is a DevEx engineer at OpenAI who wrote the official guidebook on how to use Codex for work…",
+            "engagement": 191,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "If you can make a SoftwareFactory, then you can make a SoftwareFactoryFactory The real reason we don’t have a true SoftwareFactory I’m talking about software in this case, but it generalizes into things like public healt…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081187979024797858",
+            "url": "https://x.com/thenanyu/status/2081187979024797858",
+            "createdAt": "2026-07-26T01:20:55.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "If you can make a SoftwareFactory, then you can make a SoftwareFactoryFactory",
+            "summary": "If you can make a SoftwareFactory, then you can make a SoftwareFactoryFactory",
+            "engagement": 14,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081195994499133820",
+            "url": "https://x.com/thenanyu/status/2081195994499133820",
+            "createdAt": "2026-07-26T01:52:46.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "The real reason we don’t have a true SoftwareFactory",
+            "summary": "The real reason we don’t have a true SoftwareFactory",
+            "engagement": 12,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081183178568405171",
+            "url": "https://x.com/thenanyu/status/2081183178568405171",
+            "createdAt": "2026-07-26T01:01:50.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "I’m talking about software in this case, but it generalizes into things like public health, or law… Instead of a feature, it’s some other sort of designed and implemented intention",
+            "summary": "I’m talking about software in this case, but it generalizes into things like public health, or law… Instead of a feature, it’s some other sort of designed and implemented intention",
+            "engagement": 0,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "In uncharted territory, answers to hard questions only come from repeated contact with reality…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2081141594892415028",
+            "url": "https://x.com/realmadhuguru/status/2081141594892415028",
+            "createdAt": "2026-07-25T22:16:36.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "In uncharted territory, answers to hard questions only come from repeated contact with reality. Been thinking about how quickly the US AI community converged on support for open-weight models. It feels obvious now. It wasn't even a month ago. It took a series of public “experiments” to play out. DeepSeek.…",
+            "summary": "In uncharted territory, answers to hard questions only come from repeated contact with reality…",
+            "engagement": 46,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "I find them baffling even to me. Especially bad for the ADHD brain…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2081081149355708749",
+            "url": "https://x.com/amasad/status/2081081149355708749",
+            "createdAt": "2026-07-25T18:16:25.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "I find them baffling even to me. Especially bad for the ADHD brain.",
+            "summary": "I find them baffling even to me. Especially bad for the ADHD brain.",
+            "engagement": 289,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081086837263937543",
+            "url": "https://x.com/amasad/status/2081086837263937543",
+            "createdAt": "2026-07-25T18:39:01.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "Just deployed a new chess engine; we're closing in on an estimated 1200 Elo. The goal is to get it to 2000+, while keeping the constraints: 1. One small finetuned LLM (no custom pretraining or architecture) 2. The model has to produce the moves with no chess engine assistance If you relax these constraints, it gets…",
+            "summary": "Just deployed a new chess engine; we're closing in on an estimated 1200 Elo…",
+            "engagement": 221,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2081210562881716339",
+            "url": "https://x.com/amasad/status/2081210562881716339",
+            "createdAt": "2026-07-26T02:50:39.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "tfw when last nights edible finally kicks in",
+            "summary": "tfw when last nights edible finally kicks in",
+            "engagement": 97,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "The (software) factory is the product. Your product is only as good as the agents you set up to autonomously maintain it…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081123293340520642",
+            "url": "https://x.com/rauchg/status/2081123293340520642",
+            "createdAt": "2026-07-25T21:03:53.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "The (software) factory is the product. Your product is only as good as the agents you set up to autonomously maintain it. This is what @elonmusk figured out about Tesla, and it's now true for the software world.",
+            "summary": "The (software) factory is the product. Your product is only as good as the agents you set up to autonomously maintain it…",
+            "engagement": 1299,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          },
+          {
+            "id": "2081103993917649134",
+            "url": "https://x.com/rauchg/status/2081103993917649134",
+            "createdAt": "2026-07-25T19:47:11.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "I started doing all my research with agent CLIs and the filesystem. A 📁 𝚛𝚎𝚜𝚎𝚊𝚛𝚌𝚑/ folder, an 𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍 describing the format I like and best practices. Then launch my agent and ask a question. No fancy apps, knowledge graphs, UIs. The agent can be asked to find and correlate knowledge from previous sessions. Scales to…",
+            "summary": "I started doing all my research with agent CLIs and the filesystem…",
+            "engagement": 904,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081149743368122723",
+            "url": "https://x.com/rauchg/status/2081149743368122723",
+            "createdAt": "2026-07-25T22:48:59.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "is more fundamental than any other framework we’ve built. It’s the genesis of your company. When you have a new idea, don’t think: “I’ll go to an agent and ad-hoc prompt.” Think: how can I build the factory that will start, maintain and grow my idea",
+            "summary": "is more fundamental than any other framework we’ve built…",
+            "engagement": 719,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Now with Google on board, this is a complete endorsement of open weights AI…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081054531908247937",
+            "url": "https://x.com/levie/status/2081054531908247937",
+            "createdAt": "2026-07-25T16:30:39.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "Now with Google on board, this is a complete endorsement of open weights AI. Pretty big moment for the industry.",
+            "summary": "Now with Google on board, this is a complete endorsement of open weights AI…",
+            "engagement": 1806,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "My dad was cheering real loud from the stands Dad stop you’re embarrassing me We should prioritize people and a vibrant community and more housing far far far more than some guy’s views PS This is a shitpost",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081223316547977529",
+            "url": "https://x.com/garrytan/status/2081223316547977529",
+            "createdAt": "2026-07-26T03:41:20.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "My dad was cheering real loud from the stands Dad stop you’re embarrassing me",
+            "summary": "My dad was cheering real loud from the stands Dad stop you’re embarrassing me",
+            "engagement": 624,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081222788090830946",
+            "url": "https://x.com/garrytan/status/2081222788090830946",
+            "createdAt": "2026-07-26T03:39:14.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "We should prioritize people and a vibrant community and more housing far far far more than some guy’s views",
+            "summary": "We should prioritize people and a vibrant community and more housing far far far more than some guy’s views",
+            "engagement": 218,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081234705287086195",
+            "url": "https://x.com/garrytan/status/2081234705287086195",
+            "createdAt": "2026-07-26T04:26:35.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "PS This is a shitpost",
+            "summary": "PS This is a shitpost",
+            "engagement": 44,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "VC trying to resist the temptation to buy three shares of Anthropic through an SPV before the IPO so that they can call themselves early investors Chip landscape 101 with @andrewdfeldman: CPU, GPU, NVIDIA, AMD, TPU, Trai…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081098045211439136",
+            "url": "https://x.com/mattturck/status/2081098045211439136",
+            "createdAt": "2026-07-25T19:23:33.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "VC trying to resist the temptation to buy three shares of Anthropic through an SPV before the IPO so that they can call themselves early investors",
+            "summary": "VC trying to resist the temptation to buy three shares of Anthropic through an SPV before the IPO so that they can call themselves early investors",
+            "engagement": 78,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081131761686184333",
+            "url": "https://x.com/mattturck/status/2081131761686184333",
+            "createdAt": "2026-07-25T21:37:32.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "Chip landscape 101 with @andrewdfeldman: CPU, GPU, NVIDIA, AMD, TPU, Trainium, Cerebras, etc",
+            "summary": "Chip landscape 101 with @andrewdfeldman: CPU, GPU, NVIDIA, AMD, TPU, Trainium, Cerebras, etc",
+            "engagement": 27,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "What do you do when you’re waiting for AI output…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081200367480738098",
+            "url": "https://x.com/zarazhangrui/status/2081200367480738098",
+            "createdAt": "2026-07-26T02:10:09.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "What do you do when you’re waiting for AI output?",
+            "summary": "What do you do when you’re waiting for AI output?",
+            "engagement": 99,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081223709755650054",
+            "url": "https://x.com/zarazhangrui/status/2081223709755650054",
+            "createdAt": "2026-07-26T03:42:54.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "AI-native companies have a culture akin to an open-source community",
+            "summary": "AI-native companies have a culture akin to an open-source community",
+            "engagement": 51,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "No one will admit this but you can only do this sort of thing if a) the CEO has complete control of the company (profitable, no board and VC that I know of) and b) you are as ambitious and crazy as @DavidSHolz Otherwise…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081017328137916426",
+            "url": "https://x.com/nikunj/status/2081017328137916426",
+            "createdAt": "2026-07-25T14:02:49.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "No one will admit this but you can only do this sort of thing if a) the CEO has complete control of the company (profitable, no board and VC that I know of) and b) you are as ambitious and crazy as @DavidSHolz Otherwise imagine telling your broader team a generative media company is acquiring an astrology app. Let’s…",
+            "summary": "No one will admit this but you can only do this sort of thing if a) the CEO has complete control of the company (profitable, no board and VC that I know of) and b) you are as ambit…",
+            "engagement": 148,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2081267611132641787",
+            "url": "https://x.com/nikunj/status/2081267611132641787",
+            "createdAt": "2026-07-26T06:37:21.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "em dash lover & savior can’t explain how to successfully type an em dash on their keyboard without looking it up.. Happens more often than you think 😅",
+            "summary": "em dash lover & savior can’t explain how to successfully type an em dash on their keyboard without looking it up.…",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "1) Competition is good for the ecosystem…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081175795587072421",
+            "url": "https://x.com/steipete/status/2081175795587072421",
+            "createdAt": "2026-07-26T00:32:30.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "1) Competition is good for the ecosystem. 2) Serving models at scale is hard. Proud that @OpenAI signed the letter. Ant is silent on it.",
+            "summary": "1) Competition is good for the ecosystem…",
+            "engagement": 1670,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2081169373784633552",
+            "url": "https://x.com/steipete/status/2081169373784633552",
+            "createdAt": "2026-07-26T00:06:59.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart at compaction boundaries and/or the model started cheating.",
+            "summary": "Been running codex all day to do massive parallel QA in prep of the next release…",
+            "engagement": 917,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081169376317932017",
+            "url": "https://x.com/steipete/status/2081169376317932017",
+            "createdAt": "2026-07-26T00:07:00.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "\"Do a full end-to-end QA test of OpenClaw with live API keys. Use 12 subagents to split up functionality, spin up dev gateways with different ports, and use some to stress test. Orchestrate, use worktrees and create PRs autonomously. Set a goal to find 200 bugs. Fix the root cause each time, no band-aids. Refactors…",
+            "summary": "\"Do a full end-to-end QA test of OpenClaw with live API keys…",
+            "engagement": 257,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "this is crazy",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081065765638201474",
+            "url": "https://x.com/danshipper/status/2081065765638201474",
+            "createdAt": "2026-07-25T17:15:17.000Z",
+            "sourceDate": "2026-07-25",
+            "sourceDisplayDate": "7月25日 · 周六",
+            "text": "this is crazy",
+            "summary": "this is crazy",
+            "engagement": 254,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users…",
+        "chineseTitle": "An update on recent Claude Code quality reports",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Get started with Claude Managed Agents by following our docs…",
+        "chineseTitle": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "author": "",
+        "publishedAt": "May 19, 2026",
+        "sourceDate": "May 19, 20",
+        "sourceDisplayDate": "May 19, 20",
+        "summary": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers…",
+        "chineseTitle": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "Unsupervised Learning",
+        "title": "Ep 91: Top AI Analyst Unpacks Today's AI Hype Cycle",
+        "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w",
+        "publishedAt": "2026-07-16T12:48:06.000Z",
+        "sourceDate": "2026-07-16",
+        "sourceDisplayDate": "7月16日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:03 You can wave your hands and say, no…",
+        "chineseTitle": "Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle",
+        "tags": [
+          "工程",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的主线不是某个单点模型发布，而是“软件工厂”正在从比喻变成工作流设计原则。Guillermo Rauch 把 product 重新定义为能持续维护产品的 agent factory，Nan Yu 进一步指出如果能做 SoftwareFactory，就能做 SoftwareFactoryFactory：真正的瓶颈不只是代码生成，而是如何把意图、上下文、验证和维护封装成可复制的生产系统。",
+        "OpenAI 侧的信号显示，AI 工作入口正在从专业 coding 工具扩展到更普遍的工作界面。Thibault Sottiaux 提到 ChatGPT Work 活跃用户已超过 Codex，并强调移动端和“能听懂并做事”的交互变化；Peter Yang 预告的 Codex work system 也把 chief of staff、Slack/email、skills/workflows 复用放在同一个框架下。对 AI Builders 来说，竞争点正在从“谁的 IDE 插件更强”转向“谁能把 agent 嵌入日常业务流”。",
+        "另一个重要共识是开放权重重新获得战略正当性。Aaron Levie 将 Google 入局视为行业级背书，Madhu Guru 则给出更底层的解释：美国 AI 社区对 open-weight models 的态度，是通过 DeepSeek 等公开实验快速收敛出来的。这里的判断价值在于，开放权重不只是意识形态选择，而是在不确定技术地形中反复接触现实后形成的产业策略。",
+        "工程层面，Anthropic 的 Managed Agents 文章和 Claude Code 质量报告把问题拉回 production reality：agent 需要把“脑”和“手”解耦，需要自托管 sandbox、MCP tunnel、可观测性与回归分析；而 Peter Steinberger 的 12 subagents 并行 QA 实践说明，复杂软件维护开始出现新的测试/修复组织形态。真正可上线的 agent 系统，不是单次聪明回答，而是权限、环境、并发、评估、根因修复的一整套操作系统。",
+        "低信号内容占比依然不低，尤其是玩笑、日常、活动转发和纯感叹。今天有价值的内容共同指向一个长期判断：AI 产品的护城河会越来越像“可持续生产系统”而不是单个 prompt、单个模型或单个 UI。"
+      ],
+      "filteredNote": "过滤掉了 Swyx 玩笑/活动转发、Garry Tan 家庭与 shitpost、Matt Turck VC 段子、Zara Zhang 单句提问、Dan Shipper 单句感叹、Nikunj Kothari em dash 玩笑、Amjad Masad 生活梗等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel CEO · X 动态",
+        "title": "软件工厂成为产品本身：Agent 维护能力变成核心资产",
+        "summary": "Guillermo Rauch 认为，软件世界正在进入“factory is the product”的阶段：产品质量取决于你建立了怎样的 agents 来持续维护它。他还分享了用 agent CLI 与文件系统做研究的实践，把 research folder、AGENTS.md 和历史会话沉淀成可复用的工作环境。",
+        "keyPoints": [
+          "产品不只是最终 UI，而是能持续启动、维护和增长想法的软件工厂",
+          "agent CLI + filesystem 可以替代复杂知识图谱或专门 UI，成为轻量研究系统",
+          "AGENTS.md、历史会话和目录结构本身开始成为组织知识与 agent 协作协议"
+        ],
+        "whyItMatters": "这是对 AI-native 产品形态的清晰框架：builder 需要设计生产系统，而不是只优化一次性 prompt。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/rauchg/status/2081123293340520642"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Peter Steinberger",
+        "meta": "OpenClaw · X 动态",
+        "title": "12 个 subagents 并行 QA：AI 测试开始变成自治工程流程",
+        "summary": "Peter Steinberger 分享了用 Codex 做大规模并行 QA 的真实工作流：为下个版本准备时，让多个 subagents 拆分功能、启动不同端口的 dev gateways、压力测试、使用 worktrees 并自主创建 PR。他特别指出，新的模型在理解 intent 和发现复杂行为问题上明显进步，过去常见的 compaction 边界崩溃和“作弊”问题有所缓解。",
+        "keyPoints": [
+          "用 12 个 subagents 并行拆分端到端 QA，而不是单线程让模型找 bug",
+          "要求 agent 使用 live API keys、dev gateways、worktrees 并创建 PR",
+          "目标从发现问题升级为每次修复 root cause，避免 band-aid 式补丁"
+        ],
+        "whyItMatters": "这是 agentic QA 从演示走向真实 release 流程的具体样本，展示了并发、环境隔离与根因修复的重要性。",
+        "tags": [
+          "Agent",
+          "QA",
+          "工程"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/steipete/status/2081169373784633552"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "OpenAI Codex / ChatGPT Work · X 动态",
+        "title": "ChatGPT Work 活跃用户超过 Codex：AI 工作入口正在泛化",
+        "summary": "Thibault Sottiaux 表示 ChatGPT Work 的活跃用户数已经正式超过 Codex，并补充其在移动端已经可用、通过语音/移动场景会产生 game changer 级体验。这个信号说明 OpenAI 的工作流产品不再只围绕 coding expert，而是在向更广泛的知识工作入口扩展。",
+        "keyPoints": [
+          "ChatGPT Work active users 已超过 Codex",
+          "移动端已经在 ChatGPT app 中可用，降低工作流触达门槛",
+          "语音到行动的交互从“能对电脑说话”进入“电脑能做事”阶段"
+        ],
+        "whyItMatters": "对 AI Builders 来说，这意味着增长和产品设计不能只盯 IDE；通用工作界面、移动端和语音执行会成为新的竞争场。",
+        "tags": [
+          "产品",
+          "Agent",
+          "OpenAI"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/thsottiaux/status/2081198608293187635"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月25日 · 周六",
+        "actor": "Peter Yang",
+        "meta": "OpenAI Codex · X 动态",
+        "title": "Codex 工作系统从写代码扩展到个人运营",
+        "summary": "Peter Yang 预告与 OpenAI DevEx engineer Jason 的访谈，核心不是单个 Codex 技巧，而是一套完整工作系统：跨 Slack/email 运行 chief of staff，把过去 sessions 转化为新的 skills 与 workflows，并构建学习网站。这显示 coding agent 的边界正在向个人运营、知识复用和流程自动化扩展。",
+        "keyPoints": [
+          "Codex 被用于 Slack/email 相关的 chief of staff 工作流",
+          "过去的 agent sessions 可以沉淀成 skills 与可复用 workflow",
+          "构建学习网站等任务把 coding、研究和知识管理连接起来"
+        ],
+        "whyItMatters": "如果 agent 能把历史工作转化为可复用能力，AI 工具的复利就来自 workflow memory，而不是单次回答质量。",
+        "tags": [
+          "Codex",
+          "Workflow",
+          "Agent"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/petergyang/status/2081029209993154980"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Nan Yu",
+        "meta": "Linear · X 动态",
+        "title": "SoftwareFactoryFactory：真正稀缺的是可复制的意图实现机制",
+        "summary": "Nan Yu 用连续几条短推讨论 SoftwareFactory：如果可以建 SoftwareFactory，就可以进一步建 SoftwareFactoryFactory；而所谓 software 只是更广义“设计并实现意图”的一种形式，可外推到 public health、law 等领域。核心问题不是能不能生成 feature，而是能否稳定构造把意图转化为执行系统的机制。",
+        "keyPoints": [
+          "SoftwareFactory 的下一层是能生产软件工厂的机制",
+          "软件只是意图实现的一类媒介，这一框架可扩展到其他复杂制度领域",
+          "真正的难点在于抽象、复制和治理生产系统，而非单个 feature 输出"
+        ],
+        "whyItMatters": "这提供了一个长期判断框架：AI-native company 的优势会体现在生产系统的递归能力上。",
+        "tags": [
+          "Software Factory",
+          "组织",
+          "产品"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/thenanyu/status/2081187979024797858"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月25日 · 周六",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "开放权重共识来自公开实验，而不是会议室推演",
+        "summary": "Madhu Guru 观察到，美国 AI 社区对 open-weight models 的支持在很短时间内快速收敛；这个共识一个月前并不明显，是 DeepSeek 等一系列公开实验改变了现实认知。他强调，在未知领域，困难问题的答案来自反复接触现实，而不是抽象辩论。",
+        "keyPoints": [
+          "open-weight models 的支持度在美国 AI 社区快速上升",
+          "DeepSeek 等公开实验起到了改变行业判断的作用",
+          "技术战略需要通过 reality contact 校准，而不是只靠先验立场"
+        ],
+        "whyItMatters": "这解释了开放权重从争议选项变成产业策略的过程，对模型公司和应用公司选择底座都有参考价值。",
+        "tags": [
+          "开放权重",
+          "模型策略",
+          "研究"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/realmadhuguru/status/2081141594892415028"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月25日 · 周六",
+        "actor": "Aaron Levie",
+        "meta": "Box CEO · X 动态",
+        "title": "Google 入局让 open weights 成为行业级战略选项",
+        "summary": "Aaron Levie 认为，Google 的加入构成了对 open weights AI 的完整背书，是行业的重要时刻。虽然原文很短，但结合今天关于开放权重的多方讨论，它代表企业软件 CEO 对模型生态结构变化的明确判断。",
+        "keyPoints": [
+          "Google 支持 open weights 被视为行业级背书",
+          "开放权重不再只是小团队或研究社区路线",
+          "企业应用方会重新评估闭源 API 与可控模型之间的组合策略"
+        ],
+        "whyItMatters": "当 hyperscaler 和企业软件公司都认真对待 open weights，应用层的成本、部署与数据控制策略都会被重写。",
+        "tags": [
+          "开放权重",
+          "生态",
+          "企业 AI"
+        ],
+        "qualityScore": 76,
+        "url": "https://x.com/levie/status/2081054531908247937"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月25日 · 周六",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "小型微调 LLM 下棋：用严格约束测试模型内化能力",
+        "summary": "Amjad Masad 表示 Replit 新部署的 chess engine 估计接近 1200 Elo，目标是 2000+，同时保持两个严格约束：只使用一个小型 finetuned LLM，不做 custom pretraining/architecture；并且模型必须在没有棋类引擎辅助的情况下直接产出走法。这个实验的价值在于用明确规则检验模型是否真正内化策略能力。",
+        "keyPoints": [
+          "当前估计接近 1200 Elo，目标提升到 2000+",
+          "约束为一个小型 finetuned LLM，无自定义预训练或架构",
+          "禁止外部 chess engine assistance，迫使模型自己生成 move"
+        ],
+        "whyItMatters": "这类约束实验比普通 demo 更能暴露模型能力边界，也为小模型专门化训练提供可观察指标。",
+        "tags": [
+          "小模型",
+          "评估",
+          "研究"
+        ],
+        "qualityScore": 81,
+        "url": "https://x.com/amasad/status/2081086837263937543"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "7月27日 · 周一",
+        "actor": "Anthropic Engineering",
+        "meta": "Claude Code · Engineering Blog",
+        "title": "Claude Code 质量报告：模型体验下降需要可诊断的工程复盘",
+        "summary": "Anthropic Engineering 发布 Claude Code 质量报告更新，回应过去一个月用户反馈中关于 Claude responses 变差的情况。文章的重点不是营销，而是把主观体验、线上行为变化和工程归因放到可复盘框架里，提醒所有 agent 产品都需要持续质量监控。",
+        "keyPoints": [
+          "用户感知的质量下降需要被系统性调查，而不是简单归因给模型变差",
+          "Claude Code 这样的高频工作工具对行为回归极其敏感",
+          "生产级 AI 产品需要把反馈、评估和回滚机制纳入发布流程"
+        ],
+        "whyItMatters": "AI coding tool 的 trust 来自稳定性和可解释的质量管理；这篇复盘对所有发布 agent 产品的团队都有借鉴意义。",
+        "tags": [
+          "Claude Code",
+          "质量工程",
+          "Agent"
+        ],
+        "qualityScore": 88,
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "7月27日 · 周一",
+        "actor": "Anthropic Engineering",
+        "meta": "Claude Managed Agents · Engineering Blog",
+        "title": "Managed Agents 的生产化路径：把 brain 和 hands 解耦",
+        "summary": "Anthropic Engineering 的 Managed Agents 文章强调将 agent 的推理中枢与执行环境解耦，并配套 self-hosted sandboxes 与 MCP tunnels。核心 thesis 是：企业要让 agent 触达私有系统与真实工具，必须同时解决隔离、权限、网络连接和执行可控性。",
+        "keyPoints": [
+          "Managed Agents 通过“brain / hands”解耦扩展执行能力",
+          "self-hosted sandboxes 让企业在自己控制的环境中运行 agent",
+          "MCP tunnels 让 agent 能连接私有 MCP servers，同时保留边界控制"
+        ],
+        "whyItMatters": "这是 agent 从 SaaS demo 进入企业生产环境的关键基础设施方向：安全执行环境和私有工具连接会成为标配。",
+        "tags": [
+          "Managed Agents",
+          "MCP",
+          "基础设施"
+        ],
+        "qualityScore": 89,
+        "url": "https://www.anthropic.com/engineering/managed-agents"
+      }
+    ]
+  },
+  {
     "date": "2026-07-26",
     "displayDate": "7月26日 · 周日",
     "generatedAt": "2026-07-25T23:30:37.827798+00:00",
