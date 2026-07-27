@@ -1,5 +1,781 @@
 [
   {
+    "date": "2026-07-28",
+    "displayDate": "7月28日 · 周二",
+    "generatedAt": "2026-07-27T23:30:13.962239+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-27T07:26:55.001Z",
+      "blogs": "2026-07-27T07:26:58.616Z",
+      "podcasts": "2026-07-27T07:26:58.386Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流聚焦 ChatGPT Work 的可交付任务、AI adoption 的信任边界、open weights 的产业共识，以及算力/工具链基础设施：高信号内容已筛选为 10 条。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工程、公司建设有增量价值的内容；过滤低信号动态后，提供今日洞察与高信号来源卡片。",
+    "stats": {
+      "builders": 11,
+      "tweets": 21,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "产品",
+          "count": 8
+        },
+        {
+          "name": "观察",
+          "count": 8
+        },
+        {
+          "name": "工程",
+          "count": 5
+        },
+        {
+          "name": "组织",
+          "count": 3
+        },
+        {
+          "name": "研究",
+          "count": 1
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "从聊天框到可交付工作：ChatGPT Work 正在改写任务粒度",
+        "source": "Sam Altman · OpenAI · ChatGPT Work · X 动态",
+        "url": "https://x.com/sama/status/2081396796174282900",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Sam Altman 用一个手机端长周末出行规划案例说明，ChatGPT Work 不只是回答问题，而是调用历史上下文、规划选项，并生成一个可供多人协作用的 full-stack site。这个例子的重要性不在旅游本身，而在任务边界从“给建议”扩展到“产出可操作的软件与流程”。他随后说自己想要一种 new kind of computer，暗示 OpenAI 正把工作入口从 app 功能推向计算范式。",
+        "chineseTitle": "从聊天框到可交付工作：ChatGPT Work 正在改写任务粒度",
+        "tags": [
+          "ChatGPT Work",
+          "产品",
+          "Agent"
+        ],
+        "score": 94
+      },
+      {
+        "title": "手机上的 ChatGPT Work：把个人杂务变成一条 prompt",
+        "source": "Thibault Sottiaux · OpenAI Codex & ChatGPT · X 动态",
+        "url": "https://x.com/thsottiaux/status/2081444811647963244",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Thibault Sottiaux 把 ChatGPT Work 描述为“让 ChatGPT 为你工作”：谈判网费、退订垃圾邮件、寻找优惠等日常杂务，都可以从手机上一条 prompt 开始。他强调系统会为用户做至少 20 件事，这个表达指向的是多步骤代理式执行，而非单轮问答。和 Sam 的案例相互印证，OpenAI 正在把高频低价值任务包装成可委托的工作单元。",
+        "chineseTitle": "手机上的 ChatGPT Work：把个人杂务变成一条 prompt",
+        "tags": [
+          "移动端",
+          "Consumer AI",
+          "Agent"
+        ],
+        "score": 89
+      },
+      {
+        "title": "AI 普及的第一阻力不是 token，而是信任边界",
+        "source": "Peter Yang · AI 产品观察 · X 动态",
+        "url": "https://x.com/petergyang/status/2081555286817648738",
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Peter Yang 观察到，离开 AI 圈层后，普通用户最担心的不是 token 是否够用，而是能不能信任 ChatGPT 读取 Gmail、Calendar、Google Workspace、Microsoft Office 等核心账户。这个判断把 adoption friction 从价格/算力转向权限与隐私。对于要做工作流 agent 的产品，用户授权心理模型可能比模型能力更早成为瓶颈。",
+        "chineseTitle": "AI 普及的第一阻力不是 token，而是信任边界",
+        "tags": [
+          "信任",
+          "权限",
+          "产品"
+        ],
+        "score": 86
+      },
+      {
+        "title": "AI 产品化的第一阶段：有分发的公司扩张问题边界",
+        "source": "Madhu Guru · Meta AI · 产品与组织观察 · X 动态",
+        "url": "https://x.com/realmadhuguru/status/2081437850466451736",
+        "sourceDate": "2026-07-26",
+        "sourceDisplayDate": "7月26日 · 周日",
+        "summary": "Madhu Guru 反驳“AI 没有带来 shipped impact”的说法：现在只是 phase 1，有分发的公司正在快速进入相邻问题域，AI 让它们能更快构建过去需要大量定制软件的功能，例如试衣。这个观点把 AI 影响从“全新 app”拉回到既有产品的功能扩张。真正的增量来自大公司用模型降低相邻场景的工程成本。",
+        "chineseTitle": "AI 产品化的第一阶段：有分发的公司扩张问题边界",
+        "tags": [
+          "分发",
+          "产品战略",
+          "平台"
+        ],
+        "score": 87
+      },
+      {
+        "title": "滥用者选择补贴型闭源订阅，而不一定选择开源模型",
+        "source": "Amjad Masad · Replit · AI 安全观察 · X 动态",
+        "url": "https://x.com/amasad/status/2081576172656456076",
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Amjad Masad 引述一名前 Anthropic 员工的观察：黑客更偏好使用被大幅补贴的实验室 AI 订阅来发动攻击，而不是开放模型。这个信号改变了常见的安全叙事：风险不只来自 open weights，也来自闭源服务的价格补贴、易用性和规模化访问。对模型公司而言，滥用治理需要覆盖商业订阅设计，而不只是模型发布策略。",
+        "chineseTitle": "滥用者选择补贴型闭源订阅，而不一定选择开源模型",
+        "tags": [
+          "AI 安全",
+          "模型治理",
+          "商业模式"
+        ],
+        "score": 84
+      }
+    ],
+    "builders": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2081444811647963244",
+            "url": "https://x.com/thsottiaux/status/2081444811647963244",
+            "createdAt": "2026-07-26T18:21:29.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for…",
+            "summary": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for somet…",
+            "engagement": 4594,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081534792903147881",
+            "url": "https://x.com/thsottiaux/status/2081534792903147881",
+            "createdAt": "2026-07-27T00:19:02.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Vibes are strong. Never seen OpenAI more focused and humming.",
+            "summary": "Vibes are strong. Never seen OpenAI more focused and humming.",
+            "engagement": 4052,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens it's \"do I trust ChatGPT enough to share my Gmail, Calendar, Google Workspace, Microsoft Office, et…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2081555286817648738",
+            "url": "https://x.com/petergyang/status/2081555286817648738",
+            "createdAt": "2026-07-27T01:40:28.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens it's \"do I trust ChatGPT enough to share my Gmail, Calendar, Google Workspace, Microsoft Office, etc.\"",
+            "summary": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens it's \"do I trust ChatGPT enough to share my Gmail, Calendar…",
+            "engagement": 85,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081559330537734574",
+            "url": "https://x.com/petergyang/status/2081559330537734574",
+            "createdAt": "2026-07-27T01:56:32.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Living life on the edge everyday",
+            "summary": "Living life on the edge everyday",
+            "engagement": 33,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081558653300355083",
+            "url": "https://x.com/petergyang/status/2081558653300355083",
+            "createdAt": "2026-07-27T01:53:51.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Just call me Jean Luc Peter",
+            "summary": "Just call me Jean Luc Peter",
+            "engagement": 14,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "When people say AI hasn’t led to shipped impact in products, here’s the piece they are missing…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081437850466451736",
+            "url": "https://x.com/realmadhuguru/status/2081437850466451736",
+            "createdAt": "2026-07-26T17:53:49.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "When people say AI hasn’t led to shipped impact in products, here’s the piece they are missing. This is phase 1. Companies with distribution are rapidly expanding to adjacent problem areas - AI helps them execute fast and build functionality that previously required a bunch custom sw (e.g. clothes try on). Companies…",
+            "summary": "When people say AI hasn’t led to shipped impact in products, here’s the piece they are missing…",
+            "engagement": 38,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models.",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2081576172656456076",
+            "url": "https://x.com/amasad/status/2081576172656456076",
+            "createdAt": "2026-07-27T03:03:28.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models.",
+            "summary": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models.",
+            "engagement": 243,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Vercel proudly co-signs the Open Weights and American AI Leadership letter…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081546513885622760",
+            "url": "https://x.com/rauchg/status/2081546513885622760",
+            "createdAt": "2026-07-27T01:05:36.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Vercel proudly co-signs the Open Weights and American AI Leadership letter. Open source, data, protocols & research enable the technological wonders we enjoy every day, enriching our lives and our world. Open weights are the logical next frontier:",
+            "summary": "Vercel proudly co-signs the Open Weights and American AI Leadership letter…",
+            "engagement": 1524,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081517519303737559",
+            "url": "https://x.com/rauchg/status/2081517519303737559",
+            "createdAt": "2026-07-26T23:10:23.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌. Incredible. ✓ Resulting binary size: 1.28mb ✓ Startup overhead: 1.5ms (mean) ✓ Compiles in 2.94s (mean) ✓ Uses 𝚗𝚘𝚍𝚎:𝚑𝚝𝚝𝚙𝚜, 𝚗𝚘𝚍𝚎:𝚏𝚜, 𝚗𝚘𝚍𝚎:𝚙𝚊𝚝𝚑, 𝚗𝚘𝚍𝚎:𝚘𝚜, 𝚗𝚘𝚍𝚎:𝚌𝚛𝚢𝚙𝚝𝚘 ✓ Highly readable TypeScript ✓ Code translated by GLM 5.2 Fast ✓ Deploys like a charm! No embedded…",
+            "summary": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌…",
+            "engagement": 700,
+            "tags": [
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2081571905157714199",
+            "url": "https://x.com/rauchg/status/2081571905157714199",
+            "createdAt": "2026-07-27T02:46:30.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "👨‍💻",
+            "summary": "👨‍💻",
+            "engagement": 531,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "There’s still so much opportunity in the diffusion of AI into the real world…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081491621162668207",
+            "url": "https://x.com/levie/status/2081491621162668207",
+            "createdAt": "2026-07-26T21:27:29.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows. Intelligence alone is not enough to transform most processes because you need to bridge that intelligence with real world…",
+            "summary": "There’s still so much opportunity in the diffusion of AI into the real world…",
+            "engagement": 502,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Don’t LARP Be earnest Thank you @sama Couldn’t imagine a better close out anchor to YC Startup School 2026 That’s a wrap…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081586567211348432",
+            "url": "https://x.com/garrytan/status/2081586567211348432",
+            "createdAt": "2026-07-27T03:44:46.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Don’t LARP Be earnest",
+            "summary": "Don’t LARP Be earnest",
+            "engagement": 1142,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081602195292864532",
+            "url": "https://x.com/garrytan/status/2081602195292864532",
+            "createdAt": "2026-07-27T04:46:52.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Thank you @sama Couldn’t imagine a better close out anchor to YC Startup School 2026 That’s a wrap! See you next year",
+            "summary": "Thank you @sama Couldn’t imagine a better close out anchor to YC Startup School 2026 That’s a wrap…",
+            "engagement": 658,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "I post on X about 3 times a day on average…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2081304884469809295",
+            "url": "https://x.com/zarazhangrui/status/2081304884469809295",
+            "createdAt": "2026-07-26T09:05:27.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "I post on X about 3 times a day on average. Posting takes me maybe 15 to 20 minutes a day at most I don't overthink it, I post the moment I think of something, and most of the material is stuff I've already said out loud to someone in person",
+            "summary": "I post on X about 3 times a day on average…",
+            "engagement": 176,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081627581997269192",
+            "url": "https://x.com/zarazhangrui/status/2081627581997269192",
+            "createdAt": "2026-07-27T06:27:44.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Stop measuring your AI adoption in tokens burned Measure the time from a user need arriving to that thing shipping",
+            "summary": "Stop measuring your AI adoption in tokens burned Measure the time from a user need arriving to that thing shipping",
+            "engagement": 24,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081627109299310684",
+            "url": "https://x.com/zarazhangrui/status/2081627109299310684",
+            "createdAt": "2026-07-27T06:25:52.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "The reason there are so many AI tutorials: the more general a chat product is, the harder it is to use. People face a blank box and freeze, because they genuinely don't know what to ask for",
+            "summary": "The reason there are so many AI tutorials: the more general a chat product is, the harder it is to use…",
+            "engagement": 22,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "proof of prompt is soon going to replace proof of work",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081383934928068619",
+            "url": "https://x.com/nikunj/status/2081383934928068619",
+            "createdAt": "2026-07-26T14:19:34.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "proof of prompt is soon going to replace proof of work",
+            "summary": "proof of prompt is soon going to replace proof of work",
+            "engagement": 96,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "i am taking the week off to write the definitive history of how codex happened (as told by deep interviews with insiders @openai) publishing on @every in a few weeks i will be dropping breadcrumbs and learnings as i go :…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081412243388788988",
+            "url": "https://x.com/danshipper/status/2081412243388788988",
+            "createdAt": "2026-07-26T16:12:04.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "i am taking the week off to write the definitive history of how codex happened (as told by deep interviews with insiders @openai) publishing on @every in a few weeks i will be dropping breadcrumbs and learnings as i go :)",
+            "summary": "i am taking the week off to write the definitive history of how codex happened (as told by deep interviews with insiders @openai) publishing on @every in a few weeks i will be drop…",
+            "engagement": 279,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081413625382653985",
+            "url": "https://x.com/danshipper/status/2081413625382653985",
+            "createdAt": "2026-07-26T16:17:33.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "subscribe to @every to get it when it comes out:",
+            "summary": "subscribe to @every to get it when it comes out:",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "chatgpt work is remarkable, and \"work\" undersells it…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081396796174282900",
+            "url": "https://x.com/sama/status/2081396796174282900",
+            "createdAt": "2026-07-26T15:10:41.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "chatgpt work is remarkable, and \"work\" undersells it. from my phone i sent: \"use all my chat history to figure out ideas for a long weekend trip with 8 friends, plan the best three options, make a full-stack site where the 9 of us can coordinate on what we would want to do in each place and decide where to go, and…",
+            "summary": "chatgpt work is remarkable, and \"work\" undersells it…",
+            "engagement": 17499,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081513071135346814",
+            "url": "https://x.com/sama/status/2081513071135346814",
+            "createdAt": "2026-07-26T22:52:43.000Z",
+            "sourceDate": "2026-07-26",
+            "sourceDisplayDate": "7月26日 · 周日",
+            "text": "agreed feels big, i want a new kind of computer",
+            "summary": "agreed feels big, i want a new kind of computer",
+            "engagement": 6585,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+        "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
+        "publishedAt": "2026-07-16T11:30:01.000Z",
+        "sourceDate": "2026-07-16",
+        "sourceDisplayDate": "7月16日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:19 Anytime you have thought you have enough compute, we can slow down…",
+        "chineseTitle": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的主线是 ChatGPT Work 正在把“聊天”推进到“可交付工作”。Sam Altman 和 Thibault Sottiaux 分别用旅行协作网站、账单谈判、邮件退订、优惠搜索等例子说明，OpenAI 试图让用户从手机端直接委托一串任务，而不是在聊天框里反复拆解步骤。对 AI Builders 来说，这意味着产品竞争会从 prompt 体验转向上下文读取、执行权限、任务编排和交付界面。",
+        "但普及的阻力也同步变清楚了：Peter Yang 观察到普通用户真正担心的是能不能信任 ChatGPT 接入 Gmail、Calendar、Google Workspace、Microsoft Office 等核心账户，而不是 token 够不够。Zara Zhang 的指标建议补上另一半：不要用 burned tokens 衡量 adoption，而要看从用户需求到 shipped 的时间。也就是说，高价值 AI 产品既要拿到用户信任，又要把授权后的能力转化为更短的交付周期。",
+        "产业层面，open weights 的叙事继续从技术偏好变成政策与生态立场。Guillermo Rauch 代表 Vercel 联署 Open Weights and American AI Leadership letter，把 open weights 放在 open source、data、protocols、research 的连续谱里；Amjad Masad 同时提醒，滥用风险并不只来自开放模型，被补贴的闭源订阅也可能成为攻击者的低成本工具。开放与安全的真实分歧，正在从“模型是否开放”转向访问、定价、风控与责任边界的系统设计。",
+        "工程和基础设施信号也很密集。Guillermo Rauch 用 scriptc 将 Vercel CLI 的 TypeScript 编译为 native binary，并展示体积、启动开销和编译时间指标，说明 LLM-assisted code translation 正在进入工具链深处；The MAD Podcast 对 OpenAI compute 的讨论则提示，算力供给已经成为研究、产品和商业化共同的节奏控制器。未来的 AI 公司不只是拼模型和应用，也是在拼能否稳定调度算力、工具链和组织执行。"
+      ],
+      "filteredNote": "过滤掉了 Peter Yang 的日常玩笑、Guillermo Rauch 的单 emoji、Garry Tan 的感谢/口号、Nikunj Kothari 的一行判断、Dan Shipper 的订阅导流、Thibault Sottiaux 的纯组织氛围描述等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Sam Altman",
+        "meta": "OpenAI · ChatGPT Work · X 动态",
+        "title": "从聊天框到可交付工作：ChatGPT Work 正在改写任务粒度",
+        "summary": "Sam Altman 用一个手机端长周末出行规划案例说明，ChatGPT Work 不只是回答问题，而是调用历史上下文、规划选项，并生成一个可供多人协作用的 full-stack site。这个例子的重要性不在旅游本身，而在任务边界从“给建议”扩展到“产出可操作的软件与流程”。他随后说自己想要一种 new kind of computer，暗示 OpenAI 正把工作入口从 app 功能推向计算范式。",
+        "keyPoints": [
+          "任务输入来自自然语言和个人历史上下文，不再要求用户先结构化需求。",
+          "输出不只是文本，而是计划、网站和多人决策流程的组合。",
+          "移动端发起复杂工作流，说明 AI work 的使用场景正在脱离桌面专业工具。"
+        ],
+        "whyItMatters": "对 AI Builders 来说，核心问题变成：产品是否能把模糊需求一路推进到可交付物，而不只是提供聊天式辅助。真正的竞争点会落在上下文、执行权限和交付界面。",
+        "tags": [
+          "ChatGPT Work",
+          "产品",
+          "Agent"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/sama/status/2081396796174282900"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "OpenAI Codex & ChatGPT · X 动态",
+        "title": "手机上的 ChatGPT Work：把个人杂务变成一条 prompt",
+        "summary": "Thibault Sottiaux 把 ChatGPT Work 描述为“让 ChatGPT 为你工作”：谈判网费、退订垃圾邮件、寻找优惠等日常杂务，都可以从手机上一条 prompt 开始。他强调系统会为用户做至少 20 件事，这个表达指向的是多步骤代理式执行，而非单轮问答。和 Sam 的案例相互印证，OpenAI 正在把高频低价值任务包装成可委托的工作单元。",
+        "keyPoints": [
+          "ChatGPT Work 的典型场景不是代码，而是普通用户长期拖延的生活/行政任务。",
+          "移动端是关键入口，因为很多委托需求发生在碎片时间。",
+          "产品价值来自连续执行多个子任务，而不是单点生成能力。"
+        ],
+        "whyItMatters": "这提示 builders：consumer agent 的早期 PMF 可能来自“用户讨厌但模型能稳定代办”的任务，而不是炫技式复杂自动化。",
+        "tags": [
+          "移动端",
+          "Consumer AI",
+          "Agent"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/thsottiaux/status/2081444811647963244"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Peter Yang",
+        "meta": "AI 产品观察 · X 动态",
+        "title": "AI 普及的第一阻力不是 token，而是信任边界",
+        "summary": "Peter Yang 观察到，离开 AI 圈层后，普通用户最担心的不是 token 是否够用，而是能不能信任 ChatGPT 读取 Gmail、Calendar、Google Workspace、Microsoft Office 等核心账户。这个判断把 adoption friction 从价格/算力转向权限与隐私。对于要做工作流 agent 的产品，用户授权心理模型可能比模型能力更早成为瓶颈。",
+        "keyPoints": [
+          "主流用户对 AI 的核心疑虑是账户数据访问，而不是生成成本。",
+          "Gmail、Calendar、Office 等高价值集成同时也是最高信任门槛。",
+          "AI 产品需要设计可解释、可撤销、可审计的权限体验。"
+        ],
+        "whyItMatters": "如果 agent 需要进入用户真实工作环境，trust UX 就是产品基础设施。没有信任边界，能力再强也无法进入高价值场景。",
+        "tags": [
+          "信任",
+          "权限",
+          "产品"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/petergyang/status/2081555286817648738"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · 产品与组织观察 · X 动态",
+        "title": "AI 产品化的第一阶段：有分发的公司扩张问题边界",
+        "summary": "Madhu Guru 反驳“AI 没有带来 shipped impact”的说法：现在只是 phase 1，有分发的公司正在快速进入相邻问题域，AI 让它们能更快构建过去需要大量定制软件的功能，例如试衣。这个观点把 AI 影响从“全新 app”拉回到既有产品的功能扩张。真正的增量来自大公司用模型降低相邻场景的工程成本。",
+        "keyPoints": [
+          "AI 的短期商业影响更可能先体现在已有分发网络的功能扩展。",
+          "模型降低了定制软件成本，让原本不经济的功能可以被产品化。",
+          "判断 AI impact 不能只看独立 AI startup，也要看平台公司吞并相邻需求。"
+        ],
+        "whyItMatters": "这对创业者是一个竞争提醒：如果你的功能只是大平台产品边界的自然延伸，AI 会让平台更快进入你的市场。",
+        "tags": [
+          "分发",
+          "产品战略",
+          "平台"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/realmadhuguru/status/2081437850466451736"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Amjad Masad",
+        "meta": "Replit · AI 安全观察 · X 动态",
+        "title": "滥用者选择补贴型闭源订阅，而不一定选择开源模型",
+        "summary": "Amjad Masad 引述一名前 Anthropic 员工的观察：黑客更偏好使用被大幅补贴的实验室 AI 订阅来发动攻击，而不是开放模型。这个信号改变了常见的安全叙事：风险不只来自 open weights，也来自闭源服务的价格补贴、易用性和规模化访问。对模型公司而言，滥用治理需要覆盖商业订阅设计，而不只是模型发布策略。",
+        "keyPoints": [
+          "攻击者会优化成本、可用性和能力，而不是按开源/闭源意识形态选择工具。",
+          "被补贴的高能力 API/订阅可能形成低成本滥用通道。",
+          "AI 安全讨论需要把定价、限流、身份验证和滥用检测纳入同一框架。"
+        ],
+        "whyItMatters": "这给 builders 的启发是：安全边界不是发布开关，而是商业模式、风控和产品访问路径共同决定的系统。",
+        "tags": [
+          "AI 安全",
+          "模型治理",
+          "商业模式"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/amasad/status/2081576172656456076"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · Open Weights · X 动态",
+        "title": "Open weights 从研究议题变成产业政策共识",
+        "summary": "Guillermo Rauch 表示 Vercel 联署 Open Weights and American AI Leadership letter，理由是开源、数据、协议和研究一直支撑技术进步，而 open weights 是下一个自然前沿。这个动态的增量在于，基础设施公司正在公开把 open weights 绑定到产业领导力与生态繁荣，而不只是开发者偏好。开放权重争论正在从技术社区扩展到公司与政策层面的共同立场。",
+        "keyPoints": [
+          "Vercel 将 open weights 放在 open source、data、protocols、research 的连续谱里。",
+          "open weights 被框定为产业竞争力问题，而不仅是模型发布方式。",
+          "基础设施公司对开放模型生态有直接利益，因为它扩大开发者可组合性。"
+        ],
+        "whyItMatters": "如果 open weights 成为更强共识，AI Builders 会获得更多可本地化、可微调、可部署的模型选择；同时，监管与商业策略也会随之变化。",
+        "tags": [
+          "Open Weights",
+          "政策",
+          "基础设施"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/rauchg/status/2081546513885622760"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel CLI · 工程实践 · X 动态",
+        "title": "TypeScript CLI 原生编译：AI 翻译代码进入工程链路",
+        "summary": "Guillermo Rauch 试用 scriptc 将 Vercel CLI 的 TypeScript 编译为 native binary，并给出具体指标：1.28MB 二进制、平均 1.5ms 启动开销、平均 2.94s 编译，且能使用 node:https、node:fs、node:path、node:os、node:crypto。值得注意的是，他提到代码由 GLM 5.2 Fast 翻译，并保持 TypeScript 可读性。这个案例说明 LLM 不只是写业务代码，也开始进入语言/运行时转换和发布链路。",
+        "keyPoints": [
+          "原生 CLI 的关键收益是启动时间、体积和分发体验。",
+          "scriptc 试图保留 TypeScript 可读性，同时输出可部署 native binary。",
+          "GLM 5.2 Fast 被用于代码翻译，显示模型可嵌入编译/转译流程。"
+        ],
+        "whyItMatters": "AI-assisted compilation 可能会重塑工具链：高层语言保持开发体验，模型辅助转译负责性能与分发。对 devtools builders，这是值得跟踪的工程方向。",
+        "tags": [
+          "DevTools",
+          "TypeScript",
+          "代码生成"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/rauchg/status/2081517519303737559"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月26日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · Enterprise AI · X 动态",
+        "title": "企业 AI 的缺口在模型与真实流程之间",
+        "summary": "Aaron Levie 认为，AI 向真实世界扩散仍有巨大机会：大多数企业需要大量支持，才能把模型突破应用到自己的 workflow 中。单纯 intelligence 不足以改变流程，因为还必须把智能桥接到真实世界的上下文、系统和组织操作。这个判断把 enterprise AI 的价值重心放在实施层和流程重构层，而非模型能力本身。",
+        "keyPoints": [
+          "企业转型瓶颈不是没有模型，而是缺少把模型接入流程的能力。",
+          "真实工作流包含权限、内容、系统集成、审批和组织惯性。",
+          "AI 服务商的机会在于把 intelligence 封装成可落地的业务流程。"
+        ],
+        "whyItMatters": "Enterprise AI builders 不应只卖“更聪明的模型接口”，而要卖可部署、可治理、能嵌入现有流程的系统。",
+        "tags": [
+          "Enterprise AI",
+          "Workflow",
+          "Agent"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/levie/status/2081491621162668207"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Zara Zhang",
+        "meta": "AI 产品与采用率 · X 动态",
+        "title": "衡量 AI 采用率：别看 token，看需求到发货的时间",
+        "summary": "Zara Zhang 提出，衡量 AI adoption 不应看 burned tokens，而应看从用户需求出现到对应东西 shipped 的时间。她还指出通用聊天产品越 general 越难用，用户面对 blank box 会冻结，因为不知道该问什么。两条放在一起看，AI 产品的重点不是让用户多聊，而是把需求捕捉、任务框定和交付周期压缩。",
+        "keyPoints": [
+          "token 消耗是供应侧指标，不能代表用户价值。",
+          "真正的采用率应体现在需求响应速度和交付周期上。",
+          "通用聊天框需要更多引导、模板或场景化入口来降低 blank box friction。"
+        ],
+        "whyItMatters": "这给产品团队一个清晰 KPI：AI 是否缩短从需求到交付的链路。否则再高的使用量也可能只是昂贵的互动噪音。",
+        "tags": [
+          "指标",
+          "产品设计",
+          "采用率"
+        ],
+        "qualityScore": 83,
+        "url": "https://x.com/zarazhangrui/status/2081627581997269192"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月16日 · 周四",
+        "actor": "Sachin Katti",
+        "meta": "The MAD Podcast with Matt Turck · OpenAI Compute",
+        "title": "OpenAI 的算力负责人：需求永远跑在供给前面",
+        "summary": "这期访谈的核心命题是：对前沿 AI 实验室来说，compute 已经不是后台资源，而是产品路线、研究速度和组织能力的共同约束。标题中的“We Can’t Build Fast Enough”和开场摘录“以为算力够了，就可以慢下来”的反面，指向一个长期判断：模型能力、用户需求和基础设施建设会互相追赶，很难出现真正的闲置期。对 builders 来说，算力战略会越来越像供应链战略。",
+        "keyPoints": [
+          "前沿模型公司的瓶颈从单次训练扩展到持续推理、产品增长和实验迭代。",
+          "算力规划需要同时服务研究、产品和商业化，而不是单纯采购 GPU。",
+          "基础设施建设速度本身会影响模型公司能否把能力及时转化为产品。"
+        ],
+        "whyItMatters": "AI Builders 如果依赖前沿模型能力，就必须把延迟、成本、容量和供应不确定性纳入产品设计；算力不是云账单，而是路线图约束。",
+        "tags": [
+          "Compute",
+          "OpenAI",
+          "基础设施"
+        ],
+        "qualityScore": 82,
+        "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "displayDate": "7月27日 · 周一",
     "generatedAt": "2026-07-26T23:30:44.019669+00:00",
