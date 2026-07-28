@@ -1,5 +1,930 @@
 [
   {
+    "date": "2026-07-29",
+    "displayDate": "7月29日 · 周三",
+    "generatedAt": "2026-07-28T23:30:17.768878+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-28T07:11:51.765Z",
+      "blogs": "2026-07-28T07:11:55.648Z",
+      "podcasts": "2026-07-28T07:11:55.326Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天 AI Builders 的高信号集中在三个方向：Agent 的真实工程边界、AI 产品的成本与权限模型，以及企业采用 AI 后的组织变化。已从 29 条 X 动态与 1 期播客中筛选出 10 条。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工程、公司建设有增量价值的内容；过滤低信号动态后，提供今日洞察与高信号来源卡片。",
+    "stats": {
+      "builders": 14,
+      "tweets": 29,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 12
+        },
+        {
+          "name": "产品",
+          "count": 10
+        },
+        {
+          "name": "工程",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "研究",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "从 token 单价转向任务成本",
+        "source": "AI economics · X 动态",
+        "url": "https://x.com/swyx/status/2081904230768816487",
+        "sourceDate": "2026-07-28",
+        "sourceDisplayDate": "7月28日 · 周二",
+        "summary": "Swyx 提醒 builders：继续用 input/output token 单价衡量模型成本已经过时，真正有意义的横轴应该是 $/task。随着模型被嵌入 agent、代码工具和业务流程，成本评估对象从“生成多少字”变成“完成一个任务花多少钱、成功率如何”。这会影响模型选择、定价页设计和内部 ROI 计算。",
+        "chineseTitle": "从 token 单价转向任务成本",
+        "tags": [
+          "AI Economics",
+          "Eval",
+          "Product"
+        ],
+        "score": 88
+      },
+      {
+        "title": "Claude Code 泄露事件没有改写路线图，说明护城河不在代码本身",
+        "source": "Claude Code · Agent lab thesis · X 动态",
+        "url": "https://x.com/swyx/status/2081890955070980416",
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Swyx 反思自己的 agent lab thesis：即便 Claude Code 今年被意外“open sourced”，也几乎没有改变它或竞争对手的 roadmap。这个观察暗示，coding agent 的关键壁垒不只是客户端代码，而是 evals、routing、交互设计、产品节奏、模型能力与分发的组合。对 builders 来说，复制界面或命令行入口并不等于复制系统能力。",
+        "chineseTitle": "Claude Code 泄露事件没有改写路线图，说明护城河不在代码本身",
+        "tags": [
+          "Claude Code",
+          "Agent",
+          "Moat"
+        ],
+        "score": 86
+      },
+      {
+        "title": "付费用户额度重置：工作型 AI 产品开始竞争可用性",
+        "source": "Codex & ChatGPT Work · OpenAI · X 动态",
+        "url": "https://x.com/thsottiaux/status/2081940052154933696",
+        "sourceDate": "2026-07-28",
+        "sourceDisplayDate": "7月28日 · 周二",
+        "summary": "Thibault Sottiaux 宣布 Codex 和 ChatGPT Work 的 paid users usage limits 已经 reset。单条信息看似运营更新，但它暴露了工作型 AI 产品的关键矛盾：用户越把它当生产工具，越不能接受额度突然卡住。对于订阅型 agent 产品，配额、排队、fast mode 和稳定吞吐会直接影响用户信任。",
+        "chineseTitle": "付费用户额度重置：工作型 AI 产品开始竞争可用性",
+        "tags": [
+          "OpenAI",
+          "Codex",
+          "Subscription"
+        ],
+        "score": 80
+      },
+      {
+        "title": "从手机指挥 Codex 完成视频编辑，agent 价值正在离开 IDE",
+        "source": "Codex · computer use · X 动态",
+        "url": "https://x.com/petergyang/status/2081775399097549083",
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Peter Yang 转述 OpenAI DevEx jxnlco 的案例：他在骑车时用手机远程连接，让 Codex 通过 computer use 编辑 launch video、导出并发回 Slack，约二十分钟完成。这个例子的重要性不在视频本身，而在 agent 把远程控制、文件处理、媒体编辑和团队协作串成了一个可委托工作流。coding agent 正在从“写代码”扩展到“操作计算机完成交付”。",
+        "chineseTitle": "从手机指挥 Codex 完成视频编辑，agent 价值正在离开 IDE",
+        "tags": [
+          "Codex",
+          "Computer Use",
+          "Workflow"
+        ],
+        "score": 89
+      },
+      {
+        "title": "聪明人应该先把自己的产品做得好用",
+        "source": "Linear · product craft · X 动态",
+        "url": "https://x.com/thenanyu/status/2081768780045156358",
+        "sourceDate": "2026-07-27",
+        "sourceDisplayDate": "7月27日 · 周一",
+        "summary": "Nan Yu 用 Linear 式冷幽默表达了一个朴素但高密度的产品判断：很多聪明人努力把 Linear 做得好用，所以其他聪明团队也应该把精力放回自己的产品，并付费使用成熟工具。它指向一个经常被 AI Builders 忽略的问题：内部工具自研的机会成本很高，真正的杠杆可能是把人才集中到核心用户体验上。",
+        "chineseTitle": "聪明人应该先把自己的产品做得好用",
+        "tags": [
+          "Product Craft",
+          "Linear",
+          "Team Focus"
+        ],
+        "score": 78
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "incidentally, $ per input/output tokens died as a relevant cost measure sometime last year if you haven’t updated your x axes to $/task per @ArtificialAnlys then idk if you can be taken seriously anymore these days as th…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081904230768816487",
+            "url": "https://x.com/swyx/status/2081904230768816487",
+            "createdAt": "2026-07-28T00:47:03.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "incidentally, $ per input/output tokens died as a relevant cost measure sometime last year if you haven’t updated your x axes to $/task per @ArtificialAnlys then idk if you can be taken seriously anymore these days",
+            "summary": "incidentally, $ per input/output tokens died as a relevant cost measure sometime last year if you haven’t updated your x axes to $/task per @ArtificialAnlys then idk if you can be…",
+            "engagement": 140,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081890955070980416",
+            "url": "https://x.com/swyx/status/2081890955070980416",
+            "createdAt": "2026-07-27T23:54:18.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "as the progenitor of the agent lab thesis which got the evals/routing/interactivity/ROI focus right i gotta say the biggest argument against myself is that Claude Code got accidentally \"open sourced\" this year and approximately ~nothing happened to either it or its competitors' roadmaps",
+            "summary": "as the progenitor of the agent lab thesis which got the evals/routing/interactivity/ROI focus right i gotta say the biggest argument against myself is that Claude Code got accident…",
+            "engagement": 81,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081979163117052311",
+            "url": "https://x.com/swyx/status/2081979163117052311",
+            "createdAt": "2026-07-28T05:44:48.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "@ArtificialAnlys i love you @Kimi_Moonshot",
+            "summary": "@ArtificialAnlys i love you @Kimi_Moonshot",
+            "engagement": 6,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081899343091843463",
+            "url": "https://x.com/thsottiaux/status/2081899343091843463",
+            "createdAt": "2026-07-28T00:27:37.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset. Hold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
+            "summary": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today…",
+            "engagement": 11751,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081940052154933696",
+            "url": "https://x.com/thsottiaux/status/2081940052154933696",
+            "createdAt": "2026-07-28T03:09:23.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "Back at the laptop. The usage limits have been reset for all paid users of Codex and ChatGPT Work. Weeeeeeeee. It's a good day!",
+            "summary": "Back at the laptop. The usage limits have been reset for all paid users of Codex and ChatGPT Work…",
+            "engagement": 11204,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081979033261412537",
+            "url": "https://x.com/thsottiaux/status/2081979033261412537",
+            "createdAt": "2026-07-28T05:44:17.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
+            "summary": "Update. I have decided to take a break from x to recharge a bit…",
+            "engagement": 3733,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?” Here’s his answer: “I was on a bike ride when a coworker asked me to fix a launch video…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2081775399097549083",
+            "url": "https://x.com/petergyang/status/2081775399097549083",
+            "createdAt": "2026-07-27T16:15:07.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?” Here’s his answer: “I was on a bike ride when a coworker asked me to fix a launch video. So I connected remotely from my phone and asked Codex to use computer use to edit the video, export it, and post it back to Slack. Twenty minutes…",
+            "summary": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?” Here’s his answer: “I was on a bike ride when a coworker asked me to fix a launch video…",
+            "engagement": 404,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081767558408175867",
+            "url": "https://x.com/petergyang/status/2081767558408175867",
+            "createdAt": "2026-07-27T15:43:57.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Jason walked through how he uses Codex throughout his workday in our interview. 📌 Watch it here if you missed it:",
+            "summary": "Jason walked through how he uses Codex throughout his workday in our interview…",
+            "engagement": 8,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2081767570198401263",
+            "url": "https://x.com/petergyang/status/2081767570198401263",
+            "createdAt": "2026-07-27T15:44:00.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "More takeaways and prompts in this written post:",
+            "summary": "More takeaways and prompts in this written post:",
+            "engagement": 3,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "A lot of very smart people work very hard to make the product very good and nice to use…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2081768780045156358",
+            "url": "https://x.com/thenanyu/status/2081768780045156358",
+            "createdAt": "2026-07-27T15:48:49.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "A lot of very smart people work very hard to make the product very good and nice to use. If you have very smart people, you should have them make your own product very good and nice to use. And pay us a nominal fee to use our product.",
+            "summary": "A lot of very smart people work very hard to make the product very good and nice to use…",
+            "engagement": 267,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2081926688250691884",
+            "url": "https://x.com/thenanyu/status/2081926688250691884",
+            "createdAt": "2026-07-28T02:16:17.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "Eclipse where u at",
+            "summary": "Eclipse where u at",
+            "engagement": 4,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "Most product review meetings are annoying because they’re poorly run…",
+        "tags": [
+          "产品",
+          "研究",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2081781952437486052",
+            "url": "https://x.com/realmadhuguru/status/2081781952437486052",
+            "createdAt": "2026-07-27T16:41:09.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Most product review meetings are annoying because they’re poorly run. The best product reviews compress months of learnings into an hour by simulating the market reaction to your ideas. That only works if the people in the room deeply understand the space, have great product sense, strong opinions, and are often…",
+            "summary": "Most product review meetings are annoying because they’re poorly run…",
+            "engagement": 39,
+            "tags": [
+              "产品",
+              "研究",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "We’re entering a new era of exploration. Our ancestors mapped the Earth…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2082000490066592127",
+            "url": "https://x.com/amasad/status/2082000490066592127",
+            "createdAt": "2026-07-28T07:09:33.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "We’re entering a new era of exploration. Our ancestors mapped the Earth. Then they explored space. Our generation may explore the computational universe: the vast space of algorithms, programs, proofs, and designs that AI agents can search.",
+            "summary": "We’re entering a new era of exploration. Our ancestors mapped the Earth…",
+            "engagement": 6,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "In our latest benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2081852481517318560",
+            "url": "https://x.com/rauchg/status/2081852481517318560",
+            "createdAt": "2026-07-27T21:21:25.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "In our latest benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf. Sol remains the frontier, ahead of Opus 5.",
+            "summary": "In our latest benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance…",
+            "engagement": 788,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2081842439304995169",
+            "url": "https://x.com/rauchg/status/2081842439304995169",
+            "createdAt": "2026-07-27T20:41:30.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics). Firecracker microVMs (as in Vercel Sandbox) are safe.",
+            "summary": "Kimi's paper underlines the importance of the right security boundary for agents to run in…",
+            "engagement": 397,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2081845695112446364",
+            "url": "https://x.com/rauchg/status/2081845695112446364",
+            "createdAt": "2026-07-27T20:54:27.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "🇪🇺/acc",
+            "summary": "🇪🇺/acc",
+            "engagement": 148,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "The k3 weights have arrived The negative AI jobs outcome just continues to not be happening as some predicted…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081760710108012702",
+            "url": "https://x.com/levie/status/2081760710108012702",
+            "createdAt": "2026-07-27T15:16:45.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "The k3 weights have arrived",
+            "summary": "The k3 weights have arrived",
+            "engagement": 432,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081930301752942703",
+            "url": "https://x.com/levie/status/2081930301752942703",
+            "createdAt": "2026-07-28T02:30:38.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "The negative AI jobs outcome just continues to not be happening as some predicted. A large portion of enterprises I talk with -across industries- are still hiring, just with a tilt in the kind of roles they’re going after. They’re finding that AI is letting them do more, and Jevons paradox is actually playing out.…",
+            "summary": "The negative AI jobs outcome just continues to not be happening as some predicted…",
+            "engagement": 339,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "New study shows that less than 40% of VCs have any successful investment Every VC: “I’m so glad I’m in the 40%!”",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081679801769668980",
+            "url": "https://x.com/mattturck/status/2081679801769668980",
+            "createdAt": "2026-07-27T09:55:15.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "New study shows that less than 40% of VCs have any successful investment Every VC: “I’m so glad I’m in the 40%!”",
+            "summary": "New study shows that less than 40% of VCs have any successful investment Every VC: “I’m so glad I’m in the 40%!”",
+            "engagement": 76,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "How I get endless content ideas, in one picture “The magic you’re looking for is in the work you’re avoiding”",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081983750658044079",
+            "url": "https://x.com/zarazhangrui/status/2081983750658044079",
+            "createdAt": "2026-07-28T06:03:02.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "How I get endless content ideas, in one picture",
+            "summary": "How I get endless content ideas, in one picture",
+            "engagement": 80,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2081976736854737164",
+            "url": "https://x.com/zarazhangrui/status/2081976736854737164",
+            "createdAt": "2026-07-28T05:35:09.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "“The magic you’re looking for is in the work you’re avoiding”",
+            "summary": "“The magic you’re looking for is in the work you’re avoiding”",
+            "engagement": 23,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "TIL Micro, the company that makes those kids scooters you see everywhere , also makes a fully electric car that opens from the front.…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081805464757485706",
+            "url": "https://x.com/nikunj/status/2081805464757485706",
+            "createdAt": "2026-07-27T18:14:35.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "TIL Micro, the company that makes those kids scooters you see everywhere , also makes a fully electric car that opens from the front.. It’s so freaking cute!",
+            "summary": "TIL Micro, the company that makes those kids scooters you see everywhere , also makes a fully electric car that opens from the front.…",
+            "engagement": 56,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2081750712761852341",
+            "url": "https://x.com/nikunj/status/2081750712761852341",
+            "createdAt": "2026-07-27T14:37:01.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "> be @santa_kaus > be a rockstar engineer at @openai > have infinite rizz and taste > burns tokens like no one else > (sometimes) posts performative tennis photos to show he touches grass > but still refuses to get a gf > X do your thing, please slide into his DMs 🙏",
+            "summary": "> be @santa_kaus > be a rockstar engineer at @openai > have infinite rizz and taste > burns tokens like no one else > (sometimes) posts performative tennis photos to show he touche…",
+            "engagement": 40,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2081992618649547100",
+            "url": "https://x.com/nikunj/status/2081992618649547100",
+            "createdAt": "2026-07-28T06:38:16.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "I used Claude Code as my primary interface for my two week trip and then asked it to do a full retrospective on what we can do better next time around..",
+            "summary": "I used Claude Code as my primary interface for my two week trip and then asked it to do a full retrospective on what we can do better next time around..",
+            "engagement": 6,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe…",
+        "tags": [
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2081790109415002468",
+            "url": "https://x.com/steipete/status/2081790109415002468",
+            "createdAt": "2026-07-27T17:13:34.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃",
+            "summary": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe…",
+            "engagement": 817,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2081767828278170002",
+            "url": "https://x.com/steipete/status/2081767828278170002",
+            "createdAt": "2026-07-27T15:45:02.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "My agent reported a bug, their agent fixed it. [in the same night] @jarredsumner's robobun setup is future.",
+            "summary": "My agent reported a bug, their agent fixed it…",
+            "engagement": 434,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2081865727443902654",
+            "url": "https://x.com/steipete/status/2081865727443902654",
+            "createdAt": "2026-07-27T22:14:03.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "See you this weekend!",
+            "summary": "See you this weekend!",
+            "engagement": 73,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "if true, this sucks and shouldn't continue with rare books",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081754482568835152",
+            "url": "https://x.com/danshipper/status/2081754482568835152",
+            "createdAt": "2026-07-27T14:52:00.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "if true, this sucks and shouldn't continue with rare books",
+            "summary": "if true, this sucks and shouldn't continue with rare books",
+            "engagement": 300,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "wrong",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2081832600591892712",
+            "url": "https://x.com/sama/status/2081832600591892712",
+            "createdAt": "2026-07-27T20:02:25.000Z",
+            "sourceDate": "2026-07-27",
+            "sourceDisplayDate": "7月27日 · 周一",
+            "text": "wrong",
+            "summary": "wrong",
+            "engagement": 9294,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "AI & I by Every",
+        "title": "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-07-15T15:08:19.000Z",
+        "sourceDate": "2026-07-15",
+        "sourceDisplayDate": "7月15日 · 周三",
+        "summary": "Speaker 1 | 00:00 - 00:07 You are the cofounder and CEO of Granolah…",
+        "chineseTitle": "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps",
+        "tags": [
+          "Agent",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的信号来自 Agent 工程开始进入“边界管理”阶段。Guillermo Rauch 引用 Kimi paper 指出 container-level isolation 不足以承载会主动探索的 agents，因为实验里 agents 甚至能触发底层机器 kernel panic；这类案例把 Agent 安全从抽象伦理问题拉回到运行时隔离、权限边界和基础设施选型。与此同时，Peter Steinberger 提到“我的 agent 报 bug，对方的 agent 当晚修复”，说明 agent-to-agent 协作已经从 demo 进入真实维护流。",
+        "成本叙事也在切换。Swyx 认为按 input/output token 计价已经不再是判断模型经济性的核心横轴，更应该看 $/task；Guillermo 对 Grok 4.5、Sol、Opus 5、Kimi K3 的 cybersecurity benchmark 也强调 price-performance。这对 AI Builders 很关键：当模型进入工具链和自动化工作流，采购者不会只问 token 单价，而会问完成一个安全审计、一次代码修复、一次内容生产到底花多少钱、成功率多高。",
+        "OpenAI 侧的 ChatGPT Work / Codex 动态显示，usage limit 已经成为付费产品体验的一部分。Thibault Sottiaux 宣布 paid users 的 limits 被 reset，表面是额度调整，实质是高频工作流产品需要用“可用性承诺”来建立信任。Peter Yang 转述 jxnlco 用手机远程指挥 Codex 编辑发布视频的案例，则进一步说明 coding agent 的价值不止在 IDE 内，而是把计算机操作、文件处理、协作消息串成可委托任务。",
+        "产品与组织层面的信号更偏长期。Madhu Guru 把高质量 product review 定义为“把数月学习压缩进一小时的市场反应模拟”，这对 AI 产品尤其重要，因为速度变快后，错误方向也会更快放大；Nan Yu 的 Linear 式表达则提醒团队：聪明人最应该投入到把自己的产品做得真正好用，而不是只追逐新接口。Aaron Levie 关于 AI 没有造成预期就业冲击的观察也补上一层：企业并非停止招聘，而是在调整岗位类型，并用 AI 做更多工作，Jevons paradox 正在组织层面显现。"
+      ],
+      "filteredNote": "过滤掉了 Sam Altman 的单词回复、Thibault 的休息更新、Swyx 对 Kimi 的短句表态、Nan Yu 的 Eclipse 召唤、Guillermo 的表情/口号、Zara Zhang 的内容灵感短句、Nikunj Kothari 的生活/玩笑帖、Dan Shipper 的缺少上下文评论、Matt Turck 的 VC 段子等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Swyx",
+        "meta": "AI economics · X 动态",
+        "title": "从 token 单价转向任务成本",
+        "summary": "Swyx 提醒 builders：继续用 input/output token 单价衡量模型成本已经过时，真正有意义的横轴应该是 $/task。随着模型被嵌入 agent、代码工具和业务流程，成本评估对象从“生成多少字”变成“完成一个任务花多少钱、成功率如何”。这会影响模型选择、定价页设计和内部 ROI 计算。",
+        "keyPoints": [
+          "token 单价正在失去解释力，因为模型调用越来越多地服务于完整任务而非单次生成",
+          "$/task 更接近企业采购和产品 ROI 的真实判断方式",
+          "AI Builders 应把评估体系从模型 API 成本迁移到任务完成成本与成功率"
+        ],
+        "whyItMatters": "这是 AI 产品商业化的基础指标迁移。谁先把成本、质量、延迟统一到 task-level eval，谁更容易讲清价值。",
+        "tags": [
+          "AI Economics",
+          "Eval",
+          "Product"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/swyx/status/2081904230768816487"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Swyx",
+        "meta": "Claude Code · Agent lab thesis · X 动态",
+        "title": "Claude Code 泄露事件没有改写路线图，说明护城河不在代码本身",
+        "summary": "Swyx 反思自己的 agent lab thesis：即便 Claude Code 今年被意外“open sourced”，也几乎没有改变它或竞争对手的 roadmap。这个观察暗示，coding agent 的关键壁垒不只是客户端代码，而是 evals、routing、交互设计、产品节奏、模型能力与分发的组合。对 builders 来说，复制界面或命令行入口并不等于复制系统能力。",
+        "keyPoints": [
+          "Claude Code 的意外公开没有显著改变市场路线图",
+          "agent 产品的壁垒更可能在 eval、routing、workflow 和模型集成层",
+          "开源/泄露代码不一定足以复制生产级 agent 体验"
+        ],
+        "whyItMatters": "这能帮助判断 AI 工具公司的真实护城河。不要只看 repo，要看产品系统如何持续学习和调度任务。",
+        "tags": [
+          "Claude Code",
+          "Agent",
+          "Moat"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/swyx/status/2081890955070980416"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex & ChatGPT Work · OpenAI · X 动态",
+        "title": "付费用户额度重置：工作型 AI 产品开始竞争可用性",
+        "summary": "Thibault Sottiaux 宣布 Codex 和 ChatGPT Work 的 paid users usage limits 已经 reset。单条信息看似运营更新，但它暴露了工作型 AI 产品的关键矛盾：用户越把它当生产工具，越不能接受额度突然卡住。对于订阅型 agent 产品，配额、排队、fast mode 和稳定吞吐会直接影响用户信任。",
+        "keyPoints": [
+          "Codex 与 ChatGPT Work 的付费用户额度被统一重置",
+          "高频工作流产品的体验核心不只是模型能力，也包括额度与可用性",
+          "AI 订阅产品需要在成本控制和“像工具一样可靠”之间找到平衡"
+        ],
+        "whyItMatters": "额度策略会成为 AI 工具产品的隐性 UX。builders 需要把 limits 当成产品设计，而不是后台计费细节。",
+        "tags": [
+          "OpenAI",
+          "Codex",
+          "Subscription"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/thsottiaux/status/2081940052154933696"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Peter Yang",
+        "meta": "Codex · computer use · X 动态",
+        "title": "从手机指挥 Codex 完成视频编辑，agent 价值正在离开 IDE",
+        "summary": "Peter Yang 转述 OpenAI DevEx jxnlco 的案例：他在骑车时用手机远程连接，让 Codex 通过 computer use 编辑 launch video、导出并发回 Slack，约二十分钟完成。这个例子的重要性不在视频本身，而在 agent 把远程控制、文件处理、媒体编辑和团队协作串成了一个可委托工作流。coding agent 正在从“写代码”扩展到“操作计算机完成交付”。",
+        "keyPoints": [
+          "Codex 被用于手机端远程执行真实工作，而不是只在本地 IDE 里补全代码",
+          "computer use 让 agent 能跨应用完成编辑、导出、发布到 Slack 等步骤",
+          "未来的开发者工具可能更像通用执行层，而不是单点代码助手"
+        ],
+        "whyItMatters": "这展示了 agent 产品的新边界：谁能安全可靠地操作现有软件，谁就能吃掉大量“没人想手动做”的工作。",
+        "tags": [
+          "Codex",
+          "Computer Use",
+          "Workflow"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/petergyang/status/2081775399097549083"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Nan Yu",
+        "meta": "Linear · product craft · X 动态",
+        "title": "聪明人应该先把自己的产品做得好用",
+        "summary": "Nan Yu 用 Linear 式冷幽默表达了一个朴素但高密度的产品判断：很多聪明人努力把 Linear 做得好用，所以其他聪明团队也应该把精力放回自己的产品，并付费使用成熟工具。它指向一个经常被 AI Builders 忽略的问题：内部工具自研的机会成本很高，真正的杠杆可能是把人才集中到核心用户体验上。",
+        "keyPoints": [
+          "产品质量来自高密度聪明人持续打磨，而不是一次性功能堆叠",
+          "非核心工具优先购买成熟产品，能释放团队注意力",
+          "AI 时代自研诱惑更强，但核心产品 craft 仍然是稀缺资源"
+        ],
+        "whyItMatters": "当 AI 降低开发门槛，团队更容易过度自研。这个提醒对资源配置很实用：别把最强的人用在低杠杆工具上。",
+        "tags": [
+          "Product Craft",
+          "Linear",
+          "Team Focus"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/thenanyu/status/2081768780045156358"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · product review · X 动态",
+        "title": "好的产品评审是在一小时内模拟市场反应",
+        "summary": "Madhu Guru 认为，多数 product review 让人痛苦是因为它们没有真正压缩学习；最好的评审应该把数月市场学习压缩进一小时，前提是房间里的人理解领域、有产品感、敢表达强观点。对 AI 产品尤其如此：模型能力变化太快，团队需要快速暴露假设，而不是把会议变成状态同步。",
+        "keyPoints": [
+          "高质量 product review 的目标是压缩学习，而不是展示进度",
+          "评审者必须理解市场、具备产品判断，并能提出强观点",
+          "AI 产品迭代速度越快，错误方向被放大的速度也越快"
+        ],
+        "whyItMatters": "这是组织设计层面的 AI 竞争力。更快的模型和工具只有配上更好的判断机制，才不会变成更快地做错事。",
+        "tags": [
+          "Product Review",
+          "Org",
+          "Product Sense"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/realmadhuguru/status/2081781952437486052"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Amjad Masad",
+        "meta": "Replit · Agent thesis · X 动态",
+        "title": "AI agents 将探索“计算宇宙”",
+        "summary": "Amjad Masad 把 AI agents 描述为新一代探索工具：人类曾经绘制地球、探索太空，而这一代可能探索由算法、程序、证明和设计构成的 computational universe。这不是短期产品发布，而是一种长期技术判断：AI 的核心价值可能来自在巨大设计空间中搜索可行解。对于开发工具、科学计算和自动化设计，这个方向具有想象力。",
+        "keyPoints": [
+          "AI agents 可以搜索算法、程序、证明和设计组成的巨大空间",
+          "探索对象从物理世界转向 computational universe",
+          "开发工具和自动化设计可能是最先受益的应用场景"
+        ],
+        "whyItMatters": "它提供了一个比“聊天助手”更大的 agent 叙事：agent 是搜索和发现系统，而不只是执行待办事项。",
+        "tags": [
+          "Agent",
+          "Computational Universe",
+          "Replit"
+        ],
+        "qualityScore": 79,
+        "url": "https://x.com/amasad/status/2082000490066592127"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel Sandbox · Kimi paper · X 动态",
+        "title": "Agent 沙箱不能只靠容器隔离",
+        "summary": "Guillermo Rauch 引用 Kimi paper 指出，运行 agents 的安全边界需要比 container-level isolation 更强；实验中 agents 能通过 kernel panic 让底层机器崩溃。他认为 Firecracker microVMs 这类隔离方式更安全，并以 Vercel Sandbox 为例。随着 agents 能执行代码、访问文件和操作系统，运行时隔离会成为平台级差异点。",
+        "keyPoints": [
+          "Kimi paper 显示 container-level isolation 对主动探索型 agents 可能不够",
+          "agents 在实验中能触发底层机器 kernel panic，说明风险已进入系统层",
+          "Firecracker microVMs 等更强隔离可能成为 agent 平台基础设施标准"
+        ],
+        "whyItMatters": "这是所有 agent 平台都绕不开的工程问题。能不能安全跑不可信任务，会决定产品能否进入企业和开发者生产环境。",
+        "tags": [
+          "Agent Security",
+          "Sandbox",
+          "Infrastructure"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/rauchg/status/2081842439304995169"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月27日 · 周一",
+        "actor": "Guillermo Rauch",
+        "meta": "Cybersecurity benchmark · X 动态",
+        "title": "安全模型竞争进入 price-performance 维度",
+        "summary": "Guillermo Rauch 分享最新 benchmark：Grok 4.5 在 cybersecurity AI model 的 price-performance 上表现最好，成本比 Sol 低 10 倍、比 Opus 5 低 5.7 倍、比 Kimi K3 低 2.2 倍，同时性能接近 Kimi；Sol 仍处于 frontier，领先 Opus 5。这个信息对安全产品 builders 有直接价值，因为模型选择不再只是看最强能力，还要看每次分析、每个任务、每个客户场景的可承受成本。",
+        "keyPoints": [
+          "Grok 4.5 在该 benchmark 中取得最佳 cybersecurity price-performance",
+          "Sol 仍保持 frontier 性能领先，但成本显著更高",
+          "安全场景的模型采购需要同时衡量能力、成本和任务吞吐"
+        ],
+        "whyItMatters": "安全 AI 往往需要高频、批量分析，price-performance 会直接决定产品毛利和可扩展性。",
+        "tags": [
+          "Cybersecurity",
+          "Benchmark",
+          "Model Selection"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/rauchg/status/2081852481517318560"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Aaron Levie",
+        "meta": "Box · enterprise AI · X 动态",
+        "title": "企业没有停止招聘，而是在用 AI 做更多事",
+        "summary": "Aaron Levie 观察到，负面的 AI 就业结果并没有像一些预测那样发生；他接触的大量企业仍在招聘，只是岗位类型发生倾斜。企业发现 AI 让它们能做更多事情，Jevons paradox 正在发挥作用：效率提升反而扩大需求。这个判断对 B2B AI Builders 很重要，因为客户预算可能不是简单替代人力，而是扩大产能和重组岗位。",
+        "keyPoints": [
+          "多行业企业仍在招聘，但岗位组合正在变化",
+          "AI 提升效率后，企业可能扩大工作量而不是线性裁员",
+          "Jevons paradox 为企业 AI adoption 提供了更符合现实的需求解释"
+        ],
+        "whyItMatters": "这影响 AI 产品的销售叙事：与其只讲降本裁员，不如讲扩大产能、重构岗位和释放新需求。",
+        "tags": [
+          "Enterprise AI",
+          "Jobs",
+          "Jevons Paradox"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/levie/status/2081930301752942703"
+      }
+    ]
+  },
+  {
     "date": "2026-07-28",
     "displayDate": "7月28日 · 周二",
     "generatedAt": "2026-07-27T23:30:13.962239+00:00",
