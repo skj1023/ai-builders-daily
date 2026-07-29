@@ -1,5 +1,728 @@
 [
   {
+    "date": "2026-07-30",
+    "displayDate": "7月30日 · 周四",
+    "generatedAt": "2026-07-29T23:30:39.521619+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-29T07:13:14.146Z",
+      "blogs": "2026-07-29T07:13:17.564Z",
+      "podcasts": "2026-07-29T07:13:17.409Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天 AI Builders 的高信号集中在三个方向：Codex/ChatGPT Work 的额度与可用性、AI-native 工作方式对组织角色的重估，以及 coding agent 正在从代码生成扩展到安全、写作与产品构建流程。已从 23 条 X 动态中筛选出 7 条。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工程、公司建设有增量价值的内容；过滤低信号动态后，提供今日洞察与高信号来源卡片。",
+    "stats": {
+      "builders": 10,
+      "tweets": 23,
+      "blogs": 0,
+      "podcasts": 0,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 13
+        },
+        {
+          "name": "产品",
+          "count": 7
+        },
+        {
+          "name": "工程",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 2
+        },
+        {
+          "name": "组织",
+          "count": 2
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "工作型 AI 产品开始竞争额度透明度",
+        "source": "Codex & ChatGPT Work · OpenAI · X 动态",
+        "url": "https://x.com/thsottiaux/status/2082317452755751098",
+        "sourceDate": "2026-07-29",
+        "sourceDisplayDate": "7月29日 · 周三",
+        "summary": "Thibault Sottiaux 表示已为所有 ChatGPT Work 和 Codex 用户重置 usage limits，并解释 GPT-5.6 Sol 在过去几周消耗 Codex limits 快于预期，但订阅额度并未被减少。这个更新的关键不只是“重置额度”，而是暴露出 agent 产品在真实生产使用中会遇到的信任问题：能力越强，用户越不能接受不透明的限流与突然中断。",
+        "chineseTitle": "工作型 AI 产品开始竞争额度透明度",
+        "tags": [
+          "OpenAI",
+          "Codex",
+          "Subscription"
+        ],
+        "score": 92
+      },
+      {
+        "title": "Coding agent 的下一步是安全验证与 CI 控制面",
+        "source": "Open-source security tooling · X 动态",
+        "url": "https://x.com/thsottiaux/status/2082241164850364555",
+        "sourceDate": "2026-07-28",
+        "sourceDisplayDate": "7月28日 · 周二",
+        "summary": "Thibault Sottiaux 宣布发布一个开源 CLI 和 TypeScript SDK，用于发现、验证并修复代码中的安全漏洞。工具覆盖 repository 扫描、review changes、长期跟踪 findings，以及在 CI 中运行安全检查，说明 AI coding 工具正在把“写代码”延伸到“验证代码是否可上线”。",
+        "chineseTitle": "Coding agent 的下一步是安全验证与 CI 控制面",
+        "tags": [
+          "Developer Tools",
+          "Security",
+          "CI"
+        ],
+        "score": 90
+      },
+      {
+        "title": "AI-native IC 正在获得新的组织杠杆",
+        "source": "AI-native organization · X 动态",
+        "url": "https://x.com/swyx/status/2082199414656127010",
+        "sourceDate": "2026-07-28",
+        "sourceDisplayDate": "7月28日 · 周二",
+        "summary": "Swyx 判断当前招聘市场对 AI-native IC 和 player-coach 极度有利，而对传统“head of X”管理者不利。他用“1 年管理 10 个 agents 的经验 > 10 年管理 10-100 人”的表达强调，组织价值正在从管理人力规模转向设计、监督和放大 agent 生产系统。",
+        "chineseTitle": "AI-native IC 正在获得新的组织杠杆",
+        "tags": [
+          "AI-native",
+          "Organization",
+          "Agents"
+        ],
+        "score": 88
+      },
+      {
+        "title": "从采访到成稿，写作工作流也变成 agent pipeline",
+        "source": "Every · Codex history · X 动态",
+        "url": "https://x.com/danshipper/status/2082130836485259530",
+        "sourceDate": "2026-07-28",
+        "sourceDisplayDate": "7月28日 · 周二",
+        "summary": "Dan Shipper 称自己用 AI 在沙发上完成 Codex 历史文章：素材来自与 Thibault Sottiaux、ajambrosino、gdb 等团队成员的深度访谈，AI 参与组织访谈、建立时间线、写作和编辑，他几乎没有碰键盘和鼠标。这个案例展示的是知识工作自动化的上限：agent 不只是生成文本，而是在多源材料上执行研究、结构化和叙事编排。",
+        "chineseTitle": "从采访到成稿，写作工作流也变成 agent pipeline",
+        "tags": [
+          "Knowledge Work",
+          "Writing",
+          "Agent Workflow"
+        ],
+        "score": 87
+      },
+      {
+        "title": "用 AI 从粗糙想法推进到可用产品",
+        "source": "Claude Design + Claude Code · X 动态",
+        "url": "https://x.com/petergyang/status/2082254852600873376",
+        "sourceDate": "2026-07-29",
+        "sourceDisplayDate": "7月29日 · 周三",
+        "summary": "Peter Yang 做了 Tastemaker：一个把电影、剧集和游戏评分/收藏聚合到个人主页的产品，并明确把它当作 Claude Design 与 Claude Code 的实战实验。他的流程包括编写 design.md 和 HTML spec、用 Claude Design 原型化页面，再用 Claude Code 构建和迭代，重点不在产品品类，而在端到端 AI-assisted product development 的方法。",
+        "chineseTitle": "用 AI 从粗糙想法推进到可用产品",
+        "tags": [
+          "Claude",
+          "Product Development",
+          "Design Spec"
+        ],
+        "score": 84
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation…",
+        "tags": [
+          "Agent",
+          "组织",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2082199414656127010",
+            "url": "https://x.com/swyx/status/2082199414656127010",
+            "createdAt": "2026-07-28T20:20:00.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents > 10 years experience managing 10-100 people",
+            "summary": "re: hiring right now it's a huge bull market for AI-native IC's/player-coaches it's a huge bear market for \"heads of X\" managers never seen such furious bifurcation…",
+            "engagement": 865,
+            "tags": [
+              "Agent",
+              "组织",
+              "市场"
+            ]
+          },
+          {
+            "id": "2082255848492183583",
+            "url": "https://x.com/swyx/status/2082255848492183583",
+            "createdAt": "2026-07-29T00:04:15.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "i'm just reporting; many counter examples if you dislike this trend: see Edison on @latentspacepod here",
+            "summary": "i'm just reporting; many counter examples if you dislike this trend: see Edison on @latentspacepod here",
+            "engagement": 10,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082287480687272053",
+            "url": "https://x.com/swyx/status/2082287480687272053",
+            "createdAt": "2026-07-29T02:09:57.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "",
+            "summary": "",
+            "engagement": 5,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2082317452755751098",
+            "url": "https://x.com/thsottiaux/status/2082317452755751098",
+            "createdAt": "2026-07-29T04:09:02.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits. Over the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription…",
+            "summary": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users…",
+            "engagement": 16491,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2082241164850364555",
+            "url": "https://x.com/thsottiaux/status/2082241164850364555",
+            "createdAt": "2026-07-28T23:05:54.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.",
+            "summary": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code…",
+            "engagement": 7508,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2082326593532473523",
+            "url": "https://x.com/thsottiaux/status/2082326593532473523",
+            "createdAt": "2026-07-29T04:45:22.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "One day we created the reset button and the rest is history.",
+            "summary": "One day we created the reset button and the rest is history.",
+            "engagement": 5095,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2082254840655405293",
+            "url": "https://x.com/petergyang/status/2082254840655405293",
+            "createdAt": "2026-07-29T00:00:15.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games. So I built Tastemaker to let anyone curate their favorite movies, TV shows, and games all in one beautiful profile. You can use it to: → Rate and review your favorites → Create and share lists → Discover what to watch or…",
+            "summary": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games…",
+            "engagement": 55,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2082323512069685575",
+            "url": "https://x.com/petergyang/status/2082323512069685575",
+            "createdAt": "2026-07-29T04:33:07.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "These are all valid criticisms of Codex, even though I love the product too! I actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex?",
+            "summary": "These are all valid criticisms of Codex, even though I love the product too…",
+            "engagement": 52,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2082254852600873376",
+            "url": "https://x.com/petergyang/status/2082254852600873376",
+            "createdAt": "2026-07-29T00:00:17.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code. I made a video walking through my full process, including: 1. Creating a design.md and HTML spec 2. Prototyping screens in Claude Design 3. Building and iterating with Claude Code 📌 Subscribe to get…",
+            "summary": "I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code…",
+            "engagement": 6,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "I saw a SWE at work today. No Claude. No wispr…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2082112941814661236",
+            "url": "https://x.com/realmadhuguru/status/2082112941814661236",
+            "createdAt": "2026-07-28T14:36:23.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "I saw a SWE at work today. No Claude. No wispr. No tab key. Just writing code. With his bare hands.",
+            "summary": "I saw a SWE at work today. No Claude. No wispr…",
+            "engagement": 19,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Who’s writing an open letter against destroying rare books…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2082317323445387514",
+            "url": "https://x.com/amasad/status/2082317323445387514",
+            "createdAt": "2026-07-29T04:08:32.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Who’s writing an open letter against destroying rare books?",
+            "summary": "Who’s writing an open letter against destroying rare books?",
+            "engagement": 168,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082316150273360316",
+            "url": "https://x.com/amasad/status/2082316150273360316",
+            "createdAt": "2026-07-29T04:03:52.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "1300 Elo!",
+            "summary": "1300 Elo!",
+            "engagement": 71,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082316553740284060",
+            "url": "https://x.com/amasad/status/2082316553740284060",
+            "createdAt": "2026-07-29T04:05:28.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Imagine SETI@Home, where you donated compute to search for aliens, but instead you donate compute to search math proofs.",
+            "summary": "Imagine SETI@Home, where you donated compute to search for aliens, but instead you donate compute to search math proofs.",
+            "engagement": 52,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Great piece and vision for AI from Zuckerberg",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082114876873597239",
+            "url": "https://x.com/levie/status/2082114876873597239",
+            "createdAt": "2026-07-28T14:44:05.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "",
+            "summary": "",
+            "engagement": 9871,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082168124733116537",
+            "url": "https://x.com/levie/status/2082168124733116537",
+            "createdAt": "2026-07-28T18:15:40.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "Great piece and vision for AI from Zuckerberg",
+            "summary": "Great piece and vision for AI from Zuckerberg",
+            "engagement": 445,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "It's OK to joke, but when it comes to your life, your intention, and your weltanschauung, be earnest as fuck Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals The original…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082176112906711452",
+            "url": "https://x.com/garrytan/status/2082176112906711452",
+            "createdAt": "2026-07-28T18:47:24.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "It's OK to joke, but when it comes to your life, your intention, and your weltanschauung, be earnest as fuck",
+            "summary": "It's OK to joke, but when it comes to your life, your intention, and your weltanschauung, be earnest as fuck",
+            "engagement": 301,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082169572212584877",
+            "url": "https://x.com/garrytan/status/2082169572212584877",
+            "createdAt": "2026-07-28T18:21:25.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals",
+            "summary": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals",
+            "engagement": 123,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082170934182756411",
+            "url": "https://x.com/garrytan/status/2082170934182756411",
+            "createdAt": "2026-07-28T18:26:50.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "The original drafter of Sanctuary Cities never meant for this to happen",
+            "summary": "The original drafter of Sanctuary Cities never meant for this to happen",
+            "engagement": 30,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Serving large models is hard.",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082337130299457652",
+            "url": "https://x.com/steipete/status/2082337130299457652",
+            "createdAt": "2026-07-29T05:27:14.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Serving large models is hard.",
+            "summary": "Serving large models is hard.",
+            "engagement": 148,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse o…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082130836485259530",
+            "url": "https://x.com/danshipper/status/2082130836485259530",
+            "createdAt": "2026-07-28T15:47:30.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing,…",
+            "summary": "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my ha…",
+            "engagement": 224,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2082270947793350785",
+            "url": "https://x.com/danshipper/status/2082270947793350785",
+            "createdAt": "2026-07-29T01:04:15.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "This is why i do anti depressants and stimulants. Dynamism x2. Join me America!",
+            "summary": "This is why i do anti depressants and stimulants…",
+            "engagement": 46,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082273076352315440",
+            "url": "https://x.com/danshipper/status/2082273076352315440",
+            "createdAt": "2026-07-29T01:12:42.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming",
+            "summary": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming",
+            "engagement": 21,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart |…",
+        "summary": "A decade ago…as I was going through my own Minus One journey and was lost in the fog of uncertainty, I got 2 pieces of deep personal insight: 1/ I want to build new things in the world 2/ I want to work with brilliant an…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082214798935326833",
+            "url": "https://x.com/adityaag/status/2082214798935326833",
+            "createdAt": "2026-07-28T21:21:08.000Z",
+            "sourceDate": "2026-07-28",
+            "sourceDisplayDate": "7月28日 · 周二",
+            "text": "A decade ago…as I was going through my own Minus One journey and was lost in the fog of uncertainty, I got 2 pieces of deep personal insight: 1/ I want to build new things in the world 2/ I want to work with brilliant and intense people On days such as this both feel abundant.",
+            "summary": "A decade ago…as I was going through my own Minus One journey and was lost in the fog of uncertainty, I got 2 pieces of deep personal insight: 1/ I want to build new things in the w…",
+            "engagement": 135,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的产品信号来自 OpenAI Codex / ChatGPT Work：Thibault Sottiaux 先是解释 GPT-5.6 Sol 消耗 Codex 额度快于用户预期，随后直接为 ChatGPT Work 和 Codex 用户重置 usage limits。这不是普通运营公告，而是工作型 AI 产品进入“可用性竞争”的表现：当 AI agent 被嵌入真实工作流，用户购买的不只是模型能力，还包括稳定吞吐、额度透明度和被卡住时的恢复机制。",
+        "工程侧的信号同样围绕“从演示走向生产”展开。OpenAI 发布用于发现、验证和修复代码安全漏洞的开源 CLI 与 TypeScript SDK，把安全扫描、变更审查、finding 跟踪和 CI 检查连到一起。对 AI Builders 来说，这说明 coding agent 的边界正在从写代码扩展到代码生命周期里的验证、治理和持续集成；未来的开发者工具更像一组可组合的工程控制面，而不是单点 autocomplete。",
+        "组织与人才市场的判断更尖锐：Swyx 认为当前是 AI-native IC / player-coach 的牛市，也是传统“head of X”管理者的熊市，并用“1 年管理 10 个 agents 的经验 > 10 年管理 10-100 人”的夸张表达总结趋势。这句话不应按字面理解，但它点出了组织杠杆正在变化：能把 agent 编排进产出系统的人，会比只管理人力流程的人更接近新增生产力。",
+        "个人生产流程也在被 agent 重写。Dan Shipper 用语音和 AI 完成 Codex 历史文章的采访整理、时间线构建、写作与编辑；Peter Yang 则把 Tastemaker 作为 Claude Design + Claude Code 的端到端实验，从 design.md、HTML spec 到屏幕原型和迭代实现。共同点是：高价值不在“AI 帮我写了一段内容/代码”，而在 builder 把需求表达、资料组织、设计规范和交付步骤拆成了 agent 可执行的流程。",
+        "今天低信号内容很多，反而强化了筛选的重要性：大量高互动动态只是空转情绪、玩笑、政治评论或转发，没有给产品、工程或模型建设提供可复用判断。真正值得保留的内容，基本都能回答一个问题：它是否改变 AI Builders 明天如何设计产品、组织工作或评估技术风险。"
+      ],
+      "filteredNote": "过滤掉了空文本/转发无自述、纯玩笑、日常情绪、政治评论、药物/个人状态、单句感叹、非 AI 产品发布和缺少上下文的一句话等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex & ChatGPT Work · OpenAI · X 动态",
+        "title": "工作型 AI 产品开始竞争额度透明度",
+        "summary": "Thibault Sottiaux 表示已为所有 ChatGPT Work 和 Codex 用户重置 usage limits，并解释 GPT-5.6 Sol 在过去几周消耗 Codex limits 快于预期，但订阅额度并未被减少。这个更新的关键不只是“重置额度”，而是暴露出 agent 产品在真实生产使用中会遇到的信任问题：能力越强，用户越不能接受不透明的限流与突然中断。",
+        "keyPoints": [
+          "OpenAI 为 ChatGPT Work 和 Codex 用户重置 usage limits。",
+          "Sol 消耗 Codex 额度快于用户预期，引发对配额模型的反馈。",
+          "订阅型 agent 产品需要把额度、吞吐、fast mode 与恢复机制设计成核心体验。"
+        ],
+        "whyItMatters": "AI Builders 做工作流产品时，不能只优化模型能力；稳定可用、可解释的配额和故障恢复会直接决定用户是否敢把产品放进日常生产。",
+        "tags": [
+          "OpenAI",
+          "Codex",
+          "Subscription",
+          "Product Ops"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/thsottiaux/status/2082317452755751098"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "Open-source security tooling · X 动态",
+        "title": "Coding agent 的下一步是安全验证与 CI 控制面",
+        "summary": "Thibault Sottiaux 宣布发布一个开源 CLI 和 TypeScript SDK，用于发现、验证并修复代码中的安全漏洞。工具覆盖 repository 扫描、review changes、长期跟踪 findings，以及在 CI 中运行安全检查，说明 AI coding 工具正在把“写代码”延伸到“验证代码是否可上线”。",
+        "keyPoints": [
+          "新工具以 CLI 和 TypeScript SDK 形式开放，便于接入本地与工程系统。",
+          "能力覆盖漏洞发现、验证、修复、变更审查和持续跟踪。",
+          "安全检查进入 CI，意味着 AI 工具需要嵌入现有工程治理链路。"
+        ],
+        "whyItMatters": "对 AI Builders 来说，developer tooling 的护城河会越来越多来自工作流集成、验证闭环和治理能力，而不是单次代码生成质量。",
+        "tags": [
+          "Developer Tools",
+          "Security",
+          "CI",
+          "Open Source"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/thsottiaux/status/2082241164850364555"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Swyx",
+        "meta": "AI-native organization · X 动态",
+        "title": "AI-native IC 正在获得新的组织杠杆",
+        "summary": "Swyx 判断当前招聘市场对 AI-native IC 和 player-coach 极度有利，而对传统“head of X”管理者不利。他用“1 年管理 10 个 agents 的经验 > 10 年管理 10-100 人”的表达强调，组织价值正在从管理人力规模转向设计、监督和放大 agent 生产系统。",
+        "keyPoints": [
+          "市场更奖励能亲自构建并编排 AI 工作流的 IC / player-coach。",
+          "传统管理头衔若不能转化为 agent 产出系统，边际价值会下降。",
+          "“管理 agents”本质上是新型流程设计、评估、反馈和交付能力。"
+        ],
+        "whyItMatters": "这给 AI Builders 的招聘和自我成长提供了清晰方向：不要只证明自己会管理人，而要证明自己能让 AI 系统持续产出可靠结果。",
+        "tags": [
+          "AI-native",
+          "Organization",
+          "Agents",
+          "Hiring"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/swyx/status/2082199414656127010"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月28日 · 周二",
+        "actor": "Dan Shipper",
+        "meta": "Every · Codex history · X 动态",
+        "title": "从采访到成稿，写作工作流也变成 agent pipeline",
+        "summary": "Dan Shipper 称自己用 AI 在沙发上完成 Codex 历史文章：素材来自与 Thibault Sottiaux、ajambrosino、gdb 等团队成员的深度访谈，AI 参与组织访谈、建立时间线、写作和编辑，他几乎没有碰键盘和鼠标。这个案例展示的是知识工作自动化的上限：agent 不只是生成文本，而是在多源材料上执行研究、结构化和叙事编排。",
+        "keyPoints": [
+          "输入不是简单 prompt，而是数小时团队访谈与历史材料。",
+          "AI 覆盖资料组织、timeline 构建、写作和编辑多个环节。",
+          "语音/无手操作让创作从“打字”转为“导演流程”。"
+        ],
+        "whyItMatters": "内容、研究和产品叙事团队可以借鉴这种 pipeline：先把素材、结构和验收标准设计好，再让 agent 执行可审查的中间步骤。",
+        "tags": [
+          "Knowledge Work",
+          "Writing",
+          "Agent Workflow",
+          "Codex"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/danshipper/status/2082130836485259530"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Peter Yang",
+        "meta": "Claude Design + Claude Code · X 动态",
+        "title": "用 AI 从粗糙想法推进到可用产品",
+        "summary": "Peter Yang 做了 Tastemaker：一个把电影、剧集和游戏评分/收藏聚合到个人主页的产品，并明确把它当作 Claude Design 与 Claude Code 的实战实验。他的流程包括编写 design.md 和 HTML spec、用 Claude Design 原型化页面，再用 Claude Code 构建和迭代，重点不在产品品类，而在端到端 AI-assisted product development 的方法。",
+        "keyPoints": [
+          "Tastemaker 从个人痛点出发：统一管理 movies、TV shows 和 games 的评价与清单。",
+          "先沉淀 design.md 与 HTML spec，再进入视觉原型和代码迭代。",
+          "Claude Design 与 Claude Code 被串成从需求、设计到实现的闭环。"
+        ],
+        "whyItMatters": "这是 AI Builders 可复用的产品实验范式：用明确规格降低 agent 随机性，用短迭代验证从 idea 到 usable product 的速度。",
+        "tags": [
+          "Claude",
+          "Product Development",
+          "Design Spec",
+          "Prototyping"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/petergyang/status/2082254852600873376"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Peter Yang",
+        "meta": "Codex product feedback · X 动态",
+        "title": "模型档位与产品入口不一致会制造开发者困惑",
+        "summary": "Peter Yang 认可一组对 Codex 的批评，并提到自己此前甚至不知道 Sol Pro 存在，同时追问它是否优于 Sol High、为什么不能在 Codex 中使用。虽然这是一条短反馈，但它指向 agent 产品的真实问题：模型档位、权限和产品入口如果不一致，会让专业用户难以判断自己正在购买和调用什么能力。",
+        "keyPoints": [
+          "Sol Pro、Sol High 与 Codex 可用模型之间的关系对用户不够清晰。",
+          "高频专业用户会把模型档位差异直接映射到工作效率和成本。",
+          "复杂套餐如果缺少产品内解释，会降低高级功能采用率。"
+        ],
+        "whyItMatters": "AI Builders 设计多模型、多档位产品时，要把能力差异和可用入口讲清楚，否则再强的模型也会被包装和权限体系拖累。",
+        "tags": [
+          "Codex",
+          "Pricing",
+          "Model Routing",
+          "Developer UX"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/petergyang/status/2082323512069685575"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Amjad Masad",
+        "meta": "Distributed compute · math proofs · X 动态",
+        "title": "把闲置算力捐给数学证明搜索",
+        "summary": "Amjad Masad 提出一个类比：像 SETI@Home 让人捐赠算力寻找外星信号一样，也可以捐赠算力搜索数学证明。单条内容很短，但背后是一个长期判断：AI agent 可能把开放式搜索问题变成可分布式协作的计算网络，证明、算法和设计空间都可能成为新一代公共探索对象。",
+        "keyPoints": [
+          "SETI@Home 式志愿计算可被迁移到数学证明搜索。",
+          "AI agents 让大规模开放式搜索更容易拆分、评估和持续运行。",
+          "科学发现可能从集中实验室扩展到社区计算网络。"
+        ],
+        "whyItMatters": "如果 agent 能稳定执行搜索与验证，AI Builders 可以重新思考“分布式算力 + 可验证任务”的产品形态，不只局限在聊天或编码。",
+        "tags": [
+          "Distributed Compute",
+          "Math",
+          "Agents",
+          "Research"
+        ],
+        "qualityScore": 76,
+        "url": "https://x.com/amasad/status/2082316553740284060"
+      }
+    ]
+  },
+  {
     "date": "2026-07-29",
     "displayDate": "7月29日 · 周三",
     "generatedAt": "2026-07-28T23:30:17.768878+00:00",
