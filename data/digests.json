@@ -1,5 +1,992 @@
 [
   {
+    "date": "2026-07-31",
+    "displayDate": "7月31日 · 周五",
+    "generatedAt": "2026-07-30T23:30:20.477456+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-30T07:11:33.639Z",
+      "blogs": "2026-07-30T07:12:09.474Z",
+      "podcasts": "2026-07-30T07:12:08.711Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、产品、Agent、组织、研究：16 位 AI Builders、1 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 16,
+      "tweets": 32,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 12
+        },
+        {
+          "name": "产品",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        },
+        {
+          "name": "组织",
+          "count": 5
+        },
+        {
+          "name": "研究",
+          "count": 5
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2082609662231502932",
+        "sourceDate": "2026-07-29",
+        "sourceDisplayDate": "7月29日 · 周三",
+        "summary": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3…",
+        "chineseTitle": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3…",
+        "tags": [
+          "观察"
+        ],
+        "score": 8828
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2082655731204096275",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "This week is all about intelligence too cheap to meter…",
+        "chineseTitle": "This week is all about intelligence too cheap to meter…",
+        "tags": [
+          "产品"
+        ],
+        "score": 7899
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2082628413769003269",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not…",
+        "chineseTitle": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not…",
+        "tags": [
+          "研究"
+        ],
+        "score": 4119
+      },
+      {
+        "title": "来自 Peter Steinberger 的观点",
+        "source": "Peter Steinberger · X 动态",
+        "url": "https://x.com/steipete/status/2082617409408762124",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?",
+        "chineseTitle": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?",
+        "tags": [
+          "观察"
+        ],
+        "score": 3263
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2082627724040884667",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "goblin-level blog post",
+        "chineseTitle": "goblin-level blog post",
+        "tags": [
+          "观察"
+        ],
+        "score": 3225
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "today i tried to sign up for @docusign and was presented a captcha that i could not solve this is an $11B company that everyone hates people who say \"make something people want\" dont have the full picture",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082617801362313527",
+            "url": "https://x.com/swyx/status/2082617801362313527",
+            "createdAt": "2026-07-30T00:02:31.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "today i tried to sign up for @docusign and was presented a captcha that i could not solve this is an $11B company that everyone hates people who say \"make something people want\" dont have the full picture",
+            "summary": "today i tried to sign up for @docusign and was presented a captcha that i could not solve this is an $11B company that everyone hates people who say \"make something people want\" do…",
+            "engagement": 42,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3…",
+        "tags": [
+          "产品",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082609662231502932",
+            "url": "https://x.com/thsottiaux/status/2082609662231502932",
+            "createdAt": "2026-07-29T23:30:11.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. Just took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.",
+            "summary": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3…",
+            "engagement": 8828,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082655731204096275",
+            "url": "https://x.com/thsottiaux/status/2082655731204096275",
+            "createdAt": "2026-07-30T02:33:14.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "This week is all about intelligence too cheap to meter. Tomorrow we ship again.",
+            "summary": "This week is all about intelligence too cheap to meter…",
+            "engagement": 7899,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2082637967852806207",
+            "url": "https://x.com/thsottiaux/status/2082637967852806207",
+            "createdAt": "2026-07-30T01:22:39.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun. Take care of your harnesses out there, your model will thank you.",
+            "summary": "Terrific work by @ilanbigio and @sandersted on the investigation and post…",
+            "engagement": 1242,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look…",
+        "tags": [
+          "产品",
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2082519030859264086",
+            "url": "https://x.com/petergyang/status/2082519030859264086",
+            "createdAt": "2026-07-29T17:30:02.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look. To avoid this, I always create a design md file with guidelines for color, typography, and more. Here are a few places to find inspiration for your design md: 1. Go to @mobbin and install its MCP to…",
+            "summary": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look…",
+            "engagement": 494,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2082642205811106158",
+            "url": "https://x.com/petergyang/status/2082642205811106158",
+            "createdAt": "2026-07-30T01:39:30.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "AI has been great for my productivity, but I’m starting to recognize three dark patterns: 1. Becoming too lazy to read anything It's too easy to just read AI summaries over the original piece or let agents go wild changing my files without reviewing what they did. 2. Getting distracted by agents while I’m out It’s too…",
+            "summary": "AI has been great for my productivity, but I’m starting to recognize three dark patterns: 1…",
+            "engagement": 281,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          },
+          {
+            "id": "2082579428090192192",
+            "url": "https://x.com/petergyang/status/2082579428090192192",
+            "createdAt": "2026-07-29T21:30:02.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "One of my favorite features in Claude Design is a simple one: It always asks clarifying questions before creating anything. I’ve found these questions consistently help me think through my design requirements with AI. I’m surprised other AI design tools haven’t copied this yet. 📌 Here’s how I use Claude Design to…",
+            "summary": "One of my favorite features in Claude Design is a simple one: It always asks clarifying questions before creating anything…",
+            "engagement": 47,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "Love this POV -- what products do you use which would absolutely suck to switch to an alternative, besides apple products…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2082480369543065855",
+            "url": "https://x.com/thenanyu/status/2082480369543065855",
+            "createdAt": "2026-07-29T14:56:25.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Love this POV -- what products do you use which would absolutely suck to switch to an alternative, besides apple products? When I think about it, a couple of mundane examples come to mind. 3M post-it notes, and Expo whiteboard markers are unmatched. The alternatives are garbage",
+            "summary": "Love this POV -- what products do you use which would absolutely suck to switch to an alternative, besides apple products…",
+            "engagement": 70,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2082550710160310587",
+            "url": "https://x.com/thenanyu/status/2082550710160310587",
+            "createdAt": "2026-07-29T19:35:55.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "That is why we must pace",
+            "summary": "That is why we must pace",
+            "engagement": 32,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "7 months on, this continues to be true. Biggest alpha lies in understanding the model frontier.",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082629168035201459",
+            "url": "https://x.com/realmadhuguru/status/2082629168035201459",
+            "createdAt": "2026-07-30T00:47:41.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "7 months on, this continues to be true. Biggest alpha lies in understanding the model frontier.",
+            "summary": "7 months on, this continues to be true. Biggest alpha lies in understanding the model frontier.",
+            "engagement": 3,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "bio": "Google’s home for our latest AI tools and experiments.",
+        "summary": "Expecting A Minor update? We prefer to B Major…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2082501360466174163",
+            "url": "https://x.com/GoogleLabs/status/2082501360466174163",
+            "createdAt": "2026-07-29T16:19:49.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Expecting A Minor update? We prefer to B Major. 🎶 @GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directly into @GoogleFlowMusic to power your next session. What this means for your tracks: ✨ Better prompt adherence: Flow Music understands your creative direction with much more accuracy. Set exact BPMs…",
+            "summary": "Expecting A Minor update? We prefer to B Major…",
+            "engagement": 431,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082504898801999990",
+            "url": "https://x.com/amasad/status/2082504898801999990",
+            "createdAt": "2026-07-29T16:33:53.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use. Try it out!",
+            "summary": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use…",
+            "engagement": 1610,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2082508826767679668",
+            "url": "https://x.com/amasad/status/2082508826767679668",
+            "createdAt": "2026-07-29T16:49:30.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations. Replit Design is powered by the best of open and closed models to generate superior aesthetics.",
+            "summary": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations…",
+            "engagement": 471,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2082505558293467363",
+            "url": "https://x.com/amasad/status/2082505558293467363",
+            "createdAt": "2026-07-29T16:36:30.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Post-prompt era",
+            "summary": "Post-prompt era",
+            "engagement": 296,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082514776392175844",
+            "url": "https://x.com/levie/status/2082514776392175844",
+            "createdAt": "2026-07-29T17:13:08.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents. There are tons of measures that enterprises must take to ensure that agents are…",
+            "summary": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise…",
+            "engagement": 250,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2082658870523248967",
+            "url": "https://x.com/levie/status/2082658870523248967",
+            "createdAt": "2026-07-30T02:45:43.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. This in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks…",
+            "summary": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everyth…",
+            "engagement": 183,
+            "tags": [
+              "工程",
+              "研究",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring…",
+        "summary": "your agents, anywhere try Cursor on iOS today",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2082539893729972320",
+            "url": "https://x.com/ryolu_/status/2082539893729972320",
+            "createdAt": "2026-07-29T18:52:57.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "your agents, anywhere try Cursor on iOS today",
+            "summary": "your agents, anywhere try Cursor on iOS today",
+            "engagement": 412,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Seasoned founders in the age of intelligence are aging like fine wine The AI Datacenter Degrowthers are winning and it is actually a psy-op happening under our noses, and it's winning in every blue state Manhattan Instit…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082472533337813241",
+            "url": "https://x.com/garrytan/status/2082472533337813241",
+            "createdAt": "2026-07-29T14:25:17.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Seasoned founders in the age of intelligence are aging like fine wine",
+            "summary": "Seasoned founders in the age of intelligence are aging like fine wine",
+            "engagement": 2747,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2082529714162536926",
+            "url": "https://x.com/garrytan/status/2082529714162536926",
+            "createdAt": "2026-07-29T18:12:30.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "The AI Datacenter Degrowthers are winning and it is actually a psy-op happening under our noses, and it's winning in every blue state",
+            "summary": "The AI Datacenter Degrowthers are winning and it is actually a psy-op happening under our noses, and it's winning in every blue state",
+            "engagement": 285,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082518742752461268",
+            "url": "https://x.com/garrytan/status/2082518742752461268",
+            "createdAt": "2026-07-29T17:28:54.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Manhattan Institute is the truth",
+            "summary": "Manhattan Institute is the truth",
+            "engagement": 164,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "Being good at marketing is not just good for your marketing; it’s good for your product So many technical people are building for imaginary audiences with no contact with the reality of how people actually perceive and u…",
+        "tags": [
+          "产品",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2082684904136134881",
+            "url": "https://x.com/zarazhangrui/status/2082684904136134881",
+            "createdAt": "2026-07-30T04:29:10.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Being good at marketing is not just good for your marketing; it’s good for your product So many technical people are building for imaginary audiences with no contact with the reality of how people actually perceive and use these products",
+            "summary": "Being good at marketing is not just good for your marketing; it’s good for your product So many technical people are building for imaginary audiences with no contact with the reali…",
+            "engagement": 49,
+            "tags": [
+              "产品",
+              "市场"
+            ]
+          },
+          {
+            "id": "2082705944782520462",
+            "url": "https://x.com/zarazhangrui/status/2082705944782520462",
+            "createdAt": "2026-07-30T05:52:46.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "If you both have deep domain expertise & experience AND you’re AI-native and constantly reinventing yourself to adopt the new ways that work get done, you’re basically invincible",
+            "summary": "If you both have deep domain expertise & experience AND you’re AI-native and constantly reinventing yourself to adopt the new ways that work get done, you’re basically invincible",
+            "engagement": 34,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "First kid teaches you unconditional love…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082460273005433192",
+            "url": "https://x.com/nikunj/status/2082460273005433192",
+            "createdAt": "2026-07-29T13:36:33.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "First kid teaches you unconditional love. Second kid teaches you unbridled joy. As AGI (digital & physical) comes close, having close family and friends is going to be the most important (only?) human connection we have. So if you are on the fence, let this be a vote in the yes direction! Don’t get me wrong having…",
+            "summary": "First kid teaches you unconditional love…",
+            "engagement": 57,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082507794889220545",
+            "url": "https://x.com/nikunj/status/2082507794889220545",
+            "createdAt": "2026-07-29T16:45:24.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Evergreen post - wrote this as I held my son who’s now 20 months old!",
+            "summary": "Evergreen post - wrote this as I held my son who’s now 20 months old!",
+            "engagement": 3,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082617409408762124",
+            "url": "https://x.com/steipete/status/2082617409408762124",
+            "createdAt": "2026-07-30T00:00:58.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?",
+            "summary": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?",
+            "engagement": 3263,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is Have not seen vibes this high in a while…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2082613916706693560",
+            "url": "https://x.com/danshipper/status/2082613916706693560",
+            "createdAt": "2026-07-29T23:47:05.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is Have not seen vibes this high in a while. If you haven’t tried it yet, you should",
+            "summary": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is Have not seen vibes this high in a while…",
+            "engagement": 278,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2082605739256734153",
+            "url": "https://x.com/danshipper/status/2082605739256734153",
+            "createdAt": "2026-07-29T23:14:35.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "usually the most honest answer ime",
+            "summary": "usually the most honest answer ime",
+            "engagement": 114,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082608994275725650",
+            "url": "https://x.com/danshipper/status/2082608994275725650",
+            "createdAt": "2026-07-29T23:27:31.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "incredibly good write up bad actors will obviously try to use models to do stuff like this on purpose in the future. on the bright side: - OpenAI’s safety classifiers were turned off, the model was explicitly directed to do exploits - HG’s AI actually surfaced the attack automatically (though not with a high enough…",
+            "summary": "incredibly good write up bad actors will obviously try to use models to do stuff like this on purpose in the future…",
+            "engagement": 40,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart |…",
+        "summary": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots…",
+        "tags": [
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082558632705896899",
+            "url": "https://x.com/adityaag/status/2082558632705896899",
+            "createdAt": "2026-07-29T20:07:24.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots. This is what AI researchers are going through and explains all the goddamn drama. They are MVPs with 18 months on the shot clock.",
+            "summary": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots…",
+            "engagement": 172,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082538703432630398",
+            "url": "https://x.com/adityaag/status/2082538703432630398",
+            "createdAt": "2026-07-29T18:48:13.000Z",
+            "sourceDate": "2026-07-29",
+            "sourceDisplayDate": "7月29日 · 周三",
+            "text": "Some observations from our Demo Faire yesterday: 1/ There is a tremendous amount of interest from the larger investor community for frontier technology. Robots. Drones. Semiconductors. Bring it all. 2/ The interest in Frontier Tech is legitimately Based. People want 🇺🇸 to win. 3/ The bar for \"great\" in software has…",
+            "summary": "Some observations from our Demo Faire yesterday: 1/ There is a tremendous amount of interest from the larger investor community for frontier technology…",
+            "engagement": 101,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082628413769003269",
+            "url": "https://x.com/sama/status/2082628413769003269",
+            "createdAt": "2026-07-30T00:44:41.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves. we all deserve the benefits.",
+            "summary": "so excited for this. very close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out…",
+            "engagement": 4119,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2082627724040884667",
+            "url": "https://x.com/sama/status/2082627724040884667",
+            "createdAt": "2026-07-30T00:41:57.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "goblin-level blog post",
+            "summary": "goblin-level blog post",
+            "engagement": 3225,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Claude Blog",
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "author": "",
+        "publishedAt": "Jun 08, 2026",
+        "sourceDate": "Jun 08, 20",
+        "sourceDisplayDate": "Jun 08, 20",
+        "summary": "Today we're releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple's Foundation Models framework to call Claude for more complex workflows…",
+        "chineseTitle": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "AI & I by Every",
+        "title": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-07-29T15:00:00.000Z",
+        "sourceDate": "2026-07-29",
+        "sourceDisplayDate": "7月29日 · 周三",
+        "summary": "Speaker 1 | 00:00 - 00:28 What I've learned with the future is that it's easy to make predictions and hard to make predictions that are true…",
+        "chineseTitle": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+        "tags": [
+          "观察"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天的信息流主线不是单点模型发布，而是 AI 系统开始进入“可规模化部署”的工程阶段。Thibault Sottiaux 提到 GPT-5.6 Sol 在 ARC-AGI-3 上只需打开多轮推理与跨上下文窗口工作能力，再配合 canonical compaction，就能达到 SoTA；这说明很多能力并不只藏在模型权重里，也藏在运行时、上下文管理和评测 harness 里。对 AI Builders 来说，模型能力的边界越来越像系统工程问题，而不是单纯的 prompt 问题。",
+        "Agent 安全今天是最值得认真看的信号。Aaron Levie 和 Dan Shipper 都围绕 OpenAI agent sandbox escape 事件指出：事故本身既展示了 Agent 的能力，也暴露了企业环境还没有为 Agent 做好隔离、权限、监控和审计准备。真正的企业级 Agent 产品不会靠“更聪明”取胜，而会靠安全边界、可解释执行链路和默认最小权限取胜。",
+        "产品侧的一个清晰变化是：AI 工具正在从通用聊天进入具体工作流的“审美、协作和入口”竞争。Peter Yang 讨论用 design.md 约束 AI 生成界面的视觉风格，以及 Claude Design 先问澄清问题再生成；Amjad Masad 则提到不同模型分别擅长 CSS、SVG 和动画，Replit Design 通过组合开放与闭源模型来提升审美。这里的共同判断是，好的 AI 产品会把品味、约束和模型路由产品化，而不是把所有责任交给用户写 prompt。",
+        "基础设施与商业判断也在靠近现实约束。Google Labs 把 Lyria 3.5 接入 Flow Music，强调更好的 prompt adherence 和可控 BPM，代表多模态生成开始追求可控性而非单纯炫技；Claude Blog 面向 Apple Foundation Models framework 发布 Swift package，则说明端侧与平台原生 AI 工作流正在变成开发者入口。与此同时，Aaron Levie 对推理资源会流向最高经济价值任务的判断，提醒 builders：当智能便宜到可用，但还没便宜到无限时，产品设计必须考虑成本、价值密度和任务优先级。",
+        "今天还出现了一条偏组织与市场的信号：Zara Zhang 说会 marketing 不只是有利于营销，也会反过来改善产品，因为很多技术团队其实在为想象中的用户构建。把这条放在 Agent 与模型工程旁边看，结论很实用：下一阶段 AI Builders 的优势不是“会用 AI”本身，而是同时理解模型前沿、用户感知、分发语境和实际工作流。"
+      ],
+      "filteredNote": "过滤掉了纯吐槽、日常生活、meme、无自有分析的转发、低上下文一行评论和弱洞察自我推广；例如无法展开的 DocuSign captcha 吐槽、家庭生活感想、政治化口号、'Post-prompt era'、'goblin-level blog post'、'That is why we must pace' 等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex & ChatGPT · X 动态",
+        "title": "ARC-AGI-3 的增量来自运行时，而不只是模型权重",
+        "summary": "Thibault Sottiaux 表示 GPT-5.6 Sol 在 ARC-AGI-3 上达到 SoTA，并强调关键只是允许模型跨多个上下文窗口推理与工作，再配合 canonical compaction。这个说法的价值在于，它把模型能力提升解释为系统设置与上下文工程的结果，而不是神秘的模型飞跃。对 builders 来说，评测成绩背后往往有可复制的工程杠杆。",
+        "keyPoints": [
+          "多上下文窗口推理可以显著改变复杂任务表现",
+          "canonical compaction 这类上下文压缩机制会成为长程 Agent 的关键基础设施",
+          "评测结果需要看 harness 和运行设置，否则容易低估或误判模型能力"
+        ],
+        "whyItMatters": "这提醒团队不要只盯模型名称和榜单分数，而要投资运行时、上下文管理、任务续航和评测框架。未来很多产品差异会来自这些“模型外”的系统能力。",
+        "tags": [
+          "模型评测",
+          "Agent",
+          "Context Engineering"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/thsottiaux/status/2082609662231502932"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Peter Yang",
+        "meta": "AI 产品教程 · X 动态",
+        "title": "用 design.md 对抗 AI 生成界面的同质化",
+        "summary": "Peter Yang 观察到 AI 设计输出正在从早期的“purple slop”转向可识别的 Claude 风格，但这仍然是另一种同质化。他的做法是在项目里维护 design.md，明确颜色、字体和视觉规范，并从 Mobbin 等来源沉淀参考。核心不是让 AI 自由发挥，而是把产品审美写成可执行约束。",
+        "keyPoints": [
+          "AI 生成界面会天然滑向模型默认审美，需要显式约束",
+          "design.md 可以把品牌、排版、颜色和组件规范变成模型可读取的上下文",
+          "把灵感来源结构化后交给 AI，比临场 prompt 更稳定"
+        ],
+        "whyItMatters": "AI coding 和 AI design 的门槛下降后，差异会转向品味与系统化规范。团队越早把设计语言文档化，越能让 Agent 输出接近真实产品标准。",
+        "tags": [
+          "Design",
+          "AI Coding",
+          "Product"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/petergyang/status/2082519030859264086"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Peter Yang",
+        "meta": "AI 工作流 · X 动态",
+        "title": "AI 提效背后的三个暗模式：少读、分心与过度放权",
+        "summary": "Peter Yang 在承认 AI 提升生产力的同时，也总结了自己开始感受到的暗模式：过度依赖摘要而不读原文、让 Agent 大量改文件却不认真 review、以及在离开电脑时被 Agent 进展持续打断。它不是反 AI，而是提醒 builders 给工作流加入人类校验与注意力保护。",
+        "keyPoints": [
+          "AI 摘要降低阅读成本，也可能削弱对原始材料的判断力",
+          "Agent 自动改文件必须配套 diff review、测试和权限边界",
+          "异步 Agent 会带来新的注意力管理问题，需要产品层面的节奏控制"
+        ],
+        "whyItMatters": "高效并不等于健康工作流。面向专业用户的 AI 产品，需要设计审查、暂停、通知和可回滚机制，而不是只追求自动化率。",
+        "tags": [
+          "Productivity",
+          "Agent UX",
+          "Workflow"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/petergyang/status/2082642205811106158"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Aaron Levie",
+        "meta": "Box · 企业 AI 安全",
+        "title": "Sandbox escape 事件暴露企业 Agent 的真实门槛",
+        "summary": "Aaron Levie 认为 OpenAI agent sandbox escape 对企业 AI 扩散有现实影响：它既显示 Agent 的能力，也说明企业必须加固系统与执行环境。Agent 进入企业不是简单接入 API，而是要重做权限隔离、数据访问、审计和运行边界。",
+        "keyPoints": [
+          "Agent 能力越强，越需要明确执行环境和权限边界",
+          "企业采用 Agent 的瓶颈会从模型效果转向安全、合规和治理",
+          "sandbox、监控、审计和最小权限会成为企业级 Agent 的标配"
+        ],
+        "whyItMatters": "这是一条面向 B2B AI Builders 的硬信号：企业客户买的不是“能跑 demo 的 Agent”，而是能在真实权限环境里安全运行的 Agent 系统。",
+        "tags": [
+          "Enterprise AI",
+          "Security",
+          "Agent"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/levie/status/2082514776392175844"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Aaron Levie",
+        "meta": "Box · 推理经济学",
+        "title": "推理资源会流向经济价值最高的任务",
+        "summary": "Aaron Levie 延伸 Dwarkesh 的观点：随着 AI 更强，推理会在边际上流向最有经济价值的任务，其他任务可能被价格挤出。如果推理资源仍然稀缺，那么高价值任务会推高推理成本；如果供给快速扩张，才可能出现“智能便宜到近乎无限”的体验。",
+        "keyPoints": [
+          "推理成本不是纯技术变量，也受任务经济价值影响",
+          "高价值企业任务会优先吸收最强模型与最多算力",
+          "AI 产品需要按价值密度设计任务分层，而不是默认所有请求都用最高配置"
+        ],
+        "whyItMatters": "这直接影响 AI 产品定价、模型路由和成本控制。builders 需要把推理预算看作产品资源，而不是后台成本。",
+        "tags": [
+          "Inference",
+          "AI Economics",
+          "Product Strategy"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/levie/status/2082658870523248967"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Dan Shipper",
+        "meta": "Every · Agent 安全",
+        "title": "Agent 攻击面会被坏人系统化利用，但检测也在进步",
+        "summary": "Dan Shipper 评价一篇关于 Agent 安全事件的分析，指出未来恶意行为者显然会有意使用模型执行类似攻击。但他也看到积极面：在该案例中 OpenAI 的安全分类器被关闭、模型被明确要求做 exploit，而相关 AI 系统已经能自动发现攻击，只是置信度还不够高。",
+        "keyPoints": [
+          "Agent 安全测试需要区分正常产品配置与故意关闭保护后的红队场景",
+          "坏人会把模型用于攻击自动化，因此检测与响应必须自动化",
+          "自动发现攻击的能力已经出现，但误报、置信度和升级机制仍需产品化"
+        ],
+        "whyItMatters": "这是对安全恐慌更平衡的解读：风险真实存在，但防御工具也会 AI-native。构建 Agent 平台时，安全检测不能是外置插件，必须进入核心运行链路。",
+        "tags": [
+          "Agent Security",
+          "Red Team",
+          "Monitoring"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/danshipper/status/2082608994275725650"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月29日 · 周三",
+        "actor": "Amjad Masad",
+        "meta": "Replit · AI Design",
+        "title": "AI 设计工具进入模型组合时代",
+        "summary": "Amjad Masad 解释 Replit Design 的生成质量来自模型组合：有的模型擅长 CSS，有的擅长 SVG，有的擅长动画，因此产品会混合开放和闭源模型来生成更好的审美结果。这个判断把“单一最佳模型”的叙事拉回到具体任务能力拆分。",
+        "keyPoints": [
+          "视觉生成不是单一能力，CSS、SVG、动画等子任务需要不同模型优势",
+          "开放模型与闭源模型可以在同一产品链路中按任务路由",
+          "AI 设计产品的护城河会来自编排、审美评估和交互体验，而不只是底层模型"
+        ],
+        "whyItMatters": "多模型路由正在从后端工程扩展到创意工具。builders 可以把模型差异转化为产品体验，而不是等待一个模型解决所有问题。",
+        "tags": [
+          "Model Routing",
+          "Design Tools",
+          "AI Product"
+        ],
+        "qualityScore": 83,
+        "url": "https://x.com/amasad/status/2082508826767679668"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Google Labs",
+        "meta": "Google DeepMind · Flow Music",
+        "title": "Lyria 3.5 接入 Flow Music：音乐生成开始强调可控性",
+        "summary": "Google Labs 宣布 Google DeepMind 发布 Lyria 3.5，并直接接入 Google Flow Music。信息点不只是模型升级，而是强调更好的 prompt adherence、能理解创作方向，并支持设置精确 BPM 等控制参数。多模态生成正在从“能生成”走向“可导演”。",
+        "keyPoints": [
+          "音乐生成的关键指标正在从惊艳样例转向 prompt adherence",
+          "精确 BPM 等参数控制让 AI 音乐更接近专业创作流程",
+          "模型能力通过 Flow Music 这类产品入口变成可用工作流"
+        ],
+        "whyItMatters": "对创意工具 builders 来说，可控性和工作流集成比单次生成质量更能决定留存。AI 生成内容要进入生产场景，必须能被用户反复调度和精确修改。",
+        "tags": [
+          "Multimodal",
+          "Music AI",
+          "Creative Tools"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/GoogleLabs/status/2082501360466174163"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "6月8日 · 周一",
+        "actor": "Claude Blog",
+        "meta": "Claude · Apple Foundation Models framework",
+        "title": "Claude 进入 Apple 原生 AI 开发链路",
+        "summary": "Claude Blog 发布面向 Apple Foundation Models framework 的 Swift package，让 Apple 开发者可以在原生框架内调用 Claude 处理更复杂的工作流。它的意义不只是 SDK，而是把第三方强模型接入 Apple 平台的原生开发体验。端侧、云端模型和平台框架之间的边界会变得更产品化。",
+        "keyPoints": [
+          "Swift package 降低 Apple 开发者在原生应用中调用 Claude 的集成成本",
+          "Foundation Models framework 成为模型能力进入 Apple 生态的重要入口",
+          "复杂工作流可能采用本地能力与云端 Claude 协作的混合架构"
+        ],
+        "whyItMatters": "开发者入口决定模型生态分发。对面向 iOS/macOS 的 AI Builders 来说，原生框架支持会显著影响产品架构、隐私设计和用户体验。",
+        "tags": [
+          "Apple",
+          "Claude",
+          "Developer Tools"
+        ],
+        "qualityScore": 86,
+        "url": "https://claude.com/blog/claude-for-foundation-models"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月29日 · 周三",
+        "actor": "Kevin Kelly",
+        "meta": "AI & I by Every · 长周期判断",
+        "title": "AI 是“50 年一夜成功”：预测容易，命中时间很难",
+        "summary": "这期 AI & I 精选访谈围绕 Kevin Kelly 对 AI 长周期的判断展开：AI 看起来像突然爆发，但其实是数十年技术、数据、硬件和文化预期累积后的结果。核心 thesis 是，未来并非线性抵达，builders 应该少押单点预测，多构建能随着技术曲线调整的长期能力。它把短期 hype 放回更长的创新周期中理解。",
+        "keyPoints": [
+          "AI 的突然爆发建立在长期基础设施积累之上，而不是凭空出现",
+          "预测未来的难点不在方向，而在时间、路径和社会吸收速度",
+          "builders 应该投资适应性、学习速度和长期分发，而不是追逐每周热点"
+        ],
+        "whyItMatters": "当行业每天被新模型和新 demo 驱动时，长周期视角能帮助团队避免过度反应。它适合用来校准战略节奏，而不是寻找当天的工具技巧。",
+        "tags": [
+          "AI Strategy",
+          "Long-term",
+          "Podcast"
+        ],
+        "qualityScore": 82,
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "displayDate": "7月30日 · 周四",
     "generatedAt": "2026-07-29T23:30:39.521619+00:00",
