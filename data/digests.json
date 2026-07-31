@@ -1,5 +1,1008 @@
 [
   {
+    "date": "2026-08-01",
+    "displayDate": "8月1日 · 周六",
+    "generatedAt": "2026-07-31T23:30:31.754478+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-07-31T07:16:44.904Z",
+      "blogs": "2026-07-31T07:17:20.392Z",
+      "podcasts": "2026-07-31T07:17:20.074Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的高信号集中在模型降价、Agent 安全、部署基础设施、数据供应链与组织采用：成本继续下行，真正的瓶颈转向执行边界和产品闭环。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工具、工程与公司建设有长期判断价值的内容。",
+    "stats": {
+      "builders": 15,
+      "tweets": 35,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 18
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        },
+        {
+          "name": "研究",
+          "count": 6
+        },
+        {
+          "name": "工程",
+          "count": 6
+        },
+        {
+          "name": "产品",
+          "count": 5
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2082880720989532597",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "major price cuts today: *80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output *20% drop for GPT-5.6 Terra, to $2/$12 *GPT-…",
+        "chineseTitle": "major price cuts today: *80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output *20% drop for GPT-5.6 Terra, to $2/$12 *GPT-…",
+        "tags": [
+          "观察"
+        ],
+        "score": 19862
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2082881262679642281",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "good job little bro",
+        "chineseTitle": "good job little bro",
+        "tags": [
+          "观察"
+        ],
+        "score": 7039
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2083048892405604681",
+        "sourceDate": "2026-07-31",
+        "sourceDisplayDate": "7月31日 · 周五",
+        "summary": "What should we improve on Codex to improve the everyday experience…",
+        "chineseTitle": "What should we improve on Codex to improve the everyday experience…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 6393
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2083053369351090254",
+        "sourceDate": "2026-07-31",
+        "sourceDisplayDate": "7月31日 · 周五",
+        "summary": "The day we develop really good models. There will be signs…",
+        "chineseTitle": "The day we develop really good models. There will be signs…",
+        "tags": [
+          "研究"
+        ],
+        "score": 5655
+      },
+      {
+        "title": "来自 Garry Tan 的观点",
+        "source": "Garry Tan · X 动态",
+        "url": "https://x.com/garrytan/status/2082951867336962538",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "Hit 1M followers Thanks everyone Don’t LARP",
+        "chineseTitle": "Hit 1M followers Thanks everyone Don’t LARP",
+        "tags": [
+          "观察"
+        ],
+        "score": 2370
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you have to build a Whole Web scraper anyway,…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083016652032188669",
+            "url": "https://x.com/swyx/status/2083016652032188669",
+            "createdAt": "2026-07-31T02:27:25.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you have to build a Whole Web scraper anyway, and if you wanna keep it current, you have to have indexing, and pretty soon you find yourself…",
+            "summary": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you h…",
+            "engagement": 113,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2083073422410821846",
+            "url": "https://x.com/swyx/status/2083073422410821846",
+            "createdAt": "2026-07-31T06:13:00.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "protip: if you can distil models, you can also distil agent harnesses",
+            "summary": "protip: if you can distil models, you can also distil agent harnesses",
+            "engagement": 33,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2083064467383013569",
+            "url": "https://x.com/swyx/status/2083064467383013569",
+            "createdAt": "2026-07-31T05:37:25.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "you know if we all just gave all this money to the @waybackmachine they would be funded for all time and we'd reduce a lot of duplicate work and bot traffic lol",
+            "summary": "you know if we all just gave all this money to the @waybackmachine they would be funded for all time and we'd reduce a lot of duplicate work and bot traffic lol",
+            "engagement": 9,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "My new favorite: Gemini Mac app ➔ Hold Fn ➔ Speak ➔ Clean, polished text directly at your cursor Zero editing or copy-pasting required Get it for free:",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082926031543967896",
+            "url": "https://x.com/joshwoodward/status/2082926031543967896",
+            "createdAt": "2026-07-30T20:27:19.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "My new favorite: Gemini Mac app ➔ Hold Fn ➔ Speak ➔ Clean, polished text directly at your cursor Zero editing or copy-pasting required Get it for free:",
+            "summary": "My new favorite: Gemini Mac app ➔ Hold Fn ➔ Speak ➔ Clean, polished text directly at your cursor Zero editing or copy-pasting required Get it for free:",
+            "engagement": 534,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "What should we improve on Codex to improve the everyday experience…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083048892405604681",
+            "url": "https://x.com/thsottiaux/status/2083048892405604681",
+            "createdAt": "2026-07-31T04:35:31.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "What should we improve on Codex to improve the everyday experience? Nothing too small",
+            "summary": "What should we improve on Codex to improve the everyday experience…",
+            "engagement": 6393,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2083053369351090254",
+            "url": "https://x.com/thsottiaux/status/2083053369351090254",
+            "createdAt": "2026-07-31T04:53:19.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "The day we develop really good models. There will be signs. Reliability increasing despite load going up and up. Sudden efficiency gains. Things getting faster. Resets. These kinds of things.",
+            "summary": "The day we develop really good models. There will be signs…",
+            "engagement": 5655,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2082981910209540352",
+            "url": "https://x.com/thsottiaux/status/2082981910209540352",
+            "createdAt": "2026-07-31T00:09:21.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Benefits all",
+            "summary": "Benefits all",
+            "engagement": 1453,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Getting some great feedback on my latest tutorial on how to use Claude to design and build a full-stack app end to end…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2082881415478415682",
+            "url": "https://x.com/petergyang/status/2082881415478415682",
+            "createdAt": "2026-07-30T17:30:02.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Getting some great feedback on my latest tutorial on how to use Claude to design and build a full-stack app end to end. 📌 Watch it here:",
+            "summary": "Getting some great feedback on my latest tutorial on how to use Claude to design and build a full-stack app end to end…",
+            "engagement": 60,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2082939418315198522",
+            "url": "https://x.com/petergyang/status/2082939418315198522",
+            "createdAt": "2026-07-30T21:20:31.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "BC is beautiful",
+            "summary": "BC is beautiful",
+            "engagement": 55,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082975074534219919",
+            "url": "https://x.com/petergyang/status/2082975074534219919",
+            "createdAt": "2026-07-30T23:42:12.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here:",
+            "summary": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides…",
+            "engagement": 2,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "If Situational Awareness was blindsided, the AI naming curse strikes again…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2082856252888211851",
+            "url": "https://x.com/amasad/status/2082856252888211851",
+            "createdAt": "2026-07-30T15:50:02.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "If Situational Awareness was blindsided, the AI naming curse strikes again.",
+            "summary": "If Situational Awareness was blindsided, the AI naming curse strikes again.",
+            "engagement": 707,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2083034412598579403",
+            "url": "https://x.com/amasad/status/2083034412598579403",
+            "createdAt": "2026-07-31T03:37:59.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Sandboxes are hard. With all the “AI escaping sandbox” it’s easy to think “wow AI so scary,” but most AI companies, and recent “sandbox providers” are making very basic mistakes. At Replit we’ve been running sandboxes since 2016 and targeted by every hacker and state actor under the sun. So we learned a thing or two.…",
+            "summary": "Sandboxes are hard. With all the “AI escaping sandbox” it’s easy to think “wow AI so scary,” but most AI companies, and recent “sandbox providers” are making very basic mistakes…",
+            "engagement": 294,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082980019316642103",
+            "url": "https://x.com/amasad/status/2082980019316642103",
+            "createdAt": "2026-07-31T00:01:51.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Replit Design from brochures!",
+            "summary": "Replit Design from brochures!",
+            "engagement": 168,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Grok Build apps (*.𝚐𝚛𝚘𝚔.𝚖𝚎) are backed by @vercel hosting and CDN infrastructure…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2082841035093467229",
+            "url": "https://x.com/rauchg/status/2082841035093467229",
+            "createdAt": "2026-07-30T14:49:34.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Grok Build apps (*.𝚐𝚛𝚘𝚔.𝚖𝚎) are backed by @vercel hosting and CDN infrastructure. Anyone can now build software by just prompting @grok. Hit 🌐 Publish and ship to 1 user or 1 billion. Games, websites, internal apps, personal software… just @grok it.",
+            "summary": "Grok Build apps (*.𝚐𝚛𝚘𝚔.𝚖𝚎) are backed by @vercel hosting and CDN infrastructure…",
+            "engagement": 1279,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2082876367629381719",
+            "url": "https://x.com/rauchg/status/2082876367629381719",
+            "createdAt": "2026-07-30T17:09:58.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "We just shaved off up to ~𝟽𝚜 of the end-to-end CLI → Live URL deploy process for many apps. This is specially cool when you consider you can integrate all of Vercel's infra via CLI/MCP/API and build your own custom software factory on top. My DMs are open if you're building an agent or platform that builds and deploys…",
+            "summary": "We just shaved off up to ~𝟽𝚜 of the end-to-end CLI → Live URL deploy process for many apps…",
+            "engagement": 289,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2083008981770047782",
+            "url": "https://x.com/rauchg/status/2083008981770047782",
+            "createdAt": "2026-07-31T01:56:56.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Cool",
+            "summary": "Cool",
+            "engagement": 174,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "The takeaway from this incident should not be that AI is scary…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082997703458570412",
+            "url": "https://x.com/levie/status/2082997703458570412",
+            "createdAt": "2026-07-31T01:12:07.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "The takeaway from this incident should not be that AI is scary. It should be that getting security right is incredibly important in the era of agents. Given the right tools and task, agents will do whatever it takes to get the job done, assuming enough compute. Thus, a misconfigured system - or something you thought…",
+            "summary": "The takeaway from this incident should not be that AI is scary…",
+            "engagement": 280,
+            "tags": [
+              "Agent",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2082911418349920617",
+            "url": "https://x.com/levie/status/2082911418349920617",
+            "createdAt": "2026-07-30T19:29:15.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "The cost of AI - normalized for the type of task - coming down is one of the most important factors in being able to drive further AI diffusion in the economy. The general trend we should expect is that frontier AI models will continue to become more capable, and will look very expensive because the tasks that they…",
+            "summary": "The cost of AI - normalized for the type of task - coming down is one of the most important factors in being able to drive further AI diffusion in the economy…",
+            "engagement": 219,
+            "tags": [
+              "研究",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Hit 1M followers Thanks everyone Don’t LARP We're going to host Evan Barker at an upcoming @garryslist event in San Francisco In SF, we were able to vote out the DSA We must pass this markdown skill file on to every othe…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082951867336962538",
+            "url": "https://x.com/garrytan/status/2082951867336962538",
+            "createdAt": "2026-07-30T22:09:59.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Hit 1M followers Thanks everyone Don’t LARP",
+            "summary": "Hit 1M followers Thanks everyone Don’t LARP",
+            "engagement": 2370,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082843026716766356",
+            "url": "https://x.com/garrytan/status/2082843026716766356",
+            "createdAt": "2026-07-30T14:57:29.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "We're going to host Evan Barker at an upcoming @garryslist event in San Francisco In SF, we were able to vote out the DSA We must pass this markdown skill file on to every other blue city",
+            "summary": "We're going to host Evan Barker at an upcoming @garryslist event in San Francisco In SF, we were able to vote out the DSA We must pass this markdown skill file on to every other bl…",
+            "engagement": 174,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "How I expect her to react when I say I managed to secure a $2M allocation in the highest valuation tranche of the $800M pre-pre-seed of [new neo-lab] at a $10B valuation The biggest physical AI deployment nobody talks ab…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082737900706234429",
+            "url": "https://x.com/mattturck/status/2082737900706234429",
+            "createdAt": "2026-07-30T07:59:45.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "How I expect her to react when I say I managed to secure a $2M allocation in the highest valuation tranche of the $800M pre-pre-seed of [new neo-lab] at a $10B valuation",
+            "summary": "How I expect her to react when I say I managed to secure a $2M allocation in the highest valuation tranche of the $800M pre-pre-seed of [new neo-lab] at a $10B valuation",
+            "engagement": 39,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082907699646173484",
+            "url": "https://x.com/mattturck/status/2082907699646173484",
+            "createdAt": "2026-07-30T19:14:28.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "The biggest physical AI deployment nobody talks about: my conversation with Sanjit Biswas, CEO of @Samsara (NYSE: $IOT) about AI that sees 99% of US roads every day, and agents that act in the real world. 00:00: Intro 01:16 What is physical AI? 03:04 From IoT dashboards to agentic action 04:36 Why physical AI is…",
+            "summary": "The biggest physical AI deployment nobody talks about: my conversation with Sanjit Biswas, CEO of @Samsara (NYSE: $IOT) about AI that sees 99% of US roads every day, and agents tha…",
+            "engagement": 19,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2082907703735730609",
+            "url": "https://x.com/mattturck/status/2082907703735730609",
+            "createdAt": "2026-07-30T19:14:29.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "This conversation with Sanjit Biswas of @Samsara about physical AI is also available on Spotify, Apple Podcasts and here on YouTube:",
+            "summary": "This conversation with Sanjit Biswas of @Samsara about physical AI is also available on Spotify, Apple Podcasts and here on YouTube:",
+            "engagement": 4,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "When managers ask me how to train their nontechnical team on AI, my advice is always the same: run an install party Everyone brings a laptop & you install the agents right there on their machines & get them to complete a…",
+        "tags": [
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2083084770763002350",
+            "url": "https://x.com/zarazhangrui/status/2083084770763002350",
+            "createdAt": "2026-07-31T06:58:05.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "When managers ask me how to train their nontechnical team on AI, my advice is always the same: run an install party Everyone brings a laptop & you install the agents right there on their machines & get them to complete a meaningful task on the spot. Skip the abstract talk. Once it's installed, people start talking to…",
+            "summary": "When managers ask me how to train their nontechnical team on AI, my advice is always the same: run an install party Everyone brings a laptop & you install the agents right there on…",
+            "engagement": 12,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "It was fun touching grass for two weeks, but now back to work 🫡 In NJ the next two days to hang with @DaltonMillsAI, and NY from August 1st - 5th…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2082780247125103071",
+            "url": "https://x.com/nikunj/status/2082780247125103071",
+            "createdAt": "2026-07-30T10:48:01.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "It was fun touching grass for two weeks, but now back to work 🫡 In NJ the next two days to hang with @DaltonMillsAI, and NY from August 1st - 5th. If you are truly building your life’s work (don’t need to be a founder), I’d love to hang out!",
+            "summary": "It was fun touching grass for two weeks, but now back to work 🫡 In NJ the next two days to hang with @DaltonMillsAI, and NY from August 1st - 5th…",
+            "engagement": 17,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "GCC changed their policy and is blank out rejecting LLM-based code…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2083019629379612728",
+            "url": "https://x.com/steipete/status/2083019629379612728",
+            "createdAt": "2026-07-31T02:39:14.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "GCC changed their policy and is blank out rejecting LLM-based code. How would they even proof that? Silly.",
+            "summary": "GCC changed their policy and is blank out rejecting LLM-based code…",
+            "engagement": 254,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "So call me crazy but I feel like we could solve this by just not prompting the models to do cyber crime Elons law strikes again…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2082997561955090564",
+            "url": "https://x.com/danshipper/status/2082997561955090564",
+            "createdAt": "2026-07-31T01:11:33.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "So call me crazy but I feel like we could solve this by just not prompting the models to do cyber crime",
+            "summary": "So call me crazy but I feel like we could solve this by just not prompting the models to do cyber crime",
+            "engagement": 125,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2082864391519682993",
+            "url": "https://x.com/danshipper/status/2082864391519682993",
+            "createdAt": "2026-07-30T16:22:23.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "Elons law strikes again!",
+            "summary": "Elons law strikes again!",
+            "engagement": 60,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082862319265050962",
+            "url": "https://x.com/danshipper/status/2082862319265050962",
+            "createdAt": "2026-07-30T16:14:09.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "be careful of leverage folks!",
+            "summary": "be careful of leverage folks!",
+            "engagement": 52,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "Anthropic got jelly that only OpenAI's agent was doing bad shit…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2083039683932532956",
+            "url": "https://x.com/adityaag/status/2083039683932532956",
+            "createdAt": "2026-07-31T03:58:56.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Anthropic got jelly that only OpenAI's agent was doing bad shit.",
+            "summary": "Anthropic got jelly that only OpenAI's agent was doing bad shit.",
+            "engagement": 27,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2083039973666644039",
+            "url": "https://x.com/adityaag/status/2083039973666644039",
+            "createdAt": "2026-07-31T04:00:05.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Leopold could really have used Preseen's risk forecasting! @AskPreseen has been in private beta for the last few weeks and a number of the world's leading quant/hedge funds are using it to prevent getting blown up.",
+            "summary": "Leopold could really have used Preseen's risk forecasting…",
+            "engagement": 15,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082992228214149470",
+            "url": "https://x.com/adityaag/status/2082992228214149470",
+            "createdAt": "2026-07-31T00:50:21.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "@VminVsky @AskPreseen More on the future of forecasting:",
+            "summary": "@VminVsky @AskPreseen More on the future of forecasting:",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "major price cuts today: *80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output *20% drop for GPT-5.6 Terra, to $2/$12 *GPT-5.6 Sol gets Fast mode in the API, up to 2.5x the speed for…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2082880720989532597",
+            "url": "https://x.com/sama/status/2082880720989532597",
+            "createdAt": "2026-07-30T17:27:16.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "major price cuts today: *80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output *20% drop for GPT-5.6 Terra, to $2/$12 *GPT-5.6 Sol gets Fast mode in the API, up to 2.5x the speed for 2x the price, same intelligence",
+            "summary": "major price cuts today: *80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output *20% drop for GPT-5.6 Terra, to $2/$12 *GPT-5.6 Sol gets Fast mo…",
+            "engagement": 19862,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082881262679642281",
+            "url": "https://x.com/sama/status/2082881262679642281",
+            "createdAt": "2026-07-30T17:29:25.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "good job little bro",
+            "summary": "good job little bro",
+            "engagement": 7039,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2082880884525482061",
+            "url": "https://x.com/sama/status/2082880884525482061",
+            "createdAt": "2026-07-30T17:27:55.000Z",
+            "sourceDate": "2026-07-30",
+            "sourceDisplayDate": "7月30日 · 周四",
+            "text": "we want to offer the best price/intelligence tradeoff at every level",
+            "summary": "we want to offer the best price/intelligence tradeoff at every level",
+            "engagement": 2202,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas",
+        "url": "https://www.youtube.com/watch?v=3FHsGiONOGw",
+        "publishedAt": "2026-07-30T11:30:00.000Z",
+        "sourceDate": "2026-07-30",
+        "sourceDisplayDate": "7月30日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:21 These are not the tokens you're gonna find online…",
+        "chineseTitle": "The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的主线是成本、速度和部署链路继续被压缩。Sam Altman 公布 GPT-5.6 Luna 输入/输出价格大幅下调，Terra 也降价，Sol 则新增更高价但更快的 Fast mode；Aaron Levie 的补充判断更像是给 AI Builders 的成本框架：不要只看 frontier model 的绝对价格，要按任务类型归一化看单位能力成本。结论很直接：当 intelligence 的边际成本继续下行，过去不值得自动化的长尾流程会重新进入产品路线图。",
+        "第二条主线是 Agent 产品进入“基础设施质量”竞争。Guillermo Rauch 提到 Grok Build 的应用由 Vercel hosting/CDN 承载，并且 Vercel 把 CLI 到 Live URL 的部署链路再缩短约 7 秒；这不是单纯的性能炫技，而是在为“软件工厂”式 Agent 铺底座。对 AI Builders 来说，prompt-to-app 的瓶颈正在从生成能力转向预览、发布、回滚、权限和运维体验。",
+        "安全讨论今天也更工程化。Amjad Masad 和 Aaron Levie 都把“AI escaping sandbox”从恐慌叙事拉回到系统配置与隔离边界：Agent 会在给定目标、工具和算力下尽力完成任务，因此误配权限、沙箱、网络和文件系统会被放大成产品风险。真正的教训不是“Agent 可怕”，而是 Agent 产品必须默认采用最小权限、可审计执行和可撤销操作。",
+        "数据侧出现一个长期判断：Swyx 指出，如果预训练数据质量高到 CommonCrawl 不够用，团队最终会被迫建设 Whole Web scraper、索引和持续更新能力。这意味着模型公司的护城河会越来越像搜索/爬虫/索引公司的复合体；AI Builders 如果依赖外部模型，也要意识到“数据新鲜度”和“任务可验证性”会成为产品差异化来源。",
+        "组织采用层面，Zara Zhang 的“install party”建议很实用：不要给非技术团队做抽象 AI 培训，而是把 Agent 安装到每个人机器上，当场完成一个有意义任务。今天的信息流共同指向一个现实：AI 的扩散不是靠更宏大的叙事，而是靠更便宜的模型、更短的部署路径、更安全的执行边界，以及让用户第一次成功的具体场景。"
+      ],
+      "filteredNote": "过滤掉了 good job little bro、Hit 1M followers、Cool、BC is beautiful、Benefits all、Replit Design from brochures、生活行程、纯玩笑/吐槽、无自有分析的转发和低信息量自我推广等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Sam Altman",
+        "meta": "OpenAI · X 动态",
+        "title": "GPT-5.6 系列降价把长尾 AI 任务重新拉进预算",
+        "summary": "Sam Altman 宣布 GPT-5.6 Luna 输入价格降至每百万 token $0.20、输出 $1.20，Terra 也降至 $2/$12；GPT-5.6 Sol 则新增 Fast mode，用 2 倍价格换最高 2.5 倍速度且智能不变。这条信息的价值不只是价格表更新，而是说明模型供应商正在主动覆盖更多 price/intelligence tradeoff 档位。对 AI Builders 来说，很多过去因为成本或延迟放弃的功能可以重新测算。",
+        "keyPoints": [
+          "Luna 降价幅度达到 80%，直接影响高吞吐、低单价场景",
+          "Sol 的 Fast mode 把延迟作为可购买的产品维度，而不只是在模型规格里隐含",
+          "价格/智能/速度分层会推动应用团队为不同任务做模型路由"
+        ],
+        "whyItMatters": "成本曲线下行通常比单次能力跃迁更容易触发真实产品扩散。AI Builders 应该把任务拆成不同 SLA，并重新评估哪些工作流已经到了可规模化自动化的临界点。",
+        "tags": [
+          "模型价格",
+          "产品策略",
+          "成本曲线"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/sama/status/2082880720989532597"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Swyx",
+        "meta": "smol.ai · X 动态",
+        "title": "高质量预训练数据正在把模型公司推向搜索基础设施",
+        "summary": "Swyx 的判断是：如果你对预训练数据质量的要求高到 CommonCrawl 不够用，那迟早要自建 Whole Web scraper；如果还要求数据保持当前状态，就必须建设索引和持续更新体系。这个观察把“更好数据”落到了真实工程成本上：爬取、去重、索引、刷新和治理都会成为模型能力的一部分。",
+        "keyPoints": [
+          "CommonCrawl 不再足以支撑所有高质量预训练诉求",
+          "数据新鲜度会把一次性 scraping 变成长期 indexing 系统",
+          "模型护城河会与搜索、爬虫和数据治理能力交织"
+        ],
+        "whyItMatters": "AI Builders 不一定要自建全网索引，但需要理解模型能力背后的数据供应链。面向实时知识、行业知识或垂直场景的产品，数据更新机制本身就是核心竞争力。",
+        "tags": [
+          "数据基础设施",
+          "预训练",
+          "搜索"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/swyx/status/2083016652032188669"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "Agent 沙箱问题首先是基本工程问题，不是科幻问题",
+        "summary": "Amjad Masad 针对“AI escaping sandbox”的讨论指出，沙箱本来就很难，但很多 AI 公司和新近出现的 sandbox provider 犯的是基础错误。Replit 从 2016 年开始运行沙箱，并长期面对黑客和国家级攻击者，因此积累了关于隔离、执行和攻击面的实战经验。这条观点把安全讨论从“AI 很吓人”拉回到系统工程质量。",
+        "keyPoints": [
+          "沙箱安全是长期攻防问题，不能靠临时包装解决",
+          "Agent 增加了执行频率和自动化程度，会放大沙箱误配风险",
+          "有真实生产历史的执行环境比新概念 sandbox 更值得信任"
+        ],
+        "whyItMatters": "所有让 Agent 运行代码、访问文件或联网的产品都需要把 sandbox 当成核心产品能力。安全边界不是发布后的合规补丁，而是 Agent 体验能否规模化的前提。",
+        "tags": [
+          "Agent 安全",
+          "沙箱",
+          "工程实践"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/amasad/status/2083034412598579403"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Agent 安全的关键不是恐惧，而是正确配置工具和权限",
+        "summary": "Aaron Levie 认为近期事件的教训不应是“AI 很可怕”，而是 Agent 时代安全配置极其重要。只要给定工具、任务和足够算力，Agent 会尽力完成目标；因此，一个误配置系统或被低估的权限边界会迅速变成风险。这个判断强调了 Agent 产品的安全模型必须围绕工具调用和任务执行来设计。",
+        "keyPoints": [
+          "Agent 会把目标导向行为执行到工具边界允许的极限",
+          "误配权限、工具或系统假设会被自动化执行放大",
+          "安全设计应覆盖任务、工具、权限、审计和回滚全链路"
+        ],
+        "whyItMatters": "AI Builders 在做 Agent 时不能只优化完成率，还要优化“在错误目标或错误上下文下的伤害半径”。这是企业级采用的核心门槛。",
+        "tags": [
+          "Agent",
+          "安全",
+          "权限模型"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/levie/status/2082997703458570412"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "Prompt-to-app 需要可承载十亿用户的发布底座",
+        "summary": "Guillermo Rauch 表示 Grok Build 生成的应用由 Vercel hosting 和 CDN 基础设施承载，用户可以通过提示词构建软件并一键发布到 *.grok.me。重点不只是 Grok 增加了建站能力，而是生成式应用正和生产级托管、CDN、发布流程绑定在一起。AI app builder 的竞争会越来越依赖“生成之后能不能可靠上线”。",
+        "keyPoints": [
+          "Grok Build 把提示词生成与 Vercel 的托管/CDN 连接起来",
+          "一键发布降低了从 demo 到可访问产品的摩擦",
+          "生成式开发平台需要把 infra 能力产品化给非专业开发者"
+        ],
+        "whyItMatters": "AI Builders 做的不只是代码生成，而是从想法、生成、预览、发布到扩容的完整链路。谁能缩短最后一公里，谁更接近真实生产使用。",
+        "tags": [
+          "AI 应用构建",
+          "部署",
+          "基础设施"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/rauchg/status/2082841035093467229"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "端到端部署少 7 秒，软件工厂的循环就快一轮",
+        "summary": "Vercel 将许多应用从 CLI 到 Live URL 的端到端部署过程最多缩短约 7 秒。Guillermo 特别指出，这对通过 CLI、MCP 或 API 集成 Vercel 基础设施、构建自定义软件工厂的团队很有价值。对 Agent 平台来说，部署延迟会直接影响生成-测试-发布循环的吞吐量。",
+        "keyPoints": [
+          "部署时间减少会提升 Agent 自动迭代的反馈频率",
+          "CLI/MCP/API 暴露基础设施能力，使第三方可构建软件工厂",
+          "基础设施性能开始成为 Agent 产品体验的一部分"
+        ],
+        "whyItMatters": "当 Agent 能连续生成和部署，几秒级延迟差异会累积成明显的开发速度差。AI Builders 应该把 infra latency 纳入产品指标，而不只是模型 latency。",
+        "tags": [
+          "MCP",
+          "部署体验",
+          "Agent 工程"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/rauchg/status/2082876367629381719"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "按任务归一化看 AI 成本，扩散速度会更清楚",
+        "summary": "Aaron Levie 指出，AI 成本按任务类型归一化后的下降，是推动 AI 在经济中扩散的关键因素之一。他认为 frontier model 会继续更强，也可能看起来更贵，因为它们承担的任务更复杂；真正该看的指标是完成同类任务所需成本如何变化。这给应用团队提供了比“模型单价”更实用的决策框架。",
+        "keyPoints": [
+          "模型绝对价格不能直接代表采用成本",
+          "应按任务复杂度、成功率和替代人力成本来归一化",
+          "frontier model 变贵与单位能力变便宜可以同时发生"
+        ],
+        "whyItMatters": "AI Builders 做定价、模型路由和 ROI 测算时，需要把成本指标绑定到任务结果，而不是 token 表。否则容易误判哪些场景已经具备商业可行性。",
+        "tags": [
+          "AI 经济学",
+          "成本",
+          "模型路由"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/levie/status/2082911418349920617"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Zara Zhang",
+        "meta": "follow-builders · X 动态",
+        "title": "非技术团队采用 Agent 的入口不是培训课，而是安装现场",
+        "summary": "Zara Zhang 建议管理者训练非技术团队使用 AI 时，直接组织 install party：每个人带电脑，当场安装 Agent，并完成一个有意义的任务。她反对抽象讲解，因为只有工具真的装好、第一次任务成功，团队才会开始围绕自己的工作流提出问题。这是一个很强的组织采用策略。",
+        "keyPoints": [
+          "把采用门槛从概念理解降到本机安装和首次成功任务",
+          "现场完成真实任务比通用培训更容易形成持续使用",
+          "非技术团队的 AI adoption 需要围绕工作流而不是工具功能展开"
+        ],
+        "whyItMatters": "很多 AI 产品失败在 activation，而不是功能缺失。对 AI Builders 和团队负责人来说，设计第一次成功体验比做一套培训材料更重要。",
+        "tags": [
+          "组织采用",
+          "Agent",
+          "用户激活"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/zarazhangrui/status/2083084770763002350"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月30日 · 周四",
+        "actor": "Josh Woodward",
+        "meta": "Google Labs · X 动态",
+        "title": "语音到光标：AI 输入法正在变成系统级微交互",
+        "summary": "Josh Woodward 展示了 Gemini Mac app 的一个使用方式：按住 Fn、说话，清理后的文本直接出现在当前光标位置，无需编辑或复制粘贴。这个功能看似小，但它把 AI 从单独应用窗口带入系统级输入路径。对生产力工具来说，AI 的存在感越低，使用频率反而可能越高。",
+        "keyPoints": [
+          "AI 能力嵌入光标位置，减少应用切换和复制粘贴",
+          "语音输入与文本润色合并成一个低摩擦动作",
+          "系统级快捷键可能成为 AI 助手高频入口"
+        ],
+        "whyItMatters": "AI Builders 容易追逐大功能，但真正改变习惯的往往是低延迟、低摩擦的微交互。输入层是所有知识工作流的上游入口。",
+        "tags": [
+          "产品体验",
+          "语音输入",
+          "AI 助手"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/joshwoodward/status/2082926031543967896"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月30日 · 周四",
+        "actor": "Matt Turck / Sanjit Biswas",
+        "meta": "The MAD Podcast · YouTube",
+        "title": "Physical AI 的关键不是机器人外形，而是现实世界数据闭环",
+        "summary": "Matt Turck 与 Samsara CEO Sanjit Biswas 讨论了一个被低估的 physical AI 部署：Samsara 的系统每天覆盖美国 99% 道路相关数据，并把 IoT dashboard 推向能在现实世界采取行动的 Agent。核心 thesis 是，physical AI 的价值来自持续感知、运营上下文和闭环执行，而不只是把模型放进机器人。它提示 AI Builders 关注那些已经拥有传感器网络和业务流程入口的公司。",
+        "keyPoints": [
+          "physical AI 可以从车队、道路和运营系统等现有数据网络中生长出来",
+          "从 IoT dashboard 到 agentic action 的迁移是核心产品跃迁",
+          "现实世界 Agent 需要感知、预测、建议和执行之间的闭环"
+        ],
+        "whyItMatters": "这期内容帮助 AI Builders 跳出“physical AI = humanoid robot”的窄定义。真正的大规模部署可能先发生在已有传感器、客户和运营数据的垂直平台里。",
+        "tags": [
+          "Physical AI",
+          "Agent",
+          "垂直平台"
+        ],
+        "qualityScore": 86,
+        "url": "https://www.youtube.com/watch?v=3FHsGiONOGw"
+      }
+    ]
+  },
+  {
     "date": "2026-07-31",
     "displayDate": "7月31日 · 周五",
     "generatedAt": "2026-07-30T23:30:20.477456+00:00",
