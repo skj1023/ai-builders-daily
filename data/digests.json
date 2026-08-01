@@ -1,5 +1,944 @@
 [
   {
+    "date": "2026-08-02",
+    "displayDate": "8月2日 · 周日",
+    "generatedAt": "2026-08-01T23:30:50.904177+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-01T07:07:44.614Z",
+      "blogs": "2026-08-01T07:08:20.844Z",
+      "podcasts": "2026-08-01T07:08:19.954Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的高信号集中在 Agent 软件工厂、harness/路由基础设施与 AI 工作流产品化：模型能力继续上行，但 Builder 的真实杠杆正在转向闭环设计、执行边界和组织落地。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工具、工程与公司建设有长期判断价值的内容。",
+    "stats": {
+      "builders": 13,
+      "tweets": 31,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 16
+        },
+        {
+          "name": "产品",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 5
+        },
+        {
+          "name": "工程",
+          "count": 4
+        },
+        {
+          "name": "研究",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2083395449814229287",
+        "sourceDate": "2026-08-01",
+        "sourceDisplayDate": "8月1日 · 周六",
+        "summary": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend..…",
+        "chineseTitle": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend..…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 19887
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2083221585792762171",
+        "sourceDate": "2026-07-31",
+        "sourceDisplayDate": "7月31日 · 周五",
+        "summary": "cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests…",
+        "chineseTitle": "cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests…",
+        "tags": [
+          "产品"
+        ],
+        "score": 10908
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2083203642975502640",
+        "sourceDate": "2026-07-31",
+        "sourceDisplayDate": "7月31日 · 周五",
+        "summary": "i see your moore's law and i raise you 20x",
+        "chineseTitle": "i see your moore's law and i raise you 20x",
+        "tags": [
+          "观察"
+        ],
+        "score": 7526
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2083198135812383197",
+        "sourceDate": "2026-07-31",
+        "sourceDisplayDate": "7月31日 · 周五",
+        "summary": "it could be faster",
+        "chineseTitle": "it could be faster",
+        "tags": [
+          "观察"
+        ],
+        "score": 5229
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2083427516996292992",
+        "sourceDate": "2026-08-01",
+        "sourceDisplayDate": "8月1日 · 周六",
+        "summary": "Optimize for curiosity",
+        "chineseTitle": "Optimize for curiosity",
+        "tags": [
+          "观察"
+        ],
+        "score": 1864
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "noticed that the perjorative connotation around \"vibe coding\" has completely disappeared since ~everyone, from nontechnical to supertechnical, is now doing it among ai leaders i seem to be in the minority in that i am ST…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2083294839186260385",
+            "url": "https://x.com/swyx/status/2083294839186260385",
+            "createdAt": "2026-07-31T20:52:50.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "noticed that the perjorative connotation around \"vibe coding\" has completely disappeared since ~everyone, from nontechnical to supertechnical, is now doing it",
+            "summary": "noticed that the perjorative connotation around \"vibe coding\" has completely disappeared since ~everyone, from nontechnical to supertechnical, is now doing it",
+            "engagement": 159,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2083439562437673053",
+            "url": "https://x.com/swyx/status/2083439562437673053",
+            "createdAt": "2026-08-01T06:27:54.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal.... ... and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on it too early in the g5.6/c5 era now you use it when: 1) you want the right mix of steerability and autonomy 2) you want…",
+            "summary": "among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal...…",
+            "engagement": 19,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083237045720465504",
+            "url": "https://x.com/swyx/status/2083237045720465504",
+            "createdAt": "2026-07-31T17:03:11.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "MITM agent distillation is graduate level but yeah ofc this works",
+            "summary": "MITM agent distillation is graduate level but yeah ofc this works",
+            "engagement": 8,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend..…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2083395449814229287",
+            "url": "https://x.com/thsottiaux/status/2083395449814229287",
+            "createdAt": "2026-08-01T03:32:37.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work. Enjoy.",
+            "summary": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend..…",
+            "engagement": 19887,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2083427516996292992",
+            "url": "https://x.com/thsottiaux/status/2083427516996292992",
+            "createdAt": "2026-08-01T05:40:02.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "Optimize for curiosity",
+            "summary": "Optimize for curiosity",
+            "engagement": 1864,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083387677945036995",
+            "url": "https://x.com/thsottiaux/status/2083387677945036995",
+            "createdAt": "2026-08-01T03:01:44.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "ChatGPT Work counted",
+            "summary": "ChatGPT Work counted",
+            "engagement": 398,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release) ~30% of our bugs make it all the way through this flow…",
+        "tags": [
+          "产品",
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2083230295206121807",
+            "url": "https://x.com/thenanyu/status/2083230295206121807",
+            "createdAt": "2026-07-31T16:36:21.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release) ~30% of our bugs make it all the way through this flow. But there are some nuances to doing it -- The instructions should ask the agent to extensively research the root cause of the issue and to use Datadog and Sentry MCPs…",
+            "summary": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release) ~30% of our bugs make it all the way through this flow…",
+            "engagement": 107,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          },
+          {
+            "id": "2083340761488126101",
+            "url": "https://x.com/thenanyu/status/2083340761488126101",
+            "createdAt": "2026-07-31T23:55:18.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "You have permission from Josh to Just Do Normal Things.",
+            "summary": "You have permission from Josh to Just Do Normal Things.",
+            "engagement": 22,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "~1500 Elo! Consistently beats frontier models and Stockfish level 0…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083424608993300824",
+            "url": "https://x.com/amasad/status/2083424608993300824",
+            "createdAt": "2026-08-01T05:28:29.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "~1500 Elo! Consistently beats frontier models and Stockfish level 0. Fun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining. Spends 1-2 seconds per move vs 30 seconds. Play it:",
+            "summary": "~1500 Elo! Consistently beats frontier models and Stockfish level 0…",
+            "engagement": 75,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "This will be the norm as software projects transition to agentic software factories…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2083208578526314513",
+            "url": "https://x.com/rauchg/status/2083208578526314513",
+            "createdAt": "2026-07-31T15:10:03.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "This will be the norm as software projects transition to agentic software factories. Issue → Agent → PR → Release 🔁 The job of the author / maintainer is to work on the loop that yields the highest quality product and sets the criteria for what should be worked on.",
+            "summary": "This will be the norm as software projects transition to agentic software factories…",
+            "engagement": 1323,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          },
+          {
+            "id": "2083319868766699699",
+            "url": "https://x.com/rauchg/status/2083319868766699699",
+            "createdAt": "2026-07-31T22:32:17.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "AI Gateway gives companies the critical infra to make AI a productive investment: 🆕 Budgets per key/team/project ◾ Failover for maximum uptime ◾ Model and provider choice ◾ Realtime observability If you're still in a 'token-maxing' fever dream, it's time to wake up 😁",
+            "summary": "AI Gateway gives companies the critical infra to make AI a productive investment: 🆕 Budgets per key/team/project ◾ Failover for maximum uptime ◾ Model and provider choice ◾ Realtim…",
+            "engagement": 156,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to become the most important variable -right next to model capability- in the AI stack…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083389460679373135",
+            "url": "https://x.com/levie/status/2083389460679373135",
+            "createdAt": "2026-08-01T03:08:49.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to become the most important variable -right next to model capability- in the AI stack. The ability for harnesses to break down work in the most efficient way and route to the right model at the right time…",
+            "summary": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to become the most important variable -right next to model capabil…",
+            "engagement": 132,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day Free and open source If Dems want to win elections that matter they need to study the San Francisco local…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2083353760701833546",
+            "url": "https://x.com/garrytan/status/2083353760701833546",
+            "createdAt": "2026-08-01T00:46:58.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day Free and open source",
+            "summary": "Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day Free and open source",
+            "engagement": 1107,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2083331028446523842",
+            "url": "https://x.com/garrytan/status/2083331028446523842",
+            "createdAt": "2026-07-31T23:16:38.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "If Dems want to win elections that matter they need to study the San Francisco local political story of the last 5 years: vote out your local Democratic Socialists early and often",
+            "summary": "If Dems want to win elections that matter they need to study the San Francisco local political story of the last 5 years: vote out your local Democratic Socialists early and often",
+            "engagement": 584,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "If you want to post here and don't know what to talk about: Remember that everything that feels totally native to you is brand new to someone outside your circle…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2083349919172313367",
+            "url": "https://x.com/zarazhangrui/status/2083349919172313367",
+            "createdAt": "2026-08-01T00:31:42.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "If you want to post here and don't know what to talk about: Remember that everything that feels totally native to you is brand new to someone outside your circle. Just do your normal work, then talk about it. Don’t try to be someone else, don’t overthink",
+            "summary": "If you want to post here and don't know what to talk about: Remember that everything that feels totally native to you is brand new to someone outside your circle…",
+            "engagement": 210,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083161173563003268",
+            "url": "https://x.com/zarazhangrui/status/2083161173563003268",
+            "createdAt": "2026-07-31T12:01:41.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Fascinating interview on how Claude Tag has changed the way work is done at Anthropic 65% of PRs by product & eng teams at Anthropic are now raised by Claude Tag For non-engineering teams, I think the ultimate agent interface is wherever they already work (eg Slack/other collaboration tools). In the past 6 months I’ve…",
+            "summary": "Fascinating interview on how Claude Tag has changed the way work is done at Anthropic 65% of PRs by product & eng teams at Anthropic are now raised by Claude Tag For non-engineerin…",
+            "engagement": 51,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2083354965482062079",
+            "url": "https://x.com/zarazhangrui/status/2083354965482062079",
+            "createdAt": "2026-08-01T00:51:45.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "For every viral post of mine, I had to combat a voice in my mind that said \"duh, isn't that obvious?\" Turns out what's obvious to you is not obvious to most people, most of the time",
+            "summary": "For every viral post of mine, I had to combat a voice in my mind that said \"duh, isn't that obvious?\" Turns out what's obvious to you is not obvious to most people, most of the tim…",
+            "engagement": 12,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Dads are the original compost box.. Saw my dad scold us for not finishing our food and then happily (?) eat all the leftovers from our plates (and my mothers as well) Happy to continue the tradition for our family 😂 Ther…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2083281124302676322",
+            "url": "https://x.com/nikunj/status/2083281124302676322",
+            "createdAt": "2026-07-31T19:58:20.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "",
+            "summary": "",
+            "engagement": 80,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083140308045271325",
+            "url": "https://x.com/nikunj/status/2083140308045271325",
+            "createdAt": "2026-07-31T10:38:46.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Dads are the original compost box.. Saw my dad scold us for not finishing our food and then happily (?) eat all the leftovers from our plates (and my mothers as well) Happy to continue the tradition for our family 😂",
+            "summary": "Dads are the original compost box.. Saw my dad scold us for not finishing our food and then happily (?) eat all the leftovers from our plates (and my mothers as well) Happy to cont…",
+            "engagement": 32,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083307235619287363",
+            "url": "https://x.com/nikunj/status/2083307235619287363",
+            "createdAt": "2026-07-31T21:42:05.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "There's a quiet belief in venture that the best founders are running from something. A troubled childhood. A chip on the shoulder. Pain that keeps the foot on the gas.. New essay pondering where the drive actually comes from, and the gear most people never reach.",
+            "summary": "There's a quiet belief in venture that the best founders are running from something…",
+            "engagement": 24,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Jason is doing such great work. Love this…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083094971167781317",
+            "url": "https://x.com/steipete/status/2083094971167781317",
+            "createdAt": "2026-07-31T07:38:37.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Jason is doing such great work. Love this.",
+            "summary": "Jason is doing such great work. Love this.",
+            "engagement": 641,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083328272444915831",
+            "url": "https://x.com/steipete/status/2083328272444915831",
+            "createdAt": "2026-07-31T23:05:41.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "will we have to wear radiation shielded underwear now?",
+            "summary": "will we have to wear radiation shielded underwear now?",
+            "engagement": 391,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083369880599015713",
+            "url": "https://x.com/steipete/status/2083369880599015713",
+            "createdAt": "2026-08-01T01:51:01.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "Queue was the way but with 5.5 the model doesn’t get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it.",
+            "summary": "Queue was the way but with 5.5 the model doesn’t get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it.",
+            "engagement": 231,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2083380721607921904",
+            "url": "https://x.com/danshipper/status/2083380721607921904",
+            "createdAt": "2026-08-01T02:34:06.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic! i stand behind this…has been pretty clear since early spring that the momentum is shifting to @openai it’s a fascinating comeback story",
+            "summary": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic…",
+            "engagement": 173,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083239700664349128",
+            "url": "https://x.com/danshipper/status/2083239700664349128",
+            "createdAt": "2026-07-31T17:13:44.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "Human programmer interviews, 2027: Please describe the last 3 unresolved mathematical conjectures you solved, and share your prompts Please describe the last cyber felony your agent unintentionally committed and what steps you took to mitigate Please tell us how many R’s are in strawberry and how many e’s in seventeen",
+            "summary": "Human programmer interviews, 2027: Please describe the last 3 unresolved mathematical conjectures you solved, and share your prompts Please describe the last cyber felony your agen…",
+            "engagement": 76,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2083352181776732326",
+            "url": "https://x.com/danshipper/status/2083352181776732326",
+            "createdAt": "2026-08-01T00:40:41.000Z",
+            "sourceDate": "2026-08-01",
+            "sourceDisplayDate": "8月1日 · 周六",
+            "text": "this is a very good letter",
+            "summary": "this is a very good letter",
+            "engagement": 39,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "2 days left. Apply to @spc.",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2083330582210380106",
+            "url": "https://x.com/adityaag/status/2083330582210380106",
+            "createdAt": "2026-07-31T23:14:51.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "2 days left. Apply to @spc.",
+            "summary": "2 days left. Apply to @spc.",
+            "engagement": 43,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083330584022282576",
+            "url": "https://x.com/adityaag/status/2083330584022282576",
+            "createdAt": "2026-07-31T23:14:52.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "",
+            "summary": "",
+            "engagement": 5,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2083221585792762171",
+            "url": "https://x.com/sama/status/2083221585792762171",
+            "createdAt": "2026-07-31T16:01:45.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests. every morning for the drive to school, have it make a podcast that talks about one kid's soccer game that afternoon, one kid's upcoming birthday, some news, etc.",
+            "summary": "cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests…",
+            "engagement": 10908,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2083203642975502640",
+            "url": "https://x.com/sama/status/2083203642975502640",
+            "createdAt": "2026-07-31T14:50:27.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "i see your moore's law and i raise you 20x",
+            "summary": "i see your moore's law and i raise you 20x",
+            "engagement": 7526,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083198135812383197",
+            "url": "https://x.com/sama/status/2083198135812383197",
+            "createdAt": "2026-07-31T14:28:34.000Z",
+            "sourceDate": "2026-07-31",
+            "sourceDisplayDate": "7月31日 · 周五",
+            "text": "it could be faster",
+            "summary": "it could be faster",
+            "engagement": 5229,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Claude Blog",
+        "title": "Claude Code now supports artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "author": "",
+        "publishedAt": "Jun 18, 2026",
+        "sourceDate": "Jun 18, 20",
+        "sourceDisplayDate": "Jun 18, 20",
+        "summary": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code's work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works…",
+        "chineseTitle": "Claude Code now supports artifacts",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "Unsupervised Learning",
+        "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+        "url": "https://www.youtube.com/@RedpointAI",
+        "publishedAt": "2026-07-31T15:15:49.000Z",
+        "sourceDate": "2026-07-31",
+        "sourceDisplayDate": "7月31日 · 周五",
+        "summary": "Speaker 1 | 00:00 - 00:16 Welcome back to unsupervised learning…",
+        "chineseTitle": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的主线是“Agent 软件工厂”从概念走向工作流细节。Guillermo Rauch 把 Issue → Agent → PR → Release 描述为软件项目的新常态，Nan Yu 则补上了 Linear 内部的实操信号：约 30% 的 bug 已经能跑完整个链路，但关键不只是把 Agent 接进来，而是要求它先充分定位 root cause，并接入 Datadog、Sentry 等上下文工具。对 AI Builders 来说，护城河正在从“会不会调用模型”转向“能不能设计稳定的任务闭环”。",
+        "第二条线是 harness 成为 AI stack 的核心变量。Aaron Levie 判断，除了模型能力，真正决定产出的会是如何拆解任务、选择模型、安排执行顺序的 harness；Garry Tan 也把个人 AI / company brain 的前提指向“clean harness”。这意味着 Builder 不能只盯 token price 或单模型 benchmark，应该把 orchestration、routing、observability 和权限边界当成产品基础设施来设计。",
+        "产品层面，ChatGPT Work、Codex、Claude Code artifacts 和 Anthropic 内部 Claude Tag 的案例共同说明：AI 工具正在从“对话框”进入“工作发生的地方”。Sam Altman 提到把家庭日历、孩子兴趣和每日播客串起来，是一个小但有启发的 personalization use case；Zara Zhang 引用 Anthropic 65% PR 由 Claude Tag 发起，则更像组织级工作流变化的硬信号。下一阶段的好产品不只是回答问题，而是把上下文、协作界面和输出物连接成可复用的系统。",
+        "模型和成本侧也有值得追踪的边际变化。Thibault Sottiaux 宣布重置 Codex 与 ChatGPT Work 使用限制，延续了近期“效率提升—限额放宽—更多并发实验”的信号；Amjad Masad 提到 8B 模型在棋类任务上以更低延迟挑战 frontier models，也提醒 Builder 关注小模型、response chaining 与专用 harness 的组合收益。模型能力当然重要，但“足够好 + 足够快 + 嵌入正确流程”正在变得同样重要。",
+        "低信号内容不少：纯情绪、玩笑、政治评论、生活段子和空转转发需要果断过滤。今天保留下来的内容共同指向一个判断：AI Builders 的竞争焦点正在从追逐单点 demo，迁移到能否把 Agent 变成可观测、可控、可持续迭代的生产系统。"
+      ],
+      "filteredNote": "过滤掉了空文本、生活段子、政治评论、纯夸赞、meme/玩笑、一句话自推广与缺少自身分析的转发等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Nan Yu",
+        "meta": "Linear · X 动态",
+        "title": "Issue 到 Release 的 Agent 闭环开始进入真实生产",
+        "summary": "Nan Yu 透露，Linear 中最常见的 Agent loop 是 Issue → Agent → PR → Release，约 30% 的 bug 已经能跑完整个流程。更关键的是执行细节：指令需要要求 Agent 充分研究 root cause，并使用 Datadog、Sentry MCPs 等生产上下文工具，而不是直接生成补丁。",
+        "keyPoints": [
+          "Linear 内部已有相当比例 bug 进入 Issue → Agent → PR → Release 闭环",
+          "Agent 指令的重点应放在 root cause research，而不是只要求修复",
+          "生产级 Agent 需要接入 observability 与 error tracking 上下文"
+        ],
+        "whyItMatters": "这是 Agentic engineering 从演示走向生产流程的高信号样本。AI Builders 可以从中看到：稳定闭环比单次代码生成更重要。",
+        "tags": [
+          "Agent",
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/thenanyu/status/2083230295206121807"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "软件项目正在变成 Agentic software factory",
+        "summary": "Guillermo Rauch 判断，Issue → Agent → PR → Release 会成为软件项目迁移到 agentic software factories 后的常态。维护者的新工作不是手写每一行代码，而是设计能产出高质量产品的 loop，并设定哪些问题值得被处理。",
+        "keyPoints": [
+          "软件交付流程会围绕 Agent 闭环重组",
+          "作者和 maintainer 的职责会转向任务选择与质量标准",
+          "最高杠杆不在单次执行，而在持续优化 loop"
+        ],
+        "whyItMatters": "这给产品和工程团队一个清晰迁移方向：把 Agent 当作生产系统里的执行层，而不是临时助手。",
+        "tags": [
+          "Agent",
+          "软件工厂",
+          "工程"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/rauchg/status/2083208578526314513"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel AI Gateway · X 动态",
+        "title": "企业 AI 投入需要预算、故障转移和可观测性",
+        "summary": "Guillermo Rauch 用 AI Gateway 的功能清单强调，企业级 AI 应用的关键基础设施包括按 key/team/project 管预算、failover、模型与供应商选择，以及实时 observability。它反驳的是“只要多烧 token 就能解决问题”的心态。",
+        "keyPoints": [
+          "AI Gateway 把成本控制、供应商选择和稳定性纳入统一入口",
+          "企业 AI 应用需要实时观测与可靠 failover",
+          "模型调用层正在产品化为治理与路由基础设施"
+        ],
+        "whyItMatters": "当 AI 使用量进入团队和项目级规模，Builder 必须提前设计成本、可靠性与路由治理，否则产品越成功越难运营。",
+        "tags": [
+          "基础设施",
+          "工程",
+          "成本治理"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/rauchg/status/2083319868766699699"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月1日 · 周六",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Harness 可能成为模型之外最重要的 AI stack 变量",
+        "summary": "Aaron Levie 认为，具体数字能否跨任务泛化并不确定，但方向上 harness 会成为仅次于模型能力的关键变量。能否高效拆解工作、在正确时间路由到正确模型，将决定 AI stack 的实际产出。",
+        "keyPoints": [
+          "模型能力之外，任务拆解和模型路由会显著影响结果",
+          "Harness 的价值在于把复杂工作组织成高效执行路径",
+          "AI stack 的竞争会从模型本身扩展到 orchestration 层"
+        ],
+        "whyItMatters": "这提醒 AI Builders：不要只比较模型榜单，还要投资自己的任务编排、评估和路由系统。",
+        "tags": [
+          "Harness",
+          "模型路由",
+          "AI Stack"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/levie/status/2083389460679373135"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月1日 · 周六",
+        "actor": "Garry Tan",
+        "meta": "YC · X 动态",
+        "title": "个人 AI 与公司大脑都需要干净的 Harness",
+        "summary": "Garry Tan 说个人 AI 或 company brain 的前提是一个 clean harness，并提到其团队每天使用且开源的实现。虽然帖子带有发布属性，但核心判断明确：组织知识系统不只是把资料塞进模型，而是需要结构清晰、可持续维护的上下文与执行框架。",
+        "keyPoints": [
+          "个人 AI 和 company brain 都依赖 clean harness",
+          "开源实现暗示团队内部已经日常化使用",
+          "知识系统的核心是上下文组织与执行框架，而非单纯 RAG 堆料"
+        ],
+        "whyItMatters": "很多公司会把“公司大脑”误解成文档搜索；这个信号强调，真正可用的系统需要 harness 化。",
+        "tags": [
+          "组织",
+          "Company Brain",
+          "开源"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/garrytan/status/2083353760701833546"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Zara Zhang",
+        "meta": "Anthropic / Claude Tag · X 动态",
+        "title": "Agent 界面应该嵌入团队已经工作的地方",
+        "summary": "Zara Zhang 引用一段关于 Claude Tag 如何改变 Anthropic 工作方式的访谈：Anthropic 产品与工程团队中 65% 的 PR 现在由 Claude Tag 发起。她进一步判断，对非工程团队来说，最终的 Agent interface 往往应该在 Slack 等已有协作工具中，而不是另开一个孤立入口。",
+        "keyPoints": [
+          "Anthropic 产品与工程团队 65% PR 由 Claude Tag 发起",
+          "Agent 的最佳入口可能是团队已有协作界面",
+          "非工程场景尤其需要把 Agent 嵌入工作流，而非要求用户切换工具"
+        ],
+        "whyItMatters": "这是组织采用 AI Agent 的强信号：真正的 adoption 来自嵌入既有流程，而不是让用户额外维护一个新工作台。",
+        "tags": [
+          "Agent",
+          "协作工具",
+          "组织采用"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/zarazhangrui/status/2083161173563003268"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "Jun 18, 20",
+        "actor": "Claude Blog",
+        "meta": "Claude Code · Blog",
+        "title": "Claude Code artifacts 把编码过程变成可共享的活文档",
+        "summary": "Claude Blog 介绍 Claude Code 支持 artifacts：它可以把工作进展捕获为可视化、可共享、会随 session 更新的页面，例如 PR walkthrough、系统解释、dashboard 和 release checklist。重点不是多一个展示层，而是让 Agent 的中间产物和协作状态变成团队能审阅、复用和交接的对象。",
+        "keyPoints": [
+          "Claude Code 可以生成并维护 live, shareable artifacts",
+          "适用场景包括 PR walkthrough、系统解释、dashboard 和 release checklist",
+          "Artifacts 将 Agent 工作过程显性化，降低协作和审阅成本"
+        ],
+        "whyItMatters": "AI coding 从“帮我改代码”升级为“持续产出可审阅工件”，这对团队协作和软件交付流程很关键。",
+        "tags": [
+          "Claude Code",
+          "Artifacts",
+          "工程协作"
+        ],
+        "qualityScore": 87,
+        "url": "https://claude.com/blog/artifacts-in-claude-code"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "7月31日 · 周五",
+        "actor": "Sam Altman",
+        "meta": "ChatGPT Work · X 动态",
+        "title": "个性化音频可能成为 AI Work 的日常入口",
+        "summary": "Sam Altman 提到一个 ChatGPT Work use case：连接家庭日历并理解孩子兴趣，每天早上为上学路上生成一段包含比赛、生日、新闻等内容的 podcast。它展示了 AI 产品从任务助手转向日常情境编排：把日历、偏好、新闻和语音输出组合成主动服务。",
+        "keyPoints": [
+          "连接日历和兴趣偏好可以生成高度情境化内容",
+          "Podcast 形态适合通勤、陪伴和家庭场景",
+          "AI Work 的价值可能来自跨数据源的主动编排"
+        ],
+        "whyItMatters": "这个例子虽小，但说明个人 AI 产品的下一步是场景化、主动化和多模态输出，而不只是聊天。",
+        "tags": [
+          "个性化",
+          "ChatGPT Work",
+          "音频"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/sama/status/2083221585792762171"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月1日 · 周六",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex / ChatGPT Work · X 动态",
+        "title": "效率提升正在转化为更高并发的 Agent 使用",
+        "summary": "Thibault Sottiaux 宣布为 Codex 和 ChatGPT Work 重置使用限制，让用户周末运行大量 Luna threads。结合近期关于效率和限额的信号，这说明模型/系统侧的优化正在直接转化为 Builder 可用的并发实验空间。",
+        "keyPoints": [
+          "Codex 与 ChatGPT Work 使用限制被重置",
+          "高并发 Luna threads 被作为效率提升后的用户红利",
+          "限额变化会影响 Builder 的实验速度和工作流设计"
+        ],
+        "whyItMatters": "对 Builder 来说，usage limit 不是运营小事；它决定了能否把 Agent 从偶发调用推向连续执行和批量实验。",
+        "tags": [
+          "Codex",
+          "ChatGPT Work",
+          "效率"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/thsottiaux/status/2083395449814229287"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月1日 · 周六",
+        "actor": "Peter Steinberger",
+        "meta": "Agent 工作流 · X 动态",
+        "title": "更强模型正在降低队列式交互的必要性",
+        "summary": "Peter Steinberger 观察到，以前 Queue 是更稳的方式，但在 5.5 之后模型不再容易被打乱，用户可以在它工作时继续追加任务，模型会认真处理新增内容。这个变化指向 Agent UX 的一个重要趋势：随着模型上下文管理和执行稳定性提升，交互可以更接近“边工作边接单”。",
+        "keyPoints": [
+          "旧式 Queue 交互用于避免模型混乱",
+          "更强模型能在执行中处理追加输入",
+          "Agent UX 会从严格排队走向更自然的持续协作"
+        ],
+        "whyItMatters": "如果模型能稳定处理动态任务流，开发工具和 Agent 产品的交互设计会发生变化：用户不必等待一次任务完全结束再继续指挥。",
+        "tags": [
+          "Agent UX",
+          "模型能力",
+          "工作流"
+        ],
+        "qualityScore": 83,
+        "url": "https://x.com/steipete/status/2083369880599015713"
+      }
+    ]
+  },
+  {
     "date": "2026-08-01",
     "displayDate": "8月1日 · 周六",
     "generatedAt": "2026-07-31T23:30:31.754478+00:00",
