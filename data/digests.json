@@ -1,5 +1,862 @@
 [
   {
+    "date": "2026-08-04",
+    "displayDate": "8月4日 · 周二",
+    "generatedAt": "2026-08-03T23:30:21.167214+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-03T07:26:16.835Z",
+      "blogs": "2026-08-03T07:26:51.659Z",
+      "podcasts": "2026-08-03T07:26:51.454Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的高信号集中在 Agent 进入公司运营、可验证任务先被自动化、AI 对数学与代码需求的 Jevons 效应，以及融资市场从基本面转向叙事动量。对 AI Builders 来说，主线不是“AI 能不能做”，而是如何把能力收敛成可治理、可验证、可持续的系统。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工具、工程与公司建设有长期判断价值的内容；过滤掉日常生活、情绪短评、梗图和无分析转发。",
+    "stats": {
+      "builders": 12,
+      "tweets": 26,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 17
+        },
+        {
+          "name": "Agent",
+          "count": 6
+        },
+        {
+          "name": "组织",
+          "count": 5
+        },
+        {
+          "name": "工程",
+          "count": 4
+        },
+        {
+          "name": "产品",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2083969120270450911",
+        "sourceDate": "2026-08-02",
+        "sourceDisplayDate": "8月2日 · 周日",
+        "summary": "AI alone is cool. But mastery + creativity + AI hits on a whole different level…",
+        "chineseTitle": "AI alone is cool. But mastery + creativity + AI hits on a whole different level…",
+        "tags": [
+          "观察"
+        ],
+        "score": 4941
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2084042561690456157",
+        "sourceDate": "2026-08-02",
+        "sourceDisplayDate": "8月2日 · 周日",
+        "summary": "We built an agent that powers our company's internal operations called @𝚟…",
+        "chineseTitle": "We built an agent that powers our company's internal operations called @𝚟…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "score": 1490
+      },
+      {
+        "title": "来自 Thariq 的观点",
+        "source": "Thariq · X 动态",
+        "url": "https://x.com/trq212/status/2083977795290734975",
+        "sourceDate": "2026-08-02",
+        "sourceDisplayDate": "8月2日 · 周日",
+        "summary": "you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians have more time to discuss it wi…",
+        "chineseTitle": "you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians have more time to discuss it wi…",
+        "tags": [
+          "观察"
+        ],
+        "score": 1414
+      },
+      {
+        "title": "来自 Andrej Karpathy 的观点",
+        "source": "Andrej Karpathy · X 动态",
+        "url": "https://x.com/karpathy/status/2083948654377996480",
+        "sourceDate": "2026-08-02",
+        "sourceDisplayDate": "8月2日 · 周日",
+        "summary": "More on the pelican on the bicycle test from @simonw: I uploaded the source here so it's playable in the browser, forkable etc…",
+        "chineseTitle": "More on the pelican on the bicycle test from @simonw: I uploaded the source here so it's playable in the browser, forkable etc…",
+        "tags": [
+          "观察"
+        ],
+        "score": 472
+      },
+      {
+        "title": "来自 Nikunj Kothari 的观点",
+        "source": "Nikunj Kothari · X 动态",
+        "url": "https://x.com/nikunj/status/2083873335998333227",
+        "sourceDate": "2026-08-02",
+        "sourceDisplayDate": "8月2日 · 周日",
+        "summary": "What a wild world we’re living through. I wrote about the Series A squeeze recently…",
+        "chineseTitle": "What a wild world we’re living through. I wrote about the Series A squeeze recently…",
+        "tags": [
+          "产品",
+          "组织",
+          "研究"
+        ],
+        "score": 460
+      }
+    ],
+    "builders": [
+      {
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "bio": "I like training large deep neural nets.",
+        "summary": "More on the pelican on the bicycle test from @simonw: I uploaded the source here so it's playable in the browser, forkable etc…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2083948654377996480",
+            "url": "https://x.com/karpathy/status/2083948654377996480",
+            "createdAt": "2026-08-02T16:10:51.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "More on the pelican on the bicycle test from @simonw: I uploaded the source here so it's playable in the browser, forkable etc. Look out for GTA Hobbiton dropping before GTA VI :)",
+            "summary": "More on the pelican on the bicycle test from @simonw: I uploaded the source here so it's playable in the browser, forkable etc…",
+            "engagement": 472,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "@akshaynathan_ @AriX live now! in prep for our computer use pod, gonna store a running list of codex cua wow moments…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2084155512573288478",
+            "url": "https://x.com/swyx/status/2084155512573288478",
+            "createdAt": "2026-08-03T05:52:50.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "@akshaynathan_ @AriX live now!",
+            "summary": "@akshaynathan_ @AriX live now!",
+            "engagement": 7,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2084156733027701164",
+            "url": "https://x.com/swyx/status/2084156733027701164",
+            "createdAt": "2026-08-03T05:57:41.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "in prep for our computer use pod, gonna store a running list of codex cua wow moments. here it is dealing with support chat for me to escalate for faster resolution these humans have no idea they are talking to a bot support guy tried to say its our fault, bot replied with complete receipts lmao",
+            "summary": "in prep for our computer use pod, gonna store a running list of codex cua wow moments…",
+            "engagement": 5,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2084171901451268599",
+            "url": "https://x.com/swyx/status/2084171901451268599",
+            "createdAt": "2026-08-03T06:57:58.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "haven't seen a full cycle of this guy but this place absolutely can chew you up and wastes 10 yrs of your life making you feel like you are doing something when you are not",
+            "summary": "haven't seen a full cycle of this guy but this place absolutely can chew you up and wastes 10 yrs of your life making you feel like you are doing something when you are not",
+            "engagement": 3,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Personality matters! A smart friend that's annoying to talk to is no good…",
+        "tags": [
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2083947480136421384",
+            "url": "https://x.com/petergyang/status/2083947480136421384",
+            "createdAt": "2026-08-02T16:06:11.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "Personality matters! A smart friend that's annoying to talk to is no good.",
+            "summary": "Personality matters! A smart friend that's annoying to talk to is no good.",
+            "engagement": 232,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2084065527081980285",
+            "url": "https://x.com/petergyang/status/2084065527081980285",
+            "createdAt": "2026-08-02T23:55:16.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "Went to a community center in Canada and it has a full swimming pool, jacuzzi, sauna, and even lazy river. In the most expensive Bay Area neighborhoods, the community center is just a fancy building with empty rooms that you can rent.",
+            "summary": "Went to a community center in Canada and it has a full swimming pool, jacuzzi, sauna, and even lazy river…",
+            "engagement": 128,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083968605432267139",
+            "url": "https://x.com/petergyang/status/2083968605432267139",
+            "createdAt": "2026-08-02T17:30:08.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "One of the biggest benefits of Hermes is that it builds its own skills to help you get work done. But I had to ask @karan4d, @NousResearch co-founder: \"How does Hermes avoid slop while doing this?\" Here's his response: \"Hermes Curator [a background task] runs inside your agent and cleans up your skills and memory on a…",
+            "summary": "One of the biggest benefits of Hermes is that it builds its own skills to help you get work done…",
+            "engagement": 116,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "summary": "you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians have more time to discuss it with us at higher abstraction levels demand for people who thi…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2083977795290734975",
+            "url": "https://x.com/trq212/status/2083977795290734975",
+            "createdAt": "2026-08-02T18:06:39.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians have more time to discuss it with us at higher abstraction levels demand for people who think and know about math will go up",
+            "summary": "you can already see Jevons paradox at work in mathematics there is more happening, it is easier to understand and mathematicians have more time to discuss it with us at higher abst…",
+            "engagement": 1414,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083978109376987365",
+            "url": "https://x.com/trq212/status/2083978109376987365",
+            "createdAt": "2026-08-02T18:07:54.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "i think there are lots of parallels to what happened with chess",
+            "summary": "i think there are lots of parallels to what happened with chess",
+            "engagement": 83,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "My LLM chess engine is now on LiChess autonomously playing real games against people and bots…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2083926395403821427",
+            "url": "https://x.com/amasad/status/2083926395403821427",
+            "createdAt": "2026-08-02T14:42:24.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "My LLM chess engine is now on LiChess autonomously playing real games against people and bots. 1253 Elo:",
+            "summary": "My LLM chess engine is now on LiChess autonomously playing real games against people and bots…",
+            "engagement": 286,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2084017252152856716",
+            "url": "https://x.com/amasad/status/2084017252152856716",
+            "createdAt": "2026-08-02T20:43:26.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "Woah",
+            "summary": "Woah",
+            "engagement": 108,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083936067355635948",
+            "url": "https://x.com/amasad/status/2083936067355635948",
+            "createdAt": "2026-08-02T15:20:50.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "You can watch the games live on the website. Mf is playing 3 concurrent games rn",
+            "summary": "You can watch the games live on the website…",
+            "engagement": 21,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "AI alone is cool. But mastery + creativity + AI hits on a whole different level…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2083969120270450911",
+            "url": "https://x.com/rauchg/status/2083969120270450911",
+            "createdAt": "2026-08-02T17:32:11.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "AI alone is cool. But mastery + creativity + AI hits on a whole different level. Don't let anyone discourage you from pursuing excellence and craft. Keep studying the blade.",
+            "summary": "AI alone is cool. But mastery + creativity + AI hits on a whole different level…",
+            "engagement": 4941,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2084042561690456157",
+            "url": "https://x.com/rauchg/status/2084042561690456157",
+            "createdAt": "2026-08-02T22:24:01.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "We built an agent that powers our company's internal operations called @𝚟. Every day-to-day job at Vercel now involves @𝚟. It's growing exponentially both in daily interactions and token use. One can extrapolate to the day AI agents run entire companies from here. It's an expert in finance, comms, docs, marketing,…",
+            "summary": "We built an agent that powers our company's internal operations called @𝚟…",
+            "engagement": 1490,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2084060157085143512",
+            "url": "https://x.com/rauchg/status/2084060157085143512",
+            "createdAt": "2026-08-02T23:33:56.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "PS: we've obviously had agents for a while. In fact, we had too many. Teams and individuals at Vercel started building and deploying agents. Dozens of them. Using a web analogy, that'd be like every agent having its own domain name. Not a good UX. I just want ${company}⁠.com! @𝚟 solved that problem for us. It's both…",
+            "summary": "PS: we've obviously had agents for a while…",
+            "engagement": 70,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to automation first, particularly due to its verifiability…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083965372747882741",
+            "url": "https://x.com/levie/status/2083965372747882741",
+            "createdAt": "2026-08-02T17:17:17.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to automation first, particularly due to its verifiability. Math, cyber, and code -while being insanely hard and high value fields- have the benefit of being able to be tested that it’s correct…",
+            "summary": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to automation first, particularly due to its verifiability…",
+            "engagement": 444,
+            "tags": [
+              "Agent",
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring…",
+        "summary": "my early mentors were these apps, especially Rdio, Mailbox, and Apple they made new patterns that made software feel simpler and intuitive to touch as we leave the world of apps behind, what parts of software will remain…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2083939454017053179",
+            "url": "https://x.com/ryolu_/status/2083939454017053179",
+            "createdAt": "2026-08-02T15:34:18.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "my early mentors were these apps, especially Rdio, Mailbox, and Apple they made new patterns that made software feel simpler and intuitive to touch as we leave the world of apps behind, what parts of software will remain visible, and how could it feel?",
+            "summary": "my early mentors were these apps, especially Rdio, Mailbox, and Apple they made new patterns that made software feel simpler and intuitive to touch as we leave the world of apps be…",
+            "engagement": 437,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Growth is good AI will create unimaginable economic growth and that is the best white pill Everyone mistakes the map for the territory Meritocracy is that the territory matters more than the map And in markets the outcom…",
+        "tags": [
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2083957110711386439",
+            "url": "https://x.com/garrytan/status/2083957110711386439",
+            "createdAt": "2026-08-02T16:44:27.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "Growth is good AI will create unimaginable economic growth and that is the best white pill",
+            "summary": "Growth is good AI will create unimaginable economic growth and that is the best white pill",
+            "engagement": 437,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2083920039208693996",
+            "url": "https://x.com/garrytan/status/2083920039208693996",
+            "createdAt": "2026-08-02T14:17:09.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "Everyone mistakes the map for the territory Meritocracy is that the territory matters more than the map And in markets the outcome is the territory: did you make something people want?",
+            "summary": "Everyone mistakes the map for the territory Meritocracy is that the territory matters more than the map And in markets the outcome is the territory: did you make something people w…",
+            "engagement": 256,
+            "tags": [
+              "市场"
+            ]
+          },
+          {
+            "id": "2083923385193828612",
+            "url": "https://x.com/garrytan/status/2083923385193828612",
+            "createdAt": "2026-08-02T14:30:27.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "The sense of wonder disappeared right at the moment the amount of wonder is going parabolic",
+            "summary": "The sense of wonder disappeared right at the moment the amount of wonder is going parabolic",
+            "engagement": 226,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "What a wild world we’re living through. I wrote about the Series A squeeze recently…",
+        "tags": [
+          "产品",
+          "组织",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2083873335998333227",
+            "url": "https://x.com/nikunj/status/2083873335998333227",
+            "createdAt": "2026-08-02T11:11:34.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "What a wild world we’re living through. I wrote about the Series A squeeze recently. Here’s what else I’m seeing from my seat on the investing side.. 1) VC has effectively fully become vibes capital. The market reality at the early-mid stage is completely divorced from fundamentals. I can go longer with even a…",
+            "summary": "What a wild world we’re living through. I wrote about the Series A squeeze recently…",
+            "engagement": 460,
+            "tags": [
+              "产品",
+              "组织",
+              "研究"
+            ]
+          },
+          {
+            "id": "2083925904598733088",
+            "url": "https://x.com/nikunj/status/2083925904598733088",
+            "createdAt": "2026-08-02T14:40:27.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "Warm NYC nights are magic 🪄",
+            "summary": "Warm NYC nights are magic 🪄",
+            "engagement": 444,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "That's a fairly new kind of spam.",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2083976289485230449",
+            "url": "https://x.com/steipete/status/2083976289485230449",
+            "createdAt": "2026-08-02T18:00:40.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "That's a fairly new kind of spam.",
+            "summary": "That's a fairly new kind of spam.",
+            "engagement": 331,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "when you experience a language model doing a task that used to require you at every step and now doesn't, it's a gigantic agency rupture…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2084038453831020916",
+            "url": "https://x.com/danshipper/status/2084038453831020916",
+            "createdAt": "2026-08-02T22:07:41.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "when you experience a language model doing a task that used to require you at every step and now doesn't, it's a gigantic agency rupture. we tend to equate ourselves with our tasks, our outputs, and a rupture of this kind is akin to the loss of your identity and sense of self. you are no longer required, and you had…",
+            "summary": "when you experience a language model doing a task that used to require you at every step and now doesn't, it's a gigantic agency rupture…",
+            "engagement": 272,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          },
+          {
+            "id": "2084024211539116466",
+            "url": "https://x.com/danshipper/status/2084024211539116466",
+            "createdAt": "2026-08-02T21:11:05.000Z",
+            "sourceDate": "2026-08-02",
+            "sourceDisplayDate": "8月2日 · 周日",
+            "text": "if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts. we should expect AI to fundamentally change our moral intuitions at the same time as it changes our abilities",
+            "summary": "if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts…",
+            "engagement": 25,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2084144207254663417",
+            "url": "https://x.com/danshipper/status/2084144207254663417",
+            "createdAt": "2026-08-03T05:07:55.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "if you haven’t read War and Peace or some of the historical accounts of this like With Napoleon in Russia, you should",
+            "summary": "if you haven’t read War and Peace or some of the historical accounts of this like With Napoleon in Russia, you should",
+            "engagement": 15,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "Training Data",
+        "title": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
+        "url": "https://www.youtube.com/watch?v=2RJiaf0SY8s",
+        "publishedAt": "2026-07-29T09:00:00.000Z",
+        "sourceDate": "2026-07-29",
+        "sourceDisplayDate": "7月29日 · 周三",
+        "summary": "Speaker 1 | 00:00 - 00:29 If I play football, for example, it looks very, very closely to reinforcement learning…",
+        "chineseTitle": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的信号来自 Vercel：Guillermo Rauch 提到他们把公司日常运营收敛到一个内部 Agent @𝚟 上，覆盖 finance、comms、docs、marketing 等场景，并且日交互和 token 用量都在指数级增长。更关键的补充是，Vercel 之前已经有很多团队自建 Agent，但“每个 Agent 一个入口”的体验很快变成组织级混乱；@𝚟 的价值不只是会做事，而是把分散的自动化能力统一成一个公司级界面。",
+        "Agent 的落地正在从 demo 转向治理。Peter Yang 引用 NousResearch 对 Hermes 的解释：一个会自建 skills 和 memory 的 Agent，必须同时有 curator 后台任务来清理低质量技能和记忆。这个细节说明，长期可用的 Agent 系统不是“生成越多越好”，而是需要自我维护、版本卫生、权限边界和信息生命周期管理。AI Builders 要关注的竞争点，开始从模型调用转向运行时治理。",
+        "今天多位 builder 都在讨论“可验证任务会先被自动化”。Aaron Levie 指出 math、cyber、code 这些最难但可测试的领域，反而更容易被 AI 先突破；Thariq 则把数学里的 AI 使用解释为 Jevons paradox：理解成本下降后，数学活动、讨论和高层抽象需求都会增加，而不是简单减少数学家的价值。这给 builders 的判断是：不要只问 AI 替代了什么，要问它降低成本后会放大什么需求。",
+        "产品与体验层面的信号也很明确：Ryo Lu 在 Cursor 的视角下追问“离开 app 世界后，软件还会保留哪些可见部分”；Dan Shipper 把 AI 代劳带来的感受称为 agency rupture，指出人会把任务、产出与自我感绑定。二者放在一起看，下一代 AI 产品既要减少界面，又不能粗暴拿走用户的掌控感；真正的产品难点会是让 Agent 变强，同时让人仍然感觉自己在驾驶。",
+        "融资市场那边，Nikunj Kothari 对 Series A squeeze 的观察提醒 AI Builders：早中期 VC 越来越像 vibes capital，市场现实与基本面脱节。强叙事和速度能带来窗口，但也会放大后续融资和运营压力。今天的信息流整体说明，AI 公司建设正在进入“双重压力”：产品要从炫技走向组织级可靠性，公司要在泡沫化资本环境里保持基本面纪律。"
+      ],
+      "filteredNote": "过滤掉了 live now、Woah、日常生活、社区中心观察、纽约夜晚、垃圾信息短评、纯情绪吐槽、历史书推荐、缺少上下文的一行回复等低信号内容；保留 10 条具备事实增量、工程/产品洞察或长期判断价值的内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "公司级 Agent 的入口收敛：从几十个自动化脚本到一个运营界面",
+        "summary": "Guillermo Rauch 透露 Vercel 构建了内部运营 Agent @𝚟，已经参与公司日常工作，并在交互量和 token 使用上快速增长。他随后补充，Vercel 原本已经有大量团队和个人自建 Agent，但入口分散导致体验混乱；@𝚟 的关键价值是把这些能力整合成一个统一的公司级界面。",
+        "keyPoints": [
+          "Vercel 内部 Agent @𝚟 已覆盖 finance、comms、docs、marketing 等日常运营场景",
+          "真正的问题不是“有没有 Agent”，而是过多 Agent 带来的入口、权限和体验碎片化",
+          "公司级 Agent 的产品形态更像统一门户，而不是一堆独立 bot"
+        ],
+        "whyItMatters": "这是一线 AI 公司把 Agent 用进组织运营的具体案例。对 builders 来说，Agent 平台的护城河可能来自治理、统一入口和组织上下文，而不只是单次任务能力。",
+        "tags": [
+          "Agent",
+          "Operations",
+          "Vercel"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/rauchg/status/2084042561690456157"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "最难的工作可能最先自动化：因为它们可验证",
+        "summary": "Aaron Levie 指出一个反直觉趋势：math、cyber、code 这些高难度、高价值领域，可能反而会优先被 AI 自动化，因为它们的结果可以被测试和验证。相比开放式知识工作，可验证任务更容易形成闭环，也更适合 Agent 迭代。",
+        "keyPoints": [
+          "自动化优先级不只取决于任务难度，也取决于结果是否可验证",
+          "代码、数学、网络安全天然具备测试反馈，因此适合 AI 系统快速迭代",
+          "“硬工作先被自动化”会改变团队对人才、流程和工具链的配置"
+        ],
+        "whyItMatters": "这是判断 AI 落地顺序的关键框架。AI Builders 选择场景时，应优先寻找反馈清晰、验收标准明确、能形成自动化闭环的问题。",
+        "tags": [
+          "Automation",
+          "Engineering",
+          "Verification"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/levie/status/2083965372747882741"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Thariq",
+        "meta": "Claude Code · X 动态",
+        "title": "数学里的 Jevons paradox：AI 降低理解成本，反而放大需求",
+        "summary": "Thariq 认为数学领域已经能看到 Jevons paradox：AI 让更多事情发生、让理解变容易，也让数学家有更多时间在更高抽象层次上讨论。他进一步把这种变化类比到 chess：AI 没有让棋类思考消失，而是改变了人类参与和训练的方式。",
+        "keyPoints": [
+          "AI 降低数学理解和探索成本，可能扩大而非压缩数学活动",
+          "需求会从低层计算转向高层抽象、判断和问题设定",
+          "chess 类比说明，人机协作常常改变技能结构，而不是简单替代专家"
+        ],
+        "whyItMatters": "这给 AI Builders 一个更好的需求判断模型：当成本下降时，市场可能扩张。真正有价值的产品应捕捉被放大的新工作流，而不是只盯着替代旧流程。",
+        "tags": [
+          "Jevons Paradox",
+          "Math",
+          "Human-AI"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/trq212/status/2083977795290734975"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Peter Yang",
+        "meta": "Hermes · X 动态",
+        "title": "会自建技能的 Agent，也需要会清理自己的后台 curator",
+        "summary": "Peter Yang 提到 Hermes 的一个关键能力：Agent 可以为完成工作自建 skills。但他追问 NousResearch co-founder Karan Malhotra，Hermes 如何避免这些自生成能力变成 slop；回答指向 Hermes Curator 这类后台任务，会定期清理 skills 和 memory。",
+        "keyPoints": [
+          "自进化 Agent 的风险在于技能和记忆持续累积后质量下降",
+          "Curator 后台任务把“生成能力”与“维护能力”绑定在一起",
+          "长期可用的 Agent 需要信息生命周期管理，而不只是更多工具调用"
+        ],
+        "whyItMatters": "这是 Agent 产品从玩具走向日常工具的基础设计。AI Builders 如果让系统生成记忆、技能或插件，就必须同时设计清理、评估和回滚机制。",
+        "tags": [
+          "Agent",
+          "Memory",
+          "Governance"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/petergyang/status/2083968605432267139"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月3日 · 周一",
+        "actor": "Swyx",
+        "meta": "Codex CUA · X 动态",
+        "title": "Computer use Agent 的真实用例：让 AI 处理客服升级并保留完整证据链",
+        "summary": "Swyx 记录 Codex computer use 的一个“wow moment”：让 Agent 代他与客服聊天并推动升级，对方并不知道正在和 bot 交互；当客服试图把问题归咎于用户时，Agent 用完整 receipts 回应。这个例子展示了 Agent 在真实网页和人类流程中的执行能力。",
+        "keyPoints": [
+          "Agent 不只是生成文本，而是在真实支持流程里操作、协商和追踪证据",
+          "“完整 receipts”说明上下文保存和事实引用是任务成功关键",
+          "客服、报销、申诉、采购等半结构化流程可能率先被 computer use Agent 接管"
+        ],
+        "whyItMatters": "这是 computer use 从 demo 进入日常工作流的典型信号。builders 可以从高摩擦、证据链明确、结果可验收的流程切入。",
+        "tags": [
+          "Computer Use",
+          "Codex",
+          "Workflow"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/swyx/status/2084156733027701164"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Ryo Lu",
+        "meta": "Cursor · X 动态",
+        "title": "离开 app 之后，软件还剩下哪些可见的触感",
+        "summary": "Ryo Lu 回顾 Rdio、Mailbox、Apple 等早期软件如何通过新交互模式让复杂系统变得更简单、更直觉，并追问在“离开 app 世界”之后，软件还会有哪些部分保持可见、又会以什么感觉存在。这个问题直指 AI-native 产品设计的核心：界面减少后，体验不等于消失。",
+        "keyPoints": [
+          "经典 app 的价值不只是功能，而是把复杂性压缩成可感知的交互模式",
+          "AI-native 软件可能减少传统界面，但仍需要保留可理解、可操控的触点",
+          "未来产品设计要在自动化和可见性之间重新取平衡"
+        ],
+        "whyItMatters": "当 Agent 接管更多操作，产品体验会从页面设计转向控制感设计。AI Builders 不能只追求“无界面”，还要定义用户如何理解和干预系统。",
+        "tags": [
+          "Product Design",
+          "AI UX",
+          "Cursor"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/ryolu_/status/2083939454017053179"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Dan Shipper",
+        "meta": "Every · X 动态",
+        "title": "Agency rupture：当模型替你完成任务，自我感也会被重新分配",
+        "summary": "Dan Shipper 把语言模型独立完成过去需要人全程参与的任务，称为 agency rupture。人往往把自己等同于任务和产出；当 AI 让自己“不再被需要”时，产品带来的不是单纯效率提升，而是身份感和掌控感的冲击。",
+        "keyPoints": [
+          "AI 自动化会改变用户对任务、产出和自我价值的绑定方式",
+          "效率提升可能伴随失控感、身份感丢失和组织阻力",
+          "AI 产品需要设计“人仍在回路中”的体验，而不只是把人移出流程"
+        ],
+        "whyItMatters": "这是 Agent adoption 的心理层约束。builders 如果忽略 agency rupture，可能会做出技术上强大但用户抗拒的产品。",
+        "tags": [
+          "AI UX",
+          "Agency",
+          "Adoption"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/danshipper/status/2084038453831020916"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Nikunj Kothari",
+        "meta": "FPV Ventures · X 动态",
+        "title": "Series A squeeze 与 vibes capital：AI 创业融资的基本面错位",
+        "summary": "Nikunj Kothari 从投资侧观察到，早中期 VC 市场越来越像 vibes capital：融资现实与公司基本面脱节。他把这放在 Series A squeeze 的背景下讨论，提醒 founders 叙事热度可以打开窗口，但也会制造更难兑现的增长预期。",
+        "keyPoints": [
+          "早中期融资正在更强地受叙事、热度和市场情绪驱动",
+          "Series A squeeze 意味着 seed 后公司需要更快证明可持续基本面",
+          "AI founders 需要区分融资窗口和真实产品/收入进展"
+        ],
+        "whyItMatters": "资本环境会直接影响 AI 公司建设节奏。builders 需要利用市场窗口，但不能把估值叙事误认为产品市场匹配。",
+        "tags": [
+          "Startup",
+          "Fundraising",
+          "AI Market"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/nikunj/status/2083873335998333227"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月2日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "AI 不是 craft 的替代品，而是放大器",
+        "summary": "Guillermo Rauch 强调，AI 本身很酷，但 mastery、creativity 与 AI 结合才会产生完全不同层级的结果。他提醒 builders 不要因为工具变强就放弃 excellence 和 craft；AI 更像杠杆，而不是免修课。",
+        "keyPoints": [
+          "AI 能放大已有能力，但不能自动替代品味、专业训练和创造力",
+          "越是工具普及，craft 越可能成为差异化来源",
+          "builders 应继续投资领域知识、产品品味和工程纪律"
+        ],
+        "whyItMatters": "这是对“人人都能做”的必要修正。AI 降低入门门槛后，真正拉开差距的仍是高水平判断和执行。",
+        "tags": [
+          "Craft",
+          "Product",
+          "Builder Mindset"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/rauchg/status/2083969120270450911"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "7月29日 · 周三",
+        "actor": "Jerry Tworek and Rohan Anil",
+        "meta": "Training Data · Automated AGI Lab",
+        "title": "自动化 AGI 实验室：把研究循环变成可扩展系统",
+        "summary": "Training Data 这期访谈围绕 Core Automation 的 Jerry Tworek 和 Rohan Anil，讨论如何构建 automated AGI lab。核心 thesis 是：AI 研究本身正在被工程化和自动化，从实验设计、训练、评估到迭代，越来越像一个可扩展的闭环系统，而不是完全依赖个体研究员的手工流程。",
+        "keyPoints": [
+          "自动化实验室的关键是把研究流程拆成可执行、可评估、可复用的循环",
+          "强化学习式反馈和自动评估会让模型研发迭代更接近工程系统",
+          "组织层面需要重新设计工具链、数据流和研究员与 Agent 的协作边界"
+        ],
+        "whyItMatters": "如果 AI 研发流程本身被自动化，模型公司的速度差会继续扩大。builders 应关注自动评估、实验编排和研究 Agent 化带来的基础设施机会。",
+        "tags": [
+          "AGI Lab",
+          "Research Automation",
+          "Agent"
+        ],
+        "qualityScore": 87,
+        "url": "https://www.youtube.com/watch?v=2RJiaf0SY8s"
+      }
+    ]
+  },
+  {
     "date": "2026-08-03",
     "displayDate": "8月3日 · 周一",
     "generatedAt": "2026-08-02T23:30:17.872577+00:00",
