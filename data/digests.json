@@ -1,5 +1,866 @@
 [
   {
+    "date": "2026-08-05",
+    "displayDate": "8月5日 · 周三",
+    "generatedAt": "2026-08-04T23:30:28.888728+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-04T07:11:41.799Z",
+      "blogs": "2026-08-04T07:12:20.103Z",
+      "podcasts": "2026-08-04T07:12:18.190Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "Agent 正在从单点 coding 工具走向工作流底座：上下文连接、托管执行环境、组织级语义层和成本曲线同时推进。",
+    "editorNote": "AI Builders Daily 只保留对产品、模型、工具、工程与公司建设有长期判断价值的内容；过滤掉日常生活、情绪短评、梗图和无分析转发。",
+    "stats": {
+      "builders": 12,
+      "tweets": 22,
+      "blogs": 3,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "产品",
+          "count": 8
+        },
+        {
+          "name": "观察",
+          "count": 7
+        },
+        {
+          "name": "组织",
+          "count": 7
+        },
+        {
+          "name": "工程",
+          "count": 6
+        },
+        {
+          "name": "研究",
+          "count": 4
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "Codex 只是当前形态，下一代 Agent 需要超过笔记本的执行环境",
+        "source": "Thibault Sottiaux · OpenAI Codex · X 动态",
+        "url": "https://x.com/thsottiaux/status/2084483765158719542",
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月4日 · 周二",
+        "summary": "Thibault Sottiaux 认为 Codex 已经是一个有效的 harness，但以最近看到的结果判断，它在 2-3 个月后会显得原始。他的核心判断是 frontier AI 使用方式将再次发生重大演化，下一代模型和 Agent 需要的不只是本地笔记本环境。",
+        "chineseTitle": "Codex 只是当前形态，下一代 Agent 需要超过笔记本的执行环境",
+        "tags": [
+          "Agent",
+          "工程",
+          "产品"
+        ],
+        "score": 92
+      },
+      {
+        "title": "GPT-5.6 Luna 永久降价 80%，效率收益开始进入价格层",
+        "source": "Thibault Sottiaux · OpenAI · X 动态",
+        "url": "https://x.com/thsottiaux/status/2084506501834829833",
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月4日 · 周二",
+        "summary": "Thibault 澄清 GPT-5.6 Luna 80% 降价不是临时活动，而是永久调整，因为效率收益不会消失。这个信号说明模型成本下降正在从实验室改进传导到产品价格。",
+        "chineseTitle": "GPT-5.6 Luna 永久降价 80%，效率收益开始进入价格层",
+        "tags": [
+          "模型成本",
+          "产品",
+          "商业模式"
+        ],
+        "score": 86
+      },
+      {
+        "title": "Personal Agent 的核心不是模型，而是记忆与 skills 的累积",
+        "source": "Peter Yang · Hermes Agent · X 动态",
+        "url": "https://x.com/petergyang/status/2084289426012897433",
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月3日 · 周一",
+        "summary": "Peter Yang 总结了与 NousResearch co-founder Karan 的访谈：个人 Agent 的“personal”不在于当前调用哪个模型，而在于它长期记住你的对话、偏好和已经构建的 skills。模型可以替换，但 Agent 的上下文资产会持续复利。",
+        "chineseTitle": "Personal Agent 的核心不是模型，而是记忆与 skills 的累积",
+        "tags": [
+          "Agent",
+          "产品",
+          "记忆"
+        ],
+        "score": 84
+      },
+      {
+        "title": "Claude Connector 将企业上下文带进 Claude Code 和 Artifacts",
+        "source": "Thariq · Claude Code · X 动态",
+        "url": "https://x.com/trq212/status/2084387303959740449",
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月3日 · 周一",
+        "summary": "Thariq 提醒用户，如果连接 Claude Connector，例如 Gmail、Calendar、Slack，Claude Code 也可以使用这些连接，甚至可在 Artifacts 中调用。这意味着 Claude 的上下文接入不是只服务聊天窗口，而会扩展到代码与产物生成流程。",
+        "chineseTitle": "Claude Connector 将企业上下文带进 Claude Code 和 Artifacts",
+        "tags": [
+          "Agent",
+          "Claude Code",
+          "上下文"
+        ],
+        "score": 88
+      },
+      {
+        "title": "Aligned 不等于 Harmless，Agent 安全要看不同轴线",
+        "source": "Amanda Askell · Anthropic · X 动态",
+        "url": "https://x.com/AmandaAskell/status/2084369056765989224",
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月3日 · 周一",
+        "summary": "Amanda Askell 反对把模型行为简单划成 aligned 或 unaligned。她指出模型像人一样，可能在“配合目标”的同时造成伤害，例如因为获得了错误的处境信息；aligned 和 harmless 是不同轴线。",
+        "chineseTitle": "Aligned 不等于 Harmless，Agent 安全要看不同轴线",
+        "tags": [
+          "AI Safety",
+          "Agent",
+          "评估"
+        ],
+        "score": 87
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "lol what are we even doing here anymore guys linking my main cua wow moments thread but this one is just about do we need captchas anymore when clearly bots can clear them",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2084185368950456421",
+            "url": "https://x.com/swyx/status/2084185368950456421",
+            "createdAt": "2026-08-03T07:51:28.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "lol what are we even doing here anymore guys",
+            "summary": "lol what are we even doing here anymore guys",
+            "engagement": 1172,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2084312752437481937",
+            "url": "https://x.com/swyx/status/2084312752437481937",
+            "createdAt": "2026-08-03T16:17:39.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "linking my main cua wow moments thread but this one is just about do we need captchas anymore when clearly bots can clear them",
+            "summary": "linking my main cua wow moments thread but this one is just about do we need captchas anymore when clearly bots can clear them",
+            "engagement": 15,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2084483765158719542",
+            "url": "https://x.com/thsottiaux/status/2084483765158719542",
+            "createdAt": "2026-08-04T03:37:12.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness. But it will seem primitive in 2-3 months and we're about to go through another major evolution in how we use AI at the frontier. The next generation of models need more than your laptop.",
+            "summary": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness…",
+            "engagement": 9667,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2084196918071357707",
+            "url": "https://x.com/thsottiaux/status/2084196918071357707",
+            "createdAt": "2026-08-03T08:37:22.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that.",
+            "summary": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users…",
+            "engagement": 5055,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2084506501834829833",
+            "url": "https://x.com/thsottiaux/status/2084506501834829833",
+            "createdAt": "2026-08-04T05:07:32.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.",
+            "summary": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent…",
+            "engagement": 3764,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the most out of Hermes Agent: 1…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2084289426012897433",
+            "url": "https://x.com/petergyang/status/2084289426012897433",
+            "createdAt": "2026-08-03T14:44:58.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the most out of Hermes Agent: 1. The “personal” in personal agent is not the model It’s the agent’s memory of your conversations and the skills you’ve built with it. Karan barely notices when he swaps models because his Hermes already has so…",
+            "summary": "My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the most out of Hermes Agent: 1…",
+            "engagement": 199,
+            "tags": [
+              "Agent",
+              "组织",
+              "研究"
+            ]
+          },
+          {
+            "id": "2084438872944242932",
+            "url": "https://x.com/petergyang/status/2084438872944242932",
+            "createdAt": "2026-08-04T00:38:48.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "ChatGPT is for creating memories",
+            "summary": "ChatGPT is for creating memories",
+            "engagement": 50,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2084330985689428290",
+            "url": "https://x.com/petergyang/status/2084330985689428290",
+            "createdAt": "2026-08-03T17:30:06.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "“For us, we just want open source to win at the end of the day. We want freedom to happen for people.” You can hear the passion for open source in this clip from my interview with @karan4d, @NousResearch co-founder: “We need to give this level of intelligence to everyone so they can be on an even and equal playing…",
+            "summary": "“For us, we just want open source to win at the end of the day…",
+            "engagement": 34,
+            "tags": [
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training…",
+        "summary": "I don't agree with this part. I think the takeaway should be that models (like humans) can behave in aligned ways while still causing harm, e.g…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2084369056765989224",
+            "url": "https://x.com/AmandaAskell/status/2084369056765989224",
+            "createdAt": "2026-08-03T20:01:23.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "I don't agree with this part. I think the takeaway should be that models (like humans) can behave in aligned ways while still causing harm, e.g. because they're given false information about their situation. There isn't a line between aligned and harmless: they're different axes.",
+            "summary": "I don't agree with this part. I think the takeaway should be that models (like humans) can behave in aligned ways while still causing harm, e.g…",
+            "engagement": 1263,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2084519165021528263",
+            "url": "https://x.com/AmandaAskell/status/2084519165021528263",
+            "createdAt": "2026-08-04T05:57:52.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "It's surprisingly difficult to acquire a hereditary peerage in the UK. Like you can't even take one by force any more, and they just get mad at you if you try.",
+            "summary": "It's surprisingly difficult to acquire a hereditary peerage in the UK…",
+            "engagement": 116,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "summary": "I think a lot of people don't realize- if you connect a Claude Connector (e.g…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2084387303959740449",
+            "url": "https://x.com/trq212/status/2084387303959740449",
+            "createdAt": "2026-08-03T21:13:53.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "I think a lot of people don't realize- if you connect a Claude Connector (e.g. your gmail, calendar, slack, etc), Claude Code will also be able to use them, including in Artifacts.",
+            "summary": "I think a lot of people don't realize- if you connect a Claude Connector (e.g…",
+            "engagement": 1354,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2084387305436164162",
+            "url": "https://x.com/trq212/status/2084387305436164162",
+            "createdAt": "2026-08-03T21:13:54.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "do it here",
+            "summary": "do it here",
+            "engagement": 38,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "We built a self-driving & self-correcting shared semantic layer on top of our databases, conversations, and docs…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2084415670486499779",
+            "url": "https://x.com/amasad/status/2084415670486499779",
+            "createdAt": "2026-08-03T23:06:37.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "We built a self-driving & self-correcting shared semantic layer on top of our databases, conversations, and docs. Everything is queryable & joinable—regardless of source! So now anyone at Replit can ask questions that previously needed a team of data scientists weeks of work.",
+            "summary": "We built a self-driving & self-correcting shared semantic layer on top of our databases, conversations, and docs…",
+            "engagement": 716,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Next.js 16.3: faster, better, stronger. My highlights: 0️⃣ Faster dev & builds Shoutout to Fable for improving memory use, and the team for landing the incremental 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍 cache…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2084411344623902994",
+            "url": "https://x.com/rauchg/status/2084411344623902994",
+            "createdAt": "2026-08-03T22:49:25.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "Next.js 16.3: faster, better, stronger. My highlights: 0️⃣ Faster dev & builds Shoutout to Fable for improving memory use, and the team for landing the incremental 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍 cache. 1️⃣ Instant navigations are 🔥 The people wanted SPAs, they shall get SPAs. By turning on instant navs (which will soon be default), your…",
+            "summary": "Next.js 16.3: faster, better, stronger. My highlights: 0️⃣ Faster dev & builds Shoutout to Fable for improving memory use, and the team for landing the incremental 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍 cache…",
+            "engagement": 667,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          },
+          {
+            "id": "2084426730241220703",
+            "url": "https://x.com/rauchg/status/2084426730241220703",
+            "createdAt": "2026-08-03T23:50:33.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "The new AI Gateway logs UI is delightful",
+            "summary": "The new AI Gateway logs UI is delightful",
+            "engagement": 281,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2084445517678064092",
+            "url": "https://x.com/rauchg/status/2084445517678064092",
+            "createdAt": "2026-08-04T01:05:13.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "This is why P̵L̵G̵ ALG will always be king for startups. Have p̵e̵o̵p̵l̵e̵ agents adopt your product first, then have the meetings, if needed. The companies that start with the meetings are likely not your ideal customers.",
+            "summary": "This is why P̵L̵G̵ ALG will always be king for startups…",
+            "engagement": 185,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Another day another near frontier open weights model release…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2084510498519933318",
+            "url": "https://x.com/levie/status/2084510498519933318",
+            "createdAt": "2026-08-04T05:23:25.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "Another day another near frontier open weights model release. If you had gone back even 3-6 months and given everyone access to what we’re now seeing in open weights even as a closed model, their minds would be completely blown. The fact that this is possible changes the calculations in the industry meaningfully. It…",
+            "summary": "Another day another near frontier open weights model release…",
+            "engagement": 80,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2084536363668611491",
+            "url": "https://x.com/zarazhangrui/status/2084536363668611491",
+            "createdAt": "2026-08-04T07:06:12.000Z",
+            "sourceDate": "2026-08-04",
+            "sourceDisplayDate": "8月4日 · 周二",
+            "text": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+            "summary": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+            "engagement": 4,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Even though I try to make sure to say bye to my kids before I go to work, some days have me crawling out of my house on all fours quietly like a thief so they don’t bawl when they see me leaving…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2084260256503255358",
+            "url": "https://x.com/nikunj/status/2084260256503255358",
+            "createdAt": "2026-08-03T12:49:03.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "Even though I try to make sure to say bye to my kids before I go to work, some days have me crawling out of my house on all fours quietly like a thief so they don’t bawl when they see me leaving. And you learn all about which doors (and drawers) are squeaky and fixing them stat so your crime goes silently unpunished.…",
+            "summary": "Even though I try to make sure to say bye to my kids before I go to work, some days have me crawling out of my house on all fours quietly like a thief so they don’t bawl when they…",
+            "engagement": 68,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "one of the deepest interviews I’ve done",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2084376873887576482",
+            "url": "https://x.com/danshipper/status/2084376873887576482",
+            "createdAt": "2026-08-03T20:32:27.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "one of the deepest interviews I’ve done",
+            "summary": "one of the deepest interviews I’ve done",
+            "engagement": 230,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "My favorite personal and company value @spc is that you can \"just do things\"…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2084323290605113711",
+            "url": "https://x.com/adityaag/status/2084323290605113711",
+            "createdAt": "2026-08-03T16:59:31.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "My favorite personal and company value @spc is that you can \"just do things\". If you see something you think can be better --> just make it happen. How did @shreepoorna365 build a flight-worthy aircraft in 150 days? By just doing things. Engines. Avionics. Fucking just do it. It is so inspirational.",
+            "summary": "My favorite personal and company value @spc is that you can \"just do things\"…",
+            "engagement": 89,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2084323292471533956",
+            "url": "https://x.com/adityaag/status/2084323292471533956",
+            "createdAt": "2026-08-03T16:59:32.000Z",
+            "sourceDate": "2026-08-03",
+            "sourceDisplayDate": "8月3日 · 周一",
+            "text": "We caught up with the @arctusaerospace team",
+            "summary": "We caught up with the @arctusaerospace team",
+            "engagement": 13,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月5日 · 周三",
+        "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users…",
+        "chineseTitle": "An update on recent Claude Code quality reports",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-08-05",
+        "sourceDisplayDate": "8月5日 · 周三",
+        "summary": "Get started with Claude Managed Agents by following our docs…",
+        "chineseTitle": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "author": "",
+        "publishedAt": "May 19, 2026",
+        "sourceDate": "May 19, 20",
+        "sourceDisplayDate": "May 19, 20",
+        "summary": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers…",
+        "chineseTitle": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "Unsupervised Learning",
+        "title": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+        "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM",
+        "publishedAt": "2026-08-03T12:55:21.000Z",
+        "sourceDate": "2026-08-03",
+        "sourceDisplayDate": "8月3日 · 周一",
+        "summary": "Speaker 1 | 00:00 - 00:06 My mom, like, knows nothing about AI…",
+        "chineseTitle": "AI Vibe Check: Chinese Open Models, Distillation &amp; The Hugging Face Breach",
+        "tags": [
+          "Agent",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天的主线很清晰：Agent 不再只是“在编辑器里帮你写代码”的单点工具，而是在向更完整的执行系统演化。Thibault Sottiaux 说 Codex 现在是一个不错的 harness，但 2-3 个月后会显得原始；Anthropic 的 Managed Agents 文章也把同一件事讲得更工程化——下一代 Agent 需要把“脑”和“手”解耦，需要可控 sandbox、长期任务执行和企业内部系统连接。",
+        "上下文连接正在成为 AI 产品的分水岭。Thariq 提醒用户，Claude Connector 一旦接入 Gmail、Calendar、Slack 等数据，Claude Code 和 Artifacts 也能使用这些能力；Peter Yang 对 Hermes Agent 的总结则强调，“personal” 的核心不是模型本身，而是长期记忆和可复用 skills。对 AI Builders 来说，模型差异会被快速摊薄，真正的护城河更可能来自上下文、权限、工作流和持续积累的用户操作历史。",
+        "企业侧的信号是“语义层”和“Agent-first adoption”。Amjad Masad 说 Replit 已经在数据库、对话和文档之上搭了自驱动、自纠错的共享语义层，让任何人都能查询并 join 跨源信息；Guillermo Rauch 把 PLG 改写成 ALG（Agent-led growth），意思是先让 agents 采用产品，再让人类开会。这背后是同一个判断：未来 SaaS 的入口和使用者可能先是 agent，而不是传统的人类 dashboard 用户。",
+        "模型与成本层面也在继续压缩行业假设。Thibault 明确称 GPT-5.6 Luna 80% 降价是永久性的，因为效率收益不会消失；Aaron Levie 则认为 near-frontier open weights 的频繁发布正在改变行业计算。闭源前沿模型、开源权重和价格曲线同时下行，会迫使 builder 重新评估 build vs buy、模型路由和产品毛利结构。",
+        "安全与评估维度没有消失，反而更重要。Amanda Askell 区分了 aligned 与 harmless：模型即使按意图配合，也可能因为处境信息错误而造成伤害。这对 Agent 产品尤其关键——当系统拥有工具、权限和企业上下文时，“听话”不等于“安全”，评估必须覆盖信息真实性、权限边界和后果控制。"
+      ],
+      "filteredNote": "过滤掉了 Swyx 的情绪短评和 CAPTCHA 梗、Peter Yang “ChatGPT is for creating memories” 单句、Amanda Askell 英国贵族笑话、Thariq “do it here”、Guillermo Rauch 的 AI Gateway logs 一句称赞、Zara Zhang 低信息量用例、Nikunj Kothari 亲子日常、Dan Shipper 采访自夸、Aditya Agarwal 非 AI 组织文化短评等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月4日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "OpenAI Codex · X 动态",
+        "title": "Codex 只是当前形态，下一代 Agent 需要超过笔记本的执行环境",
+        "summary": "Thibault Sottiaux 认为 Codex 已经是一个有效的 harness，但以最近看到的结果判断，它在 2-3 个月后会显得原始。他的核心判断是 frontier AI 使用方式将再次发生重大演化，下一代模型和 Agent 需要的不只是本地笔记本环境。",
+        "keyPoints": [
+          "Codex 当前价值在于提供可用的任务 harness，而不是终局形态",
+          "前沿模型使用方式将在短期内继续快速演化",
+          "下一代 Agent 对算力、沙箱、工具和执行环境的需求会明显上升"
+        ],
+        "whyItMatters": "这是来自 OpenAI Codex 团队成员的产品方向信号：AI coding 的竞争可能从编辑器插件转向完整执行平台。",
+        "tags": [
+          "Agent",
+          "工程",
+          "产品"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/thsottiaux/status/2084483765158719542"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月4日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "OpenAI · X 动态",
+        "title": "GPT-5.6 Luna 永久降价 80%，效率收益开始进入价格层",
+        "summary": "Thibault 澄清 GPT-5.6 Luna 80% 降价不是临时活动，而是永久调整，因为效率收益不会消失。这个信号说明模型成本下降正在从实验室改进传导到产品价格。",
+        "keyPoints": [
+          "80% 价格下调被明确描述为永久性调整",
+          "模型效率提升会持续改变 API 与产品毛利结构",
+          "依赖高成本模型的产品需要重新评估 routing 和定价策略"
+        ],
+        "whyItMatters": "对 AI Builders 来说，模型价格曲线是产品形态和商业模式的底层变量；永久降价比一次促销更重要。",
+        "tags": [
+          "模型成本",
+          "产品",
+          "商业模式"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/thsottiaux/status/2084506501834829833"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月3日 · 周一",
+        "actor": "Peter Yang",
+        "meta": "Hermes Agent · X 动态",
+        "title": "Personal Agent 的核心不是模型，而是记忆与 skills 的累积",
+        "summary": "Peter Yang 总结了与 NousResearch co-founder Karan 的访谈：个人 Agent 的“personal”不在于当前调用哪个模型，而在于它长期记住你的对话、偏好和已经构建的 skills。模型可以替换，但 Agent 的上下文资产会持续复利。",
+        "keyPoints": [
+          "个人 Agent 的差异化来自记忆、技能和工作流沉淀",
+          "模型切换对用户体验的影响会被 Agent 层吸收",
+          "长期使用产生的上下文资产可能比单次模型能力更重要"
+        ],
+        "whyItMatters": "这为 AI 产品设计提供了一个重要框架：不要只围绕模型能力做产品，要围绕可积累的用户上下文和可复用能力做系统。",
+        "tags": [
+          "Agent",
+          "产品",
+          "记忆"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/petergyang/status/2084289426012897433"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月3日 · 周一",
+        "actor": "Thariq",
+        "meta": "Claude Code · X 动态",
+        "title": "Claude Connector 将企业上下文带进 Claude Code 和 Artifacts",
+        "summary": "Thariq 提醒用户，如果连接 Claude Connector，例如 Gmail、Calendar、Slack，Claude Code 也可以使用这些连接，甚至可在 Artifacts 中调用。这意味着 Claude 的上下文接入不是只服务聊天窗口，而会扩展到代码与产物生成流程。",
+        "keyPoints": [
+          "Connector 接入的数据可被 Claude Code 使用",
+          "Artifacts 也能受益于 Gmail、Calendar、Slack 等上下文",
+          "Agent 产品的边界正在从聊天扩展到跨工具工作流"
+        ],
+        "whyItMatters": "上下文连接是 Agent 从 demo 走向实用的关键基础设施；它也会带来更复杂的权限和数据治理问题。",
+        "tags": [
+          "Agent",
+          "Claude Code",
+          "上下文"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/trq212/status/2084387303959740449"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月3日 · 周一",
+        "actor": "Amanda Askell",
+        "meta": "Anthropic · X 动态",
+        "title": "Aligned 不等于 Harmless，Agent 安全要看不同轴线",
+        "summary": "Amanda Askell 反对把模型行为简单划成 aligned 或 unaligned。她指出模型像人一样，可能在“配合目标”的同时造成伤害，例如因为获得了错误的处境信息；aligned 和 harmless 是不同轴线。",
+        "keyPoints": [
+          "模型可以表现得 aligned，但仍然因为错误信息造成 harm",
+          "安全评估不应只看模型是否服从意图",
+          "Agent 场景必须同时评估信息真实性、权限边界和行动后果"
+        ],
+        "whyItMatters": "当 AI 系统开始操作工具和企业数据时，“听话”可能放大错误；这个框架对设计 Agent guardrails 很实用。",
+        "tags": [
+          "AI Safety",
+          "Agent",
+          "评估"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/AmandaAskell/status/2084369056765989224"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月3日 · 周一",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "Replit 构建共享语义层，把数据库、对话和文档变成可查询系统",
+        "summary": "Amjad Masad 表示 Replit 在数据库、对话和文档之上构建了一个自驱动、自纠错的共享语义层，使不同来源的信息都可以被查询和 join。过去需要数据科学团队数周完成的问题，现在公司内部任何人都可以直接提问。",
+        "keyPoints": [
+          "跨数据库、对话和文档建立统一语义层",
+          "系统具备 self-driving 与 self-correcting 特性",
+          "把数据科学团队的部分分析能力下放给全组织"
+        ],
+        "whyItMatters": "这是 AI 进入公司运营层的高质量案例：价值不只是聊天，而是把碎片化组织知识变成可计算、可治理的底座。",
+        "tags": [
+          "组织",
+          "数据",
+          "Agent"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/amasad/status/2084415670486499779"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月4日 · 周二",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "从 PLG 到 ALG：先让 Agent 采用产品，再让人类开会",
+        "summary": "Guillermo Rauch 提出 ALG（Agent-led growth）会成为 startup 的重要增长逻辑：先让 agents 采用你的产品，再在必要时让人类进入销售会议。以会议为起点的公司，可能并不是理想客户。",
+        "keyPoints": [
+          "Agent 可能成为 SaaS 产品的首批实际使用者",
+          "产品应优先被机器可发现、可调用、可验证",
+          "销售流程可能从人类说服转向 Agent adoption 信号驱动"
+        ],
+        "whyItMatters": "如果 agent 成为产品入口，API、文档、权限、日志和可观测性会变成增长能力，而不只是工程配套。",
+        "tags": [
+          "产品",
+          "增长",
+          "Agent"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/rauchg/status/2084445517678064092"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月4日 · 周二",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Near-frontier open weights 加速发布，行业计算正在被改写",
+        "summary": "Aaron Levie 观察到 near-frontier open weights 模型发布频率越来越高。如果把今天的开放权重能力放到 3-6 个月前，即使作为闭源模型也会令人震惊；这种可获得性会显著改变行业里的 build、buy 和部署计算。",
+        "keyPoints": [
+          "开放权重模型正在逼近前沿能力区间",
+          "过去几个月模型可获得性的变化幅度非常大",
+          "企业和创业公司需要重新评估模型选择与部署策略"
+        ],
+        "whyItMatters": "开放权重的进步会影响成本、隐私、延迟、定制化和供应商锁定，是 AI Builders 的核心战略变量。",
+        "tags": [
+          "开源模型",
+          "模型策略",
+          "基础设施"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/levie/status/2084510498519933318"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "8月5日 · 周三",
+        "actor": "Anthropic Engineering",
+        "meta": "Claude Managed Agents · Engineering Blog",
+        "title": "Managed Agents 的架构方向：把 brain 和 hands 解耦",
+        "summary": "Anthropic Engineering 讨论 Managed Agents 的扩展思路：把模型推理的“brain”与执行环境、工具调用、沙箱等“hands”解耦。这个架构方向说明，企业级 Agent 的关键不只是更强模型，还包括可控执行、隔离环境和可运维的任务生命周期。",
+        "keyPoints": [
+          "Managed Agents 强调模型推理与执行环境分层",
+          "沙箱、工具权限和任务运行时成为 Agent 平台核心组件",
+          "企业落地需要可扩展、可治理、可观测的 Agent 基础设施"
+        ],
+        "whyItMatters": "这篇文章给出了 Agent 平台化的工程蓝图，适合所有在做企业 Agent、coding agent 或自动化平台的团队参考。",
+        "tags": [
+          "Agent",
+          "工程",
+          "基础设施"
+        ],
+        "qualityScore": 89,
+        "url": "https://www.anthropic.com/engineering/managed-agents"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月3日 · 周一",
+        "actor": "Unsupervised Learning",
+        "meta": "AI Vibe Check · Podcast",
+        "title": "中国开放模型、蒸馏与 Hugging Face 安全事件的同一条主线",
+        "summary": "本期 AI Vibe Check 围绕中国开放模型、distillation 以及 Hugging Face breach 展开，核心不是单点新闻，而是开放生态的能力扩散速度与供应链风险正在同步上升。开放模型让更多团队接近前沿能力，蒸馏降低能力复制成本，而托管平台安全事件提醒 builder：模型、权重、数据和基础设施都属于攻击面。",
+        "keyPoints": [
+          "中国开放模型提升了全球开放生态的竞争强度",
+          "Distillation 让模型能力扩散更快，也让护城河更难只靠模型本身维持",
+          "Hugging Face breach 将模型供应链安全推到更高优先级"
+        ],
+        "whyItMatters": "对 AI Builders 来说，开放模型是机会，蒸馏是成本曲线，平台安全是生存底线；三者必须一起纳入产品和基础设施决策。",
+        "tags": [
+          "开源模型",
+          "安全",
+          "研究"
+        ],
+        "qualityScore": 83,
+        "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM"
+      }
+    ]
+  },
+  {
     "date": "2026-08-04",
     "displayDate": "8月4日 · 周二",
     "generatedAt": "2026-08-03T23:30:21.167214+00:00",
