@@ -1,5 +1,986 @@
 [
   {
+    "date": "2026-08-08",
+    "displayDate": "8月8日 · 周六",
+    "generatedAt": "2026-08-07T23:30:53.218845+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-07T06:42:39.266Z",
+      "blogs": "2026-08-07T06:43:16.343Z",
+      "podcasts": "2026-08-07T06:43:15.272Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 AI Builders 的可用性基础设施：安全策略降误伤、免费层扩容、coding agent 异步交付、插件生态、长周期 Agent 与团队工作流。已筛选出 10 条高信号内容。",
+    "editorNote": "本页只保留有事实增量、观点密度、工程/产品 insight 或长期判断价值的 AI Builders 内容；低信号日常、吐槽、meme、无上下文短评、纯转发和非 AI 主题会被过滤。",
+    "stats": {
+      "builders": 15,
+      "tweets": 31,
+      "blogs": 1,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 14
+        },
+        {
+          "name": "工程",
+          "count": 9
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        },
+        {
+          "name": "组织",
+          "count": 7
+        },
+        {
+          "name": "产品",
+          "count": 5
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "Agent 不一定吞掉软件公司，可能放大流程软件需求",
+        "source": "Box · X 动态",
+        "url": "https://x.com/levie/status/2085474309943030032",
+        "sourceDate": "2026-08-08",
+        "sourceDisplayDate": "8月6日 · 周四",
+        "summary": "Aaron Levie 以 Atlassian 强劲财报为例，反驳“Agent 会伤害某些软件类别”的粗糙判断。他认为在 Agent 生成 100 倍代码、处理大量流程的世界里，企业仍然需要系统来记录、协作、治理和管理工作；并补充说，真实的 agent 采用更像管理流程中的人，而不是向 chatbot 提问。这个观点把 agent adoption 从聊天界面拉回企业运营现实。",
+        "chineseTitle": "Agent 不一定吞掉软件公司，可能放大流程软件需求",
+        "tags": [
+          "Enterprise AI",
+          "Agent",
+          "SaaS"
+        ],
+        "score": 92
+      },
+      {
+        "title": "Claude 降低生物安全误伤：安全策略开始追求可用性",
+        "source": "Anthropic · X 动态",
+        "url": "https://x.com/claudeai/status/2085563808773189680",
+        "sourceDate": "2026-08-08",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "Claude 宣布更新 Fable 5 的 biology safeguards，目标是减少 false positives。Anthropic 称测试中生物相关 fallback 在各产品界面下降约 85%，因此 Claude 能覆盖更多日常健康与教育问题。这个更新的重要性在于：安全系统不再只是“挡住风险”，也要避免把正常高价值场景误伤掉。",
+        "chineseTitle": "Claude 降低生物安全误伤：安全策略开始追求可用性",
+        "tags": [
+          "Safety",
+          "Product",
+          "Claude"
+        ],
+        "score": 91
+      },
+      {
+        "title": "No-code 的终局不是 UI，而是让 code 本身可被模型操作",
+        "source": "Replit · X 动态",
+        "url": "https://x.com/amasad/status/2085451197323034902",
+        "sourceDate": "2026-08-08",
+        "sourceDisplayDate": "8月6日 · 周四",
+        "summary": "Amjad Masad 认为 Airtable 标志着 no-code 兴衰的一个阶段：UI 永远无法让用户构建任意软件，真正让软件生产普及的路径是“解决 code 本身”。他还回忆 Replit 在 2021/2022 年向 Google、Meta 等游说训练 coding-specific models 但不被重视，最终自己训练 Replit-code-3b。两条放在一起，是对 AI coding 方向的长期判断：code 不会消失，而是变成更高层次的可操作介质。",
+        "chineseTitle": "No-code 的终局不是 UI，而是让 code 本身可被模型操作",
+        "tags": [
+          "AI Coding",
+          "No-code",
+          "Replit"
+        ],
+        "score": 90
+      },
+      {
+        "title": "长周期 Agent 的工程方法：规格、ontology 与过程监督",
+        "source": "The MAD Podcast with Matt Turck · Basis",
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "sourceDate": "2026-08-08",
+        "sourceDisplayDate": "8月6日 · 周四",
+        "summary": "Matt Turck 与 Basis co-founder Mitch Troyanovsky 的访谈聚焦如何构建 long-horizon AI agents。片段提到 behavior specs、ontologies、process supervision，以及会计作为“经济之上的智能层”的视角。核心 thesis 是：真正能跑长流程的 Agent 不能只依赖模型聪明，而要把领域结构、行为约束和过程监督产品化。",
+        "chineseTitle": "长周期 Agent 的工程方法：规格、ontology 与过程监督",
+        "tags": [
+          "Long-horizon Agent",
+          "Process Supervision",
+          "Vertical AI"
+        ],
+        "score": 89
+      },
+      {
+        "title": "Codex 的任务边界正在外扩：从辅助编码到异步交付",
+        "source": "Codex · X 动态",
+        "url": "https://x.com/thsottiaux/status/2085597685948813610",
+        "sourceDate": "2026-08-08",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "Thibault Sottiaux 说，现在可以向搭载 GPT-5.6 Sol 的 Codex 提出“看起来需要几周工作”的疯狂任务，聊 5 分钟后离开，回来发现已经完成。表达有夸张成分，但信号很清楚：AI coding agent 的产品叙事正在从 autocomplete/小修小补，转向能承接更长、更开放的工程任务。关键问题也随之变成规格、验证、回滚和信任。",
+        "chineseTitle": "Codex 的任务边界正在外扩：从辅助编码到异步交付",
+        "tags": [
+          "Codex",
+          "Agent",
+          "Engineering"
+        ],
+        "score": 87
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "reader: it was not the last spec the ai-devblog skill elicits what YOU think the story is, and works with you to trace what you read and report it faithfully…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085613357080723846",
+            "url": "https://x.com/swyx/status/2085613357080723846",
+            "createdAt": "2026-08-07T06:25:47.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "reader: it was not the last spec",
+            "summary": "reader: it was not the last spec",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085616830786543667",
+            "url": "https://x.com/swyx/status/2085616830786543667",
+            "createdAt": "2026-08-07T06:39:36.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "the ai-devblog skill elicits what YOU think the story is, and works with you to trace what you read and report it faithfully. also does visuals...",
+            "summary": "the ai-devblog skill elicits what YOU think the story is, and works with you to trace what you read and report it faithfully…",
+            "engagement": 0,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085570817786880265",
+            "url": "https://x.com/swyx/status/2085570817786880265",
+            "createdAt": "2026-08-07T03:36:45.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "reply",
+            "summary": "reply",
+            "engagement": 0,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085597685948813610",
+            "url": "https://x.com/thsottiaux/status/2085597685948813610",
+            "createdAt": "2026-08-07T05:23:31.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it. I talk to it for 5 minutes straight with things that just seem to require weeks of work, get up to get something in the fridge, pet the dog, come back and ... it's done.",
+            "summary": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it…",
+            "engagement": 3274,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2085610005768945984",
+            "url": "https://x.com/thsottiaux/status/2085610005768945984",
+            "createdAt": "2026-08-07T06:12:28.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "I meant to say \"ghiblify\", but I said \"gimlify\"",
+            "summary": "I meant to say \"ghiblify\", but I said \"gimlify\"",
+            "engagement": 705,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085610231707623750",
+            "url": "https://x.com/thsottiaux/status/2085610231707623750",
+            "createdAt": "2026-08-07T06:13:22.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Free users of ChatGPT now have unlimited text chats, powered by GPT-5.6 Luna",
+            "summary": "Free users of ChatGPT now have unlimited text chats, powered by GPT-5.6 Luna",
+            "engagement": 264,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Consumer is basically ChatGPT and Google's market to lose in my opinion…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085427222836658600",
+            "url": "https://x.com/petergyang/status/2085427222836658600",
+            "createdAt": "2026-08-06T18:06:09.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Consumer is basically ChatGPT and Google's market to lose in my opinion. ChatGPT already has 1B users and needs to get them to connect their favorite apps and use agents to do work. OpenAI is already pioneering new interaction patterns like voice. The biggest barriers to overcome are: 1) Normies not trusting AI and…",
+            "summary": "Consumer is basically ChatGPT and Google's market to lose in my opinion…",
+            "engagement": 208,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2085520904398999901",
+            "url": "https://x.com/petergyang/status/2085520904398999901",
+            "createdAt": "2026-08-07T00:18:25.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "damn where's the ping Tibo to reset button",
+            "summary": "damn where's the ping Tibo to reset button",
+            "engagement": 184,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085423674073751813",
+            "url": "https://x.com/petergyang/status/2085423674073751813",
+            "createdAt": "2026-08-06T17:52:03.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "This is (of course) a massive distraction but the game I dream of building with AI is a roguelike deckbuilder that has great graphics, gameplay, and story.",
+            "summary": "This is (of course) a massive distraction but the game I dream of building with AI is a roguelike deckbuilder that has great graphics, gameplay, and story.",
+            "engagement": 23,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "I’ve noticed people are much clearer when they speak through new ideas than writing a doc on it…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2085390240899043406",
+            "url": "https://x.com/realmadhuguru/status/2085390240899043406",
+            "createdAt": "2026-08-06T15:39:12.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "I’ve noticed people are much clearer when they speak through new ideas than writing a doc on it. Somewhere between their mouth and the doc, the core idea gets buried as they try to add context, polish it and make it sound smart. So here’s what I ask my teams to do: record yourself explaining the idea exactly as you…",
+            "summary": "I’ve noticed people are much clearer when they speak through new ideas than writing a doc on it…",
+            "engagement": 126,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2085534442781868128",
+            "url": "https://x.com/realmadhuguru/status/2085534442781868128",
+            "createdAt": "2026-08-07T01:12:13.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "",
+            "summary": "",
+            "engagement": 20,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "Airtable bookends the rise and fall of “no code.” I remember arguing endlessly with investors about this…",
+        "tags": [
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2085451197323034902",
+            "url": "https://x.com/amasad/status/2085451197323034902",
+            "createdAt": "2026-08-06T19:41:25.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Airtable bookends the rise and fall of “no code.” I remember arguing endlessly with investors about this. UI can never let you build arbitrary software. The way to make software accessible was always to solve code itself. For a long time, that sounded delusional. Not anymore.",
+            "summary": "Airtable bookends the rise and fall of “no code.” I remember arguing endlessly with investors about this…",
+            "engagement": 753,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2085544020424716723",
+            "url": "https://x.com/amasad/status/2085544020424716723",
+            "createdAt": "2026-08-07T01:50:16.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "It’s true, in 21/22 I went around the valley asking everyone to train coding specific models with us: Google, Meta, everyone — no one thought it was as important as NLP use cases — eventually we trained our own: Replit-code-3b and then everyone got code pilled.",
+            "summary": "It’s true, in 21/22 I went around the valley asking everyone to train coding specific models with us: Google, Meta, everyone — no one thought it was as important as NLP use cases —…",
+            "engagement": 145,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2085544577415696405",
+            "url": "https://x.com/amasad/status/2085544577415696405",
+            "createdAt": "2026-08-07T01:52:29.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Guinness world record for collaborative coding.",
+            "summary": "Guinness world record for collaborative coding.",
+            "engagement": 59,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Devtools must be 1️⃣ open source and 2️⃣ universally extensible…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085403169551790359",
+            "url": "https://x.com/rauchg/status/2085403169551790359",
+            "createdAt": "2026-08-06T16:30:35.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding agents are the most important devtools in the history of our industry. The Plugin standard lets anybody extend them uniformly. This is huge for the ecosystem. Build a Plugin → get exposure to the tidal wave of software creation from every…",
+            "summary": "Devtools must be 1️⃣ open source and 2️⃣ universally extensible…",
+            "engagement": 500,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2085422692799570171",
+            "url": "https://x.com/rauchg/status/2085422692799570171",
+            "createdAt": "2026-08-06T17:48:09.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "FreeAI",
+            "summary": "FreeAI",
+            "engagement": 120,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6 months that somehow agents would be bad for certain software categories…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2085474309943030032",
+            "url": "https://x.com/levie/status/2085474309943030032",
+            "createdAt": "2026-08-06T21:13:16.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6 months that somehow agents would be bad for certain software categories. There’s definitely truth in this in some areas, but many were parsing this poorly. In a world where agents are generating 100X more code, processing massive amounts of…",
+            "summary": "Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6 months that somehow agents would be bad for certain software categories…",
+            "engagement": 1084,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2085587079405425146",
+            "url": "https://x.com/levie/status/2085587079405425146",
+            "createdAt": "2026-08-07T04:41:22.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "If you’re trying to understand the dynamic of real world agent adoption this post is a great place to start. Everyone got so hooked on talking to chatbots that there’s limited recognition still that working with an agent is much more like managing someone in a process vs. just asking an ai some questions and getting a…",
+            "summary": "If you’re trying to understand the dynamic of real world agent adoption this post is a great place to start…",
+            "engagement": 89,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Here's what I think you need to know about personal AGI - not a chatbot that anyone can have, but one that knows you uniquely, now and into the future",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085446068461043722",
+            "url": "https://x.com/garrytan/status/2085446068461043722",
+            "createdAt": "2026-08-06T19:21:03.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Here's what I think you need to know about personal AGI - not a chatbot that anyone can have, but one that knows you uniquely, now and into the future",
+            "summary": "Here's what I think you need to know about personal AGI - not a chatbot that anyone can have, but one that knows you uniquely, now and into the future",
+            "engagement": 414,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "How to build long-horizon AI agents: behavior specs, ontologies, process supervision - my conversation with @mitch_troy, co-founder of @trybasis 01:09 Why Everyone at Basis Was Whispering to AI when @steph_palazzolo walk…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2085402933579964730",
+            "url": "https://x.com/mattturck/status/2085402933579964730",
+            "createdAt": "2026-08-06T16:29:38.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "How to build long-horizon AI agents: behavior specs, ontologies, process supervision - my conversation with @mitch_troy, co-founder of @trybasis 01:09 Why Everyone at Basis Was Whispering to AI when @steph_palazzolo walked in 04:12 Accounting as \"an Intelligence Over the Economy\" 06:11 What Makes an Agent Truly…",
+            "summary": "How to build long-horizon AI agents: behavior specs, ontologies, process supervision - my conversation with @mitch_troy, co-founder of @trybasis 01:09 Why Everyone at Basis Was Whi…",
+            "engagement": 103,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2085419899078295979",
+            "url": "https://x.com/mattturck/status/2085419899078295979",
+            "createdAt": "2026-08-06T17:37:03.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Quite the group of investors in Basis, btw @rabois, @Mkclements , @amasad, @ClementDelangue, @jaltma, @JeffDean, @polynoamial, @kvogt, @lennysan, @azeem, @LHSummers, @douwekiela, @pirroh , @scottbelsky, @natfriedman, @danielgross, @lloydblankfein, @vkhosla, @khoslaventures, @Accel, @GVteam, @BoxGroupVC",
+            "summary": "Quite the group of investors in Basis, btw @rabois, @Mkclements , @amasad, @ClementDelangue, @jaltma, @JeffDean, @polynoamial, @kvogt, @lennysan, @azeem, @LHSummers, @douwekiela, @…",
+            "engagement": 10,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2085402938101379487",
+            "url": "https://x.com/mattturck/status/2085402938101379487",
+            "createdAt": "2026-08-06T16:29:40.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "This reference conversation on how to build long-horizon AI agents with @mitch_troy of @trybasis is also available on Spotify, Apple Podcasts and here on YouTube:",
+            "summary": "This reference conversation on how to build long-horizon AI agents with @mitch_troy of @trybasis is also available on Spotify, Apple Podcasts and here on YouTube:",
+            "engagement": 8,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
+        "summary": "Question: is anyone using Claude Tag (or other equivalent team agents) heavily in your team…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2085371310042169630",
+            "url": "https://x.com/zarazhangrui/status/2085371310042169630",
+            "createdAt": "2026-08-06T14:23:59.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Question: is anyone using Claude Tag (or other equivalent team agents) heavily in your team? What have been the top use cases/aha moments?",
+            "summary": "Question: is anyone using Claude Tag (or other equivalent team agents) heavily in your team…",
+            "engagement": 45,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Alright August fundraising season is here (got 9 intros this week) so here’s a brain dump of tips that no VC will tell you.…",
+        "tags": [
+          "组织",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2085382457457828153",
+            "url": "https://x.com/nikunj/status/2085382457457828153",
+            "createdAt": "2026-08-06T15:08:17.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "Alright August fundraising season is here (got 9 intros this week) so here’s a brain dump of tips that no VC will tell you.. > who you talk to and get to an intro at a VC firm really matters. associates and principals ARE really great. i genuinely mean it BUT you have to see what they have backed recently to…",
+            "summary": "Alright August fundraising season is here (got 9 intros this week) so here’s a brain dump of tips that no VC will tell you.…",
+            "engagement": 560,
+            "tags": [
+              "组织",
+              "市场"
+            ]
+          },
+          {
+            "id": "2085597628121878721",
+            "url": "https://x.com/nikunj/status/2085597628121878721",
+            "createdAt": "2026-08-07T05:23:17.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Wow this blew up my inbox - I’ll try to respond to as many DMs as I can tomorrow! Feel free to ask questions publicly and I’ll reply here as well!",
+            "summary": "Wow this blew up my inbox - I’ll try to respond to as many DMs as I can tomorrow…",
+            "engagement": 0,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "your boy made it into @axios today!",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085420793400316270",
+            "url": "https://x.com/danshipper/status/2085420793400316270",
+            "createdAt": "2026-08-06T17:40:37.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "your boy made it into @axios today!",
+            "summary": "your boy made it into @axios today!",
+            "engagement": 51,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "A good day to apply to @spc I have learnt an incredible amount from Tom and I could not be more proud that @GoodfireAI was born at SPC…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085364323707150758",
+            "url": "https://x.com/adityaag/status/2085364323707150758",
+            "createdAt": "2026-08-06T13:56:13.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "A good day to apply to @spc",
+            "summary": "A good day to apply to @spc",
+            "engagement": 154,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085315202237546603",
+            "url": "https://x.com/adityaag/status/2085315202237546603",
+            "createdAt": "2026-08-06T10:41:02.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "I have learnt an incredible amount from Tom and I could not be more proud that @GoodfireAI was born at SPC.",
+            "summary": "I have learnt an incredible amount from Tom and I could not be more proud that @GoodfireAI was born at SPC.",
+            "engagement": 21,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085364438845022389",
+            "url": "https://x.com/adityaag/status/2085364438845022389",
+            "createdAt": "2026-08-06T13:56:41.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "@spc",
+            "summary": "@spc",
+            "engagement": 5,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "5.6 Sol much better in chat now and unlimited text chat for free users!",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085454964814753990",
+            "url": "https://x.com/sama/status/2085454964814753990",
+            "createdAt": "2026-08-06T19:56:24.000Z",
+            "sourceDate": "2026-08-06",
+            "sourceDisplayDate": "8月6日 · 周四",
+            "text": "5.6 Sol much better in chat now and unlimited text chat for free users!",
+            "summary": "5.6 Sol much better in chat now and unlimited text chat for free users!",
+            "engagement": 8179,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+        "summary": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2085563808773189680",
+            "url": "https://x.com/claudeai/status/2085563808773189680",
+            "createdAt": "2026-08-07T03:08:54.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives. In our testing, this update reduced biology-related fallbacks by about 85% across our product surfaces. Fable can now assist on a wider range of everyday health and educational questions. We believe the biggest positive impacts of AI will be…",
+            "summary": "We’re updating Claude Fable 5’s biology safeguards to reduce false positives…",
+            "engagement": 5084,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Claude Blog",
+        "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "url": "https://claude.com/blog/claude-for-foundation-models",
+        "author": "",
+        "publishedAt": "Jun 08, 2026",
+        "sourceDate": "Jun 08, 20",
+        "sourceDisplayDate": "Jun 08, 20",
+        "summary": "Today we're releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple's Foundation Models framework to call Claude for more complex workflows…",
+        "chineseTitle": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "publishedAt": "2026-08-06T11:30:01.000Z",
+        "sourceDate": "2026-08-06",
+        "sourceDisplayDate": "8月6日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:18 Humans are already used to working with non deterministic systems, it's just the systems are normally their co workers, not their computers…",
+        "chineseTitle": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天的主线不是单点发布，而是 AI 产品正在从“能答问题”转向“能进入流程”。Claude 更新 biology safeguards，把生物相关拒答降低约 85%；ChatGPT 免费层获得更多文本能力；Codex 在更长、更模糊的工程任务上被描述为可以接近异步交付。这些信号放在一起看，模型公司正在同时推进两件事：降低使用门槛，以及减少真实场景里的摩擦。",
+        "Agent 的讨论继续从 demo 进入组织和基础设施层。Aaron Levie 用 Atlassian 财报反驳“Agent 会伤害软件公司”的简单叙事，认为如果 Agent 生成更多代码、处理更多流程，反而会放大系统-of-record、协作和治理工具的需求。Matt Turck 与 Basis 的访谈则把问题落到更细的工程面：长周期 Agent 需要 behavior specs、ontology、process supervision，而不是只靠更强的聊天模型。",
+        "开发者工具生态的竞争焦点也在变化。Guillermo Rauch 强调 AI coding agents 是历史上最重要的 devtools，因此必须开源、可扩展，并通过统一 Plugin 标准让生态参与。Amjad Masad 的 no-code 判断与 Replit 早期训练 coding model 的回忆形成呼应：真正让软件生产民主化的，不是把 UI 做得更复杂，而是把 code 本身变成可被模型操作、解释和交付的介质。",
+        "组织层面的高信号来自 Madhu Guru：让团队先口头讲清楚新想法，再把录音转成文档。这看似是写作技巧，实际是 AI-native 工作流的一部分——把人类最自然的高带宽表达变成可处理素材，再交给模型做结构化。对于 AI Builders 来说，未来的生产力差距不只来自模型选择，也来自团队是否能重构输入、评审和交付流程。",
+        "总体判断：今天值得关注的是“可用性基础设施”的堆叠。安全策略减少误伤、免费层扩大入口、Apple 平台集成、Plugin 标准、长周期 Agent 方法论、团队内部表达流程，这些都不是炫技新闻，但会决定 AI 产品能不能稳定进入普通用户、开发者和企业流程。"
+      ],
+      "filteredNote": "过滤掉了 Swyx 的短句/无上下文回复、Thibault 的口误梗、Peter Yang 的游戏随想、Madhu Guru 空内容、Amjad 的吉尼斯短句、Rauch 的 FreeAI 一词短评、Garry Tan 的单句 personal AGI 预告、Matt Turck 的投资人名单、Zara Zhang 的提问、Nikunj Kothari 的泛融资建议、Dan Shipper/Aditya Agarwal 的个人宣传等低信号或非 AI 内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Claude",
+        "meta": "Anthropic · X 动态",
+        "title": "Claude 降低生物安全误伤：安全策略开始追求可用性",
+        "summary": "Claude 宣布更新 Fable 5 的 biology safeguards，目标是减少 false positives。Anthropic 称测试中生物相关 fallback 在各产品界面下降约 85%，因此 Claude 能覆盖更多日常健康与教育问题。这个更新的重要性在于：安全系统不再只是“挡住风险”，也要避免把正常高价值场景误伤掉。",
+        "keyPoints": [
+          "Fable 5 的 biology safeguards 更新后，生物相关拒答在测试中减少约 85%",
+          "可服务范围扩展到更多日常健康、教育类问题，说明安全策略在向细粒度放行演进",
+          "对产品团队而言，safety eval 不只要看拦截率，也要看 false positive 对用户任务完成率的影响"
+        ],
+        "whyItMatters": "AI 产品进入专业和半专业场景后，过度拒答会直接损害可用性。这个案例说明 frontier labs 正在把安全从静态红线调整为可运营的产品系统。",
+        "tags": [
+          "Safety",
+          "Product",
+          "Claude"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/claudeai/status/2085563808773189680"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月6日 · 周四",
+        "actor": "Sam Altman",
+        "meta": "OpenAI · X 动态",
+        "title": "免费层继续扩容：ChatGPT 把模型能力推向更大用户面",
+        "summary": "Sam Altman 提到 5.6 Sol 在聊天中明显改善，并且免费用户获得 unlimited text chat；Thibault Sottiaux 也补充免费用户的无限文本聊天由 GPT-5.6 Luna 支持。虽然原帖很短，但这是明确的产品分发信号：OpenAI 正在把更多能力下放到免费入口。对 AI Builders 来说，默认用户预期会被重新抬高。",
+        "keyPoints": [
+          "OpenAI 将更强文本聊天能力推向免费用户，降低高频使用门槛",
+          "免费层能力提升会改变新产品的竞争基线：普通用户会默认期待更低成本、更高质量的 AI 交互",
+          "模型分层不只是技术路线，也是增长和生态控制策略"
+        ],
+        "whyItMatters": "当基础模型厂商提高免费层能力，应用层产品必须更清楚地证明自己的工作流、数据和分发价值。单纯包装聊天能力的空间会继续被压缩。",
+        "tags": [
+          "ChatGPT",
+          "Distribution",
+          "Product"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/sama/status/2085454964814753990"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "Codex 的任务边界正在外扩：从辅助编码到异步交付",
+        "summary": "Thibault Sottiaux 说，现在可以向搭载 GPT-5.6 Sol 的 Codex 提出“看起来需要几周工作”的疯狂任务，聊 5 分钟后离开，回来发现已经完成。表达有夸张成分，但信号很清楚：AI coding agent 的产品叙事正在从 autocomplete/小修小补，转向能承接更长、更开放的工程任务。关键问题也随之变成规格、验证、回滚和信任。",
+        "keyPoints": [
+          "Codex 被描述为可处理更长周期、更模糊的工程任务，而不只是局部代码补全",
+          "用户交互模式从连续监督变成异步委派：说明产品需要更强的任务理解和结果验证机制",
+          "越接近“几周工作”的任务，越需要明确 spec、测试、权限边界和 review 流程"
+        ],
+        "whyItMatters": "开发者工具的价值正在从提高敲代码速度，转向压缩完整工程交付周期。AI Builders 如果要做 coding agent 周边生态，机会会更多出现在评审、测试、上下文管理和部署安全上。",
+        "tags": [
+          "Codex",
+          "Agent",
+          "Engineering"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/thsottiaux/status/2085597685948813610"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月6日 · 周四",
+        "actor": "Peter Yang",
+        "meta": "Consumer AI · X 动态",
+        "title": "Consumer AI 的胜负手：用户规模之后是信任与应用连接",
+        "summary": "Peter Yang 判断 Consumer AI 基本是 ChatGPT 和 Google “不能输”的市场：ChatGPT 已有巨大用户规模，下一步是让用户连接常用 app，并用 agents 真正完成工作。他同时指出障碍在于普通用户对 AI 的不信任，以及 agent 与现实应用之间的连接。这个框架把 consumer AI 的竞争从模型能力拉回到分发、信任和工作流控制。",
+        "keyPoints": [
+          "Consumer AI 的领先者不只靠模型，还靠用户规模、入口和跨应用连接能力",
+          "voice 等新交互模式会扩大使用场景，但 trust 是普通用户采用 agent 的核心阻力",
+          "真正的消费级 agent 需要能访问用户常用 app，并在可控权限下完成任务"
+        ],
+        "whyItMatters": "面向消费者的 AI 产品如果没有独特数据、垂直工作流或强分发，很容易被平台级入口吞掉。这个判断有助于重新评估 consumer AI 创业机会。",
+        "tags": [
+          "Consumer AI",
+          "Agent",
+          "Distribution"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/petergyang/status/2085427222836658600"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月6日 · 周四",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "先说出来再写下来：AI-native 团队的想法捕获流程",
+        "summary": "Madhu Guru 观察到，人们口头解释新想法时往往比写文档更清楚；在从嘴到文档的过程中，核心观点会被上下文、润色和“显得聪明”掩埋。因此他让团队先按自然表达录下解释，再基于这个素材整理文档。这个建议本质上是在重构 AI 时代的输入链路：先捕获高带宽原始想法，再让工具做结构化。",
+        "keyPoints": [
+          "口头表达常常更接近想法核心，文档化过程反而可能稀释判断",
+          "录音可以保留原始逻辑和语气，再交给 AI 或团队成员整理成结构化文档",
+          "团队流程的改进点不只在输出自动化，也在输入素材的质量和保真度"
+        ],
+        "whyItMatters": "AI 工具越强，越需要高质量输入。对产品和研究团队来说，建立“口头想法 → 转写 → 结构化 → review”的流程，可能比再换一个写作工具更有效。",
+        "tags": [
+          "Team Workflow",
+          "Knowledge Work",
+          "AI-native"
+        ],
+        "qualityScore": 81,
+        "url": "https://x.com/realmadhuguru/status/2085390240899043406"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月6日 · 周四",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "No-code 的终局不是 UI，而是让 code 本身可被模型操作",
+        "summary": "Amjad Masad 认为 Airtable 标志着 no-code 兴衰的一个阶段：UI 永远无法让用户构建任意软件，真正让软件生产普及的路径是“解决 code 本身”。他还回忆 Replit 在 2021/2022 年向 Google、Meta 等游说训练 coding-specific models 但不被重视，最终自己训练 Replit-code-3b。两条放在一起，是对 AI coding 方向的长期判断：code 不会消失，而是变成更高层次的可操作介质。",
+        "keyPoints": [
+          "传统 no-code 受限于 UI 表达能力，难以覆盖任意软件复杂度",
+          "coding-specific models 的价值曾被低估，但后来成为行业共识",
+          "AI coding 的核心不是消灭代码，而是让更多人能通过模型生成、修改和理解代码"
+        ],
+        "whyItMatters": "这对 AI Builders 的产品定位很关键：与其把复杂软件强行塞进无代码 UI，不如围绕代码语义、上下文、测试和部署做可控抽象。",
+        "tags": [
+          "AI Coding",
+          "No-code",
+          "Replit"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/amasad/status/2085451197323034902"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月6日 · 周四",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "AI coding agents 需要开放插件层，而不是封闭工具箱",
+        "summary": "Guillermo Rauch 认为 devtools 必须开源且可普遍扩展，而 AI coding agents 是软件行业历史上最重要的 devtools。统一 Plugin standard 可以让任何人以一致方式扩展这些 agent，并接入未来巨大的软件创建浪潮。这里的重点不是单个插件，而是 agent 生态需要一个可组合的能力分发层。",
+        "keyPoints": [
+          "AI coding agents 被定位为新一代核心 devtools，因此开放性和可扩展性会决定生态规模",
+          "Plugin standard 让第三方能力可以跨 agent 复用，降低生态碎片化",
+          "未来开发者工具的竞争可能从 IDE 功能转向插件分发、权限和上下文协议"
+        ],
+        "whyItMatters": "如果 coding agent 成为软件生产入口，插件标准就会像浏览器扩展或 IDE marketplace 一样重要。构建工具的团队需要尽早考虑可扩展架构和生态接口。",
+        "tags": [
+          "Devtools",
+          "Plugin",
+          "Agent"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/rauchg/status/2085403169551790359"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月6日 · 周四",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Agent 不一定吞掉软件公司，可能放大流程软件需求",
+        "summary": "Aaron Levie 以 Atlassian 强劲财报为例，反驳“Agent 会伤害某些软件类别”的粗糙判断。他认为在 Agent 生成 100 倍代码、处理大量流程的世界里，企业仍然需要系统来记录、协作、治理和管理工作；并补充说，真实的 agent 采用更像管理流程中的人，而不是向 chatbot 提问。这个观点把 agent adoption 从聊天界面拉回企业运营现实。",
+        "keyPoints": [
+          "Agent 增加软件与流程产出后，可能提升协作、治理、系统-of-record 的需求",
+          "真实世界采用 agent 更像管理一个流程参与者，而不是一次性问答",
+          "评估软件公司受 AI 影响时，要区分被替代的功能和被放大的系统需求"
+        ],
+        "whyItMatters": "这为 B2B AI 产品提供了更细的判断框架：不要只问“Agent 会不会替代软件”，而要问“Agent 增加工作量后，哪些系统成为控制面”。",
+        "tags": [
+          "Enterprise AI",
+          "Agent",
+          "SaaS"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/levie/status/2085474309943030032"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "Jun 08, 20",
+        "actor": "Claude Blog",
+        "meta": "Anthropic · Apple platforms",
+        "title": "Claude 接入 Apple Foundation Models：平台原生 AI 应用的另一条路径",
+        "summary": "Claude Blog 介绍了面向 Apple Foundation Models framework 的 Claude 支持，通过新的 Swift package，让 Apple 开发者可以在更复杂工作流中调用 Claude。核心信号是：AI 能力正在向平台原生开发框架下沉，而不是只通过独立 Web/App 入口分发。对 Apple 生态开发者来说，这意味着可以在熟悉的 Swift 与系统框架内，把本地模型能力和云端 Claude 能力组合起来。",
+        "keyPoints": [
+          "Anthropic 发布 Swift package，支持 Apple 开发者通过 Foundation Models framework 调用 Claude",
+          "平台原生集成可以降低 AI 能力进入 iOS/macOS 应用的工程成本",
+          "未来应用可能采用本地模型处理轻任务、Claude 处理复杂流程的混合架构"
+        ],
+        "whyItMatters": "AI 应用的分发会越来越依赖平台级框架。对于 Apple 生态的 AI Builders，原生框架集成可能比单独接 API 更容易获得稳定体验和系统权限。",
+        "tags": [
+          "Apple",
+          "Claude",
+          "Developer Platform"
+        ],
+        "qualityScore": 85,
+        "url": "https://claude.com/blog/claude-for-foundation-models"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月6日 · 周四",
+        "actor": "Mitch Troyanovsky",
+        "meta": "The MAD Podcast with Matt Turck · Basis",
+        "title": "长周期 Agent 的工程方法：规格、ontology 与过程监督",
+        "summary": "Matt Turck 与 Basis co-founder Mitch Troyanovsky 的访谈聚焦如何构建 long-horizon AI agents。片段提到 behavior specs、ontologies、process supervision，以及会计作为“经济之上的智能层”的视角。核心 thesis 是：真正能跑长流程的 Agent 不能只依赖模型聪明，而要把领域结构、行为约束和过程监督产品化。",
+        "keyPoints": [
+          "长周期 Agent 需要明确 behavior specs，让系统知道怎样行动、何时停下、如何处理例外",
+          "领域 ontology 是关键基础设施：Agent 要理解业务对象、关系和流程状态，而不是只读自然语言",
+          "process supervision 比最终答案评估更重要，因为长流程失败通常发生在中间步骤"
+        ],
+        "whyItMatters": "这是从 demo 走向生产的 Agent 方法论。对做垂直 Agent 的团队来说，真正的壁垒可能是流程建模、监督数据和领域 ontology，而不是简单调用更强模型。",
+        "tags": [
+          "Long-horizon Agent",
+          "Process Supervision",
+          "Vertical AI"
+        ],
+        "qualityScore": 89,
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+      }
+    ]
+  },
+  {
     "date": "2026-08-07",
     "displayDate": "8月7日 · 周五",
     "generatedAt": "2026-08-06T23:30:44.282174+00:00",
