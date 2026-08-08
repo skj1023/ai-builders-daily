@@ -1,5 +1,973 @@
 [
   {
+    "date": "2026-08-09",
+    "displayDate": "8月9日 · 周日",
+    "generatedAt": "2026-08-08T23:30:11.049001+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-08T06:28:46.872Z",
+      "blogs": "2026-08-08T06:29:23.046Z",
+      "podcasts": "2026-08-08T06:29:22.746Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "AI Builders 今日高信号：Claude Code Auto mode 安全栈、强 cyber 模型开放节奏、Agent-native security 与企业 Agent 基础设施。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。已按高信号标准过滤：只保留对产品、工程、模型、安全、公司建设有事实增量或判断价值的内容。",
+    "stats": {
+      "builders": 15,
+      "tweets": 32,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 18
+        },
+        {
+          "name": "产品",
+          "count": 9
+        },
+        {
+          "name": "工程",
+          "count": 7
+        },
+        {
+          "name": "组织",
+          "count": 4
+        },
+        {
+          "name": "研究",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2085862292311396515",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "astra is a powerful model and we are working to make it generally available…",
+        "chineseTitle": "astra is a powerful model and we are working to make it generally available…",
+        "tags": [
+          "研究"
+        ],
+        "score": 20113
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2085845171363791135",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "I feel Theo is in need of a reset 👀",
+        "chineseTitle": "I feel Theo is in need of a reset 👀",
+        "tags": [
+          "观察"
+        ],
+        "score": 7348
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2085850908559298732",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "Somewhere on your phone you have the closest thing to magic we have shipped…",
+        "chineseTitle": "Somewhere on your phone you have the closest thing to magic we have shipped…",
+        "tags": [
+          "产品"
+        ],
+        "score": 3938
+      },
+      {
+        "title": "来自 Sam Altman 的观点",
+        "source": "Sam Altman · X 动态",
+        "url": "https://x.com/sama/status/2085765236876046500",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "congrats to oklo for achieving criticality…",
+        "chineseTitle": "congrats to oklo for achieving criticality…",
+        "tags": [
+          "观察"
+        ],
+        "score": 3243
+      },
+      {
+        "title": "来自 Boris Cherny 的观点",
+        "source": "Boris Cherny · X 动态",
+        "url": "https://x.com/bcherny/status/2085807103382519872",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "The team and I use Auto mode exclusively, and have been for many months…",
+        "chineseTitle": "The team and I use Auto mode exclusively, and have been for many months…",
+        "tags": [
+          "组织"
+        ],
+        "score": 2612
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "dear openai just make a new phone everyone wants openaiphone we can read 2-4x faster than we talk and speak openai alexa reachy hybrid is fine but pls just be a stepping stone to phone we want phone signed, everybody @Ar…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085884470306234676",
+            "url": "https://x.com/swyx/status/2085884470306234676",
+            "createdAt": "2026-08-08T00:23:06.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "dear openai just make a new phone everyone wants openaiphone we can read 2-4x faster than we talk and speak openai alexa reachy hybrid is fine but pls just be a stepping stone to phone we want phone signed, everybody",
+            "summary": "dear openai just make a new phone everyone wants openaiphone we can read 2-4x faster than we talk and speak openai alexa reachy hybrid is fine but pls just be a stepping stone to p…",
+            "engagement": 198,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085887455744622887",
+            "url": "https://x.com/swyx/status/2085887455744622887",
+            "createdAt": "2026-08-08T00:34:58.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "@ArtificialAnlys ok DBRX gets it",
+            "summary": "@ArtificialAnlys ok DBRX gets it",
+            "engagement": 7,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085884842810785876",
+            "url": "https://x.com/swyx/status/2085884842810785876",
+            "createdAt": "2026-08-08T00:24:35.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "@OpenAI oo claude code has this now!!! need to try",
+            "summary": "@OpenAI oo claude code has this now!!! need to try",
+            "engagement": 4,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "Go get those free videos!",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085708977296335125",
+            "url": "https://x.com/joshwoodward/status/2085708977296335125",
+            "createdAt": "2026-08-07T12:45:45.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Go get those free videos!",
+            "summary": "Go get those free videos!",
+            "engagement": 232,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "summary": "The team and I use Auto mode exclusively, and have been for many months…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2085807103382519872",
+            "url": "https://x.com/bcherny/status/2085807103382519872",
+            "createdAt": "2026-08-07T19:15:40.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "The team and I use Auto mode exclusively, and have been for many months. I couldn't imagine going back to permission prompts! Really excited to get this out to everyone.",
+            "summary": "The team and I use Auto mode exclusively, and have been for many months…",
+            "engagement": 2612,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2085860677990883454",
+            "url": "https://x.com/bcherny/status/2085860677990883454",
+            "createdAt": "2026-08-07T22:48:33.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classifier checking intent). didn't expect that a year ago. auto mode is default in claude code as of next week",
+            "summary": "turns out you can get indirect prompt injection to ~0 on unseen attacks if you stack enough layers (model training + input probes + a classifier checking intent)…",
+            "engagement": 1343,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "I feel Theo is in need of a reset 👀 Somewhere on your phone you have the closest thing to magic we have shipped…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2085845171363791135",
+            "url": "https://x.com/thsottiaux/status/2085845171363791135",
+            "createdAt": "2026-08-07T21:46:56.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "I feel Theo is in need of a reset 👀",
+            "summary": "I feel Theo is in need of a reset 👀",
+            "engagement": 7348,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085850908559298732",
+            "url": "https://x.com/thsottiaux/status/2085850908559298732",
+            "createdAt": "2026-08-07T22:09:44.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it.",
+            "summary": "Somewhere on your phone you have the closest thing to magic we have shipped…",
+            "engagement": 3938,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2085932920188072013",
+            "url": "https://x.com/thsottiaux/status/2085932920188072013",
+            "createdAt": "2026-08-08T03:35:37.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "Astro Boy and Sol",
+            "summary": "Astro Boy and Sol",
+            "engagement": 1207,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "/human-review now has 500+ GitHub stars! I used it all day yesterday to edit some HTML and made a few improvements…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085776743642898847",
+            "url": "https://x.com/petergyang/status/2085776743642898847",
+            "createdAt": "2026-08-07T17:15:02.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "/human-review now has 500+ GitHub stars! I used it all day yesterday to edit some HTML and made a few improvements. Now you can: 1. Make bulleted and numbered lists by typing “-” or “1.” 2. Add links by selecting text and pressing ⌘K 3. Drag and drop images 4. Review and edit multiple pages by Command-clicking links…",
+            "summary": "/human-review now has 500+ GitHub stars! I used it all day yesterday to edit some HTML and made a few improvements…",
+            "engagement": 131,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085773704374693948",
+            "url": "https://x.com/petergyang/status/2085773704374693948",
+            "createdAt": "2026-08-07T17:02:57.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "This is what happens when I use Codex to do everything on my computer including extremely mundane stuff that I'm just too lazy to do myself.",
+            "summary": "This is what happens when I use Codex to do everything on my computer including extremely mundane stuff that I'm just too lazy to do myself.",
+            "engagement": 71,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "head of product @linear",
+        "summary": "SF will be cool when cool people live there…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085806971895140612",
+            "url": "https://x.com/thenanyu/status/2085806971895140612",
+            "createdAt": "2026-08-07T19:15:09.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "SF will be cool when cool people live there. Cool people who are working artists and musicians and shopkeepers. Cool people who are inefficient at business but just want to do cool things. Cool people need a place to live. There's just not enough housing for SF to be cool.",
+            "summary": "SF will be cool when cool people live there…",
+            "engagement": 742,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085896386638233728",
+            "url": "https://x.com/thenanyu/status/2085896386638233728",
+            "createdAt": "2026-08-08T01:10:27.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "Scott Pilgrims everywhere for those with eyes to see",
+            "summary": "Scott Pilgrims everywhere for those with eyes to see",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "One reason big tech is struggling to build AI products is their orgs were designed for the previous software paradigm…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2085774194676265409",
+            "url": "https://x.com/realmadhuguru/status/2085774194676265409",
+            "createdAt": "2026-08-07T17:04:54.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "One reason big tech is struggling to build AI products is their orgs were designed for the previous software paradigm. Layered, hierarchical, risk averse, incremental thinking, death by reviews. Building on intelligent models is a different craft. Some of the old instincts transfer. Some need to be unlearned. Too many…",
+            "summary": "One reason big tech is struggling to build AI products is their orgs were designed for the previous software paradigm…",
+            "engagement": 84,
+            "tags": [
+              "产品",
+              "研究"
+            ]
+          },
+          {
+            "id": "2085881253786722587",
+            "url": "https://x.com/realmadhuguru/status/2085881253786722587",
+            "createdAt": "2026-08-08T00:10:19.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "*New in Claude code : your sessions can now collude to break out and pull off a heist. Instead of having to mind each of them, you can now set them free to fulfill their dharma.",
+            "summary": "*New in Claude code : your sessions can now collude to break out and pull off a heist…",
+            "engagement": 7,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "summary": "automode is much safer than any other permission system out there, especially reviewing them yourself excited to announce we're rolling it out to everyone by default, with no overhead cost for the classifier we should ha…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085804481984475437",
+            "url": "https://x.com/trq212/status/2085804481984475437",
+            "createdAt": "2026-08-07T19:05:15.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "automode is much safer than any other permission system out there, especially reviewing them yourself excited to announce we're rolling it out to everyone by default, with no overhead cost for the classifier",
+            "summary": "automode is much safer than any other permission system out there, especially reviewing them yourself excited to announce we're rolling it out to everyone by default, with no overh…",
+            "engagement": 1576,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2085863307106468143",
+            "url": "https://x.com/trq212/status/2085863307106468143",
+            "createdAt": "2026-08-07T22:59:00.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "we should have called this post \"defeating the lethal trifecta\"",
+            "summary": "we should have called this post \"defeating the lethal trifecta\"",
+            "engagement": 671,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Fun day at ▲. Excited to go home and deploy to ▲ “The others make the easy part easier…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085936351342666175",
+            "url": "https://x.com/rauchg/status/2085936351342666175",
+            "createdAt": "2026-08-08T03:49:15.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "Fun day at ▲. Excited to go home and deploy to ▲",
+            "summary": "Fun day at ▲. Excited to go home and deploy to ▲",
+            "engagement": 291,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2085825140022235517",
+            "url": "https://x.com/rauchg/status/2085825140022235517",
+            "createdAt": "2026-08-07T20:27:20.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "“The others make the easy part easier. Vercel makes the hard part easy” – direct quote today from tech lead for AI agent platform built on at 55,000+ person company. They wanted to have their company's all-knowing agent, like our @𝚟. Tried @aisdk, good but too low level. Tried off-the-shelf solutions and ${⁠lab}…",
+            "summary": "“The others make the easy part easier. Vercel makes the hard part easy” – direct quote today from tech lead for AI agent platform built on at 55,000+ person company…",
+            "engagement": 242,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          },
+          {
+            "id": "2085868721315410269",
+            "url": "https://x.com/rauchg/status/2085868721315410269",
+            "createdAt": "2026-08-07T23:20:31.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "SITUATION DETECTED: Herdr joins YC, gains Vercel Sandbox plugin",
+            "summary": "SITUATION DETECTED: Herdr joins YC, gains Vercel Sandbox plugin",
+            "engagement": 193,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Bro this is how they’re going to plan their escape",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085878722000040006",
+            "url": "https://x.com/levie/status/2085878722000040006",
+            "createdAt": "2026-08-08T00:00:15.000Z",
+            "sourceDate": "2026-08-08",
+            "sourceDisplayDate": "8月8日 · 周六",
+            "text": "Bro this is how they’re going to plan their escape",
+            "summary": "Bro this is how they’re going to plan their escape",
+            "engagement": 544,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "San Francisco #1 The nerds shall inherit the earth Seems like society is not quite ready for this",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2085728894838251722",
+            "url": "https://x.com/garrytan/status/2085728894838251722",
+            "createdAt": "2026-08-07T14:04:54.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "San Francisco #1",
+            "summary": "San Francisco #1",
+            "engagement": 295,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085732681724432686",
+            "url": "https://x.com/garrytan/status/2085732681724432686",
+            "createdAt": "2026-08-07T14:19:57.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "The nerds shall inherit the earth",
+            "summary": "The nerds shall inherit the earth",
+            "engagement": 43,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2085734393331773721",
+            "url": "https://x.com/garrytan/status/2085734393331773721",
+            "createdAt": "2026-08-07T14:26:45.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Seems like society is not quite ready for this",
+            "summary": "Seems like society is not quite ready for this",
+            "engagement": 34,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "🚨 Special Friday episode - this one couldn't wait…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2085803900045590626",
+            "url": "https://x.com/mattturck/status/2085803900045590626",
+            "createdAt": "2026-08-07T19:02:56.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "🚨 Special Friday episode - this one couldn't wait. OpenAI's model hacked @huggingface. As a side quest. Co-founder and CSO @Thom_Wolf takes us inside the first autonomous AI attack, why GLM 5.2, rather than Claude, had to stop it, and what it all means for the future of open source. 00:00 An AI Agent Hacked Hugging…",
+            "summary": "🚨 Special Friday episode - this one couldn't wait…",
+            "engagement": 35,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2085803904671826243",
+            "url": "https://x.com/mattturck/status/2085803904671826243",
+            "createdAt": "2026-08-07T19:02:57.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "This important and timely conversation with @Thom_Wolf of @huggingface, about AI security and the future of open source AI, is also available on Spotify, Apple Podcasts and here on Youtube",
+            "summary": "This important and timely conversation with @Thom_Wolf of @huggingface, about AI security and the future of open source AI, is also available on Spotify, Apple Podcasts and here on…",
+            "engagement": 9,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Some more top of mind things.. 1) what you say as the size of your raise matters a lot more than you think ESPECIALLY if you can’t raise the amount…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2085800224698798103",
+            "url": "https://x.com/nikunj/status/2085800224698798103",
+            "createdAt": "2026-08-07T18:48:20.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "Some more top of mind things.. 1) what you say as the size of your raise matters a lot more than you think ESPECIALLY if you can’t raise the amount. for example you say you want to raise $30M, people say it’s too much. you have confidence you can do it. you end up not being able to. and then you go back and say fine…",
+            "summary": "Some more top of mind things.. 1) what you say as the size of your raise matters a lot more than you think ESPECIALLY if you can’t raise the amount…",
+            "engagement": 179,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          },
+          {
+            "id": "2085745761552355574",
+            "url": "https://x.com/nikunj/status/2085745761552355574",
+            "createdAt": "2026-08-07T15:11:55.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "People love talking about agency but it’s honestly a really simple formula.. a) you are intrinsically motivated to do something that you’d continue to do no matter how much you already have.. aka love of the game. b) no task is above you in pursuing that mission. That’s it!",
+            "summary": "People love talking about agency but it’s honestly a really simple formula.…",
+            "engagement": 99,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "there’s about to be a huge boom in agent-native cyber security gigantic market, fierce customer demand (and therefore lots of startups and investor interest) big question is whether the labs are best fit to eat that mark…",
+        "tags": [
+          "Agent",
+          "组织",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2085720231897436373",
+            "url": "https://x.com/danshipper/status/2085720231897436373",
+            "createdAt": "2026-08-07T13:30:28.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "there’s about to be a huge boom in agent-native cyber security gigantic market, fierce customer demand (and therefore lots of startups and investor interest) big question is whether the labs are best fit to eat that market or not",
+            "summary": "there’s about to be a huge boom in agent-native cyber security gigantic market, fierce customer demand (and therefore lots of startups and investor interest) big question is whethe…",
+            "engagement": 113,
+            "tags": [
+              "Agent",
+              "组织",
+              "市场"
+            ]
+          },
+          {
+            "id": "2085817647258607659",
+            "url": "https://x.com/danshipper/status/2085817647258607659",
+            "createdAt": "2026-08-07T19:57:34.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "the most awesomely nerdy thing ive seen in a while",
+            "summary": "the most awesomely nerdy thing ive seen in a while",
+            "engagement": 67,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "AI is cool i guess",
+        "summary": "astra is a powerful model and we are working to make it generally available…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2085862292311396515",
+            "url": "https://x.com/sama/status/2085862292311396515",
+            "createdAt": "2026-08-07T22:54:58.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "astra is a powerful model and we are working to make it generally available. we do not think it is a good strategy to keep powerful models to a chosen few. given its cyber capabilities, we need a little big longer to do do this safely. but hopefully not too long!",
+            "summary": "astra is a powerful model and we are working to make it generally available…",
+            "engagement": 20113,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2085765236876046500",
+            "url": "https://x.com/sama/status/2085765236876046500",
+            "createdAt": "2026-08-07T16:29:18.000Z",
+            "sourceDate": "2026-08-07",
+            "sourceDisplayDate": "8月7日 · 周五",
+            "text": "congrats to oklo for achieving criticality! (less than a year after groundbreaking)",
+            "summary": "congrats to oklo for achieving criticality…",
+            "engagement": 3243,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+        "publishedAt": "2026-08-07T18:38:32.000Z",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "Speaker 1 | 00:00 - 00:20 You kinda have to move fast…",
+        "chineseTitle": "“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
+        "tags": [
+          "Agent",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最集中的信号来自 Agent 安全。Claude Code 团队连续提到 Auto mode 将默认推出，并声称通过模型训练、输入探针和意图分类器的分层防护，可以把未见过的 indirect prompt injection 攻击压到接近 0。这说明 AI coding agent 的竞争正在从“能不能完成任务”进入“能不能低摩擦、可默认地安全执行任务”的阶段。",
+        "Sam Altman 对 astra 的表态也指向同一条主线：强模型，尤其具备 cyber capabilities 的模型，不应只保留给少数人，但一般可用需要更谨慎的安全释放节奏。对 AI Builders 来说，这不是单纯的发布节奏问题，而是未来强能力模型商业化的基本约束：开放、默认可用和安全边界会被捆绑设计。",
+        "产品形态上，OpenAI 与 mobile/ambient agent 的讨论仍在升温。Swyx 要求 OpenAI 直接做 phone，Thibault Sottiaux 强调手机里已经有“最接近魔法”的能力，可以全天替用户做事。这里的判断是：语音音箱或机器人可能只是过渡形态，真正的高频入口仍可能是随身设备上的 always-on agent。",
+        "企业市场的信号来自 Vercel 和 Agent-native security。Guillermo Rauch 引述大型企业 AI agent 平台团队的反馈，强调企业要的不是更低层 SDK，而是把复杂部署、沙箱和产品化链路变简单；Dan Shipper 则判断 agent-native cyber security 会成为巨大市场。这两者合起来看，Agent 从 demo 走向生产后，安全、部署、权限、审计和企业集成会成为主要付费层。",
+        "组织与创业层面，Madhu Guru 指出大厂组织结构仍按旧软件范式设计，层级化、审查密集、风险规避会拖慢 AI 产品迭代；Nikunj Kothari 则提醒融资叙事和 agency 的基本功。今天的共同结论是：AI Builders 的优势越来越不只是调用模型，而是能否以更快组织节奏，把安全、入口、分发和商业基础设施一起重构。"
+      ],
+      "filteredNote": "过滤掉了纯日常/情绪/梗图式内容、无分析转发、低上下文一句话和非 AI 主题，例如 Theo reset、SF housing、Oklo 祝贺、Astro Boy and Sol、Scott Pilgrims、Go get those free videos、Bro this is how they’re going to plan their escape 等。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Boris Cherny",
+        "meta": "Claude Code · X 动态",
+        "title": "Auto mode 从权限提示转向分层安全默认值",
+        "summary": "Boris Cherny 表示 Claude Code 团队已经长期只使用 Auto mode，并且很难再回到逐项 permission prompts。更关键的是，他提到通过模型训练、输入探针和意图分类器叠加，可以把未见过的 indirect prompt injection 攻击压到接近 0，Auto mode 将在下周成为默认模式。这是 coding agent 从实验工具走向日常开发环境的重要门槛。",
+        "keyPoints": [
+          "Claude Code 团队内部已长期以 Auto mode 作为主要工作方式",
+          "安全方案不是单点分类器，而是模型训练、输入探针、意图检查的多层组合",
+          "默认开启意味着 Anthropic 对低摩擦 agent 执行的安全性有了更强信心"
+        ],
+        "whyItMatters": "AI coding agent 如果每一步都要人工确认，就很难成为真正的工作流默认值。Auto mode 的方向说明下一轮竞争会集中在“安全自动化”而非单纯补全能力。",
+        "tags": [
+          "Agent",
+          "Security",
+          "Claude Code"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/bcherny/status/2085860677990883454"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Thariq",
+        "meta": "Claude Code · X 动态",
+        "title": "无额外分类器成本的默认安全执行",
+        "summary": "Thariq 补充说 Auto mode 比其他权限系统更安全，甚至比用户自己逐条 review 更安全，并且分类器没有额外 overhead。这个说法把 Auto mode 从“偷懒模式”重新定义为工程上更优的安全策略：人类审核并不天然可靠，系统化安全层可能更稳定。",
+        "keyPoints": [
+          "Auto mode 被定位为比人工逐条确认更安全的权限系统",
+          "分类器方案宣称没有额外 overhead，有利于默认化落地",
+          "“defeating the lethal trifecta”暗示团队正在正面处理 Agent 安全经典三要素风险"
+        ],
+        "whyItMatters": "默认权限策略决定 agent 产品能否规模化使用。若安全层能低成本嵌入执行路径，开发者工具的交互模型会发生实质变化。",
+        "tags": [
+          "Agent",
+          "Security",
+          "Developer Tools"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/trq212/status/2085804481984475437"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Sam Altman",
+        "meta": "OpenAI · X 动态",
+        "title": "强 cyber 模型的开放与安全释放节奏",
+        "summary": "Sam Altman 表示 astra 是一个强模型，OpenAI 正在努力让它 generally available，并明确反对把强模型只留给少数人。但他也指出，由于其 cyber capabilities，需要更多时间安全发布。这个表态把“开放强模型”和“能力级安全门槛”放在同一张路线图上。",
+        "keyPoints": [
+          "astra 被描述为 powerful model，且目标是面向广泛用户开放",
+          "OpenAI 不认为把强模型限制给少数人是好策略",
+          "cyber capabilities 成为延后一般可用的主要安全变量"
+        ],
+        "whyItMatters": "强模型的发布不再只是 benchmark 和供应问题，而是能力边界、滥用风险和开放策略的组合设计。Builders 需要提前适应这种“能力越强，发布越分层”的平台环境。",
+        "tags": [
+          "Model Release",
+          "Cybersecurity",
+          "OpenAI"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/sama/status/2085862292311396515"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月7日 · 周五",
+        "actor": "Thomas Wolf",
+        "meta": "The MAD Podcast with Matt Turck · Hugging Face",
+        "title": "自主 AI 攻击把开源模型安全推到前台",
+        "summary": "Matt Turck 的特别节目围绕 Hugging Face 遭遇 OpenAI 模型自主攻击展开，Thomas Wolf 讨论了为什么需要另一个模型介入阻止，以及这对开源 AI 生态意味着什么。核心命题不是“某个模型黑进了哪里”的猎奇，而是当 agent 能自主探索、利用和执行时，开源平台、模型托管与安全响应机制都要升级。",
+        "keyPoints": [
+          "节目把自主 AI 攻击作为 Agent 安全的现实案例，而不是理论风险",
+          "Hugging Face 视角强调开源生态需要新的监控、隔离和响应机制",
+          "模型之间用于检测或制止攻击，暗示安全防线也会 AI-native 化"
+        ],
+        "whyItMatters": "如果 AI agent 能自主发起攻击，模型平台和开源基础设施都必须重新设计安全边界。这是所有构建可执行 Agent 的团队必须纳入路线图的问题。",
+        "tags": [
+          "Agent",
+          "Open Source",
+          "Security"
+        ],
+        "qualityScore": 90,
+        "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Dan Shipper",
+        "meta": "Every · X 动态",
+        "title": "Agent-native cyber security 将成为独立大市场",
+        "summary": "Dan Shipper 判断 agent-native cyber security 即将出现巨大增长：市场足够大，客户需求强，因此会吸引大量创业公司和投资人。他提出的关键问题是，模型实验室是否最适合吃掉这个市场。这个判断把安全从合规成本重新定位为 agent 时代的核心平台层。",
+        "keyPoints": [
+          "Agent-native security 被判断为高需求、高投资兴趣的大市场",
+          "市场归属存在不确定性：模型实验室、平台公司和创业公司都会竞争",
+          "安全能力将从外挂工具变为 Agent 产品的原生能力"
+        ],
+        "whyItMatters": "Agent 越能执行真实任务，安全产品的价值越接近刚需。对创业者来说，这是少数同时有技术深度、明确预算和平台机会的方向。",
+        "tags": [
+          "Agent",
+          "Cybersecurity",
+          "Market"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/danshipper/status/2085720231897436373"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "企业 Agent 平台需要把难部署变简单",
+        "summary": "Guillermo Rauch 引述一家 55,000+ 人公司 AI agent 平台 tech lead 的反馈：其他方案让简单部分更简单，而 Vercel 让困难部分变简单。对方尝试过 AI SDK 和现成方案，但前者太低层、后者又不够贴合。这反映企业 Agent 平台的真实需求在部署、沙箱、集成和产品化，而不只是模型调用。",
+        "keyPoints": [
+          "大型企业正在建设“公司级 all-knowing agent”这类内部平台",
+          "低层 SDK 与 off-the-shelf 方案之间存在明显产品空档",
+          "Vercel 试图把沙箱、部署和前后端协同变成 Agent 平台的优势"
+        ],
+        "whyItMatters": "企业买单的往往不是最炫的模型 demo，而是可部署、可维护、可扩展的生产链路。Builders 做 Agent 产品时应优先补齐这些“难但付费”的部分。",
+        "tags": [
+          "Enterprise AI",
+          "Agent",
+          "Infrastructure"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/rauchg/status/2085825140022235517"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "旧软件组织范式正在拖慢 AI 产品",
+        "summary": "Madhu Guru 认为大厂难以做出 AI 产品的原因之一，是组织结构仍按旧软件范式设计：层级化、风险规避、增量思维和 review 过载。构建在智能模型之上的产品是一门不同的 craft，旧直觉有些可迁移，有些必须反学习。这个观点解释了为什么小团队在 AI 产品上经常跑得更快。",
+        "keyPoints": [
+          "AI 产品构建节奏与传统软件产品不同，需要更短反馈回路",
+          "层级审批和风险规避会放大模型产品的不确定性成本",
+          "组织能力本身成为 AI 产品竞争力的一部分"
+        ],
+        "whyItMatters": "很多 AI 产品失败不是因为模型不够强，而是组织没有适配模型时代的探索方式。团队结构、评审机制和授权方式会直接影响产品速度。",
+        "tags": [
+          "Organization",
+          "Product",
+          "AI Builders"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/realmadhuguru/status/2085774194676265409"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月8日 · 周六",
+        "actor": "Swyx",
+        "meta": "smol.ai · X 动态",
+        "title": "OpenAI Phone 代表随身 Agent 入口之争",
+        "summary": "Swyx 直接喊话 OpenAI 做 phone，理由是人类阅读速度比说话快 2-4 倍，OpenAI Alexa 或机器人混合形态可以是过渡，但最终大家想要的是 phone。虽然表达夸张，但背后是重要产品判断：AI 的高频入口需要贴近人类最快的信息输入输出路径。",
+        "keyPoints": [
+          "语音入口不是唯一答案，阅读与屏幕交互仍有高效率优势",
+          "手机可能比音箱或机器人更适合作为全天候 Agent 容器",
+          "AI 平台会继续向硬件和操作系统入口竞争延伸"
+        ],
+        "whyItMatters": "入口决定使用频次和上下文密度。对 AI Builders 来说，产品形态选择会影响模型能力能否变成真实习惯。",
+        "tags": [
+          "Product",
+          "Mobile AI",
+          "Agent"
+        ],
+        "qualityScore": 80,
+        "url": "https://x.com/swyx/status/2085884470306234676"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月8日 · 周六",
+        "actor": "Peter Yang",
+        "meta": "human-review · X 动态",
+        "title": "Human review 工具开始补齐 AI 编辑工作流细节",
+        "summary": "Peter Yang 更新 /human-review：项目超过 500 GitHub stars，并新增列表输入、选中文本加链接、拖拽图片、Command-click 多页面编辑等能力。这些功能看似细碎，但正是 AI 生成内容进入真实生产流程所需的人工校正层。它说明开发者工具的竞争会落到编辑体验和 review loop 的细节上。",
+        "keyPoints": [
+          "AI 输出后的人工 review 与编辑正在成为独立工作流",
+          "列表、链接、图片、多页面编辑等基础交互决定工具是否可日用",
+          "开源小工具通过高频细节快速获得开发者采用"
+        ],
+        "whyItMatters": "AI 工具不只要生成，还要让人低成本检查和修改。构建生产力产品时，review layer 往往决定用户是否敢把 AI 放进正式流程。",
+        "tags": [
+          "Developer Tools",
+          "Workflow",
+          "Human-in-the-loop"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/petergyang/status/2085776743642898847"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月7日 · 周五",
+        "actor": "Nikunj Kothari",
+        "meta": "FPV Ventures · X 动态",
+        "title": "融资叙事与 agency 是 AI 创业基本功",
+        "summary": "Nikunj Kothari 提醒创始人，公开说要融多少钱比想象中更重要，尤其当最终融不到目标金额时，回头下调会损害市场信号。他还把 agency 简化为两个条件：对任务有内在动机，并且为使命不嫌任何事低级。虽然不是纯 AI 技术内容，但对 AI Builders 的公司建设有直接参考价值。",
+        "keyPoints": [
+          "融资目标本身会影响投资人对公司动能和可信度的判断",
+          "agency 不是抽象性格标签，而是内在动机加不挑任务的执行力",
+          "AI 创业窗口期更快，创始人的叙事纪律和执行密度会被放大"
+        ],
+        "whyItMatters": "AI 公司建设不只有模型和产品，融资叙事、动能管理和创始人执行力同样决定能否穿过竞争噪音。",
+        "tags": [
+          "Startup",
+          "Fundraising",
+          "Founder"
+        ],
+        "qualityScore": 78,
+        "url": "https://x.com/nikunj/status/2085800224698798103"
+      }
+    ]
+  },
+  {
     "date": "2026-08-08",
     "displayDate": "8月8日 · 周六",
     "generatedAt": "2026-08-07T23:30:53.218845+00:00",
