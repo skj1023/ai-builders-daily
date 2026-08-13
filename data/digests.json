@@ -1,5 +1,973 @@
 [
   {
+    "date": "2026-08-14",
+    "displayDate": "8月14日 · 周五",
+    "generatedAt": "2026-08-13T23:30:35.253142+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-13T06:47:37.704Z",
+      "blogs": "2026-08-13T06:48:13.358Z",
+      "podcasts": "2026-08-13T06:48:11.284Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、产品、Agent、工程、组织：16 位 AI Builders、3 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 16,
+      "tweets": 33,
+      "blogs": 3,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 18
+        },
+        {
+          "name": "产品",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        },
+        {
+          "name": "工程",
+          "count": 6
+        },
+        {
+          "name": "组织",
+          "count": 4
+        }
+      ]
+    },
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "Perplexity offered to buy @googlechrome one year ago today (this is a scheduled tweet) this is already one of the most important papers of this year…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2087691099691475285",
+            "url": "https://x.com/swyx/status/2087691099691475285",
+            "createdAt": "2026-08-13T00:02:00.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "Perplexity offered to buy @googlechrome one year ago today (this is a scheduled tweet)",
+            "summary": "Perplexity offered to buy @googlechrome one year ago today (this is a scheduled tweet)",
+            "engagement": 1298,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087437017840046156",
+            "url": "https://x.com/swyx/status/2087437017840046156",
+            "createdAt": "2026-08-12T07:12:22.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "this is already one of the most important papers of this year. the methodology doesnt seem clearly explained so here are some notes with a further distillation",
+            "summary": "this is already one of the most important papers of this year…",
+            "engagement": 399,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "Gemini gets things done across the apps you use every day…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2087751559606407615",
+            "url": "https://x.com/joshwoodward/status/2087751559606407615",
+            "createdAt": "2026-08-13T04:02:15.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "Gemini gets things done across the apps you use every day. Starting today, another wave of integrations are rolling out. If you want to partner with us, DM me. Angi (formerly Angie's List) Fever GetYourGuide Granola iHeartRadio Localiza OpenTable Otter Pandora Thumbtack Ticketmaster Wix Zocdoc Zoho",
+            "summary": "Gemini gets things done across the apps you use every day…",
+            "engagement": 294,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Old news actually from a bunch of days ago, but crossed that 15M…",
+        "tags": [
+          "产品",
+          "组织",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2087706104814023111",
+            "url": "https://x.com/thsottiaux/status/2087706104814023111",
+            "createdAt": "2026-08-13T01:01:37.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
+            "summary": "Old news actually from a bunch of days ago, but crossed that 15M…",
+            "engagement": 14908,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087614555203809395",
+            "url": "https://x.com/thsottiaux/status/2087614555203809395",
+            "createdAt": "2026-08-12T18:57:50.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Typical conversation with @ajambrosino A: core alignment has been reached T: core alignment you say A: i say T: say more A: more And yet I’ve never been more excited about what him and the team are building.",
+            "summary": "Typical conversation with @ajambrosino A: core alignment has been reached T: core alignment you say A: i say T: say more A: more And yet I’ve never been more excited about what him…",
+            "engagement": 2854,
+            "tags": [
+              "组织",
+              "研究"
+            ]
+          },
+          {
+            "id": "2087439859493617908",
+            "url": "https://x.com/thsottiaux/status/2087439859493617908",
+            "createdAt": "2026-08-12T07:23:39.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Also don’t say Linux, we just shipped that.",
+            "summary": "Also don’t say Linux, we just shipped that.",
+            "engagement": 2408,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "This is such a beautiful eulogy from Messi to his dad…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2087656368341966904",
+            "url": "https://x.com/petergyang/status/2087656368341966904",
+            "createdAt": "2026-08-12T21:43:59.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "This is such a beautiful eulogy from Messi to his dad. Got me a bit teary eyed.",
+            "summary": "This is such a beautiful eulogy from Messi to his dad…",
+            "engagement": 186,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087547168764862495",
+            "url": "https://x.com/petergyang/status/2087547168764862495",
+            "createdAt": "2026-08-12T14:30:04.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "I believe the way we use computers will soon change forever. We’re moving from doing work manually with a keyboard, mouse, and laptop to directing agents in the cloud using our voices. In my new essay, I cover why: 1. Voice is becoming the orchestration layer 2. Personal computers will move to the cloud 3. Trust will…",
+            "summary": "I believe the way we use computers will soon change forever…",
+            "engagement": 137,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "The biggest alpha in AI products over the next few years is in the application layer…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2087553833098723547",
+            "url": "https://x.com/realmadhuguru/status/2087553833098723547",
+            "createdAt": "2026-08-12T14:56:33.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "The biggest alpha in AI products over the next few years is in the application layer. Models will keep getting cheaper, better and more local. The differentiation will come from deeply understanding specific user workflows and having the imagination to redesign the experience around them. The denominator of people who…",
+            "summary": "The biggest alpha in AI products over the next few years is in the application layer…",
+            "engagement": 236,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          },
+          {
+            "id": "2087706598542290958",
+            "url": "https://x.com/realmadhuguru/status/2087706598542290958",
+            "createdAt": "2026-08-13T01:03:35.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "I miss when teams actually whiteboarded. Sad casualty of the Covid wfh era. There was something playful about standing around a board, drawing half-baked ideas, interrupting each other and jointly shaping things. Years of Zoom and Google Meet seem to have beaten that instinct out of people.",
+            "summary": "I miss when teams actually whiteboarded. Sad casualty of the Covid wfh era…",
+            "engagement": 36,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training…",
+        "summary": "When I started playing Skyrim, I quickly realized you can make a lot of progress without doing any killing…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2087597131800674495",
+            "url": "https://x.com/AmandaAskell/status/2087597131800674495",
+            "createdAt": "2026-08-12T17:48:36.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "When I started playing Skyrim, I quickly realized you can make a lot of progress without doing any killing. You can also adopt orphans and build them nice houses, so I focused on that. I honestly don't really remember the plot beyond \"that challenging fantasy philanthropy game\".",
+            "summary": "When I started playing Skyrim, I quickly realized you can make a lot of progress without doing any killing…",
+            "engagement": 1177,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087606022961865148",
+            "url": "https://x.com/AmandaAskell/status/2087606022961865148",
+            "createdAt": "2026-08-12T18:23:56.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "The bar for \"ethical\" playthroughs of different games is interesting. In Bioshock, the bar is literally not murdering children. Murdering adults is fine.",
+            "summary": "The bar for \"ethical\" playthroughs of different games is interesting…",
+            "engagement": 149,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Endless opportunity everywhere you look Seedance 2.5 on @vercel AI Gateway 🐇 This is such a nice improvement…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2087736311885218160",
+            "url": "https://x.com/rauchg/status/2087736311885218160",
+            "createdAt": "2026-08-13T03:01:39.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "Endless opportunity everywhere you look",
+            "summary": "Endless opportunity everywhere you look",
+            "engagement": 1428,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087631388359242050",
+            "url": "https://x.com/rauchg/status/2087631388359242050",
+            "createdAt": "2026-08-12T20:04:43.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Seedance 2.5 on @vercel AI Gateway 🐇",
+            "summary": "Seedance 2.5 on @vercel AI Gateway 🐇",
+            "engagement": 293,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087698195120116064",
+            "url": "https://x.com/rauchg/status/2087698195120116064",
+            "createdAt": "2026-08-13T00:30:11.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "This is such a nice improvement. Try 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowing. It feels faster than your local machine. Sandbox now comes with a reasonable default set of pre-installed tools, and you can fully customize them.",
+            "summary": "This is such a nice improvement. Try 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowing…",
+            "engagement": 223,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Awesome day in terms of new model releases from both Deepseek and Grok…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2087719356763672917",
+            "url": "https://x.com/levie/status/2087719356763672917",
+            "createdAt": "2026-08-13T01:54:17.000Z",
+            "sourceDate": "2026-08-13",
+            "sourceDisplayDate": "8月13日 · 周四",
+            "text": "Awesome day in terms of new model releases from both Deepseek and Grok. Both of these new model updates represent huge jumps in capability at insanely low costs. This is truly Jevons paradox for AI playing out. By bringing down the cost of AI, demand will continue to accelerate. When I talk to enterprises, they have…",
+            "summary": "Awesome day in terms of new model releases from both Deepseek and Grok…",
+            "engagement": 272,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through my own personal OpenClaw agent with hundreds of thousands of markdown files…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2087594114372259890",
+            "url": "https://x.com/garrytan/status/2087594114372259890",
+            "createdAt": "2026-08-12T17:36:37.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through my own personal OpenClaw agent with hundreds of thousands of markdown files. A personal AGI is one that works for you. GBrain now works with Codex and Claude code, btw.",
+            "summary": "GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through my own personal OpenClaw agent with hundreds of thousands of markdown files…",
+            "engagement": 822,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2087625178293604438",
+            "url": "https://x.com/garrytan/status/2087625178293604438",
+            "createdAt": "2026-08-12T19:40:03.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "We are gonna be markdown skill-maxxing from here Thank you @illscience for a fun conversation",
+            "summary": "We are gonna be markdown skill-maxxing from here Thank you @illscience for a fun conversation",
+            "engagement": 419,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087597829065945249",
+            "url": "https://x.com/garrytan/status/2087597829065945249",
+            "createdAt": "2026-08-12T17:51:22.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Running GBrain with Codex or Claude Code should be a *separate agent* and I wouldn't expect you to run it in your main coding agent. Think of it more like a personal AI version of ChatGPT or Claude that has its own git repo for memory and custom skills.",
+            "summary": "Running GBrain with Codex or Claude Code should be a *separate agent* and I wouldn't expect you to run it in your main coding agent…",
+            "engagement": 32,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "Graph engineering is the new loop engineering which is the new harness engineering which is the new context engineering which is the new prompt engineering…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2087528600849252696",
+            "url": "https://x.com/mattturck/status/2087528600849252696",
+            "createdAt": "2026-08-12T13:16:17.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Graph engineering is the new loop engineering which is the new harness engineering which is the new context engineering which is the new prompt engineering. Hope this clarifies any confusion.",
+            "summary": "Graph engineering is the new loop engineering which is the new harness engineering which is the new context engineering which is the new prompt engineering…",
+            "engagement": 50,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: YouTube:",
+        "summary": "This Stanford lecture series is pure gold…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2087547174662136273",
+            "url": "https://x.com/zarazhangrui/status/2087547174662136273",
+            "createdAt": "2026-08-12T14:30:05.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "This Stanford lecture series is pure gold. Crazy that such high-quality knowledge is freely disseminated on YouTube",
+            "summary": "This Stanford lecture series is pure gold…",
+            "engagement": 828,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087566828319146237",
+            "url": "https://x.com/zarazhangrui/status/2087566828319146237",
+            "createdAt": "2026-08-12T15:48:11.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "",
+            "summary": "",
+            "engagement": 19,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Still maintain that @TheEthanDing is a mad mad genius.…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2087664045797294212",
+            "url": "https://x.com/nikunj/status/2087664045797294212",
+            "createdAt": "2026-08-12T22:14:30.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Still maintain that @TheEthanDing is a mad mad genius.. this latest post is a good reminder",
+            "summary": "Still maintain that @TheEthanDing is a mad mad genius.…",
+            "engagement": 92,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "cli was a year ago. apps maybe 6 months. now it’s services, web, cloud sessions…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2087568620465607078",
+            "url": "https://x.com/steipete/status/2087568620465607078",
+            "createdAt": "2026-08-12T15:55:18.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "cli was a year ago. apps maybe 6 months. now it’s services, web, cloud sessions.",
+            "summary": "cli was a year ago. apps maybe 6 months. now it’s services, web, cloud sessions.",
+            "engagement": 1395,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2087607369908023354",
+            "url": "https://x.com/steipete/status/2087607369908023354",
+            "createdAt": "2026-08-12T18:29:17.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "going live!",
+            "summary": "going live!",
+            "engagement": 134,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "something analog dropping tomorrow 👀 im starting a new content agency \"One Word\" inspired by @ajambrosino help AI labs grow on X by posting one word a day this is the new meta…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2087678775517442399",
+            "url": "https://x.com/danshipper/status/2087678775517442399",
+            "createdAt": "2026-08-12T23:13:01.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "something analog dropping tomorrow 👀",
+            "summary": "something analog dropping tomorrow 👀",
+            "engagement": 53,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087555423893065872",
+            "url": "https://x.com/danshipper/status/2087555423893065872",
+            "createdAt": "2026-08-12T15:02:52.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "im starting a new content agency \"One Word\" inspired by @ajambrosino help AI labs grow on X by posting one word a day this is the new meta. don't just go direct. go one word at a time",
+            "summary": "im starting a new content agency \"One Word\" inspired by @ajambrosino help AI labs grow on X by posting one word a day this is the new meta…",
+            "engagement": 53,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087556463770157432",
+            "url": "https://x.com/danshipper/status/2087556463770157432",
+            "createdAt": "2026-08-12T15:07:00.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Update: we’re rebranding to “Word” it’s cleaner",
+            "summary": "Update: we’re rebranding to “Word” it’s cleaner",
+            "engagement": 11,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "We're bullish on India. @spc_india was our first bet outside the US…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2087563716350902530",
+            "url": "https://x.com/adityaag/status/2087563716350902530",
+            "createdAt": "2026-08-12T15:35:49.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "We're bullish on India. @spc_india was our first bet outside the US. Some of the most ambitious projects of the decade will be built there. Indian dynamism is here to stay.",
+            "summary": "We're bullish on India. @spc_india was our first bet outside the US…",
+            "engagement": 360,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2087563719181996295",
+            "url": "https://x.com/adityaag/status/2087563719181996295",
+            "createdAt": "2026-08-12T15:35:50.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "We spoke with @ETtech about @spc",
+            "summary": "We spoke with @ETtech about @spc",
+            "engagement": 11,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on or download the app.",
+        "summary": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2087635262390026525",
+            "url": "https://x.com/claudeai/status/2087635262390026525",
+            "createdAt": "2026-08-12T20:20:07.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile. Conversations are saved, and your skills and connectors work in the browser. Available on Max and Team today, rolling out to Pro in the coming weeks.",
+            "summary": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile…",
+            "engagement": 10760,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          },
+          {
+            "id": "2087635263774232617",
+            "url": "https://x.com/claudeai/status/2087635263774232617",
+            "createdAt": "2026-08-12T20:20:07.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "The side panel now runs the same Claude Cowork session as the desktop, web, and mobile apps. Sessions live with your account, not on any single device, so you can start in a tab and pick it up later somewhere else. Give it a try:",
+            "summary": "The side panel now runs the same Claude Cowork session as the desktop, web, and mobile apps…",
+            "engagement": 442,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2087635265066004694",
+            "url": "https://x.com/claudeai/status/2087635265066004694",
+            "createdAt": "2026-08-12T20:20:08.000Z",
+            "sourceDate": "2026-08-12",
+            "sourceDisplayDate": "8月12日 · 周三",
+            "text": "Browser agents can be tricked by instructions hidden in a page. We build defenses against this, and we still recommend a few habits of your own:",
+            "summary": "Browser agents can be tricked by instructions hidden in a page…",
+            "engagement": 261,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-08-14",
+        "sourceDisplayDate": "8月14日 · 周五",
+        "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users…",
+        "chineseTitle": "An update on recent Claude Code quality reports",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-08-14",
+        "sourceDisplayDate": "8月14日 · 周五",
+        "summary": "Get started with Claude Managed Agents by following our docs…",
+        "chineseTitle": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Claude Blog",
+        "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "url": "https://claude.com/blog/claude-managed-agents-updates",
+        "author": "",
+        "publishedAt": "May 19, 2026",
+        "sourceDate": "May 19, 20",
+        "sourceDisplayDate": "May 19, 20",
+        "summary": "Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol (MCP) servers…",
+        "chineseTitle": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "AI & I by Every",
+        "title": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-08-12T16:55:27.000Z",
+        "sourceDate": "2026-08-12",
+        "sourceDisplayDate": "8月12日 · 周三",
+        "summary": "Speaker 1 | 00:00 - 00:10 You're someone who, I think, cares a lot about the craft of things…",
+        "chineseTitle": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+        "tags": [
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最清晰的主线是 Agent 产品正在从“会回答”转向“能持续工作”。Claude 将 Chrome、桌面、网页和移动端的会话、技能与连接器统一到账号级状态，说明跨设备连续性正在成为 Agent 的基础设施，而不是额外的体验加分项。",
+        "工程侧的抽象也在上移：Anthropic 讨论 Managed Agents 时强调把“brain”和“hands”解耦，并配套自托管 sandbox 与 MCP tunnels；Vercel 则把预装工具和可定制环境做成更顺手的 sandbox。未来竞争点不只是模型能力，而是任务执行环境、权限边界、可恢复状态和连接外部系统的可靠性。",
+        "模型价格与能力的快速改善，会把需求而非供给压成瓶颈。Aaron Levie 对 DeepSeek 和 Grok 的判断接近 Jevons paradox：单位智能更便宜后，企业会尝试更多任务。Madhu Guru 因而把应用层工作流理解为主要 alpha 来源——真正的差异化来自对具体流程的深度理解，以及围绕流程重做体验。",
+        "组织与安全同样不能被当作附属问题。浏览器 Agent 会受到网页隐藏指令的 prompt injection 影响；而 GBrain 的实践显示，长期记忆、技能仓库和独立 agent 边界正在成为个人 AI 系统的实际设计对象。对 Builders 来说，今天值得下注的不是又一个聊天入口，而是可验证、可迁移、可控的工作系统。"
+      ],
+      "filteredNote": "过滤掉了游戏闲聊、悼念与个人生活、泛泛鼓励、无上下文的产品宣传、纯转发和一行式评论等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月14日 · 周五",
+        "actor": "Claude",
+        "meta": "X 动态",
+        "title": "让 Agent 跨设备接续，账号成为工作状态层",
+        "summary": "Claude in Chrome 的会话现在可以在桌面、网页和移动端继续使用，技能与 connectors 也随账号迁移；侧边栏与其他客户端共享同一 Claude Cowork session。这个变化把 Agent 从单次交互工具推进为持续存在的工作空间。",
+        "keyPoints": [
+          "会话不再绑定单一设备",
+          "技能与外部连接器随账号复用",
+          "跨端状态同步成为 Agent UX 的基础能力"
+        ],
+        "whyItMatters": "对构建 Agent 产品的人来说，状态持久化与任务接续可能比单次回答质量更决定留存。",
+        "tags": [
+          "产品",
+          "Agent",
+          "跨端"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/claudeai/status/2087635262390026525"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月14日 · 周五",
+        "actor": "Claude",
+        "meta": "X 动态",
+        "title": "浏览器 Agent 的真正边界：网页内容本身就是攻击面",
+        "summary": "Claude 明确提醒，浏览器 Agent 可能被页面中隐藏的指令诱导，并表示正在构建防御机制。浏览器自动化因此不只是工具调用问题，还需要把不可信页面内容与用户意图、系统指令分层处理。",
+        "keyPoints": [
+          "网页隐藏指令会影响 Agent 行为",
+          "浏览器自动化需要对抗 prompt injection",
+          "安全习惯与平台防御必须同时存在"
+        ],
+        "whyItMatters": "任何把 Agent 放进浏览器的产品，都应把网页视为不可信输入，而不是默认可信的工作上下文。",
+        "tags": [
+          "Agent",
+          "安全",
+          "浏览器"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/claudeai/status/2087635265066004694"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月14日 · 周五",
+        "actor": "Madhu Guru",
+        "meta": "X 动态",
+        "title": "模型变便宜之后，应用层工作流才是护城河",
+        "summary": "Madhu Guru 判断未来几年 AI 产品最大的 alpha 在应用层：模型会更便宜、更强、更本地化，差异化将来自对特定用户流程的深度理解，以及重新设计体验的想象力。模型能力的普及会迫使产品团队把注意力从“接入哪个模型”转向“重做哪段工作”。",
+        "keyPoints": [
+          "模型成本与能力将持续商品化",
+          "垂直工作流理解成为差异化来源",
+          "产品体验需要围绕 AI 能力重新设计"
+        ],
+        "whyItMatters": "这是对 AI 应用创业者仍然有效的筛选标准：不要只包装模型，要掌握一段高价值、可重构的工作流。",
+        "tags": [
+          "产品",
+          "Agent",
+          "应用层"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/realmadhuguru/status/2087553833098723547"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月14日 · 周五",
+        "actor": "Aaron Levie",
+        "meta": "X 动态",
+        "title": "低成本模型会制造更多需求，而不是减少用量",
+        "summary": "Aaron Levie 将 DeepSeek 和 Grok 的新模型更新视为能力大幅跃升与成本大幅下降的组合，并用 Jevons paradox 解释其影响：当 AI 单位成本下降，企业会把它扩展到更多任务，而不是简单地节省预算。",
+        "keyPoints": [
+          "能力提升与成本下降同时发生",
+          "企业 AI 需求可能因降价而加速",
+          "应用规模取决于可承接的任务数量"
+        ],
+        "whyItMatters": "模型降价的直接受益者不只是调用方，也包括能把新增推理预算转化为业务流程的工具 Builders。",
+        "tags": [
+          "模型",
+          "成本",
+          "企业AI"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/levie/status/2087719356763672917"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月14日 · 周五",
+        "actor": "Garry Tan",
+        "meta": "X 动态",
+        "title": "个人 AI 需要独立的记忆与技能系统",
+        "summary": "Garry Tan 介绍 GBrain 新增 17 个经过真实使用打磨的 skills，并强调它应作为独立 agent 运行，而不是塞进主 coding agent。它拥有自己的 git repo，用于记忆与自定义技能，并可与 Codex、Claude Code 协作。",
+        "keyPoints": [
+          "技能通过长期真实使用硬化",
+          "个人 AI 与 coding agent 分离",
+          "git repo 可承担记忆和技能的版本管理"
+        ],
+        "whyItMatters": "这提供了一个可操作的个人 AI 架构：把长期上下文与执行型 coding agent 解耦，降低权限和状态混乱。",
+        "tags": [
+          "Agent",
+          "记忆",
+          "工程"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/garrytan/status/2087594114372259890"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月14日 · 周五",
+        "actor": "Peter Steinberger",
+        "meta": "X 动态",
+        "title": "Agent 产品形态正在从 CLI 演化到云端会话",
+        "summary": "Peter Steinberger 用一句时间线概括形态变化：CLI 是一年前的重点，应用大约是半年前的重点，现在焦点转向 services、web 和 cloud sessions。这个判断指向一个迁移：Agent 的价值越来越依赖持续运行、远程访问和可恢复的执行状态。",
+        "keyPoints": [
+          "产品形态从 CLI 走向服务化",
+          "Web 与 cloud session 支持持续执行",
+          "远程状态成为使用体验的一部分"
+        ],
+        "whyItMatters": "如果 Agent 只在本地一次性运行，可能很快被更强的云端协作与持续任务体验拉开差距。",
+        "tags": [
+          "Agent",
+          "云端",
+          "产品形态"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/steipete/status/2087568620465607078"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "8月14日 · 周五",
+        "actor": "Anthropic Engineering",
+        "meta": "Engineering · 博客",
+        "title": "Claude Code 质量波动：把模型产品当作持续运维系统",
+        "summary": "Anthropic 回顾近期 Claude Code 质量报告，说明模型行为变化需要通过系统化调查、回归分析与产品修复来处理，而不是简单归因于用户感受。文章的价值在于展示 AI coding 产品如何面对质量感知与真实退化之间的复杂差异。",
+        "keyPoints": [
+          "质量问题需要持续回归与调查",
+          "模型更新会改变产品体感",
+          "AI 产品运维包含行为质量监测"
+        ],
+        "whyItMatters": "随着 Agent 承担更多真实工作，质量监控和回归体系会成为产品核心，而非发布后的补丁。",
+        "tags": [
+          "工程",
+          "质量",
+          "Coding Agent"
+        ],
+        "qualityScore": 92,
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "8月14日 · 周五",
+        "actor": "Anthropic Engineering",
+        "meta": "Engineering · 博客",
+        "title": "Managed Agents 的关键架构：把大脑和双手拆开",
+        "summary": "Anthropic 介绍 Managed Agents 的扩展方式：让负责推理与规划的“brain”和负责执行工具操作的“hands”解耦。这样可以分别控制运行环境、权限、扩展性与生命周期，更适合把 Agent 从单机 demo 推向托管服务。",
+        "keyPoints": [
+          "推理与执行层解耦",
+          "执行环境可独立扩展和治理",
+          "托管 Agent 需要明确生命周期边界"
+        ],
+        "whyItMatters": "这是构建生产级 Agent 平台时非常重要的分层：模型不是整个系统，执行器、权限和运行时同样决定可靠性。",
+        "tags": [
+          "Agent",
+          "架构",
+          "工程"
+        ],
+        "qualityScore": 94,
+        "url": "https://www.anthropic.com/engineering/managed-agents"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "8月14日 · 周五",
+        "actor": "Claude Blog",
+        "meta": "Engineering · 博客",
+        "title": "自托管 sandbox 与 MCP tunnel：把 Agent 带进私有环境",
+        "summary": "Claude Managed Agents 新增自托管 sandbox 与 MCP tunnels，使 Agent 可以在开发者控制的隔离环境中运行，并连接私有 MCP servers。核心方向不是增加一个聊天功能，而是让 Agent 在企业数据与内部工具边界内可部署、可治理。",
+        "keyPoints": [
+          "sandbox 可由使用方控制",
+          "MCP tunnel 连接私有工具和数据",
+          "企业部署需要隔离与连接能力并存"
+        ],
+        "whyItMatters": "私有环境与外部工具的安全接入，是 Agent 从个人试用走向企业生产的必要基础设施。",
+        "tags": [
+          "Agent",
+          "MCP",
+          "企业AI"
+        ],
+        "qualityScore": 93,
+        "url": "https://claude.com/blog/claude-managed-agents-updates"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月14日 · 周五",
+        "actor": "AI & I by Every",
+        "meta": "Kevin Scott · 播客",
+        "title": "为 Agent 设计互联网：从网页到可操作的服务层",
+        "summary": "Microsoft CTO Kevin Scott 讨论了一个面向 Agent 的互联网愿景：软件与服务需要从只为人阅读和点击，逐步转向让 Agent 能发现、理解并可靠执行操作。其核心并非给现有网页加一个聊天框，而是重构身份、权限、接口和交易等基础层，让 Agent 成为新的网络使用者。",
+        "keyPoints": [
+          "互联网服务需要提供 Agent 可理解、可执行的接口",
+          "身份、权限和交易是 Agent 网络的底层问题",
+          "人机协作会从点击页面转向委托任务"
+        ],
+        "whyItMatters": "这把 Agent 产品竞争拉回基础设施层：真正的机会可能在让现有互联网变得可委托、可验证、可组合。",
+        "tags": [
+          "Agent",
+          "互联网",
+          "基础设施"
+        ],
+        "qualityScore": 90,
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+      }
+    ]
+  },
+  {
     "date": "2026-08-13",
     "displayDate": "8月13日 · 周四",
     "generatedAt": "2026-08-12T23:30:21.404468+00:00",
