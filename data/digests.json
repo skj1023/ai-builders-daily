@@ -1,5 +1,771 @@
 [
   {
+    "date": "2026-08-18",
+    "displayDate": "8月18日 · 周二",
+    "generatedAt": "2026-08-17T23:30:31.830666+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-17T06:28:37.062Z",
+      "blogs": "2026-08-17T06:29:12.089Z",
+      "podcasts": "2026-08-17T06:29:11.779Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、工程、产品、Agent、研究：13 位 AI Builders、0 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 13,
+      "tweets": 22,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 12
+        },
+        {
+          "name": "工程",
+          "count": 8
+        },
+        {
+          "name": "产品",
+          "count": 4
+        },
+        {
+          "name": "Agent",
+          "count": 3
+        },
+        {
+          "name": "研究",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2089082893804896524",
+        "sourceDate": "2026-08-16",
+        "sourceDisplayDate": "8月16日 · 周日",
+        "summary": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol…",
+        "chineseTitle": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "score": 15408
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2089149255382438340",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have Astra)",
+        "chineseTitle": "Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have Astra)",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 9085
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2089143488696705077",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too…",
+        "chineseTitle": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 4644
+      },
+      {
+        "title": "来自 Thariq 的观点",
+        "source": "Thariq · X 动态",
+        "url": "https://x.com/trq212/status/2089085004966207679",
+        "sourceDate": "2026-08-16",
+        "sourceDisplayDate": "8月16日 · 周日",
+        "summary": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+        "chineseTitle": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+        "tags": [
+          "观察"
+        ],
+        "score": 1844
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2089179650891432270",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "",
+        "chineseTitle": "",
+        "tags": [
+          "观察"
+        ],
+        "score": 1660
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "5 years later and most of the best players here have been bought",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089221797254459822",
+            "url": "https://x.com/swyx/status/2089221797254459822",
+            "createdAt": "2026-08-17T05:24:26.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "5 years later and most of the best players here have been bought",
+            "summary": "5 years later and most of the best players here have been bought",
+            "engagement": 31,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2089082893804896524",
+            "url": "https://x.com/thsottiaux/status/2089082893804896524",
+            "createdAt": "2026-08-16T20:12:29.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented. A larger context window lets Codex retain more code, tool output, and conversation…",
+            "summary": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol…",
+            "engagement": 15408,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2089149255382438340",
+            "url": "https://x.com/thsottiaux/status/2089149255382438340",
+            "createdAt": "2026-08-17T00:36:11.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have Astra)",
+            "summary": "Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have Astra)",
+            "engagement": 9085,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2089143488696705077",
+            "url": "https://x.com/thsottiaux/status/2089143488696705077",
+            "createdAt": "2026-08-17T00:13:16.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. The same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+            "summary": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too…",
+            "engagement": 4644,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "I want to use this feature but I'm paranoid that it'll eat up all my tokens…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2089205978877268334",
+            "url": "https://x.com/petergyang/status/2089205978877268334",
+            "createdAt": "2026-08-17T04:21:35.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "I want to use this feature but I'm paranoid that it'll eat up all my tokens. Is it pretty token efficient?",
+            "summary": "I want to use this feature but I'm paranoid that it'll eat up all my tokens…",
+            "engagement": 59,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089182111282729470",
+            "url": "https://x.com/petergyang/status/2089182111282729470",
+            "createdAt": "2026-08-17T02:46:45.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "How do I set up this thing to work across all apps not just codex?",
+            "summary": "How do I set up this thing to work across all apps not just codex?",
+            "engagement": 47,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2089111410219556916",
+            "url": "https://x.com/petergyang/status/2089111410219556916",
+            "createdAt": "2026-08-16T22:05:48.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "Damn nevermind",
+            "summary": "Damn nevermind",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "product enthusiast",
+        "summary": "Moving house, and I’m finally ready to let these old friends go History rhymes",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089146409152872764",
+            "url": "https://x.com/thenanyu/status/2089146409152872764",
+            "createdAt": "2026-08-17T00:24:53.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Moving house, and I’m finally ready to let these old friends go",
+            "summary": "Moving house, and I’m finally ready to let these old friends go",
+            "engagement": 22,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2088978519594352875",
+            "url": "https://x.com/thenanyu/status/2088978519594352875",
+            "createdAt": "2026-08-16T13:17:45.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "History rhymes",
+            "summary": "History rhymes",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "the more you earn, the more you crave the things money can’t buy.",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089022997407686663",
+            "url": "https://x.com/realmadhuguru/status/2089022997407686663",
+            "createdAt": "2026-08-16T16:14:29.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "the more you earn, the more you crave the things money can’t buy.",
+            "summary": "the more you earn, the more you crave the things money can’t buy.",
+            "engagement": 63,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "summary": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089085004966207679",
+            "url": "https://x.com/trq212/status/2089085004966207679",
+            "createdAt": "2026-08-16T20:20:53.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+            "summary": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+            "engagement": 1844,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "18x improvement in intelligence per joule in 16 months.",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089069905375351169",
+            "url": "https://x.com/amasad/status/2089069905375351169",
+            "createdAt": "2026-08-16T19:20:53.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "18x improvement in intelligence per joule in 16 months.",
+            "summary": "18x improvement in intelligence per joule in 16 months.",
+            "engagement": 1446,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "We ran evals on GLM 5.3 cybersecurity capabilities…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2089179650891432270",
+            "url": "https://x.com/rauchg/status/2089179650891432270",
+            "createdAt": "2026-08-17T02:36:58.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "",
+            "summary": "",
+            "engagement": 1660,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089126690043916495",
+            "url": "https://x.com/rauchg/status/2089126690043916495",
+            "createdAt": "2026-08-16T23:06:31.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower costs, I expect this to be a boon for defensive security work. e.g., it means you can run at least 3× more often!",
+            "summary": "We ran evals on GLM 5.3 cybersecurity capabilities…",
+            "engagement": 649,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "AI spend is nowhere close to hitting any walls…",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2088995821056659901",
+            "url": "https://x.com/levie/status/2088995821056659901",
+            "createdAt": "2026-08-16T14:26:30.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "AI spend is nowhere close to hitting any walls. Obviously this data is weighted toward engineering-centric companies, with the top 1% spending $7,500/mo and top 10% spending $660/mo per employee on AI. But the general trend of continued exponential growth is occurring throughout all firm types. And what the top 10% is…",
+            "summary": "AI spend is nowhere close to hitting any walls…",
+            "engagement": 569,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2089209131391729763",
+            "url": "https://x.com/levie/status/2089209131391729763",
+            "createdAt": "2026-08-17T04:34:07.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or it wasn’t valuable, but because it was just not even remotely practical. The upside with AI is to…",
+            "summary": "Pretty good way to think about the value of AI agents and where the opportunity lies…",
+            "engagement": 120,
+            "tags": [
+              "Agent",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "There's nothing more conservative than a liberal with a house…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089012811007688746",
+            "url": "https://x.com/garrytan/status/2089012811007688746",
+            "createdAt": "2026-08-16T15:34:00.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "There's nothing more conservative than a liberal with a house.",
+            "summary": "There's nothing more conservative than a liberal with a house.",
+            "engagement": 400,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089012934953599263",
+            "url": "https://x.com/garrytan/status/2089012934953599263",
+            "createdAt": "2026-08-16T15:34:30.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "Everyone go follow this guy on instagram, he's amazing",
+            "summary": "Everyone go follow this guy on instagram, he's amazing",
+            "engagement": 20,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "What are your favorite technical papers that you have read end to end this year…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2089212708621291766",
+            "url": "https://x.com/nikunj/status/2089212708621291766",
+            "createdAt": "2026-08-17T04:48:20.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "What are your favorite technical papers that you have read end to end this year? And separately what are the most riveting reads (scifi ideally) that I should read this year? I try to parallelize both to keep things interesting 😅",
+            "summary": "What are your favorite technical papers that you have read end to end this year…",
+            "engagement": 8,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Was wondering what this new icon in my menu bar is that I didn't enable and that loaded a slow html box…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089154019885490449",
+            "url": "https://x.com/steipete/status/2089154019885490449",
+            "createdAt": "2026-08-17T00:55:07.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Was wondering what this new icon in my menu bar is that I didn't enable and that loaded a slow html box. Time for Chrome Lite?",
+            "summary": "Was wondering what this new icon in my menu bar is that I didn't enable and that loaded a slow html box…",
+            "engagement": 192,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis we live in incredible times where detailed understanding of each of your customers—and how they cluster together in groups—…",
+        "tags": [
+          "工程",
+          "研究",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2089121597017759800",
+            "url": "https://x.com/danshipper/status/2089121597017759800",
+            "createdAt": "2026-08-16T22:46:17.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis we live in incredible times where detailed understanding of each of your customers—and how they cluster together in groups—is possible with very little effort",
+            "summary": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis we live in incredible times where detailed understanding of each of your customers—…",
+            "engagement": 101,
+            "tags": [
+              "工程",
+              "市场"
+            ]
+          },
+          {
+            "id": "2089127868903375257",
+            "url": "https://x.com/danshipper/status/2089127868903375257",
+            "createdAt": "2026-08-16T23:11:12.000Z",
+            "sourceDate": "2026-08-16",
+            "sourceDisplayDate": "8月16日 · 周日",
+            "text": "i am also skeptical of the centralization of power hypothesis it comes from Lewis Mumford in 1964 who argued: \"from late Neolithic times in the Near East, right down to our own day, two technologies have recurrently existed side by side: one authoritarian, the other democratic, the first system-centered, immensely…",
+            "summary": "i am also skeptical of the centralization of power hypothesis it comes from Lewis Mumford in 1964 who argued: \"from late Neolithic times in the Near East, right down to our own day…",
+            "engagement": 44,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
+        "url": "https://www.youtube.com/watch?v=FU9A481E2W8",
+        "publishedAt": "2026-08-07T18:38:32.000Z",
+        "sourceDate": "2026-08-07",
+        "sourceDisplayDate": "8月7日 · 周五",
+        "summary": "Speaker 1 | 00:00 - 00:20 You kinda have to move fast…",
+        "chineseTitle": "“OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
+        "tags": [
+          "Agent",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的产品信号来自 Codex：1M-token context window 正从 API 能力扩展到 ChatGPT 账号用户。与此同时，团队仍强调默认上下文是性能与成本调优后的结果。长上下文因此不应被理解为越大越好，而应被视为 Agent 的记忆预算：何时加载、保留什么、如何控制噪声和成本，都会成为产品设计的一部分。",
+        "模型成本下降正在把 AI 从“偶尔调用”推向“高频运行”。Guillermo Rauch 认为更低成本能让防御性安全评测运行得更频繁；Aaron Levie 则观察到企业 AI 支出仍在增长，并判断 Agent 的价值在于执行那些过去有价值却不具备经济可行性的工作。供给变便宜后，真正的瓶颈会转向能否找到足够多、足够具体的任务。",
+        "应用层的工程闭环也在缩短。Dan Shipper 用 Fable 为 Thesis 申请者构建可视化聚类工具，说明 vibe coding 的高价值用法不是生成一个孤立 demo，而是快速把真实数据转成能帮助团队理解用户的工作界面。AI coding 的产出开始直接进入研究、决策和运营，而不只是停留在代码仓库里。",
+        "长期看，成熟工程抽象与组织能力仍然重要。Thariq 注意到 Django、Flask 和 Rails 的创始人很早拥抱 AI；播客中 Thomas Wolf 讨论的重点也不是单次模型跃升，而是团队如何重做评测、协作和决策机制。对 AI Builders 来说，下一轮壁垒会是可控的上下文、可持续的执行循环，以及能吸收快速模型进步的组织系统。"
+      ],
+      "filteredNote": "过滤掉了个人搬家与生活感叹、泛泛鸡汤、无上下文短句、纯推广、单纯提问和没有 AI/工程增量的评论等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月16日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "百万上下文不是越大越好：Agent 需要可控的记忆预算",
+        "summary": "Thibault Sottiaux 公开了在 Codex 中启用 GPT-5.6 Sol 1M-token context window 的方式，同时强调默认上下文长度是经过性能与成本权衡的结果。更大的窗口能保留更多代码、工具输出和对话，但并不自动等于更好的 Agent；上下文容量本身也需要产品化治理。",
+        "keyPoints": [
+          "Codex 可启用 1M-token context window",
+          "更大上下文提升代码与工具历史的保留能力",
+          "默认上限体现性能、成本与效果的平衡"
+        ],
+        "whyItMatters": "长上下文正在从模型参数变成 Agent 产品设计问题：真正的竞争力是知道何时扩大上下文、如何控制成本，以及如何避免把无关历史一起塞进去。",
+        "tags": [
+          "Agent",
+          "上下文",
+          "Codex"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/thsottiaux/status/2089082893804896524"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "长上下文从 API 实验走向 ChatGPT 用户工作流",
+        "summary": "GPT-5.6 Sol 的 1M context window 此前只对 API keys 开放，现在也能通过 ChatGPT 账号在 Codex 中使用。这个变化降低了长任务能力的使用门槛，但团队仍提醒用户，默认限制并非保守失误，而是对性能与成本的刻意调优。",
+        "keyPoints": [
+          "1M context window 扩展到 ChatGPT 账号",
+          "长上下文能力进入更广泛的产品工作流",
+          "开放能力与默认成本控制并行存在"
+        ],
+        "whyItMatters": "AI Builders 需要把高级模型能力设计成可渐进采用的产品，而不是只在设置里暴露一个更大的数字。",
+        "tags": [
+          "产品",
+          "工程",
+          "上下文"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/thsottiaux/status/2089143488696705077"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月16日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "低成本推理会把防御性安全带入高频评估时代",
+        "summary": "Guillermo Rauch 分享了对 GLM 5.3 网络安全能力的评测，并判断其较低成本会推动防御性安全工作：同样的预算可以让团队至少多运行约 3 倍评测。重要变化不是单次 benchmark 更高，而是安全验证可以更频繁地嵌入开发和运营循环。",
+        "keyPoints": [
+          "GLM 5.3 被用于网络安全能力评测",
+          "更低成本意味着更高频的安全验证",
+          "开放模型可能扩大防御性安全工具的可及性"
+        ],
+        "whyItMatters": "当推理成本下降，评测从阶段性检查变成持续运行的基础设施，安全团队与 AI Builders 都应重新设计反馈频率。",
+        "tags": [
+          "研究",
+          "安全",
+          "模型"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/rauchg/status/2089126690043916495"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月16日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "AI 支出还没撞墙：便宜推理会扩大任务边界",
+        "summary": "Aaron Levie 指出，AI 支出仍远未触顶；在偏工程型公司的样本中，最高 1% 的公司平均每位员工每月花费约 7,500 美元，前 10% 约 660 美元，而且各类企业都呈持续增长趋势。这个信号与模型降价形成组合：企业不是只用 AI 替代旧成本，而是在尝试此前因为不实用而被放弃的任务。",
+        "keyPoints": [
+          "高使用企业的 AI 人均支出已达到较高水平",
+          "增长趋势不只存在于工程公司",
+          "成本下降会释放更多可自动化任务"
+        ],
+        "whyItMatters": "对 Builders 来说，机会不只是降低单次调用价格，而是把新增推理预算转化为真实、连续且可衡量的工作流。",
+        "tags": [
+          "企业AI",
+          "成本",
+          "Agent"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/levie/status/2088995821056659901"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Agent 的价值在于执行那些过去不值得做的工作",
+        "summary": "Aaron Levie 认为，Agent 的上行空间来自持续完成那些人类并非不想做、而是过去完全不实际的任务。这个判断把产品机会从“替人完成一个明确动作”推进到“让大量低频、琐碎但有价值的工作第一次具备经济可行性”。",
+        "keyPoints": [
+          "Agent 扩大可执行任务的边界",
+          "价值来自持续而非一次性的自动化",
+          "过去不经济的工作可能成为新产品入口"
+        ],
+        "whyItMatters": "寻找 Agent 机会时，最值得问的不是哪项工作最热门，而是哪项工作长期有价值、过去却因频率或成本而无人处理。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工作流"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/levie/status/2089209131391729763"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月16日 · 周日",
+        "actor": "Dan Shipper",
+        "meta": "Fable · X 动态",
+        "title": "Vibe coding 正把客户研究变成可视化分析工具",
+        "summary": "Dan Shipper 分享了用 Fable 快速构建应用的案例：把 Thesis 申请者可视化并按群体聚类。它说明 AI coding 的价值不只在生成页面，而在于让小团队可以低成本把客户数据转成探索性分析工具，从而更快获得对用户结构的细粒度理解。",
+        "keyPoints": [
+          "Fable 可快速生成面向真实数据的应用",
+          "申请者被可视化并按群体聚类",
+          "客户理解与产品决策之间的反馈周期被压缩"
+        ],
+        "whyItMatters": "当定制分析工具的边际成本下降，产品团队可以更频繁地用真实用户数据验证假设，而不是只依赖通用报表。",
+        "tags": [
+          "工程",
+          "产品",
+          "数据"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/danshipper/status/2089121597017759800"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月16日 · 周日",
+        "actor": "Thariq",
+        "meta": "Claude Code · X 动态",
+        "title": "AI 正在成为成熟 Web 框架作者的第二增长曲线",
+        "summary": "Thariq 观察到 Django、Flask 和 Rails 的创始人都很早就投入 AI，这不是简单的名人背书。熟悉框架演化的人更容易看出，AI 正在改变软件构建的抽象层：从手写每个实现细节，转向设计约束、工具链和可组合的系统。",
+        "keyPoints": [
+          "多个主流 Web 框架创始人较早拥抱 AI",
+          "框架经验有助于识别抽象层迁移",
+          "AI coding 的长期影响可能类似新一代开发范式变化"
+        ],
+        "whyItMatters": "对 Builders 而言，值得关注的不是短期工具热度，而是哪些新的工程抽象会像 Web framework 一样沉淀十年。",
+        "tags": [
+          "工程",
+          "开发工具",
+          "长期判断"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/trq212/status/2089085004966207679"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月7日 · 周五",
+        "actor": "The MAD Podcast with Matt Turck",
+        "meta": "Thomas Wolf · 播客",
+        "title": "模型会反过来改写产品团队的速度与组织方式",
+        "summary": "Hugging Face 的 Thomas Wolf 在节目中讨论了 AI 模型如何从工具变成能影响产品开发节奏的参与者；核心不是单纯追求更快发布，而是当模型能力快速跃迁时，团队必须同时重做评测、协作和决策机制。模型进步带来的机会与组织风险会同步放大。",
+        "keyPoints": [
+          "模型能力变化会直接影响产品节奏",
+          "快速迭代需要新的评测与协作机制",
+          "AI 组织要同时管理速度、可靠性与方向感"
+        ],
+        "whyItMatters": "这期对 Builders 的价值在于把模型进步放回组织系统中看：真正难的不是得到一次能力跃升，而是让团队能持续吸收它。",
+        "tags": [
+          "研究",
+          "组织",
+          "Agent"
+        ],
+        "qualityScore": 89,
+        "url": "https://www.youtube.com/watch?v=FU9A481E2W8"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "displayDate": "8月14日 · 周五",
     "generatedAt": "2026-08-13T23:30:35.253142+00:00",
