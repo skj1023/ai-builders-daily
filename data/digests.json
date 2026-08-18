@@ -1,5 +1,944 @@
 [
   {
+    "date": "2026-08-19",
+    "displayDate": "8月19日 · 周三",
+    "generatedAt": "2026-08-18T23:30:42.633679+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-18T07:03:56.144Z",
+      "blogs": "2026-08-18T07:04:29.469Z",
+      "podcasts": "2026-08-18T07:04:29.301Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、工程、产品、Agent、研究：14 位 AI Builders、0 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 14,
+      "tweets": 30,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 15
+        },
+        {
+          "name": "工程",
+          "count": 9
+        },
+        {
+          "name": "产品",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 6
+        },
+        {
+          "name": "研究",
+          "count": 4
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2089500941842342287",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet…",
+        "chineseTitle": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "score": 8699
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2089409162270965858",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel…",
+        "chineseTitle": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel…",
+        "tags": [
+          "工程"
+        ],
+        "score": 4074
+      },
+      {
+        "title": "来自 Nikunj Kothari 的观点",
+        "source": "Nikunj Kothari · X 动态",
+        "url": "https://x.com/nikunj/status/2089486802356961364",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app bui…",
+        "chineseTitle": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app bui…",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ],
+        "score": 1889
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2089604619936956778",
+        "sourceDate": "2026-08-18",
+        "sourceDisplayDate": "8月18日 · 周二",
+        "summary": "Gimme, gimme, gimme Codex after midnight Won’t somebody make these failing tests all go away…",
+        "chineseTitle": "Gimme, gimme, gimme Codex after midnight Won’t somebody make these failing tests all go away…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 1497
+      },
+      {
+        "title": "来自 Nikunj Kothari 的观点",
+        "source": "Nikunj Kothari · X 动态",
+        "url": "https://x.com/nikunj/status/2089374392295842086",
+        "sourceDate": "2026-08-17",
+        "sourceDisplayDate": "8月17日 · 周一",
+        "summary": "My hottest take is that brand marketing is going to be THE major differentiator and one of the most prized assets for a company going forward…",
+        "chineseTitle": "My hottest take is that brand marketing is going to be THE major differentiator and one of the most prized assets for a company going forward…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "score": 1052
+      }
+    ],
+    "builders": [
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "bio": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @smol_ai - @dxtipshq -…",
+        "summary": "Trajectory have generally impressed me with their tasteful execution on ambitious goals…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089393073327653344",
+            "url": "https://x.com/swyx/status/2089393073327653344",
+            "createdAt": "2026-08-17T16:45:02.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Trajectory have generally impressed me with their tasteful execution on ambitious goals. on our Continual Learning track, @rronak_ gave a very thoughtful overview on how they're tackling the main data problems left in CL, including why GRPO isn't enough and they had to go on-policy.... and then subsequently fix all…",
+            "summary": "Trajectory have generally impressed me with their tasteful execution on ambitious goals…",
+            "engagement": 162,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089393202755502492",
+            "url": "https://x.com/swyx/status/2089393202755502492",
+            "createdAt": "2026-08-17T16:45:33.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "@rronak_",
+            "summary": "@rronak_",
+            "engagement": 3,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089467492163010836",
+            "url": "https://x.com/swyx/status/2089467492163010836",
+            "createdAt": "2026-08-17T21:40:45.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "@TomasReimers @cursor_ai is live!",
+            "summary": "@TomasReimers @cursor_ai is live!",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "Circling back on this with some updates..…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2089520767281324112",
+            "url": "https://x.com/joshwoodward/status/2089520767281324112",
+            "createdAt": "2026-08-18T01:12:26.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Circling back on this with some updates... What’s the next set of things we can improve to make your Gemini experience even better? #1: Testing revamped Workspace tools in 1-2 weeks #2: 3.7 Flash showed improvements in tool calling, more coming here #3: New “Projects” design done, implementing now #4: 49 connectors…",
+            "summary": "Circling back on this with some updates..…",
+            "engagement": 702,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boris Cherny",
+        "handle": "bcherny",
+        "bio": "Claude Code @anthropicai",
+        "summary": "Let us know what you think! Small quality of life improvements like this add up…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089537919795212565",
+            "url": "https://x.com/bcherny/status/2089537919795212565",
+            "createdAt": "2026-08-18T02:20:36.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Let us know what you think!",
+            "summary": "Let us know what you think!",
+            "engagement": 919,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089538781909332210",
+            "url": "https://x.com/bcherny/status/2089538781909332210",
+            "createdAt": "2026-08-18T02:24:02.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Small quality of life improvements like this add up. More on the way",
+            "summary": "Small quality of life improvements like this add up…",
+            "engagement": 784,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2089500941842342287",
+            "url": "https://x.com/thsottiaux/status/2089500941842342287",
+            "createdAt": "2026-08-17T23:53:40.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
+            "summary": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet…",
+            "engagement": 8699,
+            "tags": [
+              "产品",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2089604619936956778",
+            "url": "https://x.com/thsottiaux/status/2089604619936956778",
+            "createdAt": "2026-08-18T06:45:39.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Gimme, gimme, gimme Codex after midnight Won’t somebody make these failing tests all go away? Gimme, gimme, gimme Codex after midnight Ship it through the darkness by the start of the day",
+            "summary": "Gimme, gimme, gimme Codex after midnight Won’t somebody make these failing tests all go away…",
+            "engagement": 1497,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "What AI skills or tools are people using to edit YouTube talking head intros…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2089519732336787619",
+            "url": "https://x.com/petergyang/status/2089519732336787619",
+            "createdAt": "2026-08-18T01:08:20.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "What AI skills or tools are people using to edit YouTube talking head intros? Stuff like zoom ins and animating in captions, logos, and b-roll. I've been testing @HyperFrames_ for this but curious if there are alternatives. I want to do the full edit just by talking to Codex or another harness.",
+            "summary": "What AI skills or tools are people using to edit YouTube talking head intros…",
+            "engagement": 55,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2089526739815092580",
+            "url": "https://x.com/petergyang/status/2089526739815092580",
+            "createdAt": "2026-08-18T01:36:10.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Most inspirational video you’ll watch today",
+            "summary": "Most inspirational video you’ll watch today",
+            "engagement": 47,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089593232741240881",
+            "url": "https://x.com/petergyang/status/2089593232741240881",
+            "createdAt": "2026-08-18T06:00:24.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "@bot If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here:",
+            "summary": "@bot If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides…",
+            "engagement": 2,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "product enthusiast",
+        "summary": "Many such cases",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089555421593768061",
+            "url": "https://x.com/thenanyu/status/2089555421593768061",
+            "createdAt": "2026-08-18T03:30:09.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Many such cases",
+            "summary": "Many such cases",
+            "engagement": 1,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "The best way to get good at evals is to take a workflow you know really well and figure out how to make its quality measurable…",
+        "tags": [
+          "产品",
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2089480958571331623",
+            "url": "https://x.com/realmadhuguru/status/2089480958571331623",
+            "createdAt": "2026-08-17T22:34:15.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "The best way to get good at evals is to take a workflow you know really well and figure out how to make its quality measurable. Study the actual traces - the sequence of prompts typical users have, what good responses would look like at each step and for the end to end outcome. Study where your product fails and…",
+            "summary": "The best way to get good at evals is to take a workflow you know really well and figure out how to make its quality measurable…",
+            "engagement": 240,
+            "tags": [
+              "产品",
+              "Agent",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "summary": "go into CC and type /design <something you want to design> do it rn all of the recent proc gen art, video editing and 3d game demos recently have made me update towards LLM coding models being better at a lot of creative…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2089529798850969805",
+            "url": "https://x.com/trq212/status/2089529798850969805",
+            "createdAt": "2026-08-18T01:48:20.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "go into CC and type /design <something you want to design> do it rn",
+            "summary": "go into CC and type /design <something you want to design> do it rn",
+            "engagement": 1022,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089415712007938315",
+            "url": "https://x.com/trq212/status/2089415712007938315",
+            "createdAt": "2026-08-17T18:14:59.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "all of the recent proc gen art, video editing and 3d game demos recently have made me update towards LLM coding models being better at a lot of creative work than diffusion models",
+            "summary": "all of the recent proc gen art, video editing and 3d game demos recently have made me update towards LLM coding models being better at a lot of creative work than diffusion models",
+            "engagement": 557,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2089415713098522688",
+            "url": "https://x.com/trq212/status/2089415713098522688",
+            "createdAt": "2026-08-17T18:15:00.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "the nice things about code is that it is easier to edit and nudge in the directions you want and export to work with existing tools",
+            "summary": "the nice things about code is that it is easier to edit and nudge in the directions you want and export to work with existing tools",
+            "engagement": 54,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "It’s not enough to scan your code for vulnerabilities; it’s important to try to break them with pen testing…",
+        "tags": [
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2089435606338416884",
+            "url": "https://x.com/amasad/status/2089435606338416884",
+            "createdAt": "2026-08-17T19:34:03.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "It’s not enough to scan your code for vulnerabilities; it’s important to try to break them with pen testing.",
+            "summary": "It’s not enough to scan your code for vulnerabilities; it’s important to try to break them with pen testing.",
+            "engagement": 325,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2089525819567739264",
+            "url": "https://x.com/amasad/status/2089525819567739264",
+            "createdAt": "2026-08-18T01:32:31.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount if they weren’t so AI-pilled.",
+            "summary": "This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount if they weren’t so AI-pilled.",
+            "engagement": 178,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2089530098902864336",
+            "url": "https://x.com/amasad/status/2089530098902864336",
+            "createdAt": "2026-08-18T01:49:31.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "Labour to keep alive in your Breast that Little Spark of Celestial fire Called Conscience",
+            "summary": "Labour to keep alive in your Breast that Little Spark of Celestial fire Called Conscience",
+            "engagement": 136,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2089409162270965858",
+            "url": "https://x.com/rauchg/status/2089409162270965858",
+            "createdAt": "2026-08-17T17:48:58.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel. And unlike GitHub, it's online 😁",
+            "summary": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel…",
+            "engagement": 4074,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2089373735002526018",
+            "url": "https://x.com/rauchg/status/2089373735002526018",
+            "createdAt": "2026-08-17T15:28:11.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Wow",
+            "summary": "Wow",
+            "engagement": 300,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "When you hear that data is the new oil, this is ultimately what that looks like…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089499887905997272",
+            "url": "https://x.com/levie/status/2089499887905997272",
+            "createdAt": "2026-08-17T23:49:28.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data that we’re entering an era where it’s valuable almost in any form. In a world of AI, information actually belongs as an asset on the balance sheet. This data sale is just one example of the implications of…",
+            "summary": "When you hear that data is the new oil, this is ultimately what that looks like…",
+            "engagement": 430,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "What do you get? A private github repo with 70 of my proven skills and the beginnings of your Karpathy-style knowledge wiki…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2089425134339961173",
+            "url": "https://x.com/garrytan/status/2089425134339961173",
+            "createdAt": "2026-08-17T18:52:26.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "What do you get? A private github repo with 70 of my proven skills and the beginnings of your Karpathy-style knowledge wiki. Read the full docs in the README. All of this is MIT-licensed open source and free.",
+            "summary": "What do you get? A private github repo with 70 of my proven skills and the beginnings of your Karpathy-style knowledge wiki…",
+            "engagement": 31,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089424620764168485",
+            "url": "https://x.com/garrytan/status/2089424620764168485",
+            "createdAt": "2026-08-17T18:50:23.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "It's free to try and works with your existing Claude Code or Codex subscription right now. Just make a new directory and start Codex or CC (on command line OR on Desktop, slightly better on Desktop) Just paste this image into your CC/Codex and it'll set up your agent repo asap",
+            "summary": "It's free to try and works with your existing Claude Code or Codex subscription right now…",
+            "engagement": 22,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2089438298540519821",
+            "url": "https://x.com/garrytan/status/2089438298540519821",
+            "createdAt": "2026-08-17T19:44:44.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "This is my open source to help you create your own Personal AGI as mentioned at my Startup School talk earlier this year",
+            "summary": "This is my open source to help you create your own Personal AGI as mentioned at my Startup School talk earlier this year",
+            "engagement": 17,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app builders have no moat (Replit, Lovable, Bolt) the wrappers have…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2089486802356961364",
+            "url": "https://x.com/nikunj/status/2089486802356961364",
+            "createdAt": "2026-08-17T22:57:29.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app builders have no moat (Replit, Lovable, Bolt) the wrappers have no moat (Harvey, Abridge, OpenEvidence) the inference providers have no moat (Together, Fireworks,…",
+            "summary": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app builders have no moat (…",
+            "engagement": 1889,
+            "tags": [
+              "工程",
+              "组织",
+              "研究"
+            ]
+          },
+          {
+            "id": "2089374392295842086",
+            "url": "https://x.com/nikunj/status/2089374392295842086",
+            "createdAt": "2026-08-17T15:30:48.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "My hottest take is that brand marketing is going to be THE major differentiator and one of the most prized assets for a company going forward. And, I’m not talking about launch videos or pouring money primarily for “aesthetics” simply to pump the valuation. You still need retention before attention. I’m talking about…",
+            "summary": "My hottest take is that brand marketing is going to be THE major differentiator and one of the most prized assets for a company going forward…",
+            "engagement": 1052,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "I have had extremely similar experiences Voice mode even better The question CFOs around the country are asking everyone in their organization Lfgggg!!!",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2089525989223157976",
+            "url": "https://x.com/danshipper/status/2089525989223157976",
+            "createdAt": "2026-08-18T01:33:12.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "I have had extremely similar experiences Voice mode even better",
+            "summary": "I have had extremely similar experiences Voice mode even better",
+            "engagement": 56,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089528326096384158",
+            "url": "https://x.com/danshipper/status/2089528326096384158",
+            "createdAt": "2026-08-18T01:42:29.000Z",
+            "sourceDate": "2026-08-18",
+            "sourceDisplayDate": "8月18日 · 周二",
+            "text": "The question CFOs around the country are asking everyone in their organization",
+            "summary": "The question CFOs around the country are asking everyone in their organization",
+            "engagement": 43,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2089481397421441278",
+            "url": "https://x.com/danshipper/status/2089481397421441278",
+            "createdAt": "2026-08-17T22:36:00.000Z",
+            "sourceDate": "2026-08-17",
+            "sourceDisplayDate": "8月17日 · 周一",
+            "text": "Lfgggg!!!",
+            "summary": "Lfgggg!!!",
+            "engagement": 16,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "No Priors",
+        "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+        "url": "https://www.youtube.com/watch?v=6l8oAO_LBx4",
+        "publishedAt": "2026-08-06T10:00:00.000Z",
+        "sourceDate": "2026-08-06",
+        "sourceDisplayDate": "8月6日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:11 70% of France is still nuclear in terms of its power generation…",
+        "chineseTitle": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah &amp; Elad",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最强的共同信号，是 AI 产品的竞争正在从单点模型能力转向完整工作流。Gemini 的 Workspace、Projects、tool calling 和连接器路线，与 Cursor Origin 打通代码托管和 Vercel 部署，本质上都在减少用户从意图到结果之间的摩擦。",
+        "工程质量的重点也在变化：Madhu Guru 把 evals 拉回真实用户 trace，Swyx 转述的 Continual Learning 实践则强调数据闭环、on-policy 和修复流程；Amjad Masad 对 penetration testing 的提醒进一步说明，Agent 交付不能只看生成成功，还要能测量、验证并主动攻破失败路径。",
+        "Thariq 对创意工作的观察和 Garry Tan 的 skills + knowledge wiki 实践，指向同一方向：Agent 的可持续价值来自可编辑、可复用、可迁移的过程资产，而不是一次性的生成结果。代码、技能库和个人知识都可能成为新的控制面。",
+        "产业层面，Nikunj Kothari 判断从模型到 IDE、harness 和 wrapper 的多层能力都在商品化，因此真正的 moat 更可能来自分发、数据、客户关系和品牌；Aaron Levie 对数据资产化的判断，则提醒 Builder 提前处理数据权利、定价与治理。"
+      ],
+      "filteredNote": "过滤掉了纯情绪表达、单词式回复、无上下文转发、宣传导流和与 AI Builders 无关的内容，共保留 10 条高信号动态。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Swyx",
+        "meta": "Continual Learning · X 动态",
+        "title": "持续学习的瓶颈在数据闭环，而不只是算法",
+        "summary": "Swyx 转述 Trajectory 对 Continual Learning 的实践：剩下的核心问题是数据，单靠 GRPO 不够，还需要转向 on-policy，并处理后续修复环节。它说明持续学习真正难的不是把训练方法名换一遍，而是把真实使用反馈变成可持续的训练信号。",
+        "keyPoints": [
+          "Continual Learning 的主要瓶颈转向数据问题",
+          "GRPO 不足以覆盖真实工作流，需要 on-policy 信号",
+          "训练、反馈与修复必须形成闭环"
+        ],
+        "whyItMatters": "对做 Agent 和模型产品的团队来说，数据闭环往往比再堆一个算法名更决定长期效果。",
+        "tags": [
+          "研究",
+          "工程",
+          "Agent"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/swyx/status/2089393073327653344"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月18日 · 周二",
+        "actor": "Josh Woodward",
+        "meta": "Gemini · X 动态",
+        "title": "模型升级之外，Agent 产品正在补齐工作区基础设施",
+        "summary": "Josh Woodward 公布 Gemini 后续迭代：1–2 周内测试新版 Workspace 工具，Gemini 3.7 Flash 改进 tool calling，Projects 设计已完成并进入实现，同时连接器数量达到 49 个。路线很清楚：Agent 体验的竞争不只在模型能力，也在项目组织、工具调用和外部系统连接。",
+        "keyPoints": [
+          "新版 Workspace 工具进入测试",
+          "Gemini 3.7 Flash 持续改进 tool calling",
+          "Projects 与 49 个连接器强化工作流整合"
+        ],
+        "whyItMatters": "这是一份很具体的 Agent 产品路线样本，提示 Builder 优先补齐工作流基础设施，而不是只追逐 benchmark。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/joshwoodward/status/2089520767281324112"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Madhu Guru",
+        "meta": "AI evals · X 动态",
+        "title": "把熟悉的工作流变成可测量的质量系统",
+        "summary": "Madhu Guru 给出一套落地的 evals 方法：从自己熟悉的工作流开始，观察真实用户的 prompt 序列，定义每一步和端到端结果的好答案，再定位产品失败的位置。评估不是脱离产品的静态题库，而是对真实 trace 的结构化测量。",
+        "keyPoints": [
+          "从熟悉且真实的工作流切入评估",
+          "分析用户 prompt 序列与每一步的质量标准",
+          "同时关注局部步骤和端到端结果"
+        ],
+        "whyItMatters": "这是把 Agent 评估从口号变成工程流程的实用框架，尤其适合早期产品建立第一版质量基线。",
+        "tags": [
+          "评估",
+          "Agent",
+          "产品"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/realmadhuguru/status/2089480958571331623"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Thariq",
+        "meta": "Claude Code · X 动态",
+        "title": "代码模型正在侵入创意生产，而不只是软件开发",
+        "summary": "Thariq 观察近期程序化艺术、视频编辑和 3D 游戏 demo 后，更新了判断：LLM coding models 在不少创意工作上可能优于 diffusion models。关键原因是代码更容易被编辑、微调，并能导出到现有工具链，创作者获得的是可控的迭代接口。",
+        "keyPoints": [
+          "创意工作成为 coding models 的新战场",
+          "代码表示更容易编辑和定向微调",
+          "输出可接入既有工具链，降低迁移成本"
+        ],
+        "whyItMatters": "它揭示了创意 Agent 的产品机会：可控、可复用的生成过程，可能比一次性生成更有长期价值。",
+        "tags": [
+          "Agent",
+          "工程",
+          "创意工具"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/trq212/status/2089415712007938315"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Amjad Masad",
+        "meta": "AI 安全 · X 动态",
+        "title": "漏洞扫描只是起点，真正的安全测试要主动攻破系统",
+        "summary": "Amjad Masad 强调，扫描代码中的漏洞并不够，还必须通过 penetration testing 主动尝试攻破它们。对 AI 生成代码和 Agent 系统而言，静态检查只能覆盖已知模式，攻击性测试才能暴露组合漏洞、权限边界和真实运行时风险。",
+        "keyPoints": [
+          "静态漏洞扫描不能替代主动攻击测试",
+          "Pen testing 更接近真实运行时风险",
+          "AI 生成代码需要把安全验证纳入交付链路"
+        ],
+        "whyItMatters": "随着 coding Agent 直接改代码、部署服务，安全能力必须从检查清单升级为持续的对抗性验证。",
+        "tags": [
+          "安全",
+          "工程",
+          "Agent"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/amasad/status/2089435606338416884"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Guillermo Rauch",
+        "meta": "Cursor Origin · X 动态",
+        "title": "代码托管与部署开始收敛成一条 Agent 原生链路",
+        "summary": "Guillermo Rauch 分享 Cursor Origin 的组合体验：代码仓库可以直接托管在 Cursor Origin，再通过 Cursor Origin 部署到 Vercel，而 Cursor Origin 本身也运行在 Vercel 上。这里的信号不是又多一个代码平台，而是开发、托管和部署之间的边界正在被 Agent 工作流重新压平。",
+        "keyPoints": [
+          "Cursor Origin 提供仓库托管",
+          "可直接衔接 Vercel 部署",
+          "开发到上线的路径更适合 Agent 自动化"
+        ],
+        "whyItMatters": "对 Builder 来说，平台间的摩擦越少，Agent 越能从改代码走到可访问产品；部署链路会成为产品体验的一部分。",
+        "tags": [
+          "工程",
+          "开发工具",
+          "部署"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/rauchg/status/2089409162270965858"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Aaron Levie",
+        "meta": "AI 与数据资产 · X 动态",
+        "title": "AI 让信息第一次像资产一样进入资产负债表",
+        "summary": "Aaron Levie 认为，AI 对数据的需求正在让几乎所有形式的信息都具备经济价值，数据交易只是其中一个例子。更深层的判断是：在 AI 时代，企业知识、内容和行为数据不再只是运营副产品，而可能成为需要定价、管理和保护的资产。",
+        "keyPoints": [
+          "AI 对数据的需求扩展到几乎所有信息形态",
+          "数据交易只是价值化的一个例子",
+          "企业信息需要被当作可管理资产对待"
+        ],
+        "whyItMatters": "这会影响数据采购、版权、隐私和企业知识库建设，是 AI 产品商业化的长期变量。",
+        "tags": [
+          "数据",
+          "商业",
+          "研究"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/levie/status/2089499887905997272"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Garry Tan",
+        "meta": "Personal AGI · X 动态",
+        "title": "个人 Agent 的壁垒可能来自可迁移的技能库",
+        "summary": "Garry Tan 开源了一个包含 70 个 skills 和知识 wiki 雏形的 GitHub repo，可配合现有 Claude Code 或 Codex 使用。这个实践把 Personal AGI 拆成了更具体的组件：可复用技能、个人知识结构，以及能被 Agent 直接消费的操作说明。",
+        "keyPoints": [
+          "以 skills 作为个人 Agent 的可复用能力单元",
+          "知识 wiki 为长期上下文提供结构",
+          "兼容现有 Claude Code 与 Codex 订阅"
+        ],
+        "whyItMatters": "它提供了一个低成本实验路径，也说明个人 Agent 的差异化可能沉淀在用户自己的知识与工作方法中。",
+        "tags": [
+          "Agent",
+          "知识管理",
+          "开源"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/garrytan/status/2089425134339961173"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Nikunj Kothari",
+        "meta": "AI 产业判断 · X 动态",
+        "title": "当模型、IDE 和 Agent harness 都趋于同质化，护城河转向分发",
+        "summary": "Nikunj Kothari 逐层列举模型、IDE、harness、应用构建器、垂直 wrapper 和推理服务，判断这些层普遍缺乏稳定 moat。若能力快速扩散，真正能积累的优势就更可能来自分发、品牌、客户关系、专有数据和执行速度，而不是单一产品表面。",
+        "keyPoints": [
+          "模型到应用层的能力都在快速商品化",
+          "单一技术层难以形成长期 moat",
+          "分发、数据与客户关系成为更重要的积累项"
+        ],
+        "whyItMatters": "这是评估 AI 创业机会时很有用的反幻觉框架：不要把暂时领先的功能误认成长期壁垒。",
+        "tags": [
+          "战略",
+          "产品",
+          "创业"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/nikunj/status/2089486802356961364"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月17日 · 周一",
+        "actor": "Nikunj Kothari",
+        "meta": "AI 产品营销 · X 动态",
+        "title": "AI 产品的品牌价值建立在留存之上，而不是视觉噱头",
+        "summary": "Nikunj Kothari 认为品牌营销会成为未来公司的主要差异化资产，但明确区分了品牌与烧钱做 launch video：先有 retention，再争取 attention。对 AI 产品而言，品牌不是包装层，而是把真实产品体验转化为记忆、信任和持续分发的机制。",
+        "keyPoints": [
+          "品牌可能成为 AI 产品的重要长期资产",
+          "营销不能替代 retention",
+          "品牌应建立在可重复的产品体验上"
+        ],
+        "whyItMatters": "当底层能力越来越容易复制，可信认知与持续分发会变得更稀缺，但前提仍是产品真的留得住用户。",
+        "tags": [
+          "产品",
+          "品牌",
+          "增长"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/nikunj/status/2089374392295842086"
+      }
+    ]
+  },
+  {
     "date": "2026-08-18",
     "displayDate": "8月18日 · 周二",
     "generatedAt": "2026-08-17T23:30:31.830666+00:00",
