@@ -1,5 +1,620 @@
 [
   {
+    "date": "2026-08-24",
+    "displayDate": "8月24日 · 周一",
+    "generatedAt": "2026-08-23T23:30:33.271398+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-23T06:27:32.823Z",
+      "blogs": "2026-08-23T06:27:36.614Z",
+      "podcasts": "2026-08-23T06:27:36.372Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今日聚焦 coding agent 效率、场景化评测、权限治理与组织杠杆：5 条高信号内容。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客，过滤低信号内容，优先保留可验证、可复用、对构建者有长期价值的判断。",
+    "stats": {
+      "builders": 9,
+      "tweets": 19,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 11
+        },
+        {
+          "name": "产品",
+          "count": 6
+        },
+        {
+          "name": "组织",
+          "count": 4
+        },
+        {
+          "name": "工程",
+          "count": 3
+        },
+        {
+          "name": "Agent",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2091407991736332689",
+        "sourceDate": "2026-08-23",
+        "sourceDisplayDate": "8月23日 · 周日",
+        "summary": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Compute…",
+        "chineseTitle": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Compute…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "score": 1969
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2091263423359389951",
+        "sourceDate": "2026-08-22",
+        "sourceDisplayDate": "8月22日 · 周六",
+        "summary": "San Francisco is a paradise on Earth",
+        "chineseTitle": "San Francisco is a paradise on Earth",
+        "tags": [
+          "观察"
+        ],
+        "score": 1224
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2091338152791474331",
+        "sourceDate": "2026-08-23",
+        "sourceDisplayDate": "8月23日 · 周日",
+        "summary": "AI can do many wonderful things and grant many wishes, but we have only one earth, one California, one Patagonia, one Mendoza…",
+        "chineseTitle": "AI can do many wonderful things and grant many wishes, but we have only one earth, one California, one Patagonia, one Mendoza…",
+        "tags": [
+          "观察"
+        ],
+        "score": 852
+      },
+      {
+        "title": "来自 Amjad Masad 的观点",
+        "source": "Amjad Masad · X 动态",
+        "url": "https://x.com/amasad/status/2091217410615644349",
+        "sourceDate": "2026-08-22",
+        "sourceDisplayDate": "8月22日 · 周六",
+        "summary": "“Pretty soon” turned out to be 3 months.",
+        "chineseTitle": "“Pretty soon” turned out to be 3 months.",
+        "tags": [
+          "观察"
+        ],
+        "score": 809
+      },
+      {
+        "title": "来自 Peter Yang 的观点",
+        "source": "Peter Yang · X 动态",
+        "url": "https://x.com/petergyang/status/2091331251211059468",
+        "sourceDate": "2026-08-23",
+        "sourceDisplayDate": "8月23日 · 周日",
+        "summary": "If you care about your privacy: 1. Go to in Chrome 2…",
+        "chineseTitle": "If you care about your privacy: 1. Go to in Chrome 2…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 536
+      }
+    ],
+    "builders": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversat…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2091407991736332689",
+            "url": "https://x.com/thsottiaux/status/2091407991736332689",
+            "createdAt": "2026-08-23T06:11:36.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing…",
+            "summary": "Update on rate limits in Codex. We’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feat…",
+            "engagement": 1969,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "If you care about your privacy: 1. Go to in Chrome 2…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2091331251211059468",
+            "url": "https://x.com/petergyang/status/2091331251211059468",
+            "createdAt": "2026-08-23T01:06:40.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "If you care about your privacy: 1. Go to in Chrome 2. Run this prompt in Codex or Claude Code and tell it there's an open tab in your browser 3. Then pick the ones you want to remove and tell AI to do it Just disconnected half the apps that should no longer have my Google info.",
+            "summary": "If you care about your privacy: 1. Go to in Chrome 2…",
+            "engagement": 536,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2091239339204415969",
+            "url": "https://x.com/petergyang/status/2091239339204415969",
+            "createdAt": "2026-08-22T19:01:26.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "I’m working on a new AI skill. It’s called /fuck-cancer Goal is to help patients and their family navigate this whole process and stay informed. What should I include in it?",
+            "summary": "I’m working on a new AI skill. It’s called /fuck-cancer Goal is to help patients and their family navigate this whole process and stay informed…",
+            "engagement": 242,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091187611507499321",
+            "url": "https://x.com/petergyang/status/2091187611507499321",
+            "createdAt": "2026-08-22T15:35:53.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "Looks like you can now delete external data (like my 36 Gmail records) if you go to and scroll down to Data Privacy. Kudos to the Instinct team for listening and shipping this quickly. I will always say it like it is, especially when it comes to privacy & trust.",
+            "summary": "Looks like you can now delete external data (like my 36 Gmail records) if you go to and scroll down to Data Privacy…",
+            "engagement": 14,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "How to build great evals - part 6 Hill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2091278653435072523",
+            "url": "https://x.com/realmadhuguru/status/2091278653435072523",
+            "createdAt": "2026-08-22T21:37:39.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "How to build great evals - part 6 Hill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it. This could be improving the quality of existing features based on your latest production data on high value user journeys, expanding to adjacent use cases, lowering cost or…",
+            "summary": "How to build great evals - part 6 Hill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it…",
+            "engagement": 178,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2091278899711967441",
+            "url": "https://x.com/realmadhuguru/status/2091278899711967441",
+            "createdAt": "2026-08-22T21:38:38.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "Part 1 Part 2 Part 3 Part 4 Part 5",
+            "summary": "Part 1 Part 2 Part 3 Part 4 Part 5",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "“Pretty soon” turned out to be 3 months. A week has 7 days That means 7 ships",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2091217410615644349",
+            "url": "https://x.com/amasad/status/2091217410615644349",
+            "createdAt": "2026-08-22T17:34:18.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "“Pretty soon” turned out to be 3 months.",
+            "summary": "“Pretty soon” turned out to be 3 months.",
+            "engagement": 809,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091346778746757204",
+            "url": "https://x.com/amasad/status/2091346778746757204",
+            "createdAt": "2026-08-23T02:08:22.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "A week has 7 days That means 7 ships",
+            "summary": "A week has 7 days That means 7 ships",
+            "engagement": 94,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "San Francisco is a paradise on Earth AI can do many wonderful things and grant many wishes, but we have only one earth, one California, one Patagonia, one Mendoza…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2091263423359389951",
+            "url": "https://x.com/rauchg/status/2091263423359389951",
+            "createdAt": "2026-08-22T20:37:08.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "San Francisco is a paradise on Earth",
+            "summary": "San Francisco is a paradise on Earth",
+            "engagement": 1224,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091338152791474331",
+            "url": "https://x.com/rauchg/status/2091338152791474331",
+            "createdAt": "2026-08-23T01:34:05.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "AI can do many wonderful things and grant many wishes, but we have only one earth, one California, one Patagonia, one Mendoza. USA and Argentina are two of the freest countries that also happen to have the most glorious land and geography. I'm very long 🇺🇸🇦🇷. We're so early.",
+            "summary": "AI can do many wonderful things and grant many wishes, but we have only one earth, one California, one Patagonia, one Mendoza…",
+            "engagement": 852,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091265836719956474",
+            "url": "https://x.com/rauchg/status/2091265836719956474",
+            "createdAt": "2026-08-22T20:46:43.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "cc @windows",
+            "summary": "cc @windows",
+            "engagement": 59,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "AI diffusion is far more rate limited by having good evals than most realize…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2091359223368315050",
+            "url": "https://x.com/levie/status/2091359223368315050",
+            "createdAt": "2026-08-23T02:57:49.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the relative capability level of models. The far bigger space over time are evals on all the major…",
+            "summary": "AI diffusion is far more rate limited by having good evals than most realize…",
+            "engagement": 199,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: YouTube:",
+        "summary": "Everyone who’s ahead in using AI thinks they’re behind There’s a phenomenon where talented individuals can achieve 10x their potential thanks to AI when working on their own thing But when the same individual is put into…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2091338374447763481",
+            "url": "https://x.com/zarazhangrui/status/2091338374447763481",
+            "createdAt": "2026-08-23T01:34:58.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "Everyone who’s ahead in using AI thinks they’re behind",
+            "summary": "Everyone who’s ahead in using AI thinks they’re behind",
+            "engagement": 449,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091379220257603593",
+            "url": "https://x.com/zarazhangrui/status/2091379220257603593",
+            "createdAt": "2026-08-23T04:17:16.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "There’s a phenomenon where talented individuals can achieve 10x their potential thanks to AI when working on their own thing But when the same individual is put into a large organization, they at most increase their potential by 20% (and sometimes it’s even decreased) This is why I’m seeing more and more talented…",
+            "summary": "There’s a phenomenon where talented individuals can achieve 10x their potential thanks to AI when working on their own thing But when the same individual is put into a large organi…",
+            "engagement": 182,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Kids, I don't know what advice you are getting, but ragebaiting investors and then sending them SAFE docs to just wire you money is NOT how investing works.…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2091381756012511244",
+            "url": "https://x.com/nikunj/status/2091381756012511244",
+            "createdAt": "2026-08-23T04:27:21.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "Kids, I don't know what advice you are getting, but ragebaiting investors and then sending them SAFE docs to just wire you money is NOT how investing works..",
+            "summary": "Kids, I don't know what advice you are getting, but ragebaiting investors and then sending them SAFE docs to just wire you money is NOT how investing works..",
+            "engagement": 455,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091220881590927441",
+            "url": "https://x.com/nikunj/status/2091220881590927441",
+            "createdAt": "2026-08-22T17:48:05.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "We complain about slop at X, but LinkedIn has stooped to unimaginable levels of slop 🤮",
+            "summary": "We complain about slop at X, but LinkedIn has stooped to unimaginable levels of slop 🤮",
+            "engagement": 55,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091403643815604629",
+            "url": "https://x.com/nikunj/status/2091403643815604629",
+            "createdAt": "2026-08-23T05:54:19.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "Few things: 1) These are Twitter DMs. I try to be helpful to as many cold DMs as I can. This one shouldn’t have passed the bar. 2) Doxxing someone is not my style. I hope they learned their lesson. 3) I can’t stress enough how important it is to find the right people to take advice from. It boils my blood to see many…",
+            "summary": "Few things: 1) These are Twitter DMs. I try to be helpful to as many cold DMs as I can…",
+            "engagement": 23,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "agent native ftw we’re hiring @every!",
+        "tags": [
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2091162447029608735",
+            "url": "https://x.com/danshipper/status/2091162447029608735",
+            "createdAt": "2026-08-22T13:55:53.000Z",
+            "sourceDate": "2026-08-22",
+            "sourceDisplayDate": "8月22日 · 周六",
+            "text": "agent native ftw",
+            "summary": "agent native ftw",
+            "engagement": 163,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2091361962068254840",
+            "url": "https://x.com/danshipper/status/2091361962068254840",
+            "createdAt": "2026-08-23T03:08:42.000Z",
+            "sourceDate": "2026-08-23",
+            "sourceDisplayDate": "8月23日 · 周日",
+            "text": "we’re hiring @every!",
+            "summary": "we’re hiring @every!",
+            "engagement": 145,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "AI & I by Every",
+        "title": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-08-12T16:55:27.000Z",
+        "sourceDate": "2026-08-12",
+        "sourceDisplayDate": "8月12日 · 周三",
+        "summary": "Speaker 1 | 00:00 - 00:10 You're someone who, I think, cares a lot about the craft of things…",
+        "chineseTitle": "Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+        "tags": [
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最明确的工程信号，是 AI coding agent 的瓶颈正在从模型能力转向系统效率与容量管理。Thibault Sottiaux 说明 Codex 的 rate limits 受到长会话图片处理、多次 compaction、Computer History 的高 p95 用量，以及对话标题生成等环节的额外消耗影响；这意味着长任务的连续性、缓存效率和后台功能都已经是开发者体验的一部分。",
+        "评测是另一条主线。Madhu Guru 把 eval 的 hill climbing 解释为：选择真正重要的维度，依据生产数据持续优化；Aaron Levie 则指出，AI diffusion 更受“针对具体业务场景的好评测”限制，而不是受模型发布时的通用 benchmark 限制。对 builders 来说，eval 不应只是发布前的分数，而应连接高价值用户旅程、相邻用例、成本和可靠性。",
+        "Agent 产品的价值还在于把能力嵌入可执行的用户流程。Peter Yang 分享了用 Codex 或 Claude Code 清理浏览器中外部应用访问 Google 数据的做法，展示了“发现权限—选择目标—执行撤销”的低摩擦工作流；这类体验的关键不是一次性的模型回答，而是让用户能看见范围、保留选择权，并完成可验证的动作。",
+        "组织层面，Zara Zhang 观察到个人使用 AI 时的生产力增幅可能远高于大型组织中的增幅，核心差异在于个人可以直接改变流程，而组织会被审批、协作和既有系统稀释。这个判断对 AI Builders 的启发是：产品设计和内部落地都要优先寻找能缩短决策链、减少交接、允许快速反馈的工作单元，而不是只增加一个 AI 入口。"
+      ],
+      "filteredNote": "过滤掉了纯生活动态、情绪表达、表情包、无上下文短句、单纯宣传或转发、非 AI 话题，以及无法从现有文本还原核心论点的播客片段等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月23日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "Coding agent 的限额，本质是系统效率问题",
+        "summary": "Thibault Sottiaux 解释 Codex rate limits 的几个真实消耗源：长会话中的图片处理与多次 compaction、Computer History 的高 p95 用量，以及对话标题生成特性产生的额外开销。团队正在用专项小组排查这些问题，说明 coding agent 的容量体验不仅由模型推理决定，也由上下文管理和后台产品逻辑共同决定。",
+        "keyPoints": [
+          "长会话与多模态输入会放大用量低效",
+          "高 p95 的后台功能会侵蚀用户可用额度",
+          "容量、缓存与上下文连续性已成为 coding agent 的产品质量指标"
+        ],
+        "whyItMatters": "这是少见的产品内部信号：当开发者把 agent 用于长任务时，限额策略和系统效率会直接决定他们是否敢把工作流交出去。",
+        "tags": [
+          "产品",
+          "工程",
+          "开发工具"
+        ],
+        "qualityScore": 95,
+        "url": "https://x.com/thsottiaux/status/2091407991736332689"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月22日 · 周六",
+        "actor": "Madhu Guru",
+        "meta": "AI evaluation · X 动态",
+        "title": "Eval 不只是打分：用生产反馈持续爬坡",
+        "summary": "Madhu Guru 将 eval 上的 hill climbing 解释为一个持续优化循环：先挑选真正重要的维度，再结合生产数据提升已有高价值功能、扩展相邻用例，或降低成本。这个框架把评测从发布前的验收表，变成连接用户价值、产品迭代和资源效率的控制面。",
+        "keyPoints": [
+          "评测维度必须对应真实用户价值",
+          "生产数据应驱动已有功能和相邻用例的优化",
+          "质量提升、覆盖扩展与成本下降都可以成为 eval 目标"
+        ],
+        "whyItMatters": "它给 Agent 团队提供了可执行的评测方法：不要追求一个漂亮总分，而要围绕关键旅程建立可反复优化的指标。",
+        "tags": [
+          "评测",
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/realmadhuguru/status/2091278653435072523"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月23日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "AI 普及的真正瓶颈，是业务场景的好评测",
+        "summary": "Aaron Levie 认为，模型发布时的通用 eval 很有帮助，但它们主要描述总体能力形状和相对水平；真正限制 AI 在组织内扩散的，是覆盖各类业务场景的具体评测。换句话说，企业需要衡量模型在自己的数据、流程和风险边界内是否可靠，而不是只看通用 benchmark。",
+        "keyPoints": [
+          "通用 benchmark 不能代表企业工作流表现",
+          "场景化 eval 是 AI diffusion 的关键基础设施",
+          "评测应覆盖业务结果、风险和长期稳定性"
+        ],
+        "whyItMatters": "这把企业 AI 的竞争焦点从“选哪个模型”转向“能否建立自己的验证系统”，对产品采购和内部落地都很关键。",
+        "tags": [
+          "评测",
+          "企业 AI",
+          "Agent"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/levie/status/2091359223368315050"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月23日 · 周日",
+        "actor": "Peter Yang",
+        "meta": "Codex / Claude Code · X 动态",
+        "title": "让 AI 直接治理第三方数据权限",
+        "summary": "Peter Yang 分享了一条具体的隐私工作流：让 Codex 或 Claude Code 识别浏览器中的开放页面，再由用户挑选要删除的外部应用连接，最后执行撤销。他实际清理了多条不再需要的 Google 数据访问，体现出 AI 工具正在从“告诉用户去哪里设置”走向“在用户确认后完成权限治理”。",
+        "keyPoints": [
+          "先发现外部应用与数据范围",
+          "用户保留逐项选择和最终确认权",
+          "Agent 的价值在于完成可验证的权限变更"
+        ],
+        "whyItMatters": "这是一个可复用的 Agent 产品范式：把复杂设置流程变成可检查、可授权、可回滚的动作链，而不是只生成说明文字。",
+        "tags": [
+          "隐私",
+          "Agent",
+          "产品"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/petergyang/status/2091331251211059468"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月23日 · 周日",
+        "actor": "Zara Zhang",
+        "meta": "AI productivity · X 动态",
+        "title": "AI 的个人杠杆，为什么在组织里会被稀释",
+        "summary": "Zara Zhang 观察到，擅长使用 AI 的个人在做自己的事情时可能获得接近 10 倍的潜力提升，但进入大型组织后增幅可能只有约 20%，甚至下降。关键不一定是模型能力差异，而是组织中的审批、交接、工具边界和既有流程会吞掉个人获得的速度优势。",
+        "keyPoints": [
+          "个人项目可以直接重构工作流",
+          "组织摩擦会稀释 AI 带来的局部效率",
+          "落地应优先选择决策链短、反馈快的工作单元"
+        ],
+        "whyItMatters": "它提醒 builders，AI 产品的 adoption 难点往往是组织设计而非功能缺失；减少交接和等待，可能比再加一个模型入口更有价值。",
+        "tags": [
+          "组织",
+          "产品",
+          "AI productivity"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/zarazhangrui/status/2091379220257603593"
+      }
+    ]
+  },
+  {
     "date": "2026-08-23",
     "displayDate": "8月23日 · 周日",
     "generatedAt": "2026-08-22T23:30:21.572531+00:00",
