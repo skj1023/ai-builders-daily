@@ -1,185 +1,137 @@
 import json
+from pathlib import Path
 
-with open('data/archive/2026-07-14.json', 'r', encoding='utf-8') as f:
+ROOT = Path(__file__).resolve().parents[1]
+DATE = "2026-08-25"
+archive_path = ROOT / "data" / "archive" / f"{DATE}.json"
+with archive_path.open(encoding="utf-8") as f:
     data = json.load(f)
 
-# Build dailyInsight
-data['dailyInsight'] = {
-    'paragraphs': [
-        '今日最显性的信号来自基础设施层的「算力让价」。Anthropic 将 Claude Fable 5 的付费用户开放期延长至 7 月 19 日，并维持 Claude Code 50% 的 rate limit 加成；OpenAI 的 Thibault Sottiaux 同步披露 GPT-5.6 Sol 完成推理优化，所有订阅层级获得约 10% 的用量提升，Codex 上下文窗口扩展至 372k。两大厂商在同一天释放「同等能力更便宜」的信号，说明推理成本的下降速度已超过模型能力的迭代速度，开发者议价权正在上升。',
-        '架构层面的讨论集中在「谁拥有 AI 堆栈」。Guillermo Rauch 明确提出「Make the model a cog in a machine you own」——通过 AI SDK、Agent API、AI Gateway 三层开放架构，让创业公司和企业在数据、evals、模型选择上保持自主。Aaron Levie 从企业角度补充了另一个维度：当智力被打包进模型后，企业 IP（决策、工作流、最佳实践）如何不被 bitter lesson 吞没，是 21 世纪商业架构的核心问题。两个视角合在一起，指向一个判断：模型层的同质化正在加速，真正的壁垒在模型之上的数据飞轮和工作流编排。',
-        '工程实践侧，Amjad Masad 分享了在 Replit 上用 Qwen-8b 微调国际象棋引擎的「Vibe Research」过程——并行跑 3 个实验分支，靠直觉引导模型做 ML。Zara Zhang 则展示了「会议录音即 PRD」的 Codex 工作流：和同事讨论实现细节，把 transcript 直接喂给 Codex 出原型。这两个案例的共同点是：人提供方向和判断，AI 负责执行和探索，这正是 Agent 时代的人机协作范式。',
-        'FPV Ventures 的 Nikunj Kothari 提供了一个清醒的观察：旧金山很多人声称自己在 tokenmaxxing、跑 subagent 循环，但被问到「在为什么问题、为谁构建」时几乎答不上来。这揭示了一个行业噪音——工具使用的密度不等于产品方向的清晰度。在 Agent 基础设施快速商品化的当下，「做什么」比「怎么用」更重要。'
-    ],
-    'filteredNote': '过滤掉了 Matt Turck 的 meme 式吐槽、Dan Shipper 的短句感叹、Peter Steinberger 的硬件展示、Garry Tan 的政治评论、Nikunj 的日常提醒等低信号内容'
-}
-
-# Build highSignalItems
-data['highSignalItems'] = [
+cards = [
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月12日 · 周六',
-        'actor': 'Claude',
-        'meta': 'Anthropic · 产品公告',
-        'title': 'Claude Fable 5 延期开放，Code 限额持续加成',
-        'summary': 'Anthropic 宣布将 Claude Fable 5 的付费用户访问权限延长至 7 月 19 日，同时维持 Claude Code 周限额 50% 的加成。付费用户可将最多一半的周限额用于 Fable 5，超出后可使用 credits 或切换模型。',
-        'keyPoints': ['Fable 5 开放期延长一周', 'Claude Code rate limit 维持 +50%', '超额后支持 credits 或模型切换'],
-        'whyItMatters': '推理成本下降的直接体现，开发者短期内获得更高的性价比窗口。',
-        'tags': ['产品', '工程'],
-        'qualityScore': 88,
-        'url': 'https://x.com/claudeai/status/2076351399999557669'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Thibault Sottiaux", "meta": "Codex · X 动态",
+        "title": "模型效率与可靠性将成为 AI 基础设施的核心指标",
+        "summary": "Thibault Sottiaux 判断，2026 年企业会开始认真关注模型效率与可靠性，因为模型服务正在从实验性能力变成关键基础设施。对 AI 产品团队而言，单纯追求能力上限已经不够，成本、稳定性和可预期性会直接决定产品能否规模化。",
+        "keyPoints": ["模型效率与可靠性正在从优化项变成基础设施要求", "推理成本、延迟和故障率会影响产品商业化", "AI 团队需要把模型运营纳入长期工程体系"],
+        "whyItMatters": "这是一条对 AI 产品路线有长期影响的判断：当模型成为生产依赖，infra discipline 会和模型能力同等重要。",
+        "tags": ["工程", "研究", "基础设施"], "qualityScore": 91,
+        "url": "https://x.com/thsottiaux/status/2091581575108653374"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月13日 · 周日',
-        'actor': 'Thibault Sottiaux',
-        'meta': 'OpenAI Codex · 工程更新',
-        'title': 'GPT-5.6 Sol 推理优化落地，Codex 上下文扩至 372k',
-        'summary': 'OpenAI Codex 负责人披露 GPT-5.6 Sol 完成推理优化，所有订阅层级获得约 10% 用量提升。同时将产品上下文限制调整为 372k，明确承诺不会 nerf 模型。',
-        'keyPoints': ['推理优化带来 10% 用量提升', 'Codex 上下文窗口扩至 372k', '明确承诺 no nerfing'],
-        'whyItMatters': '推理成本下降+上下文扩展，直接影响 Agent 类产品的架构决策和用户体验上限。',
-        'tags': ['产品', 'Agent', '工程'],
-        'qualityScore': 90,
-        'url': 'https://x.com/thsottiaux/status/2076495156757577895'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Peter Yang", "meta": "AI 产品实践 · X 动态",
+        "title": "高质量 AI eval 需要上下两层同时测量",
+        "summary": "Peter Yang 转述 Shreya 的框架：AI eval 一方面要从任务描述出发，做 top-down 的理想能力评估；另一方面要从大量真实交互和失败样本出发，做 bottom-up 的现实质量评估。前者帮助定义应该达到什么，后者揭示用户实际上会遇到什么。",
+        "keyPoints": ["Top-down eval 从任务定义推导理想答案", "Bottom-up eval 依赖真实样本、轨迹和失败模式", "两类 eval 结合才能避免只测 benchmark 或只测局部体验"],
+        "whyItMatters": "这是构建 Agent 评测体系时非常实用的分层方法，能把‘模型看起来会做’与‘产品在真实世界可靠’区分开。",
+        "tags": ["评测", "Agent", "产品"], "qualityScore": 92,
+        "url": "https://x.com/petergyang/status/2091586298779955512"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月12日 · 周六',
-        'actor': 'Guillermo Rauch',
-        'meta': 'Vercel · 架构观点',
-        'title': '把模型变成你自有机器里的齿轮',
-        'summary': 'Rauch 提出三层开放架构主张：AI SDK（开放模型 API）→ Agent API（开放 Agent 接口）→ AI Gateway（开放 ZDR 推理）。核心论点是创业公司和企业必须掌控自己的数据、evals、模型选择和软件层，不要把大脑外包出去。',
-        'keyPoints': ['三层开放架构：SDK → Agent API → Gateway', '企业必须拥有数据、evals、模型选择', "Don't outsource your brain"],
-        'whyItMatters': '在模型层快速商品化的背景下，这是关于「价值在哪一层沉淀」的清晰判断框架。',
-        'tags': ['Agent', '架构', '研究'],
-        'qualityScore': 85,
-        'url': 'https://x.com/rauchg/status/2076364176252191222'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Madhu Guru", "meta": "Meta AI · X 动态",
+        "title": "评测应对齐 Agent 的中间任务，而不只看最终答案",
+        "summary": "Madhu Guru 提出构建 eval 的 Goldilocks principle：评测粒度应落在 Agent 实际要完成的各项工作上，而不是只检查最终输出。例如金融分析 Agent 不应只看最后的股票推荐，还要评估检索、数据分析、推理和证据组织等中间环节。这样才能定位能力瓶颈和错误来源。",
+        "keyPoints": ["评测粒度要与具体 job-to-be-done 对齐", "最终答案正确不代表中间过程可靠", "拆解中间任务有助于定位 Agent 失败原因"],
+        "whyItMatters": "对于复杂 Agent，端到端分数往往无法指导迭代；中间任务 eval 才能把质量问题转化为工程任务。",
+        "tags": ["评测", "Agent", "工程"], "qualityScore": 94,
+        "url": "https://x.com/realmadhuguru/status/2091684812012875981"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月12日 · 周六',
-        'actor': 'Aaron Levie',
-        'meta': 'Box · 企业 AI 架构',
-        'title': '模型同质化时代，企业 IP 如何不被 bitter lesson 吞没',
-        'summary': 'Levie 提出 21 世纪商业的核心架构问题：当智力被打包进 AI 模型后，企业如何最大化自己的 IP（决策、洞察、工作流模式、最佳实践）？他暗示这些问题不能简单被 bitter lesson 解决。',
-        'keyPoints': ['企业 IP 包括决策、洞察、工作流模式', '模型同质化不等于企业知识可替代', 'bitter lesson 不能解决所有问题'],
-        'whyItMatters': '为企业 AI 架构提供了一个反向思考：不是「如何用模型」，而是「如何在模型之上保持壁垒」。',
-        'tags': ['Agent', '研究', '企业'],
-        'qualityScore': 82,
-        'url': 'https://x.com/levie/status/2076338364635287637'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Guillermo Rauch", "meta": "Vercel · X 动态",
+        "title": "Agent 扩展生态应回到开放协议与可组合工具",
+        "summary": "Guillermo Rauch 分享了扩展 AI 产品的设计哲学：通过 MCP、Skills 和 Plugins 等开放协议连接能力，并借鉴 Unix 的两条原则——小程序做好一件事、通过组合完成复杂工作，以及提供可嵌入更大系统的 library。Agent 生态的关键不只是增加工具数量，而是让工具可发现、可组合、可嵌入。",
+        "keyPoints": ["开放协议降低 Agent 与工具之间的耦合", "小而专一的工具更容易组合和复用", "library / embeddability 让能力进入更复杂的产品"],
+        "whyItMatters": "这套思路直接影响 Agent 平台的架构选择：封闭能力堆叠不如开放、可组合的接口形成生态。",
+        "tags": ["Agent", "开放协议", "工程"], "qualityScore": 93,
+        "url": "https://x.com/rauchg/status/2091583525661384813"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月12日 · 周六',
-        'actor': 'Amjad Masad',
-        'meta': 'Replit · Vibe Research',
-        'title': 'Vibe Research：在 Replit 上微调 Qwen-8b 下国际象棋',
-        'summary': 'Masad 分享了在 Replit 上用 Qwen-8b 微调国际象棋引擎的过程：并行跑 3 个实验分支，靠人的直觉引导模型做 ML。他指出模型在「做 ML」这件事上已经进步巨大，有良好直觉的人现在可以独立完成过去需要团队的工作。',
-        'keyPoints': ['并行 3 个实验分支', '人提供直觉，模型执行 ML', '模型做 ML 的能力已大幅提升'],
-        'whyItMatters': '「Vibe Research」是 Agent 时代人机协作的具体范式——人定方向，AI 执行和探索。',
-        'tags': ['工程', '研究', '产品'],
-        'qualityScore': 80,
-        'url': 'https://x.com/amasad/status/2076227936202662357'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Guillermo Rauch", "meta": "Vercel · X 动态",
+        "title": "推理变便宜后，智能需求会呈现高弹性增长",
+        "summary": "Guillermo Rauch 观察到，OpenAI Sol 的降价以及 Vercel AI Gateway 的折扣让 Sol 成为增长最快的 frontier model。这说明对智能的需求具有明显价格弹性：推理成本下降会迅速带来更多调用，也说明 gateway 能帮助团队更快捕捉成本变化和模型迁移机会。",
+        "keyPoints": ["推理价格下降会显著放大使用量", "模型选择与成本管理需要动态化", "Gateway 是控制路由、价格和迁移成本的重要基础设施"],
+        "whyItMatters": "AI 产品的市场规模不只取决于模型能力，也取决于单位智能的价格；成本下降可能创造全新的使用场景。",
+        "tags": ["推理成本", "模型路由", "基础设施"], "qualityScore": 90,
+        "url": "https://x.com/rauchg/status/2091671326897713424"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月12日 · 周六',
-        'actor': 'Zara Zhang',
-        'meta': 'follow-builders · 工作流实践',
-        'title': '会议录音即 PRD：Codex 的新用法',
-        'summary': 'Zhang 展示了一个高效工作流：和同事讨论功能实现细节，把会议 transcript 直接喂给 Codex，它就能按讨论内容构建原型。「会议本身就是 prompt」。',
-        'keyPoints': ['会议 transcript 直接作为 PRD', 'Codex 能理解讨论上下文并出原型', '会议即 prompt'],
-        'whyItMatters': '展示了 Agent 工具如何消除「讨论→文档→开发」的中间环节，是产品迭代效率的质变。',
-        'tags': ['产品', '工程', '工作流'],
-        'qualityScore': 78,
-        'url': 'https://x.com/zarazhangrui/status/2076300222884626754'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Garry Tan", "meta": "YC · X 动态",
+        "title": "传统系统记录需要升级为 Agent 的执行中枢",
+        "summary": "Garry Tan 预测，systems of record 如果不成为 AI harness，就可能被 Agent 取代。未来企业软件的价值不只是保存数据，还要围绕这些数据提供权限、上下文、动作和反馈，让 Agent 能在系统内完成工作。",
+        "keyPoints": ["数据记录本身正在失去足够的产品护城河", "系统需要提供上下文、权限与可执行动作", "企业软件将从被动记录转向 Agent 工作编排"],
+        "whyItMatters": "这为企业 AI 产品提供了清晰方向：最有价值的 AI 化不是外挂聊天框，而是重构核心工作流。",
+        "tags": ["Agent", "企业软件", "产品"], "qualityScore": 89,
+        "url": "https://x.com/garrytan/status/2091742825042030681"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月12日 · 周六',
-        'actor': 'Swyx',
-        'meta': 'Latent Space · 技术框架',
-        'title': 'introspection 与 backpropagation：insanity 的定义',
-        'summary': 'Swyx 引用爱因斯坦的名言重新定义了 Agent 的 introspection：如果多次 rollout 没有对 advantage 的预期，那就是 insanity。真正的区别在于 introspection/backpropagation——Agent 需要从自己的执行中学习，而不是盲目重复。',
-        'keyPoints': ['introspection 是 Agent 的核心能力', '无预期的 rollout 就是 insanity', 'Agent 需要从执行中学习'],
-        'whyItMatters': '为 Agent 架构设计提供了一个判断标准：是否有真正的 introspection 机制。',
-        'tags': ['Agent', '研究', '框架'],
-        'qualityScore': 76,
-        'url': 'https://x.com/swyx/status/2076345087634620528'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Peter Yang", "meta": "AI 产品实践 · X 动态",
+        "title": "高效的人类助手正在成为 AI Agent 的编排者",
+        "summary": "Peter Yang 分享了与人类助手 Char 合作半年的经验：Char 使用 Claude Code 和 Codex 处理播客后期、show notes 和切片，并把 Peter 的 AI skills 复制、改造为适合自己工作流的版本。未来优秀的助手不只是执行任务，还要能够设计、调用和维护 Agent 工作流。",
+        "keyPoints": ["人类助手可以通过 Agent 放大执行范围", "可复制、可定制的 skills 是工作流资产", "人与 Agent 的协作编排会成为新型岗位能力"],
+        "whyItMatters": "它展示了 AI 落地的一个现实路径：不是立即替代完整岗位，而是先让熟悉业务的人掌握 Agent 编排。",
+        "tags": ["Agent", "工作流", "组织"], "qualityScore": 87,
+        "url": "https://x.com/petergyang/status/2091631590799737306"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月13日 · 周日',
-        'actor': 'Nikunj Kothari',
-        'meta': 'FPV Ventures · 行业观察',
-        'title': 'tokenmaxxing 的幻觉：工具密度不等于产品方向',
-        'summary': 'Kothari 观察到旧金山很多人声称自己在 tokenmaxxing、跑 subagent 循环，但被问到「在为什么问题、为谁构建」时几乎答不上来。他得出结论：即使在 AI 时代，简单性和方向感仍然比工具使用密度更重要。',
-        'keyPoints': ['tokenmaxxing 不等于产品价值', '方向感比工具密度重要', '简单性仍是核心'],
-        'whyItMatters': '在 Agent 工具快速商品化的当下，这是一个清醒的反噪音信号。',
-        'tags': ['Agent', '市场', '判断'],
-        'qualityScore': 83,
-        'url': 'https://x.com/nikunj/status/2076458876816540144'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Thibault Sottiaux", "meta": "Codex · X 动态",
+        "title": "AI 产品质量需要持续修复与透明沟通",
+        "summary": "Thibault Sottiaux 表示，针对前一天发现的使用问题，相关 reset 已经推送到账号，并完成了一批 usage 修复，后续还会继续迭代和沟通。这类更新说明 AI 产品的信任来自持续处理真实故障，而不是只发布能力演示。",
+        "keyPoints": ["账号级配置和 usage 问题可以通过快速修复改善体验", "对已知问题的连续跟进比一次性发布更重要", "透明沟通是 AI 产品稳定运营的一部分"],
+        "whyItMatters": "对 AI Builder 来说，可靠性不仅是模型指标，也是发现问题、修复问题并让用户感知改进的运营闭环。",
+        "tags": ["可靠性", "产品运营", "工程"], "qualityScore": 84,
+        "url": "https://x.com/thsottiaux/status/2091688655828246890"
     },
     {
-        'type': 'post',
-        'typeLabel': '观点动态',
-        'date': '7月13日 · 周日',
-        'actor': 'Peter Yang',
-        'meta': '社区观察 · 沟通策略',
-        'title': 'Anthropic 的沟通困境：为什么不能像 OpenAI 那样做社区',
-        'summary': 'Yang 指出 Anthropic 模型很好但沟通方式令人困惑，建议他们应该像 OpenAI 一样更直接地与社区互动。他观察到当社区情绪转向负面时，公司有 tendency 减少沟通并变得更 corporate，但这恰恰应该反向操作。',
-        'keyPoints': ['Anthropic 沟通不够直接', '负面情绪时更应透明沟通', 'OpenAI 的社区互动是正面案例'],
-        'whyItMatters': 'AI 公司的社区沟通策略正在成为产品竞争力的一部分。',
-        'tags': ['产品', '组织', '沟通'],
-        'qualityScore': 72,
-        'url': 'https://x.com/petergyang/status/2076510899490480228'
+        "type": "post", "typeLabel": "观点动态", "date": data["displayDate"],
+        "actor": "Peter Steinberger", "meta": "AI 工具 · X 动态",
+        "title": "Agent 接入现实世界需要把硬件协议变成可调用能力",
+        "summary": "Peter Steinberger 提到，他为 Agent 增加旋转 USB 协议，并让 claw 控制 360 摄像头进行环境观察。这是一个小而具体的例子：当设备协议被封装成 Agent 可调用的工具后，Agent 就能从纯软件执行扩展到感知和操作现实世界。",
+        "keyPoints": ["硬件协议可以作为 Agent tool 暴露", "视觉设备让 Agent 获得环境感知能力", "现实世界 Agent 依赖协议、权限和安全边界的工程化"],
+        "whyItMatters": "它把 embodied Agent 的问题落到可执行的接口层：关键不是宏大叙事，而是把设备能力可靠地接入工具链。",
+        "tags": ["Agent", "硬件", "工具协议"], "qualityScore": 82,
+        "url": "https://x.com/steipete/status/2091639468935831910"
     },
     {
-        'type': 'podcast',
-        'typeLabel': '播客摘录',
-        'date': '7月2日 · 周三',
-        'actor': 'No Priors',
-        'meta': 'Valar Atomics Founder Isaiah Taylor',
-        'title': '核能如何解锁能源充裕时代',
-        'summary': 'Valar Atomics 创始人 Isaiah Taylor 讨论先进核反应堆如何为 AI 基础设施提供能源保障。核心论点是：AI 的算力瓶颈最终是能源瓶颈，核能是唯一能同时满足规模、稳定性和零碳要求的解决方案。',
-        'keyPoints': ['AI 算力瓶颈本质是能源瓶颈', '核能是唯一同时满足规模+稳定+零碳的方案', '先进反应堆技术已接近商业化'],
-        'whyItMatters': 'AI 基础设施的长期瓶颈不在芯片，而在能源。这是 builder 需要关注的底层约束。',
-        'tags': ['工程', '能源', '基础设施'],
-        'qualityScore': 75,
-        'url': 'https://www.youtube.com/watch?v=5Xvbq_zvOQ4'
-    }
+        "type": "blog", "typeLabel": "深度文章", "date": data["displayDate"],
+        "actor": "Claude Blog", "meta": "Claude · 深度文章",
+        "title": "在 Apple Foundation Models 中接入 Claude，构建更强的端侧智能应用",
+        "summary": "Claude Blog 介绍了面向 Apple 平台的 Foundation Models framework 支持：开发者可以通过新的 Swift package 调用 Claude，把 Apple 的端侧模型能力与 Claude 组合到更复杂的工作流中。这个方向体现了端侧隐私、低延迟能力与云端 frontier model 的协同，而不是简单二选一。",
+        "keyPoints": ["通过 Swift package 将 Claude 接入 Apple Foundation Models", "端侧模型适合隐私、响应速度和基础任务", "云端模型可承担更复杂的推理与工作流"],
+        "whyItMatters": "对 Apple AI Builder 而言，这提供了一种混合架构：把端侧体验与云端智能组合起来，兼顾成本、隐私和能力上限。",
+        "tags": ["Apple", "端侧 AI", "Agent"], "qualityScore": 88,
+        "url": "https://claude.com/blog/claude-for-foundation-models"
+    },
 ]
 
-# Save archive
-with open('data/archive/2026-07-14.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+data["dailyInsight"] = {
+    "paragraphs": [
+        "今天最清晰的主线是：AI 正从能力展示进入基础设施竞争。Thibault Sottiaux 把模型效率与可靠性称为关键基础设施问题，Guillermo Rauch 则从 Sol 降价带来的增长观察到智能需求的价格弹性。对 Builder 来说，模型选型不能只看 benchmark，还要同时管理单位调用成本、延迟、稳定性和路由切换。",
+        "评测方法正在变得更像产品工程，而不是发布前的单次考试。Peter Yang 转述的 top-down / bottom-up 框架，分别回答“理想情况下应该做到什么”和“真实用户到底遇到了什么”；Madhu Guru 进一步强调要按 Agent 的中间 job-to-be-done 拆解评测。只有把真实轨迹与中间环节纳入，eval 才能真正指导迭代。",
+        "Agent 的产品边界也在外扩：Guillermo Rauch 倡导 MCP、Skills、Plugins 和 Unix 式组合，Garry Tan 预测 systems of record 必须升级为 AI harness，Peter Yang 展示了人类助手如何用 Claude Code 和 Codex 编排工作流。共同判断是，下一代软件价值不只是保存信息，而是让上下文、权限、工具和动作形成可组合的执行系统。",
+        "从软件协议到 USB 摄像头，Peter Steinberger 的实践说明现实世界 Agent 的突破点往往很具体：先把设备能力封装为可靠工具，再逐步建立感知与操作闭环。与此同时，Thibault 对 usage 问题的持续修复提醒我们，AI 产品的可信度最终来自可观察、可修复、能被用户感知的运营质量。"
+    ],
+    "filteredNote": "过滤掉了 8 条低信号内容，包括纯生活分享、离题内容、缺乏上下文的一句话评论、诗性表达和单纯课程推广。"
+}
+data["highSignalItems"] = cards
 
-# Save latest
-with open('data/latest.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+for path in (archive_path, ROOT / "data" / "latest.json"):
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
-# Update digests.json
-try:
-    with open('data/digests.json', 'r', encoding='utf-8') as f:
-        digests = json.load(f)
-except Exception:
-    digests = []
-
-# Remove existing entry for this date
-digests = [d for d in digests if d.get('date') != '2026-07-14']
-# Prepend new entry
+digests_path = ROOT / "data" / "digests.json"
+with digests_path.open(encoding="utf-8") as f:
+    digests = json.load(f)
+digests = [d for d in digests if d.get("date") != DATE]
 digests.insert(0, data)
-
-with open('data/digests.json', 'w', encoding='utf-8') as f:
+with digests_path.open("w", encoding="utf-8") as f:
     json.dump(digests, f, ensure_ascii=False, indent=2)
-
-print('Curated: 10 high-signal items, 4 paragraphs insight')
-print('Files saved: archive/2026-07-14.json, latest.json, digests.json')
+    f.write("\n")
+print(json.dumps({"date": DATE, "highSignalItems": len(cards), "filtered": 8, "files": 3}, ensure_ascii=False))
