@@ -1,5 +1,845 @@
 [
   {
+    "date": "2026-08-26",
+    "displayDate": "8月26日 · 周三",
+    "generatedAt": "2026-08-25T23:30:50.620651+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-25T06:28:05.928Z",
+      "blogs": "2026-08-25T06:28:07.667Z",
+      "podcasts": "2026-08-25T06:28:07.341Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、工程、产品、Agent、组织：13 位 AI Builders、0 篇深度文章、0 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 13,
+      "tweets": 29,
+      "blogs": 0,
+      "podcasts": 0,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 16
+        },
+        {
+          "name": "工程",
+          "count": 8
+        },
+        {
+          "name": "产品",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "组织",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2092058556707344708",
+        "sourceDate": "2026-08-25",
+        "sourceDisplayDate": "8月25日 · 周二",
+        "summary": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex…",
+        "chineseTitle": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 13468
+      },
+      {
+        "title": "来自 Peter Steinberger 的观点",
+        "source": "Peter Steinberger · X 动态",
+        "url": "https://x.com/steipete/status/2091923535513928015",
+        "sourceDate": "2026-08-24",
+        "sourceDisplayDate": "8月24日 · 周一",
+        "summary": "We need to get away from software that we can’t change with a prompt.",
+        "chineseTitle": "We need to get away from software that we can’t change with a prompt.",
+        "tags": [
+          "观察"
+        ],
+        "score": 2910
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2092117461646856505",
+        "sourceDate": "2026-08-25",
+        "sourceDisplayDate": "8月25日 · 周二",
+        "summary": "OpenAI DevDay 2026 will be our best DevDay in the history of the company…",
+        "chineseTitle": "OpenAI DevDay 2026 will be our best DevDay in the history of the company…",
+        "tags": [
+          "组织"
+        ],
+        "score": 2378
+      },
+      {
+        "title": "来自 Peter Steinberger 的观点",
+        "source": "Peter Steinberger · X 动态",
+        "url": "https://x.com/steipete/status/2091778518531395927",
+        "sourceDate": "2026-08-24",
+        "sourceDisplayDate": "8月24日 · 周一",
+        "summary": "TIL: prompt kiddie",
+        "chineseTitle": "TIL: prompt kiddie",
+        "tags": [
+          "观察"
+        ],
+        "score": 769
+      },
+      {
+        "title": "来自 Garry Tan 的观点",
+        "source": "Garry Tan · X 动态",
+        "url": "https://x.com/garrytan/status/2092062820229890209",
+        "sourceDate": "2026-08-25",
+        "sourceDisplayDate": "8月25日 · 周二",
+        "summary": "Datacenters create jobs and prosperity, actually",
+        "chineseTitle": "Datacenters create jobs and prosperity, actually",
+        "tags": [
+          "观察"
+        ],
+        "score": 663
+      }
+    ],
+    "builders": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2092058556707344708",
+            "url": "https://x.com/thsottiaux/status/2092058556707344708",
+            "createdAt": "2026-08-25T01:16:43.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus…",
+            "summary": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex…",
+            "engagement": 13468,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2092117461646856505",
+            "url": "https://x.com/thsottiaux/status/2092117461646856505",
+            "createdAt": "2026-08-25T05:10:47.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+            "summary": "OpenAI DevDay 2026 will be our best DevDay in the history of the company…",
+            "engagement": 2378,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "I got 3 AI chief of staffs now, clearly the next step is to add one more I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2092048940732682395",
+            "url": "https://x.com/petergyang/status/2092048940732682395",
+            "createdAt": "2026-08-25T00:38:30.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "I got 3 AI chief of staffs now, clearly the next step is to add one more",
+            "summary": "I got 3 AI chief of staffs now, clearly the next step is to add one more",
+            "engagement": 116,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2092031413319266382",
+            "url": "https://x.com/petergyang/status/2092031413319266382",
+            "createdAt": "2026-08-24T23:28:51.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions. What's the easiest way to try this?",
+            "summary": "I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subsc…",
+            "engagement": 90,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2092080901094248474",
+            "url": "https://x.com/petergyang/status/2092080901094248474",
+            "createdAt": "2026-08-25T02:45:30.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming). I can't be the only one.",
+            "summary": "Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertain…",
+            "engagement": 42,
+            "tags": [
+              "产品",
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "product enthusiast",
+        "summary": "setting up a new computer with Codex is kind of nice..…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2092048044502192374",
+            "url": "https://x.com/thenanyu/status/2092048044502192374",
+            "createdAt": "2026-08-25T00:34:56.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\" makes you wish siri was good",
+            "summary": "setting up a new computer with Codex is kind of nice..…",
+            "engagement": 33,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2092013239643394076",
+            "url": "https://x.com/thenanyu/status/2092013239643394076",
+            "createdAt": "2026-08-24T22:16:38.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "Feel the agi",
+            "summary": "Feel the agi",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091993558018572434",
+            "url": "https://x.com/thenanyu/status/2091993558018572434",
+            "createdAt": "2026-08-24T20:58:26.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "“L7 promo: shipped emoji reactions to Gmail that show up as ugly random one character emails with metadata to anyone using another mail app including iPhone mail app the most common mail app on Earth”",
+            "summary": "“L7 promo: shipped emoji reactions to Gmail that show up as ugly random one character emails with metadata to anyone using another mail app including iPhone mail app the most commo…",
+            "engagement": 2,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "How to build great evals - part 8. The discriminatory property of evals…",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2092058332735693264",
+            "url": "https://x.com/realmadhuguru/status/2092058332735693264",
+            "createdAt": "2026-08-25T01:15:49.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "How to build great evals - part 8. The discriminatory property of evals. A hill-climbing eval is useful when it can separate AI systems that are meaningfully different. Imagine you run an eval on five AI systems: A: 94 B: 93 C: 95 D: 94 E: 92 Now suppose you already know A and C are substantially better systems than D…",
+            "summary": "How to build great evals - part 8. The discriminatory property of evals…",
+            "engagement": 121,
+            "tags": [
+              "工程",
+              "组织",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "True. Replit Agent completely replaced Claude CoWork in my day-to-day work…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2091962601907638352",
+            "url": "https://x.com/amasad/status/2091962601907638352",
+            "createdAt": "2026-08-24T18:55:25.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks.",
+            "summary": "True. Replit Agent completely replaced Claude CoWork in my day-to-day work…",
+            "engagement": 213,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2091963442186092639",
+            "url": "https://x.com/amasad/status/2091963442186092639",
+            "createdAt": "2026-08-24T18:58:46.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "Only a few have reached this milestone!",
+            "summary": "Only a few have reached this milestone!",
+            "engagement": 204,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091937147473551474",
+            "url": "https://x.com/amasad/status/2091937147473551474",
+            "createdAt": "2026-08-24T17:14:16.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "Cool!",
+            "summary": "Cool!",
+            "engagement": 118,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "If your terminal ever gets into a 'bad state', like garbled outputs, you run 𝚛𝚎𝚜𝚎𝚝…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2091957823945216474",
+            "url": "https://x.com/rauchg/status/2091957823945216474",
+            "createdAt": "2026-08-24T18:36:26.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "If your terminal ever gets into a 'bad state', like garbled outputs, you run 𝚛𝚎𝚜𝚎𝚝. I noticed it was… oddly slow. Turns out in 1979 3BSD's 𝚝𝚜𝚎𝚝 had a 𝚜𝚕𝚎𝚎𝚙(𝟷) to let mechanical printer-and-ink terminals 'settle down' 😂 I asked 𝚏𝚡 to write me a faster alternative in Zig. It takes 1ms instead of 1s. It was really cool…",
+            "summary": "If your terminal ever gets into a 'bad state', like garbled outputs, you run 𝚛𝚎𝚜𝚎𝚝…",
+            "engagement": 621,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2092081554814320677",
+            "url": "https://x.com/rauchg/status/2092081554814320677",
+            "createdAt": "2026-08-25T02:48:06.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "It's faster, cheaper, more capable, and… smaller. As software evolves, it tends to get slower, more bloated, buggier, and bigger. is architected from the outset to prevent this.",
+            "summary": "It's faster, cheaper, more capable, and… smaller…",
+            "engagement": 243,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2092087679240569126",
+            "url": "https://x.com/levie/status/2092087679240569126",
+            "createdAt": "2026-08-25T03:12:26.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. Agents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. Thus, the…",
+            "summary": "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did…",
+            "engagement": 461,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2091909170308296950",
+            "url": "https://x.com/levie/status/2091909170308296950",
+            "createdAt": "2026-08-24T15:23:06.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with in handling data with subprocessors. The alternative path would have been a far slower adoption rate. For the applied AI tools that are…",
+            "summary": "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with…",
+            "engagement": 248,
+            "tags": [
+              "Agent",
+              "研究",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Datacenters create jobs and prosperity, actually Form a view…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2092062820229890209",
+            "url": "https://x.com/garrytan/status/2092062820229890209",
+            "createdAt": "2026-08-25T01:33:39.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Datacenters create jobs and prosperity, actually",
+            "summary": "Datacenters create jobs and prosperity, actually",
+            "engagement": 663,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2092059517446156640",
+            "url": "https://x.com/garrytan/status/2092059517446156640",
+            "createdAt": "2026-08-25T01:20:32.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Form a view. Turn it into an artifact or experiment. Put it in contact with reality. Read the result without self-deception. Revise and run again.",
+            "summary": "Form a view. Turn it into an artifact or experiment…",
+            "engagement": 576,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2092062231488061584",
+            "url": "https://x.com/garrytan/status/2092062231488061584",
+            "createdAt": "2026-08-25T01:31:19.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Conductor Cloud has made me so much more productive and I don't have to keep my Macbook Pro cracked open anymore",
+            "summary": "Conductor Cloud has made me so much more productive and I don't have to keep my Macbook Pro cracked open anymore",
+            "engagement": 466,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: YouTube:",
+        "summary": "Unpopular opinion: hackathons are an outdated event format (at least the way they’re traditionally held) I really appreciate how @davidsenra immediately cuts to the chase and gets his guests to be their most natural selv…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2092079390301556883",
+            "url": "https://x.com/zarazhangrui/status/2092079390301556883",
+            "createdAt": "2026-08-25T02:39:30.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Unpopular opinion: hackathons are an outdated event format (at least the way they’re traditionally held)",
+            "summary": "Unpopular opinion: hackathons are an outdated event format (at least the way they’re traditionally held)",
+            "engagement": 127,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2092053829772881972",
+            "url": "https://x.com/zarazhangrui/status/2092053829772881972",
+            "createdAt": "2026-08-25T00:57:56.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "I really appreciate how @davidsenra immediately cuts to the chase and gets his guests to be their most natural selves I've watched lots of Sam Altman interviews; I feel like he's his most comfortable self during this one",
+            "summary": "I really appreciate how @davidsenra immediately cuts to the chase and gets his guests to be their most natural selves I've watched lots of Sam Altman interviews; I feel like he's h…",
+            "engagement": 68,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Every (unconventional) deal that’s officially wired dies a 100 times in venture.…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2092079149028716877",
+            "url": "https://x.com/nikunj/status/2092079149028716877",
+            "createdAt": "2026-08-25T02:38:32.000Z",
+            "sourceDate": "2026-08-25",
+            "sourceDisplayDate": "8月25日 · 周二",
+            "text": "Every (unconventional) deal that’s officially wired dies a 100 times in venture.. It usually takes one champion sticking their neck out for the founder - and quietly steering it to the completion line. Founders it’s in your benefit to figure out who your real champion is to help steer the fund dynamics and arm them…",
+            "summary": "Every (unconventional) deal that’s officially wired dies a 100 times in venture.…",
+            "engagement": 42,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "We need to get away from software that we can’t change with a prompt…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2091923535513928015",
+            "url": "https://x.com/steipete/status/2091923535513928015",
+            "createdAt": "2026-08-24T16:20:11.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "We need to get away from software that we can’t change with a prompt.",
+            "summary": "We need to get away from software that we can’t change with a prompt.",
+            "engagement": 2910,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091778518531395927",
+            "url": "https://x.com/steipete/status/2091778518531395927",
+            "createdAt": "2026-08-24T06:43:56.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "TIL: prompt kiddie",
+            "summary": "TIL: prompt kiddie",
+            "engagement": 769,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091779461650006514",
+            "url": "https://x.com/steipete/status/2091779461650006514",
+            "createdAt": "2026-08-24T06:47:41.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "More blog posts should come with theme songs.",
+            "summary": "More blog posts should come with theme songs.",
+            "engagement": 55,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "so it looks @google disabled the @youtube account for @every with 0 notice and no reason given..…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2092026065644335446",
+            "url": "https://x.com/danshipper/status/2092026065644335446",
+            "createdAt": "2026-08-24T23:07:36.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "so it looks @google disabled the @youtube account for @every with 0 notice and no reason given... anyone have any experience with this or know how to help us get it back?",
+            "summary": "so it looks @google disabled the @youtube account for @every with 0 notice and no reason given..…",
+            "engagement": 167,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2092034751037096260",
+            "url": "https://x.com/danshipper/status/2092034751037096260",
+            "createdAt": "2026-08-24T23:42:07.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "@Google @YouTube @every @YouTubeCreators can you help?",
+            "summary": "@Google @YouTube @every @YouTubeCreators can you help?",
+            "engagement": 9,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "Hans Robertson was early at @VMware, co-founded @meraki and sold it to Cisco for $1.2B, and co-founded Verkada in 2016…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2091958074827313523",
+            "url": "https://x.com/adityaag/status/2091958074827313523",
+            "createdAt": "2026-08-24T18:37:26.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "Hans Robertson was early at @VMware, co-founded @meraki and sold it to Cisco for $1.2B, and co-founded Verkada in 2016. He's still running it today. He's coming by @spc this week.",
+            "summary": "Hans Robertson was early at @VMware, co-founded @meraki and sold it to Cisco for $1.2B, and co-founded Verkada in 2016…",
+            "engagement": 37,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2091958077591347630",
+            "url": "https://x.com/adityaag/status/2091958077591347630",
+            "createdAt": "2026-08-24T18:37:27.000Z",
+            "sourceDate": "2026-08-24",
+            "sourceDisplayDate": "8月24日 · 周一",
+            "text": "Apply to SPC if you'd like to join us",
+            "summary": "Apply to SPC if you'd like to join us",
+            "engagement": 4,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最明确的产品信号来自 Codex 与 ChatGPT Work：Plus 账户将恢复 5 小时使用上限。这个调整不是简单收紧配额，而是把计算资源的平滑调度、套餐的总体慷慨程度和高峰期体验放在同一个设计约束里；对 AI 产品来说，限额本身正在成为容量管理与商业承诺之间的接口。",
+        "Agent 的竞争也在从“能不能调用工具”转向“能不能持续把事情做完”。Replit Agent 被评价为比 Claude CoWork 更 persistent、更 fastidious，并且更有效地使用代码和软件；与此同时，Aaron Levie 指出系统记录的重要性会因 Agent 大规模读写、处理任务和执行工作流而上升。两者合起来说明，Agent 产品的护城河不仅是模型能力，还包括状态、权限、数据和可验证执行链。",
+        "工程侧有两个值得并读的信号：Madhu Guru 强调评测必须具备区分真正不同系统的 discriminatory property，否则漂亮的分数无法支持迭代；Guillermo Rauch 则把一个历史遗留的终端等待问题改造成 1ms 的 Zig 实现。前者关乎如何避免被指标欺骗，后者关乎如何用小而具体的实验消除系统摩擦，都是 AI Builder 应优先培养的工程判断。",
+        "更长期的共识是：软件正在从“发布后基本固定”走向“可被提示、实验和反馈持续改变”。Peter Steinberger 的判断指向 prompt-native software，Garry Tan 给出对应的工作循环：先形成观点，再做成 artifact 或 experiment，接触现实后不自欺地读结果并重跑。对团队而言，速度不只是多写代码，而是缩短假设进入现实、获得反馈、再修正的闭环。"
+      ],
+      "filteredNote": "过滤掉了纯宣传、无上下文的一句话评论、日常闲聊、求助式发问、非 AI 主题和缺乏独立判断的转发等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "使用上限是 AI 产品的容量调度器",
+        "summary": "ChatGPT Work 和 Codex 的 Plus 账户将恢复 5 小时使用上限。Thibault Sottiaux 解释，这有助于平滑计算负载，同时保持每周总体用量足够慷慨；这也意味着高频 AI 产品必须把资源调度直接纳入套餐设计。",
+        "keyPoints": [
+          "恢复 5 小时窗口限制",
+          "通过削峰平滑 compute 负载",
+          "在体验慷慨与基础设施成本之间做产品化取舍"
+        ],
+        "whyItMatters": "它提供了 AI 产品从模型能力走向容量与可靠性运营的具体案例。",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 94,
+        "url": "https://x.com/thsottiaux/status/2092058556707344708"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Madhu Guru",
+        "meta": "Meta AI · X 动态",
+        "title": "好评测首先要能拉开系统差距",
+        "summary": "Madhu Guru 讨论评测的 discriminatory property：如果评测把明显不同的 AI 系统都压在相近分数区间，就无法指导 hill-climbing 式迭代。评测的价值不在于分数看起来精确，而在于能否稳定地区分真正有意义的能力差异。",
+        "keyPoints": [
+          "评测必须具备区分度",
+          "分数精度不等于决策价值",
+          "评测应服务于持续迭代而非展示"
+        ],
+        "whyItMatters": "这是构建 AI 系统时最容易被忽略的基础设施判断：没有有效评测，优化只是对噪声爬坡。",
+        "tags": [
+          "工程",
+          "研究"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/realmadhuguru/status/2092058332735693264"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Agent 越活跃，系统记录越重要",
+        "summary": "Aaron Levie 认为，当 AI agents 在业务平台上执行的工作量达到人类过去的 100 倍时，systems of record 反而会变得更重要。Agent 不只是查询数据，还会处理任务、执行工作流，并与人和其他 Agent 协作，因此权限、结构化数据和可追溯状态会成为核心产品能力。",
+        "keyPoints": [
+          "Agent 将大规模读写业务系统",
+          "系统记录承载数据、权限与工作流状态",
+          "Agent 协作要求更强的可追溯性"
+        ],
+        "whyItMatters": "它提醒 Builder 不要把 Agent 只做成聊天层：真正的价值会落在可执行、可审计的业务系统里。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/levie/status/2092087679240569126"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "Agent 的差异在于持续把任务做完",
+        "summary": "Amjad Masad 表示，Replit Agent 已经替代 Claude CoWork 成为其日常工作工具，原因不是一句“更聪明”，而是更 persistent、更 fastidious，并且更有效地使用代码和软件完成任务。这个评价把 Agent 的竞争维度从单轮回答质量推进到持续执行质量。",
+        "keyPoints": [
+          "持续性比单轮生成更关键",
+          "细致的任务推进影响最终完成率",
+          "代码与软件工具使用效率构成产品差异"
+        ],
+        "whyItMatters": "这是来自高频使用者的具体产品判断，适合用来审视 Agent 的真实完成任务能力。",
+        "tags": [
+          "Agent",
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/amasad/status/2091962601907638352"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "把一秒历史包袱压到一毫秒",
+        "summary": "Guillermo Rauch 发现 3BSD 的终端 reset 命令曾为机械打印终端保留 1 秒 sleep，导致现代终端进入异常状态时仍然缓慢，于是让工具生成了一个 Zig 替代实现，将耗时降到约 1ms。这个小案例展示了 AI 辅助工程最有价值的形态：定位具体摩擦、理解历史约束、做出可测量的改进。",
+        "keyPoints": [
+          "识别遗留实现中的历史假设",
+          "用 Zig 重写终端 reset 路径",
+          "从约 1 秒降低到约 1ms"
+        ],
+        "whyItMatters": "它不是泛泛而谈的“AI 提效”，而是一个可复现、可度量的工程闭环。",
+        "tags": [
+          "工程",
+          "工具"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/rauchg/status/2091957823945216474"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Peter Steinberger",
+        "meta": "AI software · X 动态",
+        "title": "软件应当从发布物变成可提示的材料",
+        "summary": "Peter Steinberger 认为，我们需要摆脱那些无法通过 prompt 改变的软件。其隐含判断是，未来软件的边界不应只由预先写死的功能定义，而应允许用户和 Agent 在运行中调整行为、组合能力并快速验证结果。",
+        "keyPoints": [
+          "prompt 成为软件修改接口",
+          "软件行为需要具备运行时可塑性",
+          "产品设计要面向用户与 Agent 的共同操作"
+        ],
+        "whyItMatters": "这是对 prompt-native software 的简洁定义，适合用来检验产品是否真正支持可编程的交互。",
+        "tags": [
+          "产品",
+          "Agent"
+        ],
+        "qualityScore": 88,
+        "url": "https://x.com/steipete/status/2091923535513928015"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Garry Tan",
+        "meta": "Y Combinator · X 动态",
+        "title": "把观点变成实验，再让现实反驳它",
+        "summary": "Garry Tan 给出一个适用于 Builder 的迭代循环：形成观点，把它变成 artifact 或 experiment，让它接触现实，诚实读取结果，再修改并重跑。这个框架把“有想法”与“有证据”分开，也把产品开发从表达观点转为持续获取反馈。",
+        "keyPoints": [
+          "先形成可检验的观点",
+          "通过 artifact 或 experiment 接触现实",
+          "不自欺地读取结果并迭代"
+        ],
+        "whyItMatters": "它是一条高度可执行的产品与工程方法论，尤其适合 AI 时代高频试错的工作方式。",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/garrytan/status/2092059517446156640"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月26日 · 周三",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "ZDR 降低了企业采用 AI 的合规摩擦",
+        "summary": "Aaron Levie 指出，Zero Data Retention（ZDR）被低估了对 AI 增长的贡献，因为它显著简化了企业处理带有 subprocessors 的数据时所面对的合规流程。对应用型 AI 来说，隐私与数据治理不是上线后的附加项，而是决定采用速度的产品基础设施。",
+        "keyPoints": [
+          "ZDR 简化企业合规路径",
+          "数据治理直接影响 AI 采用速度",
+          "应用型 AI 的增长受信任基础设施约束"
+        ],
+        "whyItMatters": "它解释了为什么合规能力会成为 AI 产品增长杠杆，而不只是法务成本。",
+        "tags": [
+          "市场",
+          "工程",
+          "Agent"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/levie/status/2091909170308296950"
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "displayDate": "8月25日 · 周二",
     "generatedAt": "2026-08-24T23:30:30.962276+00:00",
