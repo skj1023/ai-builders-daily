@@ -1,5 +1,961 @@
 [
   {
+    "date": "2026-08-30",
+    "displayDate": "8月30日 · 周日",
+    "generatedAt": "2026-08-29T23:31:07.042705+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-29T06:35:15.436Z",
+      "blogs": "2026-08-29T06:35:52.460Z",
+      "podcasts": "2026-08-29T06:35:50.718Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、工程、Agent、产品、研究：15 位 AI Builders、2 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 15,
+      "tweets": 30,
+      "blogs": 2,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 14
+        },
+        {
+          "name": "工程",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        },
+        {
+          "name": "产品",
+          "count": 6
+        },
+        {
+          "name": "研究",
+          "count": 5
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2093515916076343774",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership…",
+        "chineseTitle": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "score": 7591
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2093354037198696932",
+        "sourceDate": "2026-08-28",
+        "sourceDisplayDate": "8月28日 · 周五",
+        "summary": "What is the most ambitious task you’ve given ChatGPT Work?",
+        "chineseTitle": "What is the most ambitious task you’ve given ChatGPT Work?",
+        "tags": [
+          "产品"
+        ],
+        "score": 4135
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2093573991965557198",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow…",
+        "chineseTitle": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 3522
+      },
+      {
+        "title": "来自 Thariq 的观点",
+        "source": "Thariq · X 动态",
+        "url": "https://x.com/trq212/status/2093541555068182781",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world…",
+        "chineseTitle": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world…",
+        "tags": [
+          "工程",
+          "组织"
+        ],
+        "score": 1771
+      },
+      {
+        "title": "来自 Matt Turck 的观点",
+        "source": "Matt Turck · X 动态",
+        "url": "https://x.com/mattturck/status/2093304544029463009",
+        "sourceDate": "2026-08-28",
+        "sourceDisplayDate": "8月28日 · 周五",
+        "summary": "VC due diligence in a hot round",
+        "chineseTitle": "VC due diligence in a hot round",
+        "tags": [
+          "观察"
+        ],
+        "score": 1183
+      }
+    ],
+    "builders": [
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "summary": "One of my favorite parts of Expert Intelligence in @Gemini_Notebook is the letter from the author, such a nice touch!",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2093409673571631480",
+            "url": "https://x.com/joshwoodward/status/2093409673571631480",
+            "createdAt": "2026-08-28T18:45:34.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "One of my favorite parts of Expert Intelligence in @Gemini_Notebook is the letter from the author, such a nice touch!",
+            "summary": "One of my favorite parts of Expert Intelligence in @Gemini_Notebook is the letter from the author, such a nice touch!",
+            "engagement": 159,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093515916076343774",
+            "url": "https://x.com/thsottiaux/status/2093515916076343774",
+            "createdAt": "2026-08-29T01:47:44.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we’ve asked that this takes effect on November 12 to give you some time to plan. Many have used the GPT models through Cursor and here are options we know…",
+            "summary": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership…",
+            "engagement": 7591,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2093354037198696932",
+            "url": "https://x.com/thsottiaux/status/2093354037198696932",
+            "createdAt": "2026-08-28T15:04:29.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "What is the most ambitious task you’ve given ChatGPT Work?",
+            "summary": "What is the most ambitious task you’ve given ChatGPT Work?",
+            "engagement": 4135,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2093573991965557198",
+            "url": "https://x.com/thsottiaux/status/2093573991965557198",
+            "createdAt": "2026-08-29T05:38:31.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+            "summary": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow…",
+            "engagement": 3522,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "My hot take is that Claude Cowork and ChatGPT Work are partial solutions and that Grok Bot is the right end state for a capable AI agent product for non-technical people…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093379695144530313",
+            "url": "https://x.com/petergyang/status/2093379695144530313",
+            "createdAt": "2026-08-28T16:46:27.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "My hot take is that Claude Cowork and ChatGPT Work are partial solutions and that Grok Bot is the right end state for a capable AI agent product for non-technical people. Grok Bot I think people can easily \"grok\" that it's a computer that runs in the cloud. If you asked people to explain what the difference between…",
+            "summary": "My hot take is that Claude Cowork and ChatGPT Work are partial solutions and that Grok Bot is the right end state for a capable AI agent product for non-technical people…",
+            "engagement": 646,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          },
+          {
+            "id": "2093547793327763699",
+            "url": "https://x.com/petergyang/status/2093547793327763699",
+            "createdAt": "2026-08-29T03:54:24.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Saw this well timed ad",
+            "summary": "Saw this well timed ad",
+            "engagement": 91,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093337802113171545",
+            "url": "https://x.com/petergyang/status/2093337802113171545",
+            "createdAt": "2026-08-28T13:59:59.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "GTA VI looks incredible",
+            "summary": "GTA VI looks incredible",
+            "engagement": 54,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "product enthusiast. I am grader",
+        "summary": "VCs: Now that SF has discovered Paris, maybe it's safe to go to Japan again…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2093411864667656633",
+            "url": "https://x.com/thenanyu/status/2093411864667656633",
+            "createdAt": "2026-08-28T18:54:16.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "VCs:",
+            "summary": "VCs:",
+            "engagement": 211,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093384613620252878",
+            "url": "https://x.com/thenanyu/status/2093384613620252878",
+            "createdAt": "2026-08-28T17:05:59.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Now that SF has discovered Paris, maybe it's safe to go to Japan again.",
+            "summary": "Now that SF has discovered Paris, maybe it's safe to go to Japan again.",
+            "engagement": 35,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093445209766178889",
+            "url": "https://x.com/thenanyu/status/2093445209766178889",
+            "createdAt": "2026-08-28T21:06:46.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "This is true",
+            "summary": "This is true",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+        "summary": "AI product building has a ~3-month playbook half-life…",
+        "tags": [
+          "产品",
+          "组织",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2093562783627620456",
+            "url": "https://x.com/realmadhuguru/status/2093562783627620456",
+            "createdAt": "2026-08-29T04:53:58.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "AI product building has a ~3-month playbook half-life. Here’s how to adapt. Most trad product teams are built to discover a playbook and then milk it for the next 5 years. However in the AI labs, we consciously throw away playbooks every few months cos we start seeing diminishing returns. Here’s what you can do as an…",
+            "summary": "AI product building has a ~3-month playbook half-life…",
+            "engagement": 15,
+            "tags": [
+              "产品",
+              "组织",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "summary": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world…",
+        "tags": [
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2093541555068182781",
+            "url": "https://x.com/trq212/status/2093541555068182781",
+            "createdAt": "2026-08-29T03:29:37.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world. Excited to continue to partner with them.",
+            "summary": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world…",
+            "engagement": 1771,
+            "tags": [
+              "工程",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "You can access OpenAI models on Replit for free…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2093533378880667787",
+            "url": "https://x.com/amasad/status/2093533378880667787",
+            "createdAt": "2026-08-29T02:57:08.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "You can access OpenAI models on Replit for free. Our router also makes high-end models incredibly cost-efficient. If you’re a business looking for an independent, multi-model alternative to Cursor, we’d be happy to fund your transition.",
+            "summary": "You can access OpenAI models on Replit for free…",
+            "engagement": 729,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2093434828385313068",
+            "url": "https://x.com/amasad/status/2093434828385313068",
+            "createdAt": "2026-08-28T20:25:31.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Growth agent is such an untapped potential.",
+            "summary": "Growth agent is such an untapped potential.",
+            "engagement": 258,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "I see the web evolving in two extremes: 1️⃣ ultra-fancy human experiences, in the service of delight, exploration, brand, entertainment…",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2093482695838007318",
+            "url": "https://x.com/rauchg/status/2093482695838007318",
+            "createdAt": "2026-08-28T23:35:44.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "I see the web evolving in two extremes: 1️⃣ ultra-fancy human experiences, in the service of delight, exploration, brand, entertainment. / threejs / typegpu are enabling this 2️⃣ agent-centric content, data and APIs. the opposite end of the spectrum: pure, lossless signal for machines. The rise of markdown and MCP are…",
+            "summary": "I see the web evolving in two extremes: 1️⃣ ultra-fancy human experiences, in the service of delight, exploration, brand, entertainment…",
+            "engagement": 584,
+            "tags": [
+              "Agent",
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2093387887668814214",
+            "url": "https://x.com/rauchg/status/2093387887668814214",
+            "createdAt": "2026-08-28T17:19:00.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "There are many “easy” ways to create agents out there. But how many that give you a Git repo where you actually *own* the entire intelligence stack? Runtime, model choice, skills, tools, connectivity, sandbox… Easiest way to start with eve:",
+            "summary": "There are many “easy” ways to create agents out there…",
+            "engagement": 430,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          },
+          {
+            "id": "2093463771071336497",
+            "url": "https://x.com/rauchg/status/2093463771071336497",
+            "createdAt": "2026-08-28T22:20:32.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "MCP is growing explosively. And it's not just Vercel MCP… Look at 𝚖𝚌𝚙-𝚑𝚊𝚗𝚍𝚕𝚎𝚛 npm downloads, which you can use to implement MCP servers",
+            "summary": "MCP is growing explosively. And it's not just Vercel MCP… Look at 𝚖𝚌𝚙-𝚑𝚊𝚗𝚍𝚕𝚎𝚛 npm downloads, which you can use to implement MCP servers",
+            "engagement": 318,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "The average strongly held belief these days in AI has a half life of 6 months at best…",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093568352736436576",
+            "url": "https://x.com/levie/status/2093568352736436576",
+            "createdAt": "2026-08-29T05:16:06.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "The average strongly held belief these days in AI has a half life of 6 months at best. Here are just a few the industry has cycled through and probably has no consensus on at the moment: * OSS is too far behind to catch up * The labs can’t be profitable at scale * All software will be replaced by agents * You can’t…",
+            "summary": "The average strongly held belief these days in AI has a half life of 6 months at best…",
+            "engagement": 140,
+            "tags": [
+              "产品",
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "Datacenters create prosperity and good jobs An unfit SF city supervisor who has only hurt the city and its citizens has quiet quit the job to try to jump to the next rung of utter incompetence Connie Chan doesn’t deserve…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2093500353849544842",
+            "url": "https://x.com/garrytan/status/2093500353849544842",
+            "createdAt": "2026-08-29T00:45:54.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Datacenters create prosperity and good jobs",
+            "summary": "Datacenters create prosperity and good jobs",
+            "engagement": 677,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093443836228125151",
+            "url": "https://x.com/garrytan/status/2093443836228125151",
+            "createdAt": "2026-08-28T21:01:19.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "An unfit SF city supervisor who has only hurt the city and its citizens has quiet quit the job to try to jump to the next rung of utter incompetence Connie Chan doesn’t deserve public office",
+            "summary": "An unfit SF city supervisor who has only hurt the city and its citizens has quiet quit the job to try to jump to the next rung of utter incompetence Connie Chan doesn’t deserve pub…",
+            "engagement": 200,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093429113306661121",
+            "url": "https://x.com/garrytan/status/2093429113306661121",
+            "createdAt": "2026-08-28T20:02:49.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Fund treatment and recovery and defund nonprofits that hurt treatment and recovery with their insistence unlimited support for drug use is the only way to “help” It’s harm acceleration",
+            "summary": "Fund treatment and recovery and defund nonprofits that hurt treatment and recovery with their insistence unlimited support for drug use is the only way to “help” It’s harm accelera…",
+            "engagement": 58,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "VC due diligence in a hot round",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2093304544029463009",
+            "url": "https://x.com/mattturck/status/2093304544029463009",
+            "createdAt": "2026-08-28T11:47:49.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "VC due diligence in a hot round",
+            "summary": "VC due diligence in a hot round",
+            "engagement": 1183,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: YouTube:",
+        "summary": "Whether something is slop or not has less to do with whether it's AI-generated and more to do with whether it is informed by specific, unique human experiences/perspectives There's plenty of human-generated slop Question…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093396989329469505",
+            "url": "https://x.com/zarazhangrui/status/2093396989329469505",
+            "createdAt": "2026-08-28T17:55:10.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Whether something is slop or not has less to do with whether it's AI-generated and more to do with whether it is informed by specific, unique human experiences/perspectives There's plenty of human-generated slop",
+            "summary": "Whether something is slop or not has less to do with whether it's AI-generated and more to do with whether it is informed by specific, unique human experiences/perspectives There's…",
+            "engagement": 146,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093317719320064164",
+            "url": "https://x.com/zarazhangrui/status/2093317719320064164",
+            "createdAt": "2026-08-28T12:40:10.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Question on @bot : if I sign into my actual X account on Grok Bot's virtual computer & ask it to do stuff (e.g. picking out interesting tweets from my timeline/bookmarks, helping me go through my followers list), is there a risk of my X account being banned/flagged? I have been extremely cautious when it comes to…",
+            "summary": "Question on @bot : if I sign into my actual X account on Grok Bot's virtual computer & ask it to do stuff (e.g…",
+            "engagement": 108,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Dear founder, 1) The best pitches don’t even need to use the word “AI”…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2093367245024240043",
+            "url": "https://x.com/nikunj/status/2093367245024240043",
+            "createdAt": "2026-08-28T15:56:58.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Dear founder, 1) The best pitches don’t even need to use the word “AI”. 2) AI cannot be the only “why now” for your pitch. Obviously it’s just me speaking, subjective to each VC etc. But trust me, it’ll help if you get ahead of these two!",
+            "summary": "Dear founder, 1) The best pitches don’t even need to use the word “AI”…",
+            "engagement": 77,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2093333205181145372",
+            "url": "https://x.com/nikunj/status/2093333205181145372",
+            "createdAt": "2026-08-28T13:41:43.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "Bay Area put on a show last night 🌅",
+            "summary": "Bay Area put on a show last night 🌅",
+            "engagement": 39,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "WE NOW HAVE A HEAD OF EVALS the work he's doing is honestly gamechanging…",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2093347973669286146",
+            "url": "https://x.com/danshipper/status/2093347973669286146",
+            "createdAt": "2026-08-28T14:40:24.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "WE NOW HAVE A HEAD OF EVALS the work he's doing is honestly gamechanging. cannot wait to show it to you",
+            "summary": "WE NOW HAVE A HEAD OF EVALS the work he's doing is honestly gamechanging…",
+            "engagement": 234,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2093434101067808930",
+            "url": "https://x.com/danshipper/status/2093434101067808930",
+            "createdAt": "2026-08-28T20:22:38.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "in AI there are no bad ideas just weak models every idea has its day as the exponential continues",
+            "summary": "in AI there are no bad ideas just weak models every idea has its day as the exponential continues",
+            "engagement": 38,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2093348166196220398",
+            "url": "https://x.com/danshipper/status/2093348166196220398",
+            "createdAt": "2026-08-28T14:41:10.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "unrealistic, i would never surf in a t-shirt",
+            "summary": "unrealistic, i would never surf in a t-shirt",
+            "engagement": 33,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist,…",
+        "summary": "It's interesting to me to see a lot of people comment on visa stuff without actually going through it…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093468512459321512",
+            "url": "https://x.com/adityaag/status/2093468512459321512",
+            "createdAt": "2026-08-28T22:39:22.000Z",
+            "sourceDate": "2026-08-28",
+            "sourceDisplayDate": "8月28日 · 周五",
+            "text": "It's interesting to me to see a lot of people comment on visa stuff without actually going through it. I am a proud American citizen who has also had the following visas: F1, OPT, CPT, H1-B, EB-3 Green Card etc. I think ALL of the following things can be true: 1/ There is abuse of the H1-B system. We should 100% stop…",
+            "summary": "It's interesting to me to see a lot of people comment on visa stuff without actually going through it…",
+            "engagement": 1142,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-08-30",
+        "sourceDisplayDate": "8月30日 · 周日",
+        "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users…",
+        "chineseTitle": "An update on recent Claude Code quality reports",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-08-30",
+        "sourceDisplayDate": "8月30日 · 周日",
+        "summary": "Get started with Claude Managed Agents by following our docs…",
+        "chineseTitle": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "No Priors",
+        "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+        "url": "https://www.youtube.com/@NoPriorsPodcast",
+        "publishedAt": "2026-08-27T10:00:00.000Z",
+        "sourceDate": "2026-08-27",
+        "sourceDisplayDate": "8月27日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats…",
+        "chineseTitle": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最明确的产品信号来自模型供应商与分发入口的重新排队：Thibault Sottiaux 表示 OpenAI 将于 11 月 12 日结束通过 Cursor 提供模型访问，理由归结为信任。这不是一次普通的合作变动，而是提醒 AI 编程产品必须把模型供给、合规边界与用户迁移路径当作核心产品能力来设计。",
+        "Agent 的竞争也在从“能不能自动执行”转向“用户是否真正拥有整套智能栈”。Guillermo Rauch 提到以 Git repo 交付 runtime、模型选择、skills、tools、connectivity 与 sandbox；Anthropic 的 Managed Agents 文章则从架构上讨论如何把负责推理的 brain 与负责执行的 hands 解耦。对 Builder 而言，可移植性、可观测性和替换成本正在成为产品信任的一部分。",
+        "工程与产品方法论的共同主题是缩短反馈周期。Madhu Guru 认为 AI 产品 playbook 的半衰期约为三个月，Aaron Levie 则指出 AI 行业的强信念大约六个月就会失效；这意味着团队不应把一次成功的工作流当作多年护城河，而要持续重做评测、分发和用户交互。Dan Shipper 为团队设置 Head of Evals 的做法，也说明 evals 正从研究附属品变成产品迭代的控制面。",
+        "基础设施层的长期机会仍在于把旧系统改造成 AI 可用的实时数据层。No Priors 对 Eon 的讨论聚焦于重构 legacy data infrastructure：当数据需要被 Agent 持续读取、理解和操作时，系统的价值不只是存储，而是把历史数据转化为可查询、可治理、可执行的上下文。与此同时，MCP 的增长和 web 向“人类体验极致化”与“机器信号无损化”两端分化，正在推动新的接口与内容形态。"
+      ],
+      "filteredNote": "过滤掉了日常生活、政治争论、广告/自我宣传、纯庆祝、表情包式内容和缺乏上下文的一句话动态等低信号内容"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "模型供应与分发渠道：信任是合作的硬约束",
+        "summary": "Thibault Sottiaux 表示 OpenAI 将结束通过 Cursor 提供模型访问，并计划于 11 月 12 日生效，同时给用户预留迁移时间。他把原因概括为“信任”，这说明模型供应商与 AI 应用之间的合作，除了技术集成，还取决于权限、产品边界和长期治理预期。",
+        "keyPoints": [
+          "OpenAI 与 Cursor 的模型访问合作将于 11 月 12 日结束",
+          "模型供应商与应用分发层的信任关系会直接影响产品连续性",
+          "AI 编程产品需要提前设计多模型、迁移和供应风险的应对方案"
+        ],
+        "whyItMatters": "AI 应用越来越依赖外部模型，供应关系本身已经成为架构与产品战略的一部分。",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 95,
+        "url": "https://x.com/thsottiaux/status/2093515916076343774"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "Agent 产品的下一层：交付用户真正拥有的智能栈",
+        "summary": "Guillermo Rauch 认为，很多创建 Agent 的方式只交付了一个易用入口，却没有让用户拥有包含 runtime、模型选择、skills、tools、connectivity 和 sandbox 在内的完整智能栈。把 Agent 交付为可检查、可修改的 Git repo，会把控制权和可迁移性从营销口号变成工程事实。",
+        "keyPoints": [
+          "Agent 的可拥有性比单纯的创建速度更能形成长期价值",
+          "runtime、模型、skills、tools、连接能力和 sandbox 应可组合替换",
+          "Git repo 是交付控制权、可审计性和迁移能力的一种具体载体"
+        ],
+        "whyItMatters": "当模型和平台快速变化时，用户能否带走并改造自己的 Agent，决定了产品是否值得长期投入。",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/rauchg/status/2093387887668814214"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "Web 正分化为人类体验与机器信号两种极端",
+        "summary": "Guillermo Rauch 观察到 Web 正走向两个方向：一端用 three.js、TypeGPU 等技术服务于品牌、探索和愉悦的人类体验；另一端则追求面向 Agent 的内容、数据和 API，强调 Markdown 与 MCP 所代表的无损机器信号。未来的产品可能需要分别优化“让人感受”和“让机器可靠调用”这两套界面。",
+        "keyPoints": [
+          "人类界面继续追求高表现力与沉浸式体验",
+          "Agent 界面更需要结构化、无损和可调用的信号",
+          "Markdown 与 MCP 体现了机器可读 Web 的基础设施方向"
+        ],
+        "whyItMatters": "同一份产品内容可能同时面对人和 Agent，提前区分两种消费路径有助于避免界面与接口互相牺牲。",
+        "tags": [
+          "Agent",
+          "工程",
+          "研究"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/rauchg/status/2093482695838007318"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Madhu Guru",
+        "meta": "AI 产品 · X 动态",
+        "title": "AI 产品方法论的半衰期只有三个月",
+        "summary": "Madhu Guru 认为，AI 产品 building 的 playbook 半衰期约为三个月，传统产品团队那种发现一套打法后持续复用五年的模式，在 AI labs 中很快会遭遇边际收益递减。因此团队需要把快速淘汰旧流程、重建评测和持续实验，直接纳入组织设计。",
+        "keyPoints": [
+          "AI 产品的有效工作流会因模型能力变化而快速过时",
+          "团队应主动丢弃边际收益下降的 playbook，而非守着历史成功",
+          "组织节奏、评测体系和实验机制要围绕高频重构设计"
+        ],
+        "whyItMatters": "它把“AI 变化很快”转化成可执行的组织命题：核心能力不是找到终局打法，而是持续换挡。",
+        "tags": [
+          "产品",
+          "组织",
+          "市场"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/realmadhuguru/status/2093562783627620456"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "AI 行业强共识的保质期正在缩短",
+        "summary": "Aaron Levie 指出，AI 领域一个强烈持有的信念平均六个月就可能失效，并列举 OSS 是否能追上、labs 能否规模化盈利、软件是否会被 Agent 替代等反复切换的判断。对 Builder 来说，战略规划应更多依赖可验证的用户与产品信号，而不是把行业共识当成稳定前提。",
+        "keyPoints": [
+          "AI 行业的宏大判断迭代速度远快于传统软件周期",
+          "关于开源、盈利和 Agent 替代的软件共识仍在反复变化",
+          "产品决策需要建立在持续验证，而非一次性趋势判断之上"
+        ],
+        "whyItMatters": "短周期认知迭代会直接影响招聘、投资和架构选择，降低对单一叙事的依赖是一种风险控制。",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 85,
+        "url": "https://x.com/levie/status/2093568352736436576"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Nikunj Kothari",
+        "meta": "创业与投资 · X 动态",
+        "title": "好的 AI 创业叙事不需要把 AI 写在标题上",
+        "summary": "Nikunj Kothari 给 founders 的建议是：最好的 pitch 甚至不需要使用“AI”这个词，AI 也不能成为唯一的“why now”。这并非否定技术，而是要求产品先说清楚用户问题、分发优势和时机变化，再解释模型为何让方案变得可行。",
+        "keyPoints": [
+          "产品价值主张不应依赖 AI 标签本身",
+          "“为什么现在做”需要超越模型能力升级这一单一理由",
+          "用户需求、分发和商业时机仍是 pitch 的基础结构"
+        ],
+        "whyItMatters": "在模型能力趋同、叙事过热的市场里，脱离 AI 标签仍成立的需求定义更可能形成持久业务。",
+        "tags": [
+          "组织",
+          "产品"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/nikunj/status/2093367245024240043"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "8月30日 · 周日",
+        "actor": "Anthropic Engineering",
+        "meta": "Claude Code · 工程文章",
+        "title": "从质量回归中重新建立 Claude Code 的反馈闭环",
+        "summary": "Anthropic Engineering 回顾近期用户反馈中的 Claude Code 质量下降问题，并说明团队如何调查、定位和改进。文章的价值不只在于一次修复，而在于展示模型产品如何把用户报告、评测、发布变化与回归验证连接起来。",
+        "keyPoints": [
+          "模型产品的质量感知会因版本与场景变化而出现回归",
+          "用户报告需要进入可复现、可评测的工程流程",
+          "稳定性依赖持续监测与发布后的反馈闭环"
+        ],
+        "whyItMatters": "Agent 产品的核心体验不是单次 demo 效果，而是长周期任务中的可预测性和修复速度。",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 91,
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "8月30日 · 周日",
+        "actor": "Anthropic Engineering",
+        "meta": "Managed Agents · 工程文章",
+        "title": "Managed Agents：把推理大脑与执行双手解耦",
+        "summary": "Anthropic Engineering 介绍 Claude Managed Agents 的架构方向：让负责推理和决策的 brain，与负责工具调用、环境交互和任务执行的 hands 分离。这样的解耦有助于独立扩展模型能力与执行基础设施，也让权限、沙箱和资源管理更容易形成清晰边界。",
+        "keyPoints": [
+          "推理层与执行层可以按不同生命周期独立演进",
+          "执行环境需要承担工具、连接、权限与沙箱等工程责任",
+          "解耦架构更适合规模化管理长任务与多 Agent 工作负载"
+        ],
+        "whyItMatters": "Agent 从个人玩具走向生产系统后，稳定的执行基础设施会和模型本身同等重要。",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 93,
+        "url": "https://www.anthropic.com/engineering/managed-agents"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月30日 · 周日",
+        "actor": "No Priors",
+        "meta": "Eon 联合创始人访谈 · 播客",
+        "title": "让 Legacy Data Infrastructure 变成 Agent 可用的上下文层",
+        "summary": "No Priors 与 Eon 联合创始人 Ofir Ehrlich、Gonen Stein 讨论如何重新思考 Legacy Data Infrastructure。核心 thesis 是：当 Agent 需要持续读取、理解和操作企业历史数据时，基础设施不能只负责保存记录，还要把分散、陈旧的数据转化为可查询、可治理、可执行的上下文。",
+        "keyPoints": [
+          "旧数据系统的主要问题从存储容量转向可访问性与可理解性",
+          "Agent 需要稳定的数据上下文、权限治理和操作接口",
+          "数据基础设施的价值在于连接历史记录与实时行动"
+        ],
+        "whyItMatters": "企业 Agent 的上限往往不只由模型决定，还由它能否安全、持续地使用真实业务数据决定。",
+        "tags": [
+          "Agent",
+          "工程",
+          "组织"
+        ],
+        "qualityScore": 88,
+        "url": "https://www.youtube.com/@NoPriorsPodcast"
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "displayDate": "8月29日 · 周六",
     "generatedAt": "2026-08-28T23:30:49.371057+00:00",
