@@ -1,5 +1,586 @@
 [
   {
+    "date": "2026-08-31",
+    "displayDate": "8月31日 · 周一",
+    "generatedAt": "2026-08-30T23:30:33.797963+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-30T06:36:35.226Z",
+      "blogs": "2026-08-30T06:36:39.384Z",
+      "podcasts": "2026-08-30T06:36:39.143Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、产品、工程、研究、组织：8 位 AI Builders、0 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 8,
+      "tweets": 18,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 8
+        },
+        {
+          "name": "产品",
+          "count": 4
+        },
+        {
+          "name": "工程",
+          "count": 3
+        },
+        {
+          "name": "研究",
+          "count": 3
+        },
+        {
+          "name": "组织",
+          "count": 2
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2093811840258293947",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "This celebration is moved to tomorrow as the button was already pressed today.",
+        "chineseTitle": "This celebration is moved to tomorrow as the button was already pressed today.",
+        "tags": [
+          "观察"
+        ],
+        "score": 8274
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2093914342551101782",
+        "sourceDate": "2026-08-30",
+        "sourceDisplayDate": "8月30日 · 周日",
+        "summary": "Team is cooking like never before",
+        "chineseTitle": "Team is cooking like never before",
+        "tags": [
+          "组织"
+        ],
+        "score": 4078
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2093803989578170404",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "I read every DM people send me, even if I don’t reply to all…",
+        "chineseTitle": "I read every DM people send me, even if I don’t reply to all…",
+        "tags": [
+          "产品",
+          "组织"
+        ],
+        "score": 2158
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2093801838504186008",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "Landing 2:30pm PST",
+        "chineseTitle": "Landing 2:30pm PST",
+        "tags": [
+          "观察"
+        ],
+        "score": 2143
+      },
+      {
+        "title": "来自 Guillermo Rauch 的观点",
+        "source": "Guillermo Rauch · X 动态",
+        "url": "https://x.com/rauchg/status/2093736865191076318",
+        "sourceDate": "2026-08-29",
+        "sourceDisplayDate": "8月29日 · 周六",
+        "summary": "0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev,…",
+        "chineseTitle": "0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev,…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "score": 326
+      }
+    ],
+    "builders": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "This celebration is moved to tomorrow as the button was already pressed today…",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2093811840258293947",
+            "url": "https://x.com/thsottiaux/status/2093811840258293947",
+            "createdAt": "2026-08-29T21:23:38.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "This celebration is moved to tomorrow as the button was already pressed today.",
+            "summary": "This celebration is moved to tomorrow as the button was already pressed today.",
+            "engagement": 8274,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093914342551101782",
+            "url": "https://x.com/thsottiaux/status/2093914342551101782",
+            "createdAt": "2026-08-30T04:10:56.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Team is cooking like never before",
+            "summary": "Team is cooking like never before",
+            "engagement": 4078,
+            "tags": [
+              "组织"
+            ]
+          },
+          {
+            "id": "2093801838504186008",
+            "url": "https://x.com/thsottiaux/status/2093801838504186008",
+            "createdAt": "2026-08-29T20:43:53.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Landing 2:30pm PST",
+            "summary": "Landing 2:30pm PST",
+            "engagement": 2143,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "tbh It's a really weird feeling entering 2FA into a cloud computer…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093845886262784145",
+            "url": "https://x.com/petergyang/status/2093845886262784145",
+            "createdAt": "2026-08-29T23:38:55.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "tbh It's a really weird feeling entering 2FA into a cloud computer.",
+            "summary": "tbh It's a really weird feeling entering 2FA into a cloud computer.",
+            "engagement": 59,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2093844648154579210",
+            "url": "https://x.com/petergyang/status/2093844648154579210",
+            "createdAt": "2026-08-29T23:34:00.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "I just came up with the most useful @bot but \"errands your spouse wants you to run but you delegated to a bot instead\" is too long of a name",
+            "summary": "I just came up with the most useful @bot but \"errands your spouse wants you to run but you delegated to a bot instead\" is too long of a name",
+            "engagement": 54,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093844072461218283",
+            "url": "https://x.com/petergyang/status/2093844072461218283",
+            "createdAt": "2026-08-29T23:31:43.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "@bot Cheap dad all the way",
+            "summary": "@bot Cheap dad all the way",
+            "engagement": 2,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "product enthusiast. I am grader",
+        "summary": "we’re gonna need mentats aren’t we",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2093737078223966649",
+            "url": "https://x.com/thenanyu/status/2093737078223966649",
+            "createdAt": "2026-08-29T16:26:33.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "we’re gonna need mentats aren’t we",
+            "summary": "we’re gonna need mentats aren’t we",
+            "engagement": 14,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "I read every DM people send me, even if I don’t reply to all…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2093803989578170404",
+            "url": "https://x.com/rauchg/status/2093803989578170404",
+            "createdAt": "2026-08-29T20:52:26.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "I read every DM people send me, even if I don’t reply to all. I’m constantly learning about new ideas, ways to improve our product, where we’re falling short, who could join our company next, where to invest… very grateful for the @x platform.",
+            "summary": "I read every DM people send me, even if I don’t reply to all…",
+            "engagement": 2158,
+            "tags": [
+              "产品",
+              "组织"
+            ]
+          },
+          {
+            "id": "2093736865191076318",
+            "url": "https://x.com/rauchg/status/2093736865191076318",
+            "createdAt": "2026-08-29T16:25:43.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev, @usekernel… - more minimalist: fewer tools and improved shell execution. One of the trickiest things about CLI agents is that running commands is actually not…",
+            "summary": "0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev, @usekernel… - more m…",
+            "engagement": 326,
+            "tags": [
+              "Agent",
+              "研究"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 2029, says @RyanGreenblatt",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2093794720510062617",
+            "url": "https://x.com/mattturck/status/2093794720510062617",
+            "createdAt": "2026-08-29T20:15:36.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 2029, says @RyanGreenblatt",
+            "summary": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 20…",
+            "engagement": 44,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: YouTube:",
+        "summary": "Great opportunity to spend 10 weeks building in Tokyo & learn the Japan AI ecosystem…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2093709609567658247",
+            "url": "https://x.com/zarazhangrui/status/2093709609567658247",
+            "createdAt": "2026-08-29T14:37:24.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Great opportunity to spend 10 weeks building in Tokyo & learn the Japan AI ecosystem!",
+            "summary": "Great opportunity to spend 10 weeks building in Tokyo & learn the Japan AI ecosystem!",
+            "engagement": 235,
+            "tags": [
+              "工程"
+            ]
+          },
+          {
+            "id": "2093944988262371465",
+            "url": "https://x.com/zarazhangrui/status/2093944988262371465",
+            "createdAt": "2026-08-30T06:12:43.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Never had so many AI products looked so similar Even though the number of products is exploding, there aren't that many radical new ideas and everything blurs into each other Every time I open this app it feels like homework: yet another new product to learn that promises to do the same thing but somehow better; the…",
+            "summary": "Never had so many AI products looked so similar Even though the number of products is exploding, there aren't that many radical new ideas and everything blurs into each other Every…",
+            "engagement": 10,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2093950273706430720",
+            "url": "https://x.com/zarazhangrui/status/2093950273706430720",
+            "createdAt": "2026-08-30T06:33:43.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Also every product asks for my Gmail Calendar Notion Granola Github Slack....",
+            "summary": "Also every product asks for my Gmail Calendar Notion Granola Github Slack....",
+            "engagement": 0,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Resist dunking* I see it WAY too much with folks especially today…",
+        "tags": [
+          "产品",
+          "工程",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2093772803216740647",
+            "url": "https://x.com/nikunj/status/2093772803216740647",
+            "createdAt": "2026-08-29T18:48:31.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine loop - other people join in and you feel great. But, it just screams envy and doesn’t lead to anything productive. Sure, you can pat yourself on the back and say “see I told you so” but how did it move the world? Nowhere. If…",
+            "summary": "Resist dunking* I see it WAY too much with folks especially today…",
+            "engagement": 115,
+            "tags": [
+              "产品"
+            ]
+          },
+          {
+            "id": "2093860971781746776",
+            "url": "https://x.com/nikunj/status/2093860971781746776",
+            "createdAt": "2026-08-30T00:38:52.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "The big model labs are fighting.. this was inevitable. Watch as subsidized token prices go up in <6 months as price of compute and shortages start being “actually” felt. Say goodbye to your reset limits. Great for customer choice in the long run. And add another $1-30B in valuation to all the open harnesses in the…",
+            "summary": "The big model labs are fighting.. this was inevitable…",
+            "engagement": 64,
+            "tags": [
+              "工程",
+              "研究"
+            ]
+          },
+          {
+            "id": "2093727951510732893",
+            "url": "https://x.com/nikunj/status/2093727951510732893",
+            "createdAt": "2026-08-29T15:50:17.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "Best part of having kids is you get to relive being kids with them.. Like I’m obsessed with these alphabets and how each letter is so nicely designed for the word I’m about to teach 😍",
+            "summary": "Best part of having kids is you get to relive being kids with them.…",
+            "engagement": 26,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "very interesting post and perspective not an expert, but it seems like a lot of this gets solved if models don't collaborate willingly and/or are trained to report bad behavior",
+        "tags": [
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2093709088911655004",
+            "url": "https://x.com/danshipper/status/2093709088911655004",
+            "createdAt": "2026-08-29T14:35:20.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "very interesting post and perspective",
+            "summary": "very interesting post and perspective",
+            "engagement": 51,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2093713002453225891",
+            "url": "https://x.com/danshipper/status/2093713002453225891",
+            "createdAt": "2026-08-29T14:50:53.000Z",
+            "sourceDate": "2026-08-29",
+            "sourceDisplayDate": "8月29日 · 周六",
+            "text": "not an expert, but it seems like a lot of this gets solved if models don't collaborate willingly and/or are trained to report bad behavior",
+            "summary": "not an expert, but it seems like a lot of this gets solved if models don't collaborate willingly and/or are trained to report bad behavior",
+            "engagement": 27,
+            "tags": [
+              "研究"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "No Priors",
+        "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+        "url": "https://www.youtube.com/@NoPriorsPodcast",
+        "publishedAt": "2026-08-20T10:00:00.000Z",
+        "sourceDate": "2026-08-20",
+        "sourceDisplayDate": "8月20日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:20 The brain very literally, very clearly, plainly is a computer…",
+        "chineseTitle": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+        "tags": [
+          "产品",
+          "工程"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最明确的产品信号，是 AI 产品正在快速同质化：Zara Zhang 观察到产品数量爆炸，但“激进的新想法”并没有同步增加，用户反而要不断学习一批承诺相似、只是在细节上更好的新工具。对 AI Builders 来说，单纯叠加模型能力已经很难构成壁垒，真正的机会在于更具体的工作流、更低的切换成本，以及能持续积累的用户数据和信任。",
+        "这种同质化还伴随一项更具体的摩擦：几乎每个产品都在索要 Gmail、Calendar、Notion、GitHub、Slack 等权限。连接器越多不等于价值越高；如果授权发生在用户还没看见结果之前，集成负担就会变成产品的第一道流失关。更好的路径是先用低权限、可逆的体验证明价值，再把权限请求绑定到明确任务和可解释的收益上。",
+        "基础设施侧，Guillermo Rauch 分享的 0.0.7 更新把 MCP 兼容性评测、精简工具集和 shell 执行放在一起，说明 CLI agent 的核心竞争力不只是“能调用更多工具”，而是能在真实环境中稳定执行命令、控制复杂度并通过真实 MCP 做回归验证。工具数量减少，可能反而意味着更清晰的 agent 行为边界和更可控的故障面。",
+        "供给与商业化的判断则更偏周期性：Nikunj Kothari 认为大模型厂商之间的竞争会让补贴式 token 价格难以长期维持，算力成本和短缺最终会传导到价格与限额；同时，开放式 harness 可能因此获得更高的平台价值。再叠加 Matt Turck 转述的 recursive self-improvement 讨论，行业的长期叙事正在从“模型更强”转向“模型能否参与改进模型本身”，但后者仍应被视为高影响力判断，而非已证实的时间表。"
+      ],
+      "filteredNote": "过滤掉了纯情绪表达、日常生活、梗图式短句、缺乏上下文的一句话动态、旅行/落地通知，以及无法提供完整论点的低信号播客摘录等内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月29日 · 周六",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "产品迭代的第一手情报，藏在用户私信里",
+        "summary": "Guillermo Rauch 表示自己会阅读收到的每一条私信，从中获取新想法、产品改进方向、当前短板、潜在招聘对象和投资线索。对产品负责人来说，私信不是客服噪音，而是一条未经筛选但高度贴近用户现场的研究渠道。",
+        "keyPoints": [
+          "私信同时承载需求、缺陷、招聘和投资线索",
+          "不必逐条回复，但应持续吸收其中的模式",
+          "一线反馈可以直接反哺产品、组织和资本配置"
+        ],
+        "whyItMatters": "AI 产品变化快，传统调研很容易滞后；持续读取用户主动表达，能更早捕捉未被结构化的需求和产品缺口。",
+        "tags": [
+          "产品",
+          "用户研究",
+          "组织"
+        ],
+        "qualityScore": 82,
+        "url": "https://x.com/rauchg/status/2093803989578170404"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月29日 · 周六",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "CLI Agent 的关键不是工具更多，而是执行面更可控",
+        "summary": "Guillermo Rauch 介绍 0.0.7：显著增强 MCP 支持，并使用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon、Stagehand 等真实 MCP 做评测；同时减少工具数量、改进 shell execution。他特别指出，命令执行是 CLI agent 最棘手的部分之一。",
+        "keyPoints": [
+          "用真实 MCP 做兼容性与回归评测",
+          "减少工具数量以降低 agent 复杂度",
+          "shell execution 是 CLI agent 稳定性的核心难题"
+        ],
+        "whyItMatters": "这提供了一个可复用的工程判断：agent 的能力边界应由真实任务成功率和故障可控性定义，而不是工具清单长度。",
+        "tags": [
+          "Agent",
+          "MCP",
+          "工程"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/rauchg/status/2093736865191076318"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Zara Zhang",
+        "meta": "AI Builder · X 动态",
+        "title": "AI 产品爆炸式增长，却越来越像同一个产品",
+        "summary": "Zara Zhang 观察到，AI 产品数量虽然持续增加，但真正激进的新想法并不多，许多产品都在模糊地重复同一类承诺，只是声称自己做得更好。她还指出，用户几乎每次打开产品都要重新学习一套相似工具，创新供给正在转化为认知负担。",
+        "keyPoints": [
+          "产品数量增长没有带来同比例的范式创新",
+          "“同类但更好”会抬高用户学习和切换成本",
+          "差异化应落在工作流与结果，而非模型包装"
+        ],
+        "whyItMatters": "对 AI Builders 而言，这是一个重要的反共识提醒：市场拥挤时，发布速度本身不是产品战略，独特工作流和长期留存才是。",
+        "tags": [
+          "产品",
+          "差异化",
+          "用户体验"
+        ],
+        "qualityScore": 87,
+        "url": "https://x.com/zarazhangrui/status/2093944988262371465"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月30日 · 周日",
+        "actor": "Nikunj Kothari",
+        "meta": "FPV Ventures · X 动态",
+        "title": "模型价格战的终点，可能是 token 补贴退潮",
+        "summary": "Nikunj Kothari 判断，大模型厂商之间的竞争是必然结果，当前补贴式 token 价格可能在算力成本与供给短缺真正显现后上行，免费额度和 reset limits 也可能收紧。与此同时，开放式 harness 可能因承接模型选择和工作流编排而获得更高的平台估值。",
+        "keyPoints": [
+          "算力成本与短缺会向 token 价格传导",
+          "用户需要为更高价格、限额和模型切换做准备",
+          "开放式 harness 可能成为多模型时代的价值承载层"
+        ],
+        "whyItMatters": "这关系到 AI 产品的单位经济模型：不能把当前低价模型调用当作永久基础设施，应尽早设计模型路由、缓存、降级和多供应商策略。",
+        "tags": [
+          "模型经济",
+          "基础设施",
+          "Agent"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/nikunj/status/2093860971781746776"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "8月29日 · 周六",
+        "actor": "Matt Turck",
+        "meta": "FirstMark Capital · X 动态",
+        "title": "前沿实验室的共同下注：让 AI 参与改进 AI",
+        "summary": "Matt Turck 转述 Ryan Greenblatt 的判断：前沿 AI 实验室都在不同程度上推进 recursive self-improvement（RSI），也就是让 AI 构建或改进 AI，并提出这可能在 2028 或 2029 年带来极端后果。这个时间判断高度推测，但它指出了行业竞争的潜在新轴线：研发自动化本身可能成为模型能力增长的乘数。",
+        "keyPoints": [
+          "recursive self-improvement 将研发自动化作为核心方向",
+          "竞争焦点可能从训练规模转向研发闭环速度",
+          "2028/2029 的具体预测应视为情景判断而非事实"
+        ],
+        "whyItMatters": "即使不接受时间表，AI Builders 也值得思考哪些研发环节可以被 agent 化，以及如何用评测和安全边界防止自动化反馈环失控。",
+        "tags": [
+          "研究",
+          "长期判断",
+          "安全"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/mattturck/status/2093794720510062617"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "displayDate": "8月30日 · 周日",
     "generatedAt": "2026-08-29T23:31:07.042705+00:00",
