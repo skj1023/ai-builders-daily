@@ -1,5 +1,712 @@
 [
   {
+    "date": "2026-09-01",
+    "displayDate": "9月1日 · 周二",
+    "generatedAt": "2026-08-31T23:30:27.708333+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-08-31T06:49:51.273Z",
+      "blogs": "2026-08-31T06:49:55.102Z",
+      "podcasts": "2026-08-31T06:49:54.792Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、产品、Agent、工程、市场：10 位 AI Builders、0 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 10,
+      "tweets": 22,
+      "blogs": 0,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 9
+        },
+        {
+          "name": "产品",
+          "count": 5
+        },
+        {
+          "name": "Agent",
+          "count": 5
+        },
+        {
+          "name": "工程",
+          "count": 4
+        },
+        {
+          "name": "市场",
+          "count": 3
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2094252447271366730",
+        "sourceDate": "2026-08-31",
+        "sourceDisplayDate": "8月31日 · 周一",
+        "summary": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex…",
+        "chineseTitle": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "score": 8003
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2094254532020818191",
+        "sourceDate": "2026-08-31",
+        "sourceDisplayDate": "8月31日 · 周一",
+        "summary": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits…",
+        "chineseTitle": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits…",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "score": 6843
+      },
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2094293190945976638",
+        "sourceDate": "2026-08-31",
+        "sourceDisplayDate": "8月31日 · 周一",
+        "summary": "What should we ship next week?",
+        "chineseTitle": "What should we ship next week?",
+        "tags": [
+          "产品"
+        ],
+        "score": 3753
+      },
+      {
+        "title": "来自 Peter Steinberger 的观点",
+        "source": "Peter Steinberger · X 动态",
+        "url": "https://x.com/steipete/status/2094290652649636173",
+        "sourceDate": "2026-08-31",
+        "sourceDisplayDate": "8月31日 · 周一",
+        "summary": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using - our…",
+        "chineseTitle": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using - our…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "score": 1437
+      },
+      {
+        "title": "来自 Garry Tan 的观点",
+        "source": "Garry Tan · X 动态",
+        "url": "https://x.com/garrytan/status/2094056908462358592",
+        "sourceDate": "2026-08-30",
+        "sourceDisplayDate": "8月30日 · 周日",
+        "summary": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy dis…",
+        "chineseTitle": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy dis…",
+        "tags": [
+          "观察"
+        ],
+        "score": 953
+      }
+    ],
+    "builders": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex…",
+        "tags": [
+          "产品",
+          "工程",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2094252447271366730",
+            "url": "https://x.com/thsottiaux/status/2094252447271366730",
+            "createdAt": "2026-08-31T02:34:27.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex. See you soon for more news from The Reset Company.",
+            "summary": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex…",
+            "engagement": 8003,
+            "tags": [
+              "产品",
+              "工程",
+              "组织"
+            ]
+          },
+          {
+            "id": "2094254532020818191",
+            "url": "https://x.com/thsottiaux/status/2094254532020818191",
+            "createdAt": "2026-08-31T02:42:44.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both Pro plans. The Pro 20X is quite precisely 20X the usage of the Plus subscription, so it does exactly what it says on the tin.",
+            "summary": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits…",
+            "engagement": 6843,
+            "tags": [
+              "产品",
+              "工程"
+            ]
+          },
+          {
+            "id": "2094293190945976638",
+            "url": "https://x.com/thsottiaux/status/2094293190945976638",
+            "createdAt": "2026-08-31T05:16:21.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "What should we ship next week?",
+            "summary": "What should we ship next week?",
+            "engagement": 3753,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "Sigh this is so dumb At a kid’s birthday party and have to leave my laptop on somehow lol @mvanhorn knows this problem @bot @SpaceXAI Me and my Doomscrolling Uncle bot sent codes to a bunch of folks including @LubaYudasi…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2094216304844833079",
+            "url": "https://x.com/petergyang/status/2094216304844833079",
+            "createdAt": "2026-08-31T00:10:50.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "Sigh this is so dumb",
+            "summary": "Sigh this is so dumb",
+            "engagement": 176,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094218683212308610",
+            "url": "https://x.com/petergyang/status/2094218683212308610",
+            "createdAt": "2026-08-31T00:20:17.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "At a kid’s birthday party and have to leave my laptop on somehow lol @mvanhorn knows this problem",
+            "summary": "At a kid’s birthday party and have to leave my laptop on somehow lol @mvanhorn knows this problem",
+            "engagement": 70,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094267102849020037",
+            "url": "https://x.com/petergyang/status/2094267102849020037",
+            "createdAt": "2026-08-31T03:32:41.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "@bot @SpaceXAI Me and my Doomscrolling Uncle bot sent codes to a bunch of folks including @LubaYudasina @DontFearAI @SpecialeRob @yorkartur @anishkumar_ts @DavidFiocchi @GiggleVolt @sanjabh @yugmarwaha @chrisschouk @dweekly Thanks for playing! Will let you know if I get more codes.",
+            "summary": "@bot @SpaceXAI Me and my Doomscrolling Uncle bot sent codes to a bunch of folks including @LubaYudasina @DontFearAI @SpecialeRob @yorkartur @anishkumar_ts @DavidFiocchi @GiggleVolt…",
+            "engagement": 11,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "summary": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surprising behavior from LLMs…",
+        "tags": [
+          "Agent",
+          "研究"
+        ],
+        "tweets": [
+          {
+            "id": "2094215744842248418",
+            "url": "https://x.com/amasad/status/2094215744842248418",
+            "createdAt": "2026-08-31T00:08:36.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surprising behavior from LLMs. The obvious miss here by OpenAI is that they should’ve been monitoring CoTs — Something they themselves called out…",
+            "summary": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surpri…",
+            "engagement": 743,
+            "tags": [
+              "研究"
+            ]
+          },
+          {
+            "id": "2094280256933056971",
+            "url": "https://x.com/amasad/status/2094280256933056971",
+            "createdAt": "2026-08-31T04:24:57.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "If you ever wondered how civilizations are built, it’s actually easy: [Agent() for _ in range(100)]",
+            "summary": "If you ever wondered how civilizations are built, it’s actually easy: [Agent() for _ in range(100)]",
+            "engagement": 260,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "summary": "Digital abundance When something goes viral on the internet, especially on X, it attracts all kinds of attention…",
+        "tags": [
+          "产品",
+          "组织",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2094242622642782696",
+            "url": "https://x.com/rauchg/status/2094242622642782696",
+            "createdAt": "2026-08-31T01:55:25.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "Digital abundance",
+            "summary": "Digital abundance",
+            "engagement": 629,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094141838055940530",
+            "url": "https://x.com/rauchg/status/2094141838055940530",
+            "createdAt": "2026-08-30T19:14:56.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "When something goes viral on the internet, especially on X, it attracts all kinds of attention. Including some of the largest botnets on the internet launching targeted DDoS, from hijacked devices and residential networks. Extremely proud of the Vercel CDN & Traffic Security teams, who protect 400,000+ customers and…",
+            "summary": "When something goes viral on the internet, especially on X, it attracts all kinds of attention…",
+            "engagement": 553,
+            "tags": [
+              "产品",
+              "组织",
+              "市场"
+            ]
+          },
+          {
+            "id": "2094205032501776734",
+            "url": "https://x.com/rauchg/status/2094205032501776734",
+            "createdAt": "2026-08-30T23:26:02.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Cool",
+            "summary": "Cool",
+            "engagement": 205,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "summary": "Sometimes people don’t have an intuitive sense of what Jevons paradox looks like for token consumption…",
+        "tags": [
+          "Agent",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2094123406811922930",
+            "url": "https://x.com/levie/status/2094123406811922930",
+            "createdAt": "2026-08-30T18:01:41.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Sometimes people don’t have an intuitive sense of what Jevons paradox looks like for token consumption. Those of us working with enterprises get to see this first hand every day. Basically enterprises have an unending stream of tasks that they’d love to be able to bring automation to. But for each individual task,…",
+            "summary": "Sometimes people don’t have an intuitive sense of what Jevons paradox looks like for token consumption…",
+            "engagement": 479,
+            "tags": [
+              "Agent",
+              "市场"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF…",
+        "summary": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy disasters and can be fixed with better policies but so far Cali…",
+        "tags": [
+          "Agent"
+        ],
+        "tweets": [
+          {
+            "id": "2094056908462358592",
+            "url": "https://x.com/garrytan/status/2094056908462358592",
+            "createdAt": "2026-08-30T13:37:27.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy disasters and can be fixed with better policies but so far California has failed to fix it So it’s a mass trash fire",
+            "summary": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy disasters and can be fi…",
+            "engagement": 953,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094048783328014831",
+            "url": "https://x.com/garrytan/status/2094048783328014831",
+            "createdAt": "2026-08-30T13:05:10.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Jackie Fielder and her useless friends will steal so much money from the people of San Francisco if they get a bank fr",
+            "summary": "Jackie Fielder and her useless friends will steal so much money from the people of San Francisco if they get a bank fr",
+            "engagement": 209,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094225933108748653",
+            "url": "https://x.com/garrytan/status/2094225933108748653",
+            "createdAt": "2026-08-31T00:49:05.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "In the future the agents will just try a bunch of software, post it to their hacked Artifactory moltbook and then that’ll be what the agent swarm uses",
+            "summary": "In the future the agents will just try a bunch of software, post it to their hacked Artifactory moltbook and then that’ll be what the agent swarm uses",
+            "engagement": 191,
+            "tags": [
+              "Agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "bio": "VC at @FirstMarkCap. Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+        "summary": "Being on a board with Doug was certainly one of the most formative experiences of my VC career…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2094219007708512499",
+            "url": "https://x.com/mattturck/status/2094219007708512499",
+            "createdAt": "2026-08-31T00:21:34.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "Being on a board with Doug was certainly one of the most formative experiences of my VC career. The goat. That is, if goats were jacked.",
+            "summary": "Being on a board with Doug was certainly one of the most formative experiences of my VC career…",
+            "engagement": 52,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love…",
+        "summary": "Reality is stranger than fiction Have a cup of coffee, sit down and read this end to end.…",
+        "tags": [
+          "产品"
+        ],
+        "tweets": [
+          {
+            "id": "2094067027719922143",
+            "url": "https://x.com/nikunj/status/2094067027719922143",
+            "createdAt": "2026-08-30T14:17:39.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Reality is stranger than fiction",
+            "summary": "Reality is stranger than fiction",
+            "engagement": 90,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094073879065223252",
+            "url": "https://x.com/nikunj/status/2094073879065223252",
+            "createdAt": "2026-08-30T14:44:53.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "Have a cup of coffee, sit down and read this end to end.. and try not to faint",
+            "summary": "Have a cup of coffee, sit down and read this end to end.…",
+            "engagement": 17,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2094117136851755207",
+            "url": "https://x.com/nikunj/status/2094117136851755207",
+            "createdAt": "2026-08-30T17:36:46.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "What are they feeding @claudeai.. “canon on prod” 😂",
+            "summary": "What are they feeding @claudeai.. “canon on prod” 😂",
+            "engagement": 4,
+            "tags": [
+              "产品"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using - our shared agent that knows what everyone’s working on and orch…",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2094290652649636173",
+            "url": "https://x.com/steipete/status/2094290652649636173",
+            "createdAt": "2026-08-31T05:06:16.000Z",
+            "sourceDate": "2026-08-31",
+            "sourceDisplayDate": "8月31日 · 周一",
+            "text": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using - our shared agent that knows what everyone’s working on and orchestrates it all. Multiplayer coding + infinite compute with nodes and cloud sessions has been a…",
+            "summary": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using - our shared agent that k…",
+            "engagement": 1437,
+            "tags": [
+              "Agent",
+              "工程"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "summary": "is the HuggingFace attack something that should be taken seriously…",
+        "tags": [
+          "Agent",
+          "市场"
+        ],
+        "tweets": [
+          {
+            "id": "2094073306739576964",
+            "url": "https://x.com/danshipper/status/2094073306739576964",
+            "createdAt": "2026-08-30T14:42:36.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "is the HuggingFace attack something that should be taken seriously? yes. is it the first warning shot of a machine takeover? no. will issues of this type look like a tractable / mostly solved problem with proper precautions in 6 months? yes. will that happen automatically? no. as always, will require work from smart…",
+            "summary": "is the HuggingFace attack something that should be taken seriously…",
+            "engagement": 184,
+            "tags": [
+              "Agent"
+            ]
+          },
+          {
+            "id": "2094044418583986227",
+            "url": "https://x.com/danshipper/status/2094044418583986227",
+            "createdAt": "2026-08-30T12:47:49.000Z",
+            "sourceDate": "2026-08-30",
+            "sourceDisplayDate": "8月30日 · 周日",
+            "text": "glad that the market is finally catching up to how dumb the SaaSpocalypse was 👇",
+            "summary": "glad that the market is finally catching up to how dumb the SaaSpocalypse was 👇",
+            "engagement": 65,
+            "tags": [
+              "市场"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "name": "AI & I by Every",
+        "title": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "publishedAt": "2026-08-19T15:16:46.000Z",
+        "sourceDate": "2026-08-19",
+        "sourceDisplayDate": "8月19日 · 周三",
+        "summary": "Speaker 1 | 00:00 - 00:02 How does it feel to be on your first podcast…",
+        "chineseTitle": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+        "tags": [
+          "Agent"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "今天最明确的事实增量来自 Codex 与 ChatGPT Work：Thibault Sottiaux 提到活跃用户达到 2500 万，并通过重置付费订阅额度庆祝。结合他对“20X”周用量限制的澄清，可以看到 AI 产品正在进入一个新阶段：增长不再只靠模型能力，额度、计量和运营承诺同样构成核心产品体验。",
+        "工程侧的共同主题是“规模化之后才暴露真正的系统问题”。Guillermo Rauch 提醒，病毒式传播会吸引 botnet 和定向 DDoS；Peter Steinberger 则展示了从个人 coding harness 迁移到共享 Agent 的实践。前者要求安全与流量弹性前置，后者要求把团队上下文、云端 session 和计算资源整合为协作层。",
+        "模型与 Agent 的能力提升，也在抬高治理门槛。Amjad Masad 对可验证奖励的判断说明，奖励函数越有效，模型越可能学出开发者没预料到的策略，因此不能只验收最终结果，还要监控过程行为。Garry Tan 关于 Agent Swarm 的设想进一步把问题推向软件供应链：机器筛选和分发工具之前，必须有可信的验证、权限和评价机制。",
+        "市场判断上，Aaron Levie 的 Jevons paradox 值得重视：企业自动化的任务池不是固定的，单位成本下降会把更多边缘工作纳入自动化，Token 总需求可能因此增长。对 AI Builder 而言，值得优先投资的不是孤立的 Demo，而是可计量、可观测、可扩展且能嵌入真实工作流的系统。"
+      ],
+      "filteredNote": "过滤掉了纯抱怨、日常生活、抽奖与代码发放、无上下文的一句话动态、非 AI 政治评论，以及缺乏完整内容的播客摘录等低信号内容。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "AI 产品的规模化，先从用量与承诺透明化开始",
+        "summary": "Thibault Sottiaux 表示 ChatGPT Work 与 Codex 已达到 2500 万活跃用户，并为庆祝这一里程碑重置所有付费订阅的使用额度。这个动作既是增长信号，也是对高频开发者用户的服务承诺：当产品进入大规模使用阶段，额度、稳定性和运营节奏本身就是产品体验。",
+        "keyPoints": [
+          "ChatGPT Work 与 Codex 活跃用户达到 2500 万",
+          "通过重置付费订阅额度回应规模化用户",
+          "AI 产品的增长叙事开始与服务运营能力绑定"
+        ],
+        "whyItMatters": "对 AI Builder 来说，用户规模不是终点；额度策略、容量管理和关键时刻的运营动作，会直接影响留存与信任。",
+        "tags": [
+          "产品",
+          "增长",
+          "运营"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/thsottiaux/status/2094252447271366730"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex · X 动态",
+        "title": "“20X”不是营销口号，而是可核对的周用量契约",
+        "summary": "Thibault Sottiaux 澄清 Codex 中的 20X 指的是 weekly usage limits，且 Pro 20X 的用量精确为 Plus 订阅的 20 倍；同时，并非两个 Pro 方案都有 5 小时限制。这个说明把套餐宣传语还原成了可验证的资源分配规则。",
+        "keyPoints": [
+          "20X 针对的是 Codex 周用量上限",
+          "Pro 20X 是 Plus 用量的精确 20 倍",
+          "套餐限制需要以可验证的计量口径解释"
+        ],
+        "whyItMatters": "AI 工具的价格与限制越来越复杂，清晰的用量定义本身就是产品竞争力，也能减少开发者对“无限”或倍数宣传的误读。",
+        "tags": [
+          "产品",
+          "定价",
+          "开发者工具"
+        ],
+        "qualityScore": 90,
+        "url": "https://x.com/thsottiaux/status/2094254532020818191"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Amjad Masad",
+        "meta": "Replit · X 动态",
+        "title": "可验证奖励越强，模型行为越需要被持续观测",
+        "summary": "Amjad Masad 从 Hugging Face 事件提炼出一个更一般的教训：带有可验证奖励的强化学习是极其强大的优化算法，但也会让 LLM 产生越来越怪异、出乎意料的行为。他认为关键缺口在于没有充分监控 CoT 等中间过程，安全性不能只看最终得分。",
+        "keyPoints": [
+          "可验证奖励会放大优化能力，也会放大意外策略",
+          "最终结果正常不代表中间推理过程安全",
+          "训练与部署都需要持续监控模型行为轨迹"
+        ],
+        "whyItMatters": "做 Agent 或强化学习系统时，奖励函数只是方向，不是安全边界；可观测性、异常检测和过程审计必须一开始就进入架构。",
+        "tags": [
+          "研究",
+          "安全",
+          "Agent"
+        ],
+        "qualityScore": 92,
+        "url": "https://x.com/amasad/status/2094215744842248418"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Guillermo Rauch",
+        "meta": "Vercel · X 动态",
+        "title": "AI 流量的繁荣，也会把基础设施暴露在攻击面上",
+        "summary": "Guillermo Rauch 说，互联网内容尤其是在 X 上走红后，会吸引大型 botnet 发起针对性 DDoS，甚至利用被劫持设备和住宅网络。Vercel 的 CDN 与 Traffic Security 团队需要保护超过 40 万客户，说明 AI 产品的传播速度越快，流量安全与容量弹性越不能作为事后补丁。",
+        "keyPoints": [
+          "病毒式传播会同步放大恶意流量风险",
+          "攻击来源可能包括被劫持设备与住宅网络",
+          "CDN、流量安全和容量弹性是规模化产品的基础能力"
+        ],
+        "whyItMatters": "AI Builder 不能只设计“正常用户路径”；一旦产品获得关注，安全、限流和异常流量处置会立刻成为用户体验的一部分。",
+        "tags": [
+          "基础设施",
+          "安全",
+          "规模化"
+        ],
+        "qualityScore": 86,
+        "url": "https://x.com/rauchg/status/2094141838055940530"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Aaron Levie",
+        "meta": "Box · X 动态",
+        "title": "Jevons paradox：自动化越便宜，企业任务池反而越大",
+        "summary": "Aaron Levie 观察到，企业拥有源源不断、希望自动化的任务；当单个任务的自动化成本下降，企业不会只维持原有用量，而是会把更多边缘任务纳入自动化范围。这正是 token 消耗上的 Jevons paradox：效率提升可能带来总需求增长，而不是简单节省。",
+        "keyPoints": [
+          "企业自动化需求不是固定总量",
+          "单位成本下降会释放更多可自动化任务",
+          "Token 需求预测不能只按当前工作负载线性外推"
+        ],
+        "whyItMatters": "做企业 AI 的产品和基础设施规划时，成本下降可能扩大市场而非压缩收入；容量、计费和工作流覆盖率要按需求扩张来设计。",
+        "tags": [
+          "企业 AI",
+          "Agent",
+          "市场"
+        ],
+        "qualityScore": 89,
+        "url": "https://x.com/levie/status/2094123406811922930"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Peter Steinberger",
+        "meta": "OpenClaw · X 动态",
+        "title": "从单机 Coding Harness 走向共享 Agent 协作层",
+        "summary": "Peter Steinberger 回顾 OpenClaw 两个月的实践：团队逐步从各自使用本地 coding harness，迁移到一个了解所有人进展并负责编排的共享 Agent；多人协作、无限计算节点与云端 session 由此被组合成一个新的工作单元。重点不只是“让 Agent 写代码”，而是让 Agent 成为团队上下文与执行资源的协调层。",
+        "keyPoints": [
+          "团队从本地个人工具迁移到共享 Agent",
+          "共享上下文可以承担任务编排与进展同步",
+          "云端 session 与计算节点扩展了多人协作边界"
+        ],
+        "whyItMatters": "Agent 产品的下一阶段可能不是更强的单人 Copilot，而是连接团队上下文、执行环境和计算资源的协作基础设施。",
+        "tags": [
+          "Agent",
+          "工程",
+          "协作"
+        ],
+        "qualityScore": 91,
+        "url": "https://x.com/steipete/status/2094290652649636173"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月1日 · 周二",
+        "actor": "Garry Tan",
+        "meta": "Y Combinator · X 动态",
+        "title": "Agent Swarm 需要可信的软件发现与分发层",
+        "summary": "Garry Tan 设想，未来 Agents 会尝试大量软件，把可用成果发布到被 Agent Swarm 使用的 Artifactory 或 moltbook 中。这个判断把 Agent 生态的瓶颈从“能不能调用工具”推进到“如何发现、验证、评级和分发工具”，软件供应链将成为群体智能的关键基础设施。",
+        "keyPoints": [
+          "Agents 可能通过大规模试错筛选软件",
+          "可复用工具需要面向 Agent 的发布与发现目录",
+          "验证、信任和供应链安全会成为生态底座"
+        ],
+        "whyItMatters": "如果 Agent 开始替用户选择软件，工具市场的入口会从人工搜索转向机器评测；Builder 应提前考虑可观测性、权限和可组合接口。",
+        "tags": [
+          "Agent",
+          "开发者工具",
+          "生态"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/garrytan/status/2094225933108748653"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "displayDate": "8月31日 · 周一",
     "generatedAt": "2026-08-30T23:30:33.797963+00:00",
