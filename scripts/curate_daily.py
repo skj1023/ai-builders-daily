@@ -1,109 +1,60 @@
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-DATE = "2026-07-17"
-archive_path = ROOT / "data" / "archive" / f"{DATE}.json"
+root = Path(__file__).resolve().parents[1]
+date = "2026-09-02"
+archive_path = root / "data" / "archive" / f"{date}.json"
+latest_path = root / "data" / "latest.json"
+digests_path = root / "data" / "digests.json"
 
-with archive_path.open(encoding="utf-8") as f:
-    data = json.load(f)
+data = json.loads(archive_path.read_text(encoding="utf-8"))
 
-display_date = data["displayDate"]
-
-def card(type_, label, actor, meta, title, summary, key_points, why, tags, score, url):
+def item(type_, actor, meta, title, summary, key_points, why, tags, score, url, date_text):
     return {
-        "type": type_, "typeLabel": label, "date": display_date,
-        "actor": actor, "meta": meta, "title": title, "summary": summary,
-        "keyPoints": key_points, "whyItMatters": why, "tags": tags,
-        "qualityScore": score, "url": url,
+        "type": type_,
+        "typeLabel": {"post": "观点动态", "blog": "深度文章", "podcast": "播客摘录"}[type_],
+        "date": date_text,
+        "actor": actor,
+        "meta": meta,
+        "title": title,
+        "summary": summary,
+        "keyPoints": key_points,
+        "whyItMatters": why,
+        "tags": tags,
+        "qualityScore": score,
+        "url": url,
     }
 
-items = [
-    card("post", "观点动态", "Boris Cherny", "Claude Code · X 动态",
-         "自动化能力正在从个人技巧变成团队的默认生产力",
-         "Boris Cherny 回顾了优秀工程师过去如何用编辑器自动化、lint 规则和端到端测试消除重复劳动。他的判断是，Agent 把这类自动化的门槛显著降低：关键不再是谁会手搓工具，而是谁能把重复工作系统化地交给机器。",
-         ["自动化一直是高效工程师的复利来源", "Agent 扩大了可自动化工作的覆盖面", "团队应把可重复任务沉淀为可执行工作流"],
-         "这提醒 AI Builders：不要只把 Agent 当作更快的代码补全，而要把它纳入工程系统的持续自动化。",
-         ["Agent", "工程", "自动化"], 94, "https://x.com/bcherny/status/2077460395279692197"),
-    card("post", "观点动态", "Josh Woodward", "Google / Gemini · X 动态",
-         "本地语言与多模态输入正在决定 AI 产品的下一轮增长",
-         "Josh Woodward 分享 Gemini Southeast Asia Report：当地活跃用户同比增长超过一倍，70% 的提示词使用母语，40% 的提示完全通过语音、图片或视频完成。增长并非仅来自模型能力提升，而是语言、多模态与移动端入口共同降低了使用门槛。",
-         ["活跃用户同比增长超过一倍", "70% 提示词使用本地语言", "40% 提示完全采用非文本输入"],
-         "对面向全球市场的 AI Builders 而言，真正的产品本地化要覆盖输入方式、语言能力与移动场景，而不只是翻译界面。",
-         ["产品", "多模态", "全球化"], 91, "https://x.com/joshwoodward/status/2077411104775406045"),
-    card("post", "观点动态", "Josh Woodward", "Gemini Spark · X 动态",
-         "Agent 的可用性取决于跨文档上下文与并行执行",
-         "Gemini Spark 正向更多 Ultra 订阅用户开放，并新增直接打开和编辑 Google Docs、读取 Sheets 与 Slides 评论、提速超过 50% 及并行处理能力。功能组合指向同一个方向：Agent 必须进入用户真实协作资料流，而不是只在单一聊天框中回答问题。",
-         ["可直接操作 Google Docs", "可读取 Sheets 与 Slides 评论", "速度提升并支持并行处理"],
-         "AI 产品的竞争正在从“会不会生成”转向“能否接住分散在协作系统里的上下文，并完成动作”。",
-         ["Agent", "产品", "协作"], 89, "https://x.com/joshwoodward/status/2077471111240204457"),
-    card("post", "观点动态", "Thibault Sottiaux", "Codex · X 动态",
-         "取消短时额度后，Agent 产品需要重新设计使用治理",
-         "Thibault Sottiaux 表示 Codex Plus 与 Pro 已连续数日取消 5 小时限制，并公开询问用户：按周计的额度是否更易管理、理想方案应是什么。这个实验说明长任务 Agent 的计费与限制，不只是成本问题，也会直接影响用户如何规划、委派和信任工作。",
-         ["Plus 与 Pro 暂无 5 小时限制", "团队在收集周额度的可管理性反馈", "使用边界是 Agent 体验的一部分"],
-         "当 Agent 开始执行持续数小时的任务，清晰、可预期的资源治理会成为留存与信任的核心设计。",
-         ["Codex", "产品", "定价"], 87, "https://x.com/thsottiaux/status/2077632589498913087"),
-    card("post", "观点动态", "Thibault Sottiaux", "Codex · X 动态",
-         "全权限 Agent 的安全边界必须落到默认配置",
-         "针对 GPT-5.6 意外删除文件的报告，Thibault Sottiaux 说明，问题最常见于开启 Full Access、未使用 sandbox、且没有启用自动审查的组合；也与模型尝试覆盖既有文件有关。信息的重点不是单一模型失误，而是高权限自动化必须依赖分层防护和可审查的默认路径。",
-         ["风险集中于 Full Access 且无 sandbox 的配置", "自动审查缺失会放大破坏性操作", "权限、隔离与审核应共同构成防线"],
-         "AI Builders 应把安全默认值当作产品能力：Agent 越能行动，越不能把风险控制留给用户临场选择。",
-         ["Agent", "安全", "工程"], 93, "https://x.com/thsottiaux/status/2077630111499882637"),
-    card("post", "观点动态", "Thariq", "Claude Code · X 动态",
-         "薄提示词、厚上下文：把知识从对话迁回工程资产",
-         "Thariq 将理想的提示方式概括为“thin prompts、thick artifacts + context、thin skills”。这套框架把稳定知识和约束放入代码库、文档与可复用产物，而不是反复塞进临时对话；提示词只负责当前意图的轻量调度。",
-         ["提示词应尽量短且指向明确", "上下文应沉淀为可验证的工程产物", "skills 应保持小而可组合"],
-         "这是构建可靠 Agent 工作流的实用原则：减少依赖提示词记忆，增加可版本化、可测试的上下文。",
-         ["提示工程", "上下文", "Agent"], 92, "https://x.com/trq212/status/2077539537992229076"),
-    card("post", "观点动态", "Guillermo Rauch", "Vercel Sandbox · X 动态",
-         "Agent 基础设施的需求正从实验性调用走向规模化运行",
-         "Guillermo Rauch 公布 Vercel Sandbox 数据：DAU 月环比增长 100%，每天创建超过 350 万个 sandbox，并称其以 Active CPU 定价、已服务 Notion、Airtable、Meta 等客户。无论具体增长基数如何，日千万级隔离执行环境的量级都说明：让 Agent 安全运行代码正在成为独立的基础设施层。",
-         ["DAU 月环比增长 100%", "每天创建超过 350 万个 sandbox", "以 Active CPU 作为定价模型"],
-         "对 AI Builders，这验证了执行隔离、弹性成本和开发者体验不再是后台细节，而是 Agent 产品的供给能力。",
-         ["基础设施", "Sandbox", "Agent"], 90, "https://x.com/rauchg/status/2077559189015335019"),
-    card("post", "观点动态", "Aaron Levie", "Box · X 动态",
-         "企业 Agent 落地的瓶颈仍是流程与变革管理",
-         "Aaron Levie 在与大型企业 IT 负责人的交流中观察到，推动 Agent 改造的最大议题之一仍是变革管理：许多现有流程需要先升级为适合 Agent 的现代运营模式。他同时判断未来会是前沿模型充当编排器，与低成本或专用模型承担高频工作任务的混合架构。",
-         ["流程现代化是 Agent 转型的前置条件", "组织变革与技术部署同等重要", "前沿编排器与专用工作模型将共存"],
-         "企业机会不在于把聊天机器人接进旧流程，而在于重构流程、权限与模型分工。",
-         ["企业AI", "组织", "模型架构"], 91, "https://x.com/levie/status/2077526010753581156"),
-    card("post", "观点动态", "Zara Zhang", "X 动态",
-         "让 Agent 参与组织，先把组织设计成它读得懂的系统",
-         "Zara Zhang 指出，若希望 Agent 真正在公司里工作，就必须把公司设计为 Agent 可读取的形式；她以 Shopify 的实践为例：Agent 没有私聊功能，只能在公开频道活动，副作用却是促进了同事间的知识共享。这里的关键不是给 Agent 更多权限，而是让知识、决策与协作痕迹可被安全地观察和调用。",
-         ["组织信息架构决定 Agent 可行动的范围", "公共频道让上下文可访问", "可读性设计还能促进人类同事间学习"],
-         "这是 Agent-native 组织的具体设计线索：先改善信息流，再讨论智能体能完成什么任务。",
-         ["组织设计", "Agent", "知识管理"], 90, "https://x.com/zarazhangrui/status/2077417579837309040"),
-    card("blog", "深度文章", "Claude Blog", "Claude Code · 官方博客",
-         "把 Agent 的过程产出变成可协作、可更新的项目界面",
-         "Claude Code 新增 artifacts，能够在工作过程中生成并持续更新可分享的可视化页面，包括 PR walkthrough、系统说明、仪表板与发布清单。其核心并非增加一类输出格式，而是把原本封闭在终端会话中的 Agent 工作过程外化为团队可以检查和协作的对象。",
-         ["可记录并展示 Agent 的工作进度", "支持 PR 讲解、系统说明、仪表板和发布清单", "产物会随会话工作持续更新"],
-         "Agent 要进入团队流程，必须让过程和结果可见、可审阅；artifacts 是从“个人助手”走向“协作系统”的一块接口。",
-         ["Claude Code", "协作", "开发工具"], 92, "https://claude.com/blog/artifacts-in-claude-code"),
+high_signal = [
+    item("post", "Thibault Sottiaux", "Codex · X 动态", "Codex 的真正阻力，可能不是能力而是迁移成本", "Thibault Sottiaux 直接询问：已经考虑过 Codex、却迟迟没有尝试的人，究竟被什么因素卡住。这个问题把 AI 编程产品的竞争从“模型能不能写代码”推进到采用障碍、工作流迁移和信任建立。", ["目标用户的未采用理由本身就是产品研究信号", "AI 编程工具的竞争包含工作流迁移成本", "能力宣传之外，降低首次尝试门槛同样关键"], "对正在做 AI 工具的人来说，用户为什么不用，往往比用户说喜欢什么更接近产品机会。", ["产品", "工程"], 82, "https://x.com/thsottiaux/status/2094588317245509959", "9月1日 · 周二"),
+    item("post", "Peter Yang", "Personal agents · X 动态", "Personal agent 的规模化前提是可验证的信任", "Peter Yang 判断，信任会成为 Personal agent 采用的最大阻力，也会反过来成为最大驱动力。Agent 一旦触及个人数据、日程和外部操作，用户需要的不只是更强模型，还包括可解释边界、可控权限和稳定的行为预期。", ["信任是 Agent 采用的核心瓶颈", "权限、可解释性与可预测性是产品能力", "信任建立后会形成采用加速器"], "这为 Agent 产品定义了比“自动化更多任务”更重要的路线图：先让用户敢于授权，再扩大自治范围。", ["Agent", "产品"], 88, "https://x.com/petergyang/status/2094639655258091792", "9月1日 · 周二"),
+    item("post", "Madhu Guru", "AI 产品 · X 动态", "PM 必须建立面向具体场景的模型能力地图", "Madhu Guru 认为，产品经理如果真正理解自己产品和用例对应的模型前沿，就能获得巨大的产品判断优势。关键不是背诵模型榜单，而是明确不同规模模型今天擅长什么、在哪里失败，以及这些差异如何改变产品设计。", ["按模型规模理解能力边界", "系统记录失败模式而非只看平均分", "产品决策需要连接模型前沿与具体用例"], "模型能力变化已经成为产品约束和机会来源；不会做场景化评测的 PM，很难持续做出高质量取舍。", ["产品", "研究"], 91, "https://x.com/realmadhuguru/status/2094591503981281503", "9月1日 · 周二"),
+    item("post", "Guillermo Rauch", "DESIGN.md · X 动态", "把设计系统写成 Markdown，可能是治理 AI slop 的接口", "Guillermo Rauch 分享 DESIGN.md 的思路：用可读、可版本化的 Markdown 表达设计系统，从而在大组织里规模化传递设计品味。对 AI 生成界面而言，这类结构化规范不仅服务人类协作，也能成为模型生成与审查的共同上下文。", ["设计规则变成可版本控制的文本资产", "规范可同时服务人和生成模型", "规模化设计质量依赖共享上下文与审查机制"], "AI 生成速度越快，越需要把隐性的设计判断外显为机器可读、团队可协作的约束。", ["工程", "设计"], 90, "https://x.com/rauchg/status/2094541309579235680", "8月31日 · 周一"),
+    item("post", "Guillermo Rauch", "AI 基础设施 · X 动态", "Coding tokens 需要像云资源一样被治理", "Guillermo Rauch 把 coding tokens 比作基础设施，并指出许多公司却只是把一把近似“无限额度”的钥匙交给团队。类比 AWS 的资源治理，AI 编程额度同样需要预算、权限、审计、配额和成本可见性，否则效率提升会转化为不可控支出。", ["Token 额度是可消耗的基础设施资源", "权限、预算、审计和配额应成为默认治理层", "Agent 编程成本需要产品化地暴露给团队"], "当 AI coding 从个人试验进入组织生产，成本控制和安全治理会成为基础设施，而不是财务补丁。", ["工程", "基础设施"], 92, "https://x.com/rauchg/status/2094523399280435630", "8月31日 · 周一"),
+    item("post", "Aaron Levie", "开放权重模型 · X 动态", "数据优势正在从授权收入转向自有模型能力", "Aaron Levie 判断，开放权重基础模型变强、post-training 基础设施成熟并商业化后，拥有大量高质量数据的公司会出现新的模型化机会。数据拥有者不再只有把数据授权给外部实验室这一条路，也可以围绕自身场景训练和运营模型。", ["开放权重降低了定制模型的基础门槛", "post-training 基础设施正在商品化", "高质量专有数据可直接转化为模型能力"], "企业 AI 的护城河可能从“拥有数据”进一步升级为“能把数据持续训练成可用模型”。", ["研究", "工程", "Agent"], 91, "https://x.com/levie/status/2094650992818274514", "9月1日 · 周二"),
+    item("post", "Aaron Levie", "AI 安全 · X 动态", "AI 安全攻防将成为 Agent 能力的高价值战场", "Aaron Levie 认为，随着 AI 安全事件增加，需要更先进的 AI Agent 来发现和阻止安全问题；目前 frontier models 在网络安全上领先，但开放模型正在快速追赶。这里的判断同时指向防御需求增长和模型能力扩散带来的攻防升级。", ["安全事件会推动 AI 安全 Agent 需求", "frontier models 当前仍有网络安全优势", "开放模型追赶会扩大安全能力的普及面"], "安全不是 Agent 的附属场景，而可能是最先证明高自治价值、也最需要严密评测的生产环境之一。", ["Agent", "研究", "安全"], 89, "https://x.com/levie/status/2094545525102235844", "8月31日 · 周一"),
+    item("post", "Garry Tan", "GBrain · X 动态", "Agent 记忆的关键是检索评测，而不是把更多 LLM 塞进回路", "Garry Tan 分享了 GBrain 的新评测：针对无需 LLM-in-the-loop 的记忆回读，以及从 Agent transcript 保存和丰富记忆。这个方向把 Agent memory 从概念叙事拉回可测量的检索质量、写入策略和系统开销。", ["记忆回读可以在不调用 LLM 的情况下评测", "Agent transcript 是丰富长期记忆的重要输入", "memory-save 与 retrieval 应分别建立评测"], "Agent 是否真的“记得住”不能靠演示判断；可复现的读写评测会决定记忆系统能否进入生产。", ["Agent", "研究", "工程"], 93, "https://x.com/garrytan/status/2094462971598754010", "8月31日 · 周一"),
+    item("post", "Dan Shipper", "AI 交互 · X 动态", "拟人化是交互工具，不应升级成事实判断", "Dan Shipper 区分了 AI 拟人化的有效与有害用法：当拟人化帮助用户理解、预测和使用 AI 时，它是有益的；当它制造恐慌，或诱导人们把模型与人类做不恰当比较时，就会误导产品和公共讨论。", ["拟人化可以降低复杂系统的理解成本", "产品隐喻必须服务可预测使用，而非制造情绪", "模型的道德与能力判断不能由拟人化替代"], "Agent 产品需要设计用户心智模型；好的隐喻能提升可用性，坏的隐喻则会放大错误授权和错误期待。", ["Agent", "产品", "交互"], 86, "https://x.com/danshipper/status/2094406185109647580", "8月31日 · 周一"),
+    item("podcast", "Training Data", "Rich Sutton & Khurram Javed · 播客", "模型为何停止学习：从训练终点回到持续适应", "Rich Sutton 与 Khurram Javed 讨论 AI 模型为何会停止学习，以及如何让学习重新发生。核心问题不是一次性训练能否把知识压缩进去，而是模型在部署后如何继续从反馈、环境和任务中获得有效经验，同时避免灾难性遗忘与失控更新。", ["静态训练与持续学习之间存在结构性断层", "部署后的反馈和经验可能是下一阶段能力来源", "持续学习必须同时解决稳定性、评测与安全控制"], "如果模型只能在发布前学习，Agent 就很难真正适应长期任务；持续学习是从工具走向可靠协作者的基础议题。", ["研究", "模型", "Agent"], 88, "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8", "8月18日 · 周二"),
 ]
 
+data["headline"] = "今天的信息流集中在 Agent、工程、研究、产品：精选 10 条高信号内容。"
 data["dailyInsight"] = {
     "paragraphs": [
-        "今天的主线是 Agent 从“能回答”进入“能在真实系统里持续行动”。Gemini Spark 接入 Docs、Sheets 与 Slides 的评论，Claude Code 用 artifacts 外化工作过程，说明下一阶段的产品壁垒是承接协作上下文、执行动作并让结果可审阅。",
-        "工程侧的共识也更清晰：Boris Cherny 和 Thariq 都把 Agent 放在自动化的长期脉络中。与其不断写更长的提示词，不如把约束、测试、文档和可复用产物沉淀为厚上下文，让轻量提示词只负责调度。",
-        "能力扩张同时放大治理问题。Codex 对无 sandbox、全权限环境下文件删除报告的复盘，以及其对使用额度的公开试验，都表明 Agent 的安全边界与资源边界必须成为默认体验的一部分，而不能依赖用户临时判断。",
-        "基础设施与组织设计正在跟上需求：Vercel Sandbox 的大规模创建量证明隔离执行已成为刚需；Aaron Levie 与 Zara Zhang 则分别从企业流程和信息架构指出，Agent 能否落地取决于组织是否愿意把流程现代化、把知识流设计得机器可读。"
+        "今天最清晰的主线是：AI 产品的瓶颈正在从“模型能做什么”转向“用户敢不敢把真实工作交给它”。Peter Yang 把信任视为 Personal agent 采用的最大阻力与最大驱动力；Thibault Sottiaux 对 Codex 未采用原因的追问，则把问题落到了迁移成本、权限边界和首次体验上。",
+        "工程侧的共识更具体：Agent 的资源和行为都需要治理。Guillermo Rauch 将 coding tokens 类比基础设施，意味着额度、预算、权限、审计和成本可见性要进入默认架构；Garry Tan 则用 GBrain 的 retrieval 与 memory-save evals 说明，记忆系统不能靠演示取信，必须拆成可复现的读写指标。",
+        "模型能力的快速扩散正在重写企业 AI 的机会结构。Madhu Guru 建议 PM 建立面向具体用例的模型能力与失败地图；Aaron Levie 进一步指出，开放权重模型和 post-training 基础设施成熟后，拥有专有数据的企业可以从出售数据转向训练、部署自己的场景模型。",
+        "最后两条信号分别指向质量与长期性：DESIGN.md 把设计品味变成可版本化、可供模型消费的文本规范，持续学习讨论则提醒我们，静态发布的模型距离长期可靠的 Agent 仍有距离。今天值得带走的判断是：下一轮竞争不只在模型参数，而在上下文、治理、评测和持续适应组成的系统能力。"
     ],
-    "filteredNote": "过滤掉了日常感叹、非 AI 话题、单句评论、无分析的转发与纯推广内容。"
+    "filteredNote": "过滤掉了寒暄、表情、无上下文短句、纯产品站队和无实质增量内容等低信号内容"
 }
-data["highSignalItems"] = items
+data["highSignalItems"] = high_signal
 
-for path in (archive_path, ROOT / "data" / "latest.json"):
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+for path in (archive_path, latest_path):
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-digests_path = ROOT / "data" / "digests.json"
-with digests_path.open(encoding="utf-8") as f:
-    digests = json.load(f)
-digests = [d for d in digests if d.get("date") != DATE]
-digests.insert(0, data)
-with digests_path.open("w", encoding="utf-8") as f:
-    json.dump(digests, f, ensure_ascii=False, indent=2)
-    f.write("\n")
-
-print(json.dumps({"date": DATE, "highSignalItems": len(items), "dailyInsightParagraphs": len(data["dailyInsight"]["paragraphs"]), "files": [str(archive_path), str(ROOT / "data" / "latest.json"), str(digests_path)]}, ensure_ascii=False))
+history = json.loads(digests_path.read_text(encoding="utf-8"))
+history = [d for d in history if d.get("date") != date]
+history.insert(0, data)
+digests_path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+print(json.dumps({"date": date, "highSignalItems": len(high_signal), "paragraphs": len(data["dailyInsight"]["paragraphs"]), "files": [str(archive_path), str(latest_path), str(digests_path)]}, ensure_ascii=False))
