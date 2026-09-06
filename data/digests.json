@@ -1,5 +1,462 @@
 [
   {
+    "date": "2026-09-07",
+    "displayDate": "9月7日 · 周一",
+    "generatedAt": "2026-09-06T23:30:34.532015+00:00",
+    "sourceGeneratedAt": {
+      "x": "2026-09-06T22:54:40.471Z",
+      "blogs": "2026-09-06T22:50:10.488Z",
+      "podcasts": "2026-09-06T22:50:07.638Z"
+    },
+    "source": "follow-builders public central feed",
+    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
+    "headline": "今天的信息流集中在 观察、组织、产品、Agent、工程：4 位 AI Builders、4 篇深度文章、1 期播客摘录。",
+    "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+    "stats": {
+      "builders": 4,
+      "tweets": 6,
+      "blogs": 4,
+      "podcasts": 1,
+      "topTags": [
+        {
+          "name": "观察",
+          "count": 3
+        },
+        {
+          "name": "组织",
+          "count": 2
+        },
+        {
+          "name": "产品",
+          "count": 1
+        },
+        {
+          "name": "Agent",
+          "count": 1
+        },
+        {
+          "name": "工程",
+          "count": 1
+        }
+      ]
+    },
+    "toplines": [
+      {
+        "title": "来自 Thibault Sottiaux 的观点",
+        "source": "Thibault Sottiaux · X 动态",
+        "url": "https://x.com/thsottiaux/status/2096688770523467947",
+        "sourceDate": "2026-09-06",
+        "sourceDisplayDate": "9月6日 · 周日",
+        "summary": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high…",
+        "chineseTitle": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high…",
+        "tags": [
+          "观察"
+        ],
+        "score": 13641
+      },
+      {
+        "title": "来自 Peter Steinberger 的观点",
+        "source": "Peter Steinberger · X 动态",
+        "url": "https://x.com/steipete/status/2096403459579015374",
+        "sourceDate": "2026-09-06",
+        "sourceDisplayDate": "9月6日 · 周日",
+        "summary": "Can’t remember last time we had such a large jump in capabilities.",
+        "chineseTitle": "Can’t remember last time we had such a large jump in capabilities.",
+        "tags": [
+          "观察"
+        ],
+        "score": 1999
+      },
+      {
+        "title": "来自 Peter Steinberger 的观点",
+        "source": "Peter Steinberger · X 动态",
+        "url": "https://x.com/steipete/status/2096400749869830325",
+        "sourceDate": "2026-09-06",
+        "sourceDisplayDate": "9月6日 · 周日",
+        "summary": "One step closer in building the harness I wanna use…",
+        "chineseTitle": "One step closer in building the harness I wanna use…",
+        "tags": [
+          "工程"
+        ],
+        "score": 914
+      },
+      {
+        "title": "来自 Nan Yu 的观点",
+        "source": "Nan Yu · X 动态",
+        "url": "https://x.com/thenanyu/status/2096438571838370096",
+        "sourceDate": "2026-09-06",
+        "sourceDisplayDate": "9月6日 · 周日",
+        "summary": "Every tech startup logo",
+        "chineseTitle": "Every tech startup logo",
+        "tags": [
+          "组织"
+        ],
+        "score": 107
+      },
+      {
+        "title": "来自 Peter Yang 的观点",
+        "source": "Peter Yang · X 动态",
+        "url": "https://x.com/petergyang/status/2096466888935276719",
+        "sourceDate": "2026-09-06",
+        "sourceDisplayDate": "9月6日 · 周日",
+        "summary": "I’ve been sleeping on Widow’s Bay and in general Apple’s shows are so much better any other streamer",
+        "chineseTitle": "I’ve been sleeping on Widow’s Bay and in general Apple’s shows are so much better any other streamer",
+        "tags": [
+          "观察"
+        ],
+        "score": 84
+      }
+    ],
+    "builders": [
+      {
+        "name": "Thibault Sottiaux",
+        "handle": "thsottiaux",
+        "bio": "Codex & ChatGPT @OpenAI",
+        "summary": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high…",
+        "tags": [
+          "观察"
+        ],
+        "tweets": [
+          {
+            "id": "2096688770523467947",
+            "url": "https://x.com/thsottiaux/status/2096688770523467947",
+            "createdAt": "2026-09-06T19:55:32.000Z",
+            "sourceDate": "2026-09-06",
+            "sourceDisplayDate": "9月6日 · 周日",
+            "text": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high. If you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
+            "summary": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high…",
+            "engagement": 13641,
+            "tags": [
+              "观察"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at",
+        "summary": "I’ve been sleeping on Widow’s Bay and in general Apple’s shows are so much better any other streamer “Cheating and explaining the answer [to your child] are closer than you’d think.” Here’s my new episode with @suekhim,…",
+        "tags": [
+          "产品",
+          "Agent",
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2096466888935276719",
+            "url": "https://x.com/petergyang/status/2096466888935276719",
+            "createdAt": "2026-09-06T05:13:51.000Z",
+            "sourceDate": "2026-09-06",
+            "sourceDisplayDate": "9月6日 · 周日",
+            "text": "I’ve been sleeping on Widow’s Bay and in general Apple’s shows are so much better any other streamer",
+            "summary": "I’ve been sleeping on Widow’s Bay and in general Apple’s shows are so much better any other streamer",
+            "engagement": 84,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2096612718098911590",
+            "url": "https://x.com/petergyang/status/2096612718098911590",
+            "createdAt": "2026-09-06T14:53:19.000Z",
+            "sourceDate": "2026-09-06",
+            "sourceDisplayDate": "9月6日 · 周日",
+            "text": "“Cheating and explaining the answer [to your child] are closer than you’d think.” Here’s my new episode with @suekhim, co-founder of @brilliantorg, who showed me how AI can help kids think for themselves. We talked about: → Why better grades don’t always mean more learning → How to help kids enjoy doing hard things…",
+            "summary": "“Cheating and explaining the answer [to your child] are closer than you’d think.” Here’s my new episode with @suekhim, co-founder of @brilliantorg, who showed me how AI can help ki…",
+            "engagement": 68,
+            "tags": [
+              "产品",
+              "Agent",
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+        "summary": "Every tech startup logo",
+        "tags": [
+          "组织"
+        ],
+        "tweets": [
+          {
+            "id": "2096438571838370096",
+            "url": "https://x.com/thenanyu/status/2096438571838370096",
+            "createdAt": "2026-09-06T03:21:20.000Z",
+            "sourceDate": "2026-09-06",
+            "sourceDisplayDate": "9月6日 · 周日",
+            "text": "Every tech startup logo",
+            "summary": "Every tech startup logo",
+            "engagement": 107,
+            "tags": [
+              "组织"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.…",
+        "summary": "Can’t remember last time we had such a large jump in capabilities…",
+        "tags": [
+          "工程"
+        ],
+        "tweets": [
+          {
+            "id": "2096403459579015374",
+            "url": "https://x.com/steipete/status/2096403459579015374",
+            "createdAt": "2026-09-06T01:01:48.000Z",
+            "sourceDate": "2026-09-06",
+            "sourceDisplayDate": "9月6日 · 周日",
+            "text": "Can’t remember last time we had such a large jump in capabilities.",
+            "summary": "Can’t remember last time we had such a large jump in capabilities.",
+            "engagement": 1999,
+            "tags": [
+              "观察"
+            ]
+          },
+          {
+            "id": "2096400749869830325",
+            "url": "https://x.com/steipete/status/2096400749869830325",
+            "createdAt": "2026-09-06T00:51:02.000Z",
+            "sourceDate": "2026-09-06",
+            "sourceDisplayDate": "9月6日 · 周日",
+            "text": "One step closer in building the harness I wanna use. The one thing that’s not yet there are cloud sessions, goal is seconds, which requires clever snapshotting. (Right now it still clones repos fresh which isn’t fast enough.) Will have that next week.",
+            "summary": "One step closer in building the harness I wanna use…",
+            "engagement": 914,
+            "tags": [
+              "工程"
+            ]
+          }
+        ]
+      }
+    ],
+    "blogs": [
+      {
+        "name": "Anthropic Engineering",
+        "title": "How we contain Claude across products",
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-09-07",
+        "sourceDisplayDate": "9月7日 · 周一",
+        "summary": "Twelve months ago, we'd have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service…",
+        "chineseTitle": "How we contain Claude across products",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "An update on recent Claude Code quality reports",
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-09-07",
+        "sourceDisplayDate": "9月7日 · 周一",
+        "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users…",
+        "chineseTitle": "An update on recent Claude Code quality reports",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Anthropic Engineering",
+        "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "url": "https://www.anthropic.com/engineering/managed-agents",
+        "author": "",
+        "publishedAt": null,
+        "sourceDate": "2026-09-07",
+        "sourceDisplayDate": "9月7日 · 周一",
+        "summary": "Get started with Claude Managed Agents by following our docs…",
+        "chineseTitle": "Scaling Managed Agents: Decoupling the brain from the hands",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      },
+      {
+        "name": "Claude Blog",
+        "title": "Claude Code now supports artifacts",
+        "url": "https://claude.com/blog/artifacts-in-claude-code",
+        "author": "",
+        "publishedAt": "Jun 18, 2026",
+        "sourceDate": "Jun 18, 20",
+        "sourceDisplayDate": "Jun 18, 20",
+        "summary": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code's work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works…",
+        "chineseTitle": "Claude Code now supports artifacts",
+        "tags": [
+          "产品",
+          "Agent",
+          "工程"
+        ]
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "The MAD Podcast with Matt Turck",
+        "title": "AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt",
+        "url": "https://www.youtube.com/watch?v=SK9ITBK5osA",
+        "publishedAt": "2026-08-27T14:22:21.000Z",
+        "sourceDate": "2026-08-27",
+        "sourceDisplayDate": "8月27日 · 周四",
+        "summary": "Speaker 1 | 00:00 - 00:21 I think that the AI company CEOs understand that they're on the path of building wildly smarter than human systems, like super intelligent AI systems…",
+        "chineseTitle": "AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt",
+        "tags": [
+          "工程",
+          "组织",
+          "研究"
+        ]
+      }
+    ],
+    "dailyInsight": {
+      "paragraphs": [
+        "GPT-6 Astra 全量开放后的第二天，讨论已经从'能不能用'转向'怎么用才对'。OpenAI Codex 团队的 Thibault Sottiaux 直接给出校准指南：Astra 在 low 思考档的表现就超过 GPT-5.6 Sol 在 high 档，过去习惯把 reasoning effort 拉满的 Sol 用户，建议在 Astra 上降到 low 或 medium。Peter Steinberger 也形容这是多年未见的单次能力跃升——两相印证，模型代际切换的第一课是重新审视推理档位与成本曲线，而不是默认沿用上一代的调用策略。",
+        "真正在做 Agent 基础设施的人，正在被具体工程约束打磨。Steinberger 自建 harness 的最新进展暴露了一个少被讨论的瓶颈：云会话要'秒级启动'，而当前每次从零 clone 仓库根本不够快，答案指向聪明的快照机制。这条信息的迁移价值在于一个可复用的判断——会话冷启动与仓库状态恢复是 Agent 平台的隐藏成本，谁能把'恢复上下文'做到秒级，谁就握住了下一代开发体验的入口。",
+        "今天最重的一批信号来自 Anthropic 工程博客的三连发，恰好对应 Agent 规模化的三个侧面：'How we contain Claude across products' 复盘了一年间的权限思路转变——曾几何时团队会直接否决'让 Claude 拥有足以搞垮内部服务'的授权方案，如今则靠跨产品 containment 机制在可控范围内放权；'Scaling Managed Agents' 提出把大脑（规划）与手（执行）解耦的架构主张；此外 Anthropic 还就近期 Claude Code 的质量回退报告公开回应。合起来看，一线模型厂商正把权限边界、可信执行与质量透明当作和模型能力同级的一等工程问题，并愿意把教训写成公开文章。",
+        "时间线叙事也在主流化。MAD Podcast 请到 Ryan Greenblatt 讨论'AI 是否会在 2029 年接管、现在介入是否已晚'，开篇即点出：前沿 AI 公司的 CEO 清楚自己正走在构建远超人类智能系统的路上。这层讨论对 builder 的价值不在预测本身，而在于提醒：能力曲线的斜率正把安全、治理与对齐从边缘议题推成真实的产品约束与公共话语。"
+      ],
+      "filteredNote": "过滤掉了 Peter Yang 的流媒体闲聊与 Brilliant 亲子教育播客宣传、Nan Yu 的 'Every tech startup logo' 梗图、以及 Claude Blog 一篇 6 月旧文（Claude Code artifacts，属重复信息）等低信号内容；Peter Steinberger 对能力跃升的一句感慨并入今日洞察，不作独立条目。"
+    },
+    "highSignalItems": [
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月6日 · 周日",
+        "actor": "Thibault Sottiaux",
+        "meta": "Codex & ChatGPT @OpenAI · X 动态",
+        "title": "换用 Astra 后，推理档位该降级了",
+        "summary": "GPT-6 Astra 开放后，OpenAI 的 Thibault Sottiaux 给出官方档位校准：Astra 在 low 思考档的表现就优于 GPT-5.6 Sol 在 high 档，过去用 Sol 高推理档且满意的用户，建议在 Astra 上改回 low 或 medium。推理成本曲线正随代际整体下移，'更高档位=更好结果'的默认假设开始失效。",
+        "keyPoints": [
+          "Astra low 档已超过 Sol high 档，代际差距覆盖思考档位差异",
+          "官方建议从 Sol high 迁到 Astra low/medium，省延迟省成本",
+          "模型调用策略要随代际重新校准，不能沿用旧习惯"
+        ],
+        "whyItMatters": "对用 API 做产品的 builder，这是官方给出的调优起点：用更低推理预算就能拿到同等甚至更好的结果，成本结构要按新代际重算。",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 93,
+        "url": "https://x.com/thsottiaux/status/2096688770523467947"
+      },
+      {
+        "type": "post",
+        "typeLabel": "观点动态",
+        "date": "9月6日 · 周日",
+        "actor": "Peter Steinberger",
+        "meta": "独立 Agent 基建实践者 · X 动态",
+        "title": "云会话要秒级启动：快照才是 Agent 平台的胜负手",
+        "summary": "Peter Steinberger 分享自建 agent harness 的进展：距离理想形态只差云会话，目标是把启动压到秒级，而这需要聪明的快照机制——目前每次从零 clone 仓库远不够快，预计下周落地。一句话点破 agent 开发环境的关键瓶颈：恢复工作状态的速度，决定 agent 是否真的随时可用。",
+        "keyPoints": [
+          "云会话启动目标是秒级，当前被全新 clone 仓库拖慢",
+          "解法指向状态快照而非每次重建环境",
+          "恢复上下文的速度是 agent 平台的核心体验指标"
+        ],
+        "whyItMatters": "给做 agent 平台与云开发环境的人一个具体 benchmark：会话冷启动与状态恢复，正成为产品差异化的隐藏战场。",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 84,
+        "url": "https://x.com/steipete/status/2096400749869830325"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "9月7日 · 周一",
+        "actor": "Anthropic Engineering",
+        "meta": "Anthropic · 工程博客",
+        "title": "先给权限，再谈围栏：Anthropic 跨产品 containment 的一年转变",
+        "summary": "Anthropic 工程团队复盘：一年前他们还会直接否决'给 Claude 足以搞垮内部服务'的授权方案，如今却把这类高风险权限纳入跨产品 containment 体系。文章展示的是一条关键路径转变——当 Agent 拥有真实系统权限时，问题从'要不要给'变成'如何安全地给'，边界与护栏成为规模化放权的先决条件。",
+        "keyPoints": [
+          "权限策略从'直接否决'转向'给权限 + 工程化围栏'",
+          "containment 需要跨产品统一设计，而非单点防护",
+          "内部服务级风险被纳入常规授权工程"
+        ],
+        "whyItMatters": "模型正在获得更多真实系统权限，'如何安全放权'将成为所有 Agent 产品必须回答的问题；这篇是头部厂商的一线实践样本。",
+        "tags": [
+          "Agent",
+          "工程"
+        ],
+        "qualityScore": 90,
+        "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "9月7日 · 周一",
+        "actor": "Anthropic Engineering",
+        "meta": "Anthropic · Claude Managed Agents",
+        "title": "大脑与手解耦：规模化管理 Agent 的架构主张",
+        "summary": "Anthropic 发文介绍 Claude Managed Agents，核心主张是把'大脑'与'手'解耦：规划与判断由模型层负责，执行交给可独立扩展、可管理的运行时。当 Agent 数量与复杂度上升，控制成本不再随规模爆炸——这套架构坐标值得每个自建 agent 系统的团队对照。",
+        "keyPoints": [
+          "规划（大脑）与执行（手）分层解耦",
+          "执行层独立扩展，管理开销不随 agent 数量线性增长",
+          "规模化可管理性成为 managed agent 的核心卖点"
+        ],
+        "whyItMatters": "Agent 从单条任务走向批量运行时，'可管理性'会取代'单次成功率'成为首要架构约束。",
+        "tags": [
+          "Agent",
+          "产品"
+        ],
+        "qualityScore": 82,
+        "url": "https://www.anthropic.com/engineering/managed-agents"
+      },
+      {
+        "type": "blog",
+        "typeLabel": "深度文章",
+        "date": "9月7日 · 周一",
+        "actor": "Anthropic Engineering",
+        "meta": "Anthropic · Claude Code 质量复盘",
+        "title": "回应质量回退报告：Anthropic 公开调查进展",
+        "summary": "过去一个月，部分用户报告 Claude 的响应质量下滑，Anthropic 在工程博客公开回应调查进展。把回归当作工程问题正面复盘、并向社区同步进度，正在成为头部模型厂商的默认动作——对依赖 Claude Code 的团队，这也是对'厂商如何对待质量'的一次信号确认。",
+        "keyPoints": [
+          "承认存在质量回退报告并公开调查进展",
+          "公开复盘本身就是处理信任问题的方式",
+          "质量回归是 agent 产品放量后的常见工程问题"
+        ],
+        "whyItMatters": "依赖 Claude Code 的团队需要知道厂商如何对待回归；自建 agent 服务的团队也应提前设计质量监控与透明沟通机制。",
+        "tags": [
+          "产品",
+          "工程"
+        ],
+        "qualityScore": 78,
+        "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+      },
+      {
+        "type": "podcast",
+        "typeLabel": "播客摘录",
+        "date": "8月27日 · 周四",
+        "actor": "The MAD Podcast with Matt Turck",
+        "meta": "Matt Turck × Ryan Greenblatt · 播客",
+        "title": "2029 年 AI 接管？对齐研究者的时间线警告",
+        "summary": "在 MAD Podcast 中，对齐研究者 Ryan Greenblatt 讨论超智能时间线，开篇即指出：前沿 AI 公司的 CEO 清楚自己正走在构建远超人类智能系统的路上。节目围绕'2029 年这个时间点是否已太迟'展开，核心张力在于能力发展速度与治理准备之间的错位。",
+        "keyPoints": [
+          "前沿实验室 CEO 自认在构建超人类智能系统",
+          "'2029 接管'式时间线把安全治理窗口压得很短",
+          "对齐与时间线议题正进入主流 VC 播客话语"
+        ],
+        "whyItMatters": "无论是否认同其时间线，'安全与治理正在成为产品约束而非背景噪音'这一点，值得每个做前沿应用的 builder 提前消化。",
+        "tags": [
+          "研究",
+          "组织"
+        ],
+        "qualityScore": 80,
+        "url": "https://www.youtube.com/watch?v=SK9ITBK5osA"
+      }
+    ]
+  },
+  {
     "date": "2026-09-06",
     "displayDate": "9月6日 · 周日",
     "generatedAt": "2026-09-05T23:30:17.466748+00:00",
@@ -53103,596 +53560,5 @@
         "url": "https://www.youtube.com/watch?v=Oojrfdl42LI"
       }
     ]
-  },
-  {
-    "date": "2026-07-04",
-    "displayDate": "7月4日 · 周六",
-    "generatedAt": "2026-07-03T23:34:23.343479+00:00",
-    "sourceGeneratedAt": {
-      "x": "2026-07-03T07:25:51.136Z",
-      "blogs": "2026-07-03T07:26:31.440Z",
-      "podcasts": "2026-07-03T07:26:27.130Z"
-    },
-    "source": "follow-builders public central feed",
-    "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
-    "headline": "Claude Tag 组织级落地数据曝光、GPT-5.6 Sol Ultra 预热、Fable 生态进入实操期",
-    "editorNote": "今日信号密集：Anthropic 内部 Claude Tag 处理 65% 产品 PR，Cat Wu 公开了 rollout 剧本；NVIDIA 实验室为什么免费送模型终于在播客里说清楚了；Aaron Levie 对 Enterprise Agent 落地的判断值得每个 builder 认真读一遍。",
-    "stats": {
-      "builders": 18,
-      "tweets": 36,
-      "blogs": 0,
-      "podcasts": 1,
-      "topTags": [
-        {
-          "name": "产品",
-          "count": 9
-        },
-        {
-          "name": "工程",
-          "count": 8
-        },
-        {
-          "name": "Agent",
-          "count": 4
-        },
-        {
-          "name": "组织",
-          "count": 3
-        },
-        {
-          "name": "研究",
-          "count": 1
-        }
-      ]
-    },
-    "dailyInsight": {
-      "paragraphs": [
-        "今天是 Fable 从订阅计划中移除（7 月 7 日）前的最后一个周末，信息流被 Anthropic 和 Fable/Claude Tag 相关话题主导。Cat Wu 罕见公开了 Claude Tag 在 Anthropic 内部的具体落地数据：覆盖 eng/product/data/sales/marketing 全部门，内部版本处理 65% 的产品 PR。这可能是目前最实在的 AI coding tool 在全公司范围 scale 的案例研究——不是 POC，不是 pilot，是出货数据。",
-        "Thibault Sottiaux（OpenAI Codex/ChatGPT 团队）的一则短推 \"Can't wait to see what people will do with GPT-5.6 Sol Ultra\" 在技术社区引发热议。\"Sol Ultra\" 后缀暗示这可能是比目前 ChatGPT 所用模型更极致的推理版本，OpenAI 在 5.6 系列上还有一层天花板没打开。同一天 Peter Yang 发布了 Fable 实操指南——用便宜模型做 context prep、用 Fable 做规划但用其他模型执行——说明即使是最前沿的 agent 产品，实用工作流仍然需要分层解耦。",
-        "Vercel CEO Guillermo Rauch 把 AI Gateway 重新定义为 Token Delivery Network (Token CDN)，核心论点：当模型和 agent 层快速演变（如 Fable 突然退役），生产架构需要像 CDN 一样的动态路由和流量调度能力，而不是硬编码依赖。Box CEO Aaron Levie 则给出了 Enterprise Agent 的冷静判断：现有企业工作流不是为 Agent 设计的，部署 AI beyond chatbot 需要真实的业务流程对齐工程——不是 API call 能解决的。",
-        "Matt Turck 与 NVIDIA VP of AI Research Bryan Catanzaro 的播客对话完整呈现了 NVIDIA 开源模型策略的底层逻辑：作为芯片公司，免费送模型是为了拓展 CUDA 生态的护城河，而不是为了和 OpenAI/Anthropic 比模型性能。这个访谈也透露了打造前沿 AI lab 需要什么样的工程文化和资源配置——对于思考要不要建自己的 AI lab 的团队是个很好的参考。",
-        "Zara Zhang 分享了一个真实案例：刚毕业的大学生说他们在校时把 lecture deck 喂给 AI、让 AI 来教课，发现 AI 教得比教授更好。这表面上是教育 anecdote，实质是知识分发方式正在发生结构性变化——当 AI 可以替代讲授环节，大学的价值定位需要被重新审视。"
-      ],
-      "filteredNote": "过滤掉了 Sam Altman 世界杯观赛、Swyx AIE 活动 logistic、Garry Tan \"It's time to build\" 空喊、Aditya Agarwal 个人生活、Rauch 法国斗牛犬/纯工程技巧、Nikunj Kothari 泛泛人生感悟、Peter Steinberger Apple Watch 客服对话等低信号内容。"
-    },
-    "highSignalItems": [
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月3日 · 周五",
-        "actor": "Cat Wu",
-        "meta": "Anthropic · X 动态",
-        "title": "Claude Tag 组织级落地：65% 产品 PR 来自 AI，全部门覆盖",
-        "summary": "Cat Wu 详细披露了 Claude Tag 在 Anthropic 内部的真实落地效果：从 eng 扩展到 product/data/sales/marketing，内部版本处理了 65% 的产品 PR。同时公开了 CEO/CTO 级的 rollout 剧本、从第一天就内置安全设计的理念，以及对未来工作方式的判断。",
-        "keyPoints": [
-          "Claude Tag 覆盖组织内所有部门，不止工程",
-          "内部版本处理 65% 的产品 PR",
-          "公开了从 CEO/CTO 层面推广 AI 工具的具体 playbook",
-          "安全架构从第一天设计，不是事后补丁"
-        ],
-        "whyItMatters": "这是目前最透明、最量化的企业内部 AI coding tool 大规模落地案例。65% PR 数据是一个里程碑级的参考基准。",
-        "tags": [
-          "Agent",
-          "产品",
-          "组织"
-        ],
-        "qualityScore": 90,
-        "url": "https://x.com/_catwu/status/2072731500928508331"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月2日 · 周四",
-        "actor": "Boris Cherny",
-        "meta": "Anthropic Claude Code · X 动态",
-        "title": "Claude Code Artifacts 上线，将扩展到 Pro/Max 用户",
-        "summary": "Boris Cherny 表示 Claude Code 的 Artifacts 功能是革命性的，并确认该功能即将扩展到 Pro 和 Max 订阅层级。Artifacts 让 Claude Code 不只是生成代码，还可以创建可可视化、可交互的输出产物。",
-        "keyPoints": [
-          "Artifacts 在 Claude Code 中已内部使用并改变工作方式",
-          "即将从当前用户扩展到 Pro/Max 层级",
-          "Artifacts 将 Claude Code 从纯代码工具升级为多模态产出工具"
-        ],
-        "whyItMatters": "Artifacts 是 Claude Code 区别于其他 AI coding tool 的关键差异点，扩展用户层级意味着 Anthropic 认为它已经 ready for prime time。",
-        "tags": [
-          "产品",
-          "工程"
-        ],
-        "qualityScore": 75,
-        "url": "https://x.com/bcherny/status/2072777472970563995"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月2日 · 周四",
-        "actor": "Claude",
-        "meta": "Anthropic · X 动态",
-        "title": "从 Claude Code 到 Claude Tag：Anthropic 内部的工程文化变革实录",
-        "summary": "Claude 官方账号发布了 Boris Cherny 和 Cat Wu 的对谈，详细讲述了 Claude Code 如何演变为 Claude Tag，以及这一工具如何从工程团队蔓延到 Anthropic 整个组织。同时宣布 Claude Fable 5 已在 Claude Tag 中可用。",
-        "keyPoints": [
-          "Claude Code 到 Claude Tag 的演化路径清晰呈现",
-          "从工程团队到全组织 spread 的具体过程",
-          "Fable 5 已集成到 Claude Tag 中"
-        ],
-        "whyItMatters": "这条对谈是理解 AI coding tool 如何改变一家 AI 公司内部协作方式的原始史料。",
-        "tags": [
-          "产品",
-          "工程",
-          "Agent"
-        ],
-        "qualityScore": 80,
-        "url": "https://x.com/claudeai/status/2072725610061803522"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月2日 · 周四",
-        "actor": "Thibault Sottiaux",
-        "meta": "OpenAI Codex · X 动态",
-        "title": "GPT-5.6 Sol Ultra 预热：OpenAI 还有一张牌没打",
-        "summary": "Thibault Sottiaux（OpenAI Codex/ChatGPT 团队成员）暗示 GPT-5.6 Sol Ultra 即将到来，并建议开发者提前准备最难的 prompt。Sol Ultra 命名暗示这可能是一个比当前 ChatGPT 所用模型更强力的推理版本，可能面向更复杂的推理和 coding 场景。",
-        "keyPoints": [
-          "\"Stash your hardest prompts somewhere\" 是直接的产品信号",
-          "Sol Ultra 暗示这是 GPT-5.6 系列的极致推理版本",
-          "为开发者提前做好上线准备提供了明确窗口"
-        ],
-        "whyItMatters": "来自 OpenAI 核心团队的直接产品预热，对依赖 OpenAI API 的 builder 是重要的 roadmap 信号。",
-        "tags": [
-          "产品"
-        ],
-        "qualityScore": 72,
-        "url": "https://x.com/thsottiaux/status/2072607914217320644"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月3日 · 周五",
-        "actor": "Peter Yang",
-        "meta": "AI Builder · X 动态",
-        "title": "Fable 实操指南：分层解耦才是 Agent 工作流的正确姿势",
-        "summary": "Peter Yang 在 Fable 即将从订阅中移除（7月7日）前发布了实操策略：用便宜模型做 context preparation，用 Fable 做规划但用另一个模型执行，以及使用低 effort 模式并监控 Fable 的行为。配套教程覆盖了 5 个值得用 Fable 的 use case。",
-        "keyPoints": [
-          "分层策略：便宜模型做 context prep，Fable 做规划，另一模型做执行",
-          "低 effort 模式加人工 babysit 是目前最佳实践",
-          "5 个具体的 Fable use case 教程"
-        ],
-        "whyItMatters": "Fable 是当前最有野心的 AI agent 产品之一，学会如何在使用受限前最大化价值对所有 builder 都有实际意义。",
-        "tags": [
-          "产品",
-          "Agent"
-        ],
-        "qualityScore": 78,
-        "url": "https://x.com/petergyang/status/2072842766053499353"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月3日 · 周五",
-        "actor": "Aaron Levie",
-        "meta": "Box CEO · X 动态",
-        "title": "Enterprise Agent 落地的真实挑战：工作流不是为 AI 设计的",
-        "summary": "Box CEO Aaron Levie 给出了一个冷静但重要的判断：企业级 AI 部署远超 chatbot 层面，需要真正将 AI 系统对齐到底层业务流程中。大多数现有企业工作流不是为 AI agent 设计的，要让 agent 无缝接入需要大量的业务流程再造工作。",
-        "keyPoints": [
-          "企业工作流在设计时没有考虑 AI agent 的介入",
-          "AI 系统需要与底层业务流程对齐才能产生期望结果",
-          "部署 AI beyond chatbot 是真实的工程挑战，不是 API call 能解决的"
-        ],
-        "whyItMatters": "Levie 同时是 CEO 和深度技术实践者，他的判断比纯分析师更有说服力。对所有想做 Enterprise Agent 的 startup 是必须认真面对的现实。",
-        "tags": [
-          "Agent",
-          "产品",
-          "工程"
-        ],
-        "qualityScore": 85,
-        "url": "https://x.com/levie/status/2072875685811716182"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月2日 · 周四",
-        "actor": "Guillermo Rauch",
-        "meta": "Vercel CEO · X 动态",
-        "title": "AI Gateway 约等于 Token CDN：应对模型层快速演变的架构框架",
-        "summary": "Guillermo Rauch 将 AI Gateway 重新定义为 Token Delivery Network（Token CDN）。核心观点：当模型和 agent 层快速变化（如 Fable 突然退役），生产架构需要 CDN 式的动态路由、流量调度和降级能力，而不是硬编码依赖单一模型。",
-        "keyPoints": [
-          "AI Gateway 本质上是模型层的 CDN（Token Delivery Network）",
-          "动态路由和降级能力在模型快速迭代时代成为必须",
-          "Fable 退役事件暴露了硬编码模型依赖的风险"
-        ],
-        "whyItMatters": "这个框架化解释把 AI Gateway 从简单的 proxy 提升到架构基础设施层面，对构建生产级 AI 系统的团队有直接参考价值。",
-        "tags": [
-          "工程",
-          "产品"
-        ],
-        "qualityScore": 82,
-        "url": "https://x.com/rauchg/status/2072741369848746315"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月3日 · 周五",
-        "actor": "Zara Zhang",
-        "meta": "Builder · X 动态",
-        "title": "AI 正在替代大学讲课环节：一个正在发生的结构性变化",
-        "summary": "Zara Zhang 分享了一位刚毕业大学生的真实行为模式：学生在校期间把 lecture deck 喂给 AI 让 AI 教自己，结果发现 AI 教得比教授更好。这不是孤例，而是一种正在扩散的知识获取方式转变。",
-        "keyPoints": [
-          "学生主动用 AI 替代 lecture 已经成为可复现的模式",
-          "AI 教学效果被认为优于真人教授（针对 lecture 场景）",
-          "对大学的传统价值定位（知识传递者）构成了实质性挑战"
-        ],
-        "whyItMatters": "这是 AI 在教育领域真实落地的信号，不是 policy 层面的讨论，而是用户已经在用脚投票。",
-        "tags": [
-          "产品",
-          "观察"
-        ],
-        "qualityScore": 74,
-        "url": "https://x.com/zarazhangrui/status/2072729444943577601"
-      },
-      {
-        "type": "podcast",
-        "typeLabel": "播客摘录",
-        "date": "7月2日 · 周四",
-        "actor": "Matt Turck x Bryan Catanzaro",
-        "meta": "MAD Podcast / FirstMark Capital",
-        "title": "NVIDIA 为什么免费送模型：芯片公司 AI Lab 策略的底层逻辑",
-        "summary": "Matt Turck 与 NVIDIA VP of AI Research Bryan Catanzaro 深度对话。NVIDIA 作为芯片公司，投入数百人做 AI 研究却把模型免费开源，底层逻辑是：免费模型扩大 CUDA 生态护城河，模型本身不是产品而是芯片的应用层钩子。对话还覆盖了 Nemotron 模型路线图、打造前沿 AI lab 需要的工程文化、以及 frontier AI 的未来判断。",
-        "keyPoints": [
-          "NVIDIA 免费开源模型的核心动机是扩大 CUDA 生态壁垒，而非与 OpenAI/Anthropic 竞争",
-          "Nemotron 模型与 NVIDIA 硬件形成正向飞轮",
-          "Bryan Catanzaro 分享了打造世界级 AI lab 的工程文化与资源配置原则",
-          "Frontier AI 的未来取决于系统级创新而非单纯扩大参数规模"
-        ],
-        "whyItMatters": "这篇对谈解释了 AI 基础设施层最大的谜题之一——NVIDIA 的模型策略。对任何思考 AI 公司战略、开源策略和生态建设的 builder 都是必读。",
-        "tags": [
-          "工程",
-          "组织",
-          "研究"
-        ],
-        "qualityScore": 85,
-        "url": "https://x.com/mattturck/status/2072723410975629364"
-      },
-      {
-        "type": "post",
-        "typeLabel": "观点动态",
-        "date": "7月2日 · 周四",
-        "actor": "Claude",
-        "meta": "Anthropic · X 动态",
-        "title": "Built with Claude: Life Sciences 全球黑客松，100k 奖金池",
-        "summary": "Claude 宣布与 Gladstone Institute 联合举办 Built with Claude: Life Sciences 全球线上黑客松。活动 7 月 7-13 日举行，奖金池 100k 积分，使用 Claude Science 和 Claude Code 进行研究与构建。",
-        "keyPoints": [
-          "全球线上赛制，7 月 7-13 日",
-          "与顶尖生物医学研究机构 Gladstone Institute 联合举办",
-          "使用 Claude Science 和 Claude Code 作为工具栈",
-          "100k 积分奖金池"
-        ],
-        "whyItMatters": "这是 Anthropic 在生命科学领域的重要生态拓展信号，对关注 AI + Biology 交叉领域的 builder 是直接的机会入口。",
-        "tags": [
-          "产品"
-        ],
-        "qualityScore": 70,
-        "url": "https://x.com/claudeai/status/2072681853971001849"
-      }
-    ],
-    "toplines": [
-      {
-        "title": "Claude Tag 组织级落地：65% 产品 PR 来自 AI",
-        "source": "Cat Wu . X 动态",
-        "url": "https://x.com/_catwu/status/2072731500928508331",
-        "sourceDate": "2026-07-02",
-        "sourceDisplayDate": "7月2日 . 周四",
-        "summary": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs.",
-        "chineseTitle": "Claude Tag 组织级落地数据公开：65% 产品 PR 来自 AI",
-        "tags": [
-          "产品",
-          "组织"
-        ],
-        "score": 594
-      },
-      {
-        "title": "GPT-5.6 Sol Ultra 预热信号",
-        "source": "Thibault Sottiaux . X 动态",
-        "url": "https://x.com/thsottiaux/status/2072607914217320644",
-        "sourceDate": "2026-07-02",
-        "sourceDisplayDate": "7月2日 . 周四",
-        "summary": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
-        "chineseTitle": "OpenAI 核心成员暗示 GPT-5.6 Sol Ultra 即将到来",
-        "tags": [
-          "产品"
-        ],
-        "score": 12299
-      },
-      {
-        "title": "Enterprise Agent 落地的真实挑战",
-        "source": "Aaron Levie . X 动态",
-        "url": "https://x.com/levie/status/2072875685811716182",
-        "sourceDate": "2026-07-03",
-        "sourceDisplayDate": "7月3日 . 周五",
-        "summary": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes.",
-        "chineseTitle": "Box CEO Aaron Levie：企业工作流不是为 Agent 设计的",
-        "tags": [
-          "Agent",
-          "产品",
-          "工程"
-        ],
-        "score": 215
-      },
-      {
-        "title": "AI Gateway = Token CDN",
-        "source": "Guillermo Rauch . X 动态",
-        "url": "https://x.com/rauchg/status/2072741369848746315",
-        "sourceDate": "2026-07-02",
-        "sourceDisplayDate": "7月2日 . 周四",
-        "summary": "We've been explaining AI Gateway as a Token Delivery Network. Like a CDN for AI models.",
-        "chineseTitle": "Vercel CEO 把 AI Gateway 重新定义为 Token CDN",
-        "tags": [
-          "产品",
-          "工程"
-        ],
-        "score": 310
-      },
-      {
-        "title": "NVIDIA 为什么免费送模型",
-        "source": "Matt Turck . X 动态",
-        "url": "https://x.com/mattturck/status/2072723410975629364",
-        "sourceDate": "2026-07-02",
-        "sourceDisplayDate": "7月2日 . 周四",
-        "summary": "Inside Nemotron and NVIDIA's AI lab: why does NVIDIA put hundreds of researchers on building AI models and give them away for free?",
-        "chineseTitle": "NVIDIA AI Lab 内部对话：免费模型的真实动机",
-        "tags": [
-          "工程",
-          "组织"
-        ],
-        "score": 243
-      }
-    ],
-    "builders": [
-      {
-        "name": "Cat Wu",
-        "handle": "_catwu",
-        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
-        "summary": "Claude Tag 组织级落地数据：65% 产品 PR，全部门覆盖",
-        "tags": [
-          "产品",
-          "组织"
-        ],
-        "tweets": [
-          {
-            "id": "2072731500928508331",
-            "url": "https://x.com/_catwu/status/2072731500928508331",
-            "createdAt": "2026-07-02T17:17:53.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs. We cover the CEO/CTO playbook for rolling it out, why security was designed in from day one, and what this means for the future of work.",
-            "summary": "Claude Tag is unlocking productivity across our entire org...",
-            "engagement": 594,
-            "tags": [
-              "产品",
-              "市场"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Boris Cherny",
-        "handle": "bcherny",
-        "bio": "Claude Code @anthropicai",
-        "summary": "Artifacts in Claude Code: life changing, expanding to Pro and Max",
-        "tags": [
-          "产品",
-          "工程"
-        ],
-        "tweets": [
-          {
-            "id": "2072777472970563995",
-            "url": "https://x.com/bcherny/status/2072777472970563995",
-            "createdAt": "2026-07-02T20:20:34.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "Artifacts in Claude Code have been life changing. Excited to expand to Pro and Max!",
-            "summary": "Artifacts in Claude Code have been life changing...",
-            "engagement": 2115,
-            "tags": [
-              "产品",
-              "工程"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Thibault Sottiaux",
-        "handle": "thsottiaux",
-        "bio": "Codex & ChatGPT @OpenAI",
-        "summary": "GPT-5.6 Sol Ultra incoming - stash your hardest prompts",
-        "tags": [
-          "产品"
-        ],
-        "tweets": [
-          {
-            "id": "2072607914217320644",
-            "url": "https://x.com/thsottiaux/status/2072607914217320644",
-            "createdAt": "2026-07-02T09:06:48.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
-            "summary": "Can't wait to see what people will do with GPT-5.6 Sol Ultra...",
-            "engagement": 12299,
-            "tags": [
-              "产品"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Aaron Levie",
-        "handle": "levie",
-        "bio": "ceo @box - your business lives in content. unleash it with AI",
-        "summary": "Enterprise AI deployment requires real workflow alignment work",
-        "tags": [
-          "Agent",
-          "产品",
-          "工程"
-        ],
-        "tweets": [
-          {
-            "id": "2072875685811716182",
-            "url": "https://x.com/levie/status/2072875685811716182",
-            "createdAt": "2026-07-03T02:50:50.000Z",
-            "sourceDate": "2026-07-03",
-            "sourceDisplayDate": "7月3日 . 周五",
-            "text": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes they're involved in and drive the desired outcomes. Most workflows weren't designed for AI agents to just drop into.",
-            "summary": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work...",
-            "engagement": 215,
-            "tags": [
-              "Agent",
-              "产品",
-              "工程"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg",
-        "bio": "@vercel CEO",
-        "summary": "AI Gateway as a Token Delivery Network - like CDN for AI models",
-        "tags": [
-          "产品",
-          "工程"
-        ],
-        "tweets": [
-          {
-            "id": "2072741369848746315",
-            "url": "https://x.com/rauchg/status/2072741369848746315",
-            "createdAt": "2026-07-02T17:57:06.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "We've been explaining AI Gateway as a Token Delivery Network. Like a CDN for AI models. One great feature of CDNs is the ability to dynamically re-route or deny traffic without redeployment. When Fable was suddenly retired, we worried about production workloads depending on it.",
-            "summary": "We've been explaining AI Gateway as a Token Delivery Network...",
-            "engagement": 310,
-            "tags": [
-              "产品",
-              "工程"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Peter Yang",
-        "handle": "petergyang",
-        "bio": "Practical AI tutorials and interviews | AI builder",
-        "summary": "Getting the most out of Fable: prep with cheap models, plan with Fable, execute with another",
-        "tags": [
-          "产品",
-          "Agent"
-        ],
-        "tweets": [
-          {
-            "id": "2072842766053499353",
-            "url": "https://x.com/petergyang/status/2072842766053499353",
-            "createdAt": "2026-07-03T00:40:01.000Z",
-            "sourceDate": "2026-07-03",
-            "sourceDisplayDate": "7月3日 . 周五",
-            "text": "How I'm getting the most out of Fable before July 7: 1. Prep context with cheaper models 2. Plan with Fable, execute with another model 3. Use lower effort, like Medium, and babysit what Fable is doing",
-            "summary": "How I'm getting the most out of Fable before July 7...",
-            "engagement": 67,
-            "tags": [
-              "产品"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Zara Zhang",
-        "handle": "zarazhangrui",
-        "bio": "Builder. Dangerously skips permissions.",
-        "summary": "Students are replacing lectures with AI and finding AI teaches better",
-        "tags": [
-          "观察",
-          "产品"
-        ],
-        "tweets": [
-          {
-            "id": "2072729444943577601",
-            "url": "https://x.com/zarazhangrui/status/2072729444943577601",
-            "createdAt": "2026-07-02T17:09:43.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "A recent college grad told me that when they were in school, they would feed the lecture decks to an AI and ask it to teach the material (instead of attending the actual lecture) They often found that the AI taught better than the professors",
-            "summary": "A recent college grad told me...",
-            "engagement": 313,
-            "tags": [
-              "观察"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Matt Turck",
-        "handle": "mattturck",
-        "bio": "VC at FirstMark Capital. Host: MAD Podcast.",
-        "summary": "Inside Nemotron and NVIDIA's AI lab: why give models away for free?",
-        "tags": [
-          "工程",
-          "组织"
-        ],
-        "tweets": [
-          {
-            "id": "2072723410975629364",
-            "url": "https://x.com/mattturck/status/2072723410975629364",
-            "createdAt": "2026-07-02T16:45:45.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "Inside Nemotron and NVIDIA's AI lab: my conversation with Bryan Catanzaro. @nvidia is a chip company. So why does it put hundreds of researchers on building AI models - and then give them away for free? We go deep into the Nemotron models, what it takes to build a top AI lab, and the future of frontier AI.",
-            "summary": "Inside Nemotron and NVIDIA's AI lab...",
-            "engagement": 243,
-            "tags": [
-              "工程",
-              "组织"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Claude",
-        "handle": "claudeai",
-        "bio": "AI built by @anthropicai",
-        "summary": "Built with Claude: Life Sciences hackathon; Claude Tag conversation with Boris Cherny and Cat Wu",
-        "tags": [
-          "产品",
-          "工程"
-        ],
-        "tweets": [
-          {
-            "id": "2072725610061803522",
-            "url": "https://x.com/claudeai/status/2072725610061803522",
-            "createdAt": "2026-07-02T16:54:29.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "A conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag, and how it spread from engineering to the rest of Anthropic.",
-            "summary": "A conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag...",
-            "engagement": 3359,
-            "tags": [
-              "产品",
-              "工程"
-            ]
-          },
-          {
-            "id": "2072681853971001849",
-            "url": "https://x.com/claudeai/status/2072681853971001849",
-            "createdAt": "2026-07-02T14:00:37.000Z",
-            "sourceDate": "2026-07-02",
-            "sourceDisplayDate": "7月2日 . 周四",
-            "text": "Announcing Built with Claude: Life Sciences, a global virtual hackathon. Join us and @GladstoneInst for a week of researching and building with Claude Science and Claude Code.",
-            "summary": "Announcing Built with Claude: Life Sciences...",
-            "engagement": 6167,
-            "tags": [
-              "产品",
-              "工程"
-            ]
-          }
-        ]
-      }
-    ],
-    "blogs": [],
-    "podcasts": []
   }
 ]
