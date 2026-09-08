@@ -208,7 +208,7 @@ def build_digest(feed_x: dict[str, Any], feed_blogs: dict[str, Any], feed_podcas
         "source": "follow-builders public central feed",
         "sourceRepo": "https://github.com/zarazhangrui/follow-builders",
         "headline": headline,
-        "editorNote": "每日汇总一线 AI Builders 的观点、文章和播客。持续关注真正在做产品、模型、基础设施和研究的人。",
+        "editorNote": "自 2026-09-08 起停止定时推送日报；历史内容保留。页面仍可由数据流程更新。每日汇总一线 AI Builders 的观点、文章和播客，持续关注真正在做产品、模型、基础设施和研究的人。",
         "stats": {
             "builders": len(builders),
             "tweets": total_tweets,

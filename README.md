@@ -14,6 +14,6 @@ python scripts/update_daily.py
 
 Then commit and push. GitHub Pages serves the static files from `main`.
 
-## Automation
+## Delivery note
 
-A Hermes cron job runs every morning in Asia/Shanghai, updates the digest from follow-builders feeds, commits, pushes, and verifies the Pages URL.
+自 2026-09-08 起停止定时推送日报；历史内容保留。页面仍可由数据流程更新，归档与最新内容继续按页面数据逻辑生成。
